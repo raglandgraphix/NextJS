@@ -22,88 +22,7 @@ interface NavigationProps {
 
 export default function Navigation({ logoPath }: NavigationProps){
   
-console.log('logoPath in Navigation.tsx:', logoPath);
- 
-  
-  const [activeSection, setActiveSection] = useState(null);
-  const [showElement,setShowElement]=useState(false);
-  //const navigate = useNavigate();
-  
-  
-  
 
-  const hamburgerClick = ()=>{
-   
-    setShowElement(prevShowElement => !prevShowElement);
-    
-    if(showElement===true){
-      
-      //subSelectionRef.current.style.height = '0px';
-      //subSelectionRef.current.style.border = 'none';
-      setActiveSection(null );
-    }
-    
-  }
-  const subSelectionRef = useRef(null);
-  
-  
-  
-  const subSectionLists = {
-    "Face Brick": ["Colors", "Textures", "Sizes"],
-    'Projects':['All Projects','Face Brick','Thin Brick','Pavers'],
-    "Thin Brick": ["Colors", "Textures", "Sizes"],
-    "Pavers": ["Colors","Sizes"],
-    // "Pathway Aggregate":[''],
-    "Resources": ["Literature", "BIM", "Specifications",'Technical Notes','Brick Briefs'],
-    'Who We Are':['Profile','Videos'],
-    'Careers/Carrera':['Current Openings','Application','Solicitud','Apply Online/Aplica Online']
-    // Add other sub-section lists as needed
-  };
-  const handleClick = () => {
-    // if(sectionName==='Pathway Aggregate'){
-    //   alert('aggregate');
-    // }
-   
-    if(sectionName===activeSection){
-     // subSelectionRef.current.style.height = '0px';
-     // subSelectionRef.current.style.border = 'none';
-      
-
-      setActiveSection(null );
-    }else if(sectionName==='Pathway Aggregate'){
-      
-      //navigate('/PathwayAggregate-Colors');
-    }else{
-     // subSelectionRef.current.style.height = 'auto';
-     // subSelectionRef.current.style.borderTop = 'solid thin white';
-      if(window.innerWidth>961){
-       // subSelectionRef.current.style.borderBottom = 'solid thin white';
-      }
-      
-      
-      
-      setActiveSection(sectionName );
-
-      
-      
-    }
-    
-    
-    
-    
-
-    
-
-    
-
-  };
-  
-const onLinkClick = ()=>{
-  //subSelectionRef.current.style.height = '0px';
-  //subSelectionRef.current.style.border = 'none';
-  setActiveSection(null );
-  hamburgerClick();
-}
 
 
     return (
@@ -112,7 +31,7 @@ const onLinkClick = ()=>{
         <div className="row ">
           <div className="col">
             <div className={`row  `}>
-            <div className="col-3 col-md-4  col-lg-9 d-flex justify-content-start mt-2 d-lg-none " onClick={hamburgerClick}>
+            <div className="col-3 col-md-4  col-lg-9 d-flex justify-content-start mt-2 d-lg-none " >
                 
                 
               </div>
@@ -125,39 +44,11 @@ const onLinkClick = ()=>{
               
              
              
-              <div className={`col-5 col-md-3 col-lg-10 text-center text-lg-start E_Nav     ${showElement ? 'd-block ' : 'd-none d-lg-block'} `}>
-                {
-                  ['Projects','Face Brick','Thin Brick','Pavers','Pathway Aggregate','Resources','Who We Are','Careers/Carrera'].map(section => 
-                    <p key={section} className={`E_Nav_Format  d-lg-inline-block ${activeSection ===section ? "active":""} `} onClick={()=>{ handleClick(section); }}>{section}</p>
-                  
-                  
-                  
-                  
-                    )
-                    
-                }
-                
-                
-                
-              </div>
-              <div className="col-5 col-md-3 E_Sub_Selections ps-4 " ref={subSelectionRef}>
+              
+              <div className="col-5 col-md-3 E_Sub_Selections ps-4 " >
               <div className="row  " >
               <div className="col-2 d-none d-lg-inline-block"></div>
-              <div className="col mt-2">
-              {activeSection &&
-              subSectionLists[activeSection]?.map((list) => (
-                <Link key={list} href={`${activeSection}${list.replace(/\s+/g,'-')}`} className="d-block d-lg-inline-block E_Sub_Choices ms-2 text-decoration-none mt-3 mt-lg-0 pb-2" onClick={onLinkClick} >
-                {list}
-                </Link>
-               
-                // <p key={list} className="d-lg-inline-block E_Sub_Choices ms-2">
-                //   {list}
-                // </p>
-                
-                
-              ))}
               
-              </div>
              
             
             </div>
