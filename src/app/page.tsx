@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container-fluid">
       <Navigate />
       <div >
-Endicott Clay products company
+
       </div>
 
     </div>   
