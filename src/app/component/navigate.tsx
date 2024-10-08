@@ -1,10 +1,11 @@
+import Image from "next/image"
 export default function navigate(){
 
 
 
     return(
         <div>
-            <h1>Logo</h1>
+            <Image src="/assets/logoBlack.png" width={500} height={100} alt='Endicott logos'/>
         </div>
     )
 
