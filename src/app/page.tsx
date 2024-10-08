@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navigate from "./component/navigate.tsx";
+import Navigate from "./component/navigate";
 
 export default function Home() {
   return (
