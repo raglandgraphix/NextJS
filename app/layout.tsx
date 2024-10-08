@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+//import { ReactNode } from 'react';
 //import Navigation from '/app/components/Navigation';
 import type { Metadata } from "next";
 import localFont from "next/font/local";
