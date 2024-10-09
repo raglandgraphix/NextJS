@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function navigate(){
 
-   // const linkData = [
-    //    'Face Brick','Thin Brick','Pavers','Pathway Aggregate','Resources', 'Who We Are', 'Careers'
-    //];
+    const linkData = [
+        'Face Brick','Thin Brick','Pavers','Pathway Aggregate','Resources', 'Who We Are', 'Careers'
+    ];
 
 
     return(
@@ -25,8 +25,13 @@ export default function navigate(){
                 </div>
                 
             </div>
-            <div className="col-10 d-flex align-items-end justify-content-center  ">                
-                <span className=" p-2 pb-0 me-2 ">Projects</span><span className=" p-2 pb-0 me-2 ">Face Brick</span><span className=" p-2 pb-0 me-2 ">Thin Brick</span><span className=" p-2 pb-0 me-2 ">Pavers</span><span className=" p-2 pb-0 me-2 ">Pathway Aggregate</span><span className=" p-2 pb-0 me-2 ">Resources</span><span className=" p-2 pb-0 me-2 ">Who We Are</span><span className=" p-2 pb-0 me-2 ">Careers</span>
+            <div className="col-10 d-flex align-items-end justify-content-center  "> 
+                {
+                    linkData.map((link)=>(
+                        <span className=" p-2 pb-0 me-2"> {link}</span>
+                    ))
+                }               
+                {/* <span className=" p-2 pb-0 me-2 ">Projects</span><span className=" p-2 pb-0 me-2 ">Face Brick</span><span className=" p-2 pb-0 me-2 ">Thin Brick</span><span className=" p-2 pb-0 me-2 ">Pavers</span><span className=" p-2 pb-0 me-2 ">Pathway Aggregate</span><span className=" p-2 pb-0 me-2 ">Resources</span><span className=" p-2 pb-0 me-2 ">Who We Are</span><span className=" p-2 pb-0 me-2 ">Careers</span> */}
             </div>
             
             
