@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function navigate(){
 
     const linkData = [
-        'Face Brick','Thin Brick','Pavers','Pathway Aggregate','Resources', 'Who We Are', 'Careers'
+        'Face Brick','Thin Brick','Pavers','Pathway Aggregate','Resources', 'Who We Are', 'Careers' 
     ];
 
 
