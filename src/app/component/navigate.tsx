@@ -23,7 +23,7 @@ export default function navigate(){
                 
             </div>
             <div className="col-10 border border-danger">
-
+                <span>Projects</span><span>Face Brick</span><span>Thin Brick</span><span>Pavers</span><span>Pathway Aggregate</span><span>Resource</span><span>Who We Are</span><span>Careers</span>
             </div>
             
         </div>
