@@ -16,28 +16,18 @@ const linkData = {
 type LinkDataKey = keyof typeof linkData;
 export default function Navigate(){
 
-    
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
-
     const [subShown,setSubShown]=useState(false);
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
         setActiveKey(key);
-        console.log(subShown);
-        //const elements = document.querySelectorAll('.subMenu');
-        
         if(!activeKey){
             setSubShown(true); 
         }else if(activeKey===key){
             setSubShown(false);
             setActiveKey(null)
         }
-       
-       
-        
-        
-
     }
-
+    
 
     return(
         <div className="row">
@@ -55,15 +45,15 @@ export default function Navigate(){
                             </div>
                         </div>                
                     </div>
-                    <div className="col-19 d-flex align-items-end justify-content-end  "> 
+                    <div className="col d-flex align-items-end justify-content-end  "> 
                         {
                             Object.keys(linkData).map((key)=>(
-                                <button role="button" key={key} className=" p-2 pb-0 me-2" onClick={()=>openSub(key as LinkDataKey)}> {key}</button>          
+                                <button role="button" key={key} className=" p-2 pb-0 me-2 " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>          
                             ))
                         }
                     </div>
                 </div>
-                <div className={`row bg-black text-white p-0 m-auto d-flex justify-content-end  ${subShown?'subMenuOpen':'subMenu'}   `}>
+                <div className={`row bg-black text-white p-0 m-auto d-flex justify-content-end   ${subShown?'subMenuOpen':'subMenu'}   `}>
                     <div className="col p-0  m-auto d-inline-flex justify-content-end ">
                         
                         {
