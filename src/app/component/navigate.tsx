@@ -13,7 +13,7 @@ const linkData = {
     'Careers':['Current Openings','Application','Solicitud','Apply Online'] 
 };
 type LinkDataKey = keyof typeof linkData;
-export default function navigate(){
+export default function Navigate(){
 
     
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
