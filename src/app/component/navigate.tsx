@@ -23,7 +23,7 @@ export default function Navigate(){
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
         setActiveKey(key);
         console.log(subShown);
-        const elements = document.querySelectorAll('.subMenu');
+        //const elements = document.querySelectorAll('.subMenu');
         
         !activeKey && (setSubShown(true)  );
         activeKey===key && (setSubShown(false),setActiveKey(null));
