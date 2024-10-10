@@ -41,7 +41,7 @@ export default function navigate(){
                     <div className="col-19 d-flex align-items-end justify-content-end  "> 
                         {
                             Object.keys(linkData).map((key)=>(
-                                <button key={key} className=" p-2 pb-0 me-2" onClick={()=>openSub(key)}> {key}</button>          
+                                <button key={key} className=" p-2 pb-0 me-2" onClick={()=>openSub(key as LinkDataKey)}> {key}</button>          
                             ))
                         }
                     </div>
