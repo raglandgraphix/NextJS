@@ -16,7 +16,7 @@ const handleVideoError2 =()=>{
 }
   return (
     <div className="container-fluid">
-      <Navigate />      
+      <Navigate pageSettings="gradient" />      
         <div className="row fixed-top z-n1">
           <div className="col p-0">
             <div id="carouselExampleIndicators" className="carousel slide " data-bs-touch="true" data-bs-interval="false" aria-label="Carousel of Endicott project videos">

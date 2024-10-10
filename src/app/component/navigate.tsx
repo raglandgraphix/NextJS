@@ -14,8 +14,11 @@ const linkData = {
     'Careers':['Current Openings','Application','Solicitud','Apply Online'] 
 };
 type LinkDataKey = keyof typeof linkData;
-export default function Navigate(){
-
+interface NavigateProps {
+    pageSettings: string;
+  }
+export default function Navigate({pageSettings}:NavigateProps){
+    const pageSetup = pageSettings;
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
     const [subShown,setSubShown]=useState(false);
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
@@ -27,16 +30,16 @@ export default function Navigate(){
             setActiveKey(null)
         }
     }
-    
+    console.log(pageSetup);
 
     return(
-        <div className="row">
+        <div className={`row ${pageSetup==='gradient'? 'gradient':''} `}>
             <div className="col-12 p-0">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start">
                     <div className="col-7 col-md-5  col-xl-3 ">
                         <div className="row ">
                             <div className="col  d-flex justify-content-center">
-                                <Image  src="/assets/logoBlack.png" width={200} height={75} alt='Endicott logos'/>
+                                <Image  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logos'/>
                             </div>
                         </div>
                         <div className="row text-center">
