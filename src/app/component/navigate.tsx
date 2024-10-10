@@ -25,9 +25,14 @@ export default function Navigate(){
         console.log(subShown);
         //const elements = document.querySelectorAll('.subMenu');
         
-        !activeKey && (setSubShown(true)  );
-        activeKey===key && (setSubShown(false),setActiveKey(null));
-        console.log(activeKey)
+        if(!activeKey){
+            setSubShown(true); 
+        }else if(activeKey===key){
+            setSubShown(false);
+            setActiveKey(null)
+        }
+       
+       
         
         
 
