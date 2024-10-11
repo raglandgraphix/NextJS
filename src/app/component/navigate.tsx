@@ -54,9 +54,9 @@ export default function Navigate({pageSettings}:NavigateProps){
                     <div className="col-12 d-xl-flex align-items-end justify-content-end text-end  "> 
                         {
                             Object.keys(linkData).map((key)=>(
-                                <div className="row d-flex justify-content-end">
+                                <div key={key} className="row d-flex justify-content-end">
                                     <div className="col-10 col-md-5 ">
-                                    <button role="button" key={key} className=" p-2 pb-0 me-2 w-50 bg-stone " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
+                                    <button role="button"  className=" p-2 pb-0 me-2 w-50 bg-stone " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
                                     </div>
                                     
                                 </div>
