@@ -38,17 +38,17 @@ export default function Navigate({pageSettings}:NavigateProps){
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start">
                     <div className="col-7 col-md-5  col-xl-3 ">
                         <div className="row ">
-                            <div className="col  d-flex justify-content-center">
+                            <div className="col-5 col-md-12 d-flex justify-content-center ms-3">
                                 <Image  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logos'/>
                             </div>
                         </div>
-                        <div className="row text-center">
+                        <div className="row d-none d-md-flex text-center ">
                             <div className="col ">
                                 <span className="fs-6 ">Endicott Clay Products Company</span>
                             </div>
                         </div>                
                     </div>
-                    <div className="col d-flex d-xl-none justify-content-end me-5 pt-4 ">
+                    <div className="col d-flex d-xl-none justify-content-end me-3 pt-2 ">
                         <Image className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options" />
                     </div>
                     <div className="col d-none d-xl-flex align-items-end justify-content-end  "> 
