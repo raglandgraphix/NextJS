@@ -20,6 +20,7 @@ interface NavigateProps {
 export default function Navigate({pageSettings}:NavigateProps){
     const pageSetup = pageSettings;
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
+    const [mainMenuShow,setMainMenuShow]=useState(false);
     const [subShown,setSubShown]=useState(false);
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
         setActiveKey(key);
@@ -30,7 +31,10 @@ export default function Navigate({pageSettings}:NavigateProps){
             setActiveKey(null)
         }
     }
-    console.log(pageSetup);
+    const displayMenu = ()=>{
+        setMainMenuShow(!mainMenuShow);
+
+    }
 
     return(
         <div className={`row ${pageSetup==='gradient'? 'gradient':''}  holdNav`}>
@@ -49,14 +53,14 @@ export default function Navigate({pageSettings}:NavigateProps){
                         </div>                
                     </div>
                     <div className="col d-flex d-xl-none justify-content-end me-4  ">
-                        <Image className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options" />
+                        <Image role="button" className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options"  onClick={()=>{displayMenu()}}/>
                     </div>
-                    <div className="col-12 col-xl-9 d-none d-xl-flex align-items-end justify-content-end text-end "> 
+                    <div className={`col-12 col-xl-9   d-xl-flex align-items-end justify-content-end text-end ${mainMenuShow?'d-block d-xl-flex ':'d-none'} `}> 
                         {
                             Object.keys(linkData).map((key)=>(
                                 <div key={key} className="row d-flex justify-content-end ">
                                     <div className="col-10 col-md-5 col-xl-auto  ">
-                                    <button role="button"  className=" p-2 pb-0 me-2  bg-stone  w-button " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
+                                    <button role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
                                     </div>
                                     
                                 </div>
