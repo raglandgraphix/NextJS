@@ -19,6 +19,23 @@
     margin-top:20px ;
    
 }
-.bg-stone{
-    background-color:#a8a99e ;
+
+@media(min-width:1200px){
+    .w-button{
+        width: auto;
+    }
+    .bg-stone{
+    background-color: transparent;
+    }
 }
+@media (max-width: 1199px){
+    .w-button{
+    
+        width: 50%;
+    }
+    .bg-stone{
+        background-color:#a8a99e ;
+    }
+}
+
+

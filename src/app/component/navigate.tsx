@@ -35,8 +35,8 @@ export default function Navigate({pageSettings}:NavigateProps){
     return(
         <div className={`row ${pageSetup==='gradient'? 'gradient':''} `}>
             <div className="col-12 p-0 ">
-                <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
-                    <div className="col-7 border col-md-5  col-xl-3 ">
+                <div className="row pt-2  d-flex justify-content-center justify-content-lg-start border ">
+                    <div className="col-7  col-md-5  col-xl-3 ">
                         <div className="row  ">
                             <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2 ">
                                 <Image  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logos'/>
@@ -51,12 +51,12 @@ export default function Navigate({pageSettings}:NavigateProps){
                     <div className="col d-flex d-xl-none justify-content-end me-4  ">
                         <Image className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options" />
                     </div>
-                    <div className="col-12 d-xl-flex align-items-end justify-content-end text-end  "> 
+                    <div className="col-12 col-xl-9 d-xl-flex align-items-end justify-content-end text-end "> 
                         {
                             Object.keys(linkData).map((key)=>(
-                                <div key={key} className="row d-flex justify-content-end">
-                                    <div className="col-10 col-md-5 ">
-                                    <button role="button"  className=" p-2 pb-0 me-2 w-50 bg-stone " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
+                                <div key={key} className="row d-flex justify-content-end ">
+                                    <div className="col-10 col-md-5 col-xl-auto  ">
+                                    <button role="button"  className=" p-2 pb-0 me-2  bg-stone  w-button " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
                                     </div>
                                     
                                 </div>
