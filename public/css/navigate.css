@@ -5,6 +5,8 @@
 .subMenuOpen{
     height:auto;
     overflow: 'hidden';
+    border-top:solid thin white;
+    border-bottom: solid thin white;
     
 }
 
@@ -40,11 +42,14 @@
         
     
     }
+    .border-custom-navigation{
+        border:none;
+    }
 }
 @media (max-width: 1199px){
     .w-button{
     
-        width: 50%;
+        width: 60%;
     }
     .bg-stone{
         background-color:#a8a99e ;
@@ -55,6 +60,9 @@
        
         
     
+    }
+    .border-custom-navigation{
+        border-top:thin solid white;
     }
 }
 

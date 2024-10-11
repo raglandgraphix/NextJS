@@ -55,12 +55,20 @@ export default function Navigate({pageSettings}:NavigateProps){
                     <div className="col d-flex d-xl-none justify-content-end me-4  ">
                         <Image role="button" className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options"  onClick={()=>{displayMenu()}}/>
                     </div>
-                    <div className={`col-12 col-xl-9   d-xl-flex align-items-end justify-content-end text-end ${mainMenuShow?'d-block d-xl-flex ':'d-none'} `}> 
+                    <div className={`col-12 col-xl-9 border-custom-navigation   d-xl-flex align-items-end justify-content-end text-end ${mainMenuShow?'d-block d-xl-flex ':'d-none'} `}> 
                         {
                             Object.keys(linkData).map((key)=>(
-                                <div key={key} className="row d-flex justify-content-end ">
-                                    <div className="col-10 col-md-5 col-xl-auto  ">
+                                <div key={key} className="row d-flex justify-content-end  ">
+                                    <div className="col-10 col-md-5 col-xl-auto   ">
                                     <button role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
+                                    
+                                    {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
+                                       
+                                        <button className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none  " key={index} role="button ">{link}</button>
+                                        
+                                    ))}
+                                      
+                                   
                                     </div>
                                     
                                 </div>
@@ -69,7 +77,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                         }
                     </div>
                 </div>
-                <div className={`row bg-black text-white p-0 m-auto d-flex justify-content-end   ${subShown?'subMenuOpen':'subMenu'}   `}>
+                <div className={`row d-none  bg-black text-white p-0 m-auto d-xl-flex justify-content-end   ${subShown?'subMenuOpen':'subMenu'}   `}>
                     <div className="col p-0  m-auto d-inline-flex justify-content-end ">
                         
                         {
