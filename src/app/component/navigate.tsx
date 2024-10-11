@@ -48,7 +48,10 @@ export default function Navigate({pageSettings}:NavigateProps){
                             </div>
                         </div>                
                     </div>
-                    <div className="col d-flex align-items-end justify-content-end  "> 
+                    <div className="col d-flex d-xl-none justify-content-end me-5 pt-4 ">
+                        <Image className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options" />
+                    </div>
+                    <div className="col d-none d-xl-flex align-items-end justify-content-end  "> 
                         {
                             Object.keys(linkData).map((key)=>(
                                 <button role="button" key={key} className=" p-2 pb-0 me-2 " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>          
