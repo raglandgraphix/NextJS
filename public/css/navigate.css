@@ -7,17 +7,23 @@
     overflow: 'hidden';
     
 }
-.gradient{
-    color: white;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
-    width: 100vw;
 
-}
 .hamburger{
     width: 30px;
     height: 30px;
     margin-top:20px ;
    
+}
+.holdNav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.gradient{
+    color: white;
+    width: 100%;
+    
+
 }
 
 @media(min-width:1200px){
@@ -27,6 +33,13 @@
     .bg-stone{
     background-color: transparent;
     }
+    .gradient{
+       
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+        
+        
+    
+    }
 }
 @media (max-width: 1199px){
     .w-button{
@@ -35,6 +48,13 @@
     }
     .bg-stone{
         background-color:#a8a99e ;
+    }
+    .gradient{
+        
+        background: transparent;
+       
+        
+    
     }
 }
 
