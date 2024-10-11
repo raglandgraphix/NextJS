@@ -55,7 +55,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                 </div>
                 <div className="row border">
                 <div className="col-12 d-xl-flex align-items-end justify-content-end text-end  "> 
-                        {
+                        {/* {
                             Object.keys(linkData).map((key)=>(
                                 <div className="row d-flex justify-content-end">
                                     <div className="col-10 col-md-5 ">
@@ -65,7 +65,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                                 </div>
                                           
                             ))
-                        }
+                        } */}
                     </div>
                 </div>
                 <div className={`row bg-black text-white p-0 m-auto d-flex justify-content-end  ${subShown?'subMenuOpen':'subMenu'}   `}>
