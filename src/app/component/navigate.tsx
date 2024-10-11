@@ -35,7 +35,7 @@ export default function Navigate({pageSettings}:NavigateProps){
     return(
         <div className={`row ${pageSetup==='gradient'? 'gradient':''} `}>
             <div className="col-12 p-0 ">
-                <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
+                <div className="row pt-2 border d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7 col-md-5  col-xl-3 ">
                         <div className="row  ">
                             <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2 ">
@@ -51,11 +51,8 @@ export default function Navigate({pageSettings}:NavigateProps){
                     <div className="col d-flex d-xl-none justify-content-end me-4  ">
                         <Image className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options" />
                     </div>
-                   
-                </div>
-                <div className="row border">
-                <div className="col-12 d-xl-flex align-items-end justify-content-end text-end  "> 
-                        {/* {
+                    <div className="col-12 d-xl-flex align-items-end justify-content-end text-end  "> 
+                        {
                             Object.keys(linkData).map((key)=>(
                                 <div className="row d-flex justify-content-end">
                                     <div className="col-10 col-md-5 ">
@@ -65,7 +62,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                                 </div>
                                           
                             ))
-                        } */}
+                        }
                     </div>
                 </div>
                 <div className={`row bg-black text-white p-0 m-auto d-flex justify-content-end  ${subShown?'subMenuOpen':'subMenu'}   `}>
