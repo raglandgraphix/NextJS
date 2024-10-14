@@ -1,5 +1,5 @@
 //Face brick Colors Page
-'use client'
+'use client';
 import Navigate from "../component/navigate"
 import React from "react";
 import { useState } from "react";
