@@ -30,7 +30,7 @@ interface Texture {
     projects: any[]; // You might want to define a more specific type for projects if possible
   }
  
-export default function facebrick(){
+export default function Facebrick(){
     const [data, setData] = React.useState<DataItem[] | null>(null); // Correct type
 
     React.useEffect(() => {
