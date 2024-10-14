@@ -1,3 +1,4 @@
+//Home Page
 'use client';
 import Navigate from "./component/navigate";
 import { useState } from "react";
@@ -94,7 +95,7 @@ const handleVideoError2 =()=>{
           </div>
           <div className="carousel-item  ">
             <div className="d-flex justify-content-center imgHold " >
-              <img src="assets/invisilug-sandbed.jpg" className=" imgSize" alt="..."/>
+              {/* <img src="assets/invisilug-sandbed.jpg" className=" imgSize" alt="..."/> */}
             </div>
             <div className="carousel-caption d-flex align-items-left">
               <div>
