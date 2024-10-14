@@ -2,7 +2,7 @@
 'use client';
 import Navigate from "../component/navigate"
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import Image from "next/image";
 
 
