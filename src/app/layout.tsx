@@ -1,7 +1,6 @@
 
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import Image from "next/image";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '/public/css/siteStandard.css';
