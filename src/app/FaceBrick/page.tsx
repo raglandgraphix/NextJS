@@ -27,7 +27,7 @@ interface Texture {
     textures: Texture[];
     productLine: string;
     productCall: string;
-    projects: any[]; // You might want to define a more specific type for projects if possible
+    projects: unknown[]; // You might want to define a more specific type for projects if possible
   }
  
 export default function Facebrick(){
