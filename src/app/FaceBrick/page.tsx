@@ -2,7 +2,7 @@
 'use client';
 import Navigate from "../component/navigate"
 import React from "react";
-// import { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 
@@ -31,7 +31,7 @@ interface Texture {
   }
  
 export default function Facebrick(){
-    const [data, setData] = React.useState<DataItem[] | null>(null); // Correct type
+    const [data, setData] = useState<DataItem[] | null>(null); // Correct type
 
     React.useEffect(() => {
         const fetchData = async () => {
