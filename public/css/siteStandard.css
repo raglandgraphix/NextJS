@@ -1,3 +1,44 @@
 body{
     border:none
 }
+@font-face {
+	font-family: 'Museo-Light';
+	src: url("/Fonts/MuseoSansDisplay-Light.ttf")format("truetype");
+	/* src: url("../fonts/itcLegacySansBook.eot?#iefix") format("embedded-opentype"), url("../fonts/itcLegacySansBook.woff") format("woff"), url("../fonts/itcLegacySansBook.ttf") format("truetype"), url("/fonts/itcLegacySansBook.svg") format("svg");  */
+}
+@font-face {
+	font-family: 'Univers45Light';
+	src: url("/Fonts/univers45light.ttf")format("truetype");
+	/* src: url("../fonts/itcLegacySansBook.eot?#iefix") format("embedded-opentype"), url("../fonts/itcLegacySansBook.woff") format("woff"), url("../fonts/itcLegacySansBook.ttf") format("truetype"), url("/fonts/itcLegacySansBook.svg") format("svg");  */
+}
+@font-face {
+	font-family: 'Univers55Roman';
+	src: url("/Fonts/UniversLTStd.ttf")format("truetype");
+	/* src: url("../fonts/itcLegacySansBook.eot?#iefix") format("embedded-opentype"), url("../fonts/itcLegacySansBook.woff") format("woff"), url("../fonts/itcLegacySansBook.ttf") format("truetype"), url("/fonts/itcLegacySansBook.svg") format("svg");  */
+}
+@font-face {
+	font-family: 'Univers55Oblique';
+	src: url("/Fonts/UniversLTStd-Obl.ttf")format("truetype");
+	/* src: url("../fonts/itcLegacySansBook.eot?#iefix") format("embedded-opentype"), url("../fonts/itcLegacySansBook.woff") format("woff"), url("../fonts/itcLegacySansBook.ttf") format("truetype"), url("/fonts/itcLegacySansBook.svg") format("svg");  */
+}
+:root{
+	--stone:168,169,158;
+}
+.museo-light{
+    font-family: 'Museo-Light';
+}
+.univers-45-light{
+    font-family: 'Univers45Light';
+}
+.univers-55-Roman{
+	font-family:'Univers55Roman';
+}
+.univers-55-Oblique{
+	font-family:'Univers55Oblique';
+}
+.text-stone{
+	color:#A8A99E;
+}
+.text-rock{
+	color: #564B49;
+}

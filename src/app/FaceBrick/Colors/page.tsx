@@ -1,6 +1,6 @@
 //Face brick Colors Page
 'use client';
-import Navigate from "../component/navigate"
+import Navigate from "../../component/navigate"
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
@@ -60,11 +60,11 @@ export default function Facebrick(){
                 data.map((item)=>(
 <div key={item.id} className="col-4">
 
-<div className="Card ">
+<div className="Card border rounded-bottom rounded-3 m-1  ">
                 <Image className="card-img-top img-fluid" width={500} height={500} alt={item.altTag} src={item.mainImage}  />
                     <div className="card-body">
-                        <div className="card-title">
-                            {item.fullName}
+                        <div className="card-title text-center">
+                            <h2 className="text-uppercase univers-45-light fs-4 mt-2">{item.fullName.replace(/_/g, ' ')}</h2>
                         </div>
 
                     </div>
