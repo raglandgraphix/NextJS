@@ -53,19 +53,48 @@ export default function Facebrick(){
     return(
       <div className="container-fluid">
         <Navigate pageSettings="light"/>
-        <div className="row">
-          <div className="col-6 faceBrickBox m-3 text-white ps-3 pt-2 pb-2">
+        <div className="row ">
+          <div className="col-6 faceBrickBox m-3 text-white ps-3 pt-2 pb-2 ">
             <h1 className="univers-55-Oblique">Face Brick</h1>
             <h2 className="museo-light">Endicott face brick: Durable and aesthetically versatile for timeless architectural design.</h2>
             <span className="univers-55-Roman">Endicott face brick elevates architecture with its rich palette of colors, from classic reds and browns to contemporary grays and tans.  Complementing the diverse color selection are unique textures like Velour, Smooth, and Artisan, offering endless design possibilities for stunning and enduring facades.</span>
           </div>
-          <div className="col-5">
-            <div className="row univers-55-Roman">
-              <div className="col-4">
-                <h2 className="fs-5">Product</h2>
+          <div className="col-12 col-xl-5 pb-2 pt-2 m-3   ">
+            
+
+            <div className="row univers-55-Roman h-100  w-100  d-flex justify-content-xl-end">
+              <div className="col-3 border-end  text-center   ">
+                <div className="row border-bottom ">
+                  <div className="col ">
+                    <h2 className="fs-5">Product</h2>
+                  </div>
+                </div>
+                <div className="row ">
+                  <div className="col text-nowrap ">
+                    <span className="d-block text-uppercase mb-2">ALL</span>
+                    <span className="d-block text-uppercase mb-2">Face Brick</span>
+                    <span className="d-block text-uppercase mb-2">Thin Brick</span>
+                    <span className="d-block text-uppercase mb-2">Pavers</span>
+                  </div>
+                </div>
+                
               </div>
-              <div className="col-8">
-                <h2 className="fs-5">Color Range</h2>
+              <div className="col-4 text-center">
+                <div className="row">
+                  <div className="col border-bottom">
+                    <h2 className="fs-5 ">Color Range</h2>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col">
+                    <span className="d-block text-uppercase mb-2">All</span>
+                    <span className="d-block text-uppercase mb-2">Red/Burgundy</span>
+                    <span className="d-block text-uppercase mb-2">Black/Plum</span>
+                    <span className="d-block text-uppercase mb-2">Gray/White/Cream/Buff</span>
+                    <span className="d-block text-uppercase mb-2">Tan/Brown/Orange</span>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
