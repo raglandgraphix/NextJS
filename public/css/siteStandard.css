@@ -42,3 +42,7 @@ body{
 .text-rock{
 	color: #564B49;
 }
+.faceBrickBox{
+    background-color: #333F48;
+    min-height: 250px;
+}

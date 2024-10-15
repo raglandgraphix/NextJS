@@ -37,7 +37,7 @@ export default function Navigate({pageSettings}:NavigateProps){
     }
 
     return(
-        <div className={`row ${pageSetup==='gradient'? 'gradient':''}  holdNav`}>
+        <div className={`row light ${pageSetup==='gradient'? 'gradient':(pageSetup==='dark'?'dark':(pageSetup==='light'?'light':''))}  holdNav`}>
             <div className="col-12 p-0 ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
