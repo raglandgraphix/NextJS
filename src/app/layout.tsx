@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '/public/css/siteStandard.css';
-
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>   
+
+<meta name="robots" content="noindex, nofollow"   
+/> {/* Add this meta tag */}
+</head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}style={{ paddingTop: '150px' }}
       >

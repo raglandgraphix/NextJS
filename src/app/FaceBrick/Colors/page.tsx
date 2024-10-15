@@ -2,7 +2,9 @@
 'use client';
 import Navigate from "../../component/navigate"
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import {usePathname} from 'next/navigation';
+import Link from 'next/link'
 import Image from "next/image";
 
 
@@ -32,7 +34,13 @@ interface Texture {
  
 export default function Facebrick(){
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
-
+    const [selectedColor,setSelectedColor]=useState<string | null>(null);
+    const pathname = usePathname();
+    useEffect(()=>{
+      setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+    },[pathname]);
+    
+    
     React.useEffect(() => {
         const fetchData = async () => {
           try {
@@ -52,6 +60,7 @@ export default function Facebrick(){
       }
     return(
       <div className="container-fluid">
+        
         <Navigate pageSettings="light"/>
         <div className="row ">
           <div className="col-6 faceBrickBox m-3 text-white ps-3 pt-2 pb-2 ">
@@ -71,15 +80,15 @@ export default function Facebrick(){
                 </div>
                 <div className="row ">
                   <div className="col text-nowrap ">
-                    <span className="d-block text-uppercase mb-2">ALL</span>
-                    <span className="d-block text-uppercase mb-2">Face Brick</span>
-                    <span className="d-block text-uppercase mb-2">Thin Brick</span>
-                    <span className="d-block text-uppercase mb-2">Pavers</span>
+                    <span className="d-block text-uppercase  mt-2  pt-2 pb-2 ">ALL</span>
+                    <span className="d-block text-uppercase   pt-2 pb-2 bg bg-black text-stone rounded-2">Face Brick</span>
+                    <span className="d-block text-uppercase   pt-2 pb-2">Thin Brick</span>
+                    <span className="d-block text-uppercase   pt-2 pb-2">Pavers</span>
                   </div>
                 </div>
                 
               </div>
-              <div className="col-4 text-center">
+              <div className="col-5 text-center">
                 <div className="row">
                   <div className="col border-bottom">
                     <h2 className="fs-5 ">Color Range</h2>
@@ -87,11 +96,11 @@ export default function Facebrick(){
                 </div>
                 <div className="row">
                   <div className="col">
-                    <span className="d-block text-uppercase mb-2">All</span>
-                    <span className="d-block text-uppercase mb-2">Red/Burgundy</span>
-                    <span className="d-block text-uppercase mb-2">Black/Plum</span>
-                    <span className="d-block text-uppercase mb-2">Gray/White/Cream/Buff</span>
-                    <span className="d-block text-uppercase mb-2">Tan/Brown/Orange</span>
+                    <span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null?'bg bg-black text-stone rounded-2':''} `}>All</span>
+                    <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span>
+                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Black' || selectedColor==='Plum'?'bg bg-black text-stone rounded-2':''}`} >Black/Plum</span>
+                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Gray' || selectedColor==='White'|| selectedColor==='Cream' || selectedColor==='Buff'?'bg bg-black text-stone rounded-2':''}`}>Gray/White/Cream/Buff</span>
+                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span>
                   </div>
                 </div>
                 
