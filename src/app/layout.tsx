@@ -29,11 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>   
+      <Head>   
 
 <meta name="robots" content="noindex, nofollow"   
 /> {/* Add this meta tag */}
-</head>
+</Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}style={{ paddingTop: '150px' }}
       >

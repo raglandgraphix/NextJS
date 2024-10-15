@@ -4,7 +4,7 @@ import Navigate from "../../component/navigate"
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-import Link from 'next/link'
+// import Link from 'next/link'
 import Image from "next/image";
 
 
