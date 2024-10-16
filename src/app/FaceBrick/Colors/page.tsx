@@ -1,6 +1,7 @@
 //Face brick Colors Page
 'use client';
 import Navigate from "../../component/navigate";
+import Catalog from "../../component/CatalogHead";
 import Footer from "../../component/footer";
 import React from "react";
 import { useState, useEffect } from "react";
@@ -16,8 +17,7 @@ interface Texture {
     fallbackLargeImage?: string; // Optional property
     largeImage?: string; // Optional property
     sizes: string[];
-  }
-  
+  }  
   interface DataItem {
     id: number;
     fullName: string;
@@ -37,30 +37,30 @@ export default function Facebrick(){
     document.title = "Endicott Face Brick Colors ";
   }, []);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
-    const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    const [rangeCallout,setRangeCallout]=useState<string | null>(null);
-    const pathname = usePathname();
-    useEffect(()=>{
-      setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+     const [selectedColor,setSelectedColor]=useState<string | null>(null);
+    // const [rangeCallout,setRangeCallout]=useState<string | null>(null);
+    // const pathname = usePathname();
+    // useEffect(()=>{
+    //   setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
       
-      //selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):null)));
-    },[pathname]);
+    //   //selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):null)));
+    // },[pathname]);
 
-    useEffect(()=>{
-      if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
-        setRangeCallout('RED/BURGUNDY');
-      } else if (selectedColor === 'Black' || selectedColor === 'Plum') {
-        setRangeCallout('BLACK/PLUM');
-      } else if (selectedColor === 'Gray' || selectedColor === 'White' || selectedColor === 'Cream' || selectedColor === 'Buff') {
-        setRangeCallout('GRAY/WHITE/CREAM/BUFF');
-      } else if (selectedColor === 'Tan' || selectedColor === 'Brown' || selectedColor === 'Orange') {
-        setRangeCallout('TAN/BROWN/ORANGE');
-      } else if (selectedColor === null || selectedColor === 'ALL') { 
-        setRangeCallout(''); 
-      } else {
-        setRangeCallout(null); // Or a default value for other cases
-      }
-    },[selectedColor]);
+    // useEffect(()=>{
+    //   if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
+    //     setRangeCallout('RED/BURGUNDY');
+    //   } else if (selectedColor === 'Black' || selectedColor === 'Plum') {
+    //     setRangeCallout('BLACK/PLUM');
+    //   } else if (selectedColor === 'Gray' || selectedColor === 'White' || selectedColor === 'Cream' || selectedColor === 'Buff') {
+    //     setRangeCallout('GRAY/WHITE/CREAM/BUFF');
+    //   } else if (selectedColor === 'Tan' || selectedColor === 'Brown' || selectedColor === 'Orange') {
+    //     setRangeCallout('TAN/BROWN/ORANGE');
+    //   } else if (selectedColor === null || selectedColor === 'ALL') { 
+    //     setRangeCallout(''); 
+    //   } else {
+    //     setRangeCallout(null); // Or a default value for other cases
+    //   }
+    // },[selectedColor]);
     
     
     React.useEffect(() => {
@@ -90,7 +90,8 @@ export default function Facebrick(){
             />
         </Head>
         <Navigate pageSettings="light"/>
-        <div className="row d-flex justify-content-between ">
+        <Catalog/>
+        {/* <div className="row d-flex justify-content-between ">
           <div className="col-12 col-xl-6 faceBrickBox ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 ">
             <div className="row">
               <div className="col-6">
@@ -145,7 +146,12 @@ export default function Facebrick(){
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+
+
+
+
         <div className="row d-flex justify-content-center justify-content-md-start">
           {
             data.map((item)=>(
