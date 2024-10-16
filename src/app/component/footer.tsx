@@ -21,7 +21,7 @@ export default function footer({pageSetUp}:FooterProps){
     <div className="col svgWhite d-flex justify-content-center justify-content-md-end mt-5 me-md-5 text-secondary">
       <a href="https://www.linkedin.com/company/1242322" target="_blank" aria-label="An element that includes the Icon for LinkedIn that when clicked will open a tab that goes to the Endicott LinkedIn page">
         <div className={`social-circle ${pageSetUp==='light'?'imageInvert':''}  `}>
-          <Image className="SocialIcon " src="/assets/SocialLogos/Linkedin.svg" width={25} height={25} aria-label="An image of the LinkedIn logo" alt="LinkedIn Logo"/>
+          <Image className="SocialIcon " src="/assets/SocialLogos/linkedin.svg" width={25} height={25} aria-label="An image of the LinkedIn logo" alt="LinkedIn Logo"/>
         </div>
       </a>
       <a href="https://www.instagram.com/endicottbrick/" target="_blank" aria-label="An Element that includes the icon for instagram, that when clicked will open a tab that goes to the Endicott Instagram page">
