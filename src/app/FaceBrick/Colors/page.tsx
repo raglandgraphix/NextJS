@@ -60,7 +60,7 @@ export default function Facebrick(){
       } else {
         setRangeCallout(null); // Or a default value for other cases
       }
-    }),[selectedColor];
+    },[selectedColor]);
     
     
     React.useEffect(() => {
