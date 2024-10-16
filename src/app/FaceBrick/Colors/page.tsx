@@ -4,7 +4,7 @@ import Navigate from "../../component/navigate"
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-// import Link from 'next/link'
+import Link from 'next/link'
 import Image from "next/image";
 
 
@@ -96,11 +96,11 @@ export default function Facebrick(){
                 </div>
                 <div className="row">
                   <div className="col">
-                    <span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null?'bg bg-black text-stone rounded-2':''} `}>All</span>
-                    <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span>
-                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Black' || selectedColor==='Plum'?'bg bg-black text-stone rounded-2':''}`} >Black/Plum</span>
-                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Gray' || selectedColor==='White'|| selectedColor==='Cream' || selectedColor==='Buff'?'bg bg-black text-stone rounded-2':''}`}>Gray/White/Cream/Buff</span>
-                    <span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span>
+                    <Link className="text-decoration-none text-black" href="/FaceBrick/Colors-ALL"><span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null || selectedColor==='ALL'?'bg bg-black text-stone rounded-2':''} `}>All</span></Link>
+                    <Link className="text-decoration-none text-black" href="/FaceBrick/Colors-Red"> <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span></Link>
+                    <Link className="text-decoration-none text-black" href='/FaceBrick/Colors-Black'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Black' || selectedColor==='Plum'?'bg bg-black text-stone rounded-2':''}`} >Black/Plum</span></Link>
+                    <Link className="text-decoration-none text-black" href='/FaceBrick/Colors-Gray'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Gray' || selectedColor==='White'|| selectedColor==='Cream' || selectedColor==='Buff'?'bg bg-black text-stone rounded-2':''}`}>Gray/White/Cream/Buff</span></Link>
+                    <Link className="text-decoration-none text-black" href='/FaceBrick/Colors-Tan'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span></Link>
                   </div>
                 </div>
                 
@@ -111,6 +111,8 @@ export default function Facebrick(){
         <div className="row">
           {
             data.map((item)=>(
+              selectedColor === 'ALL' || selectedColor === null || item.colorGroup.some(color => (selectedColor ?? '').includes(color)) ? (
+                
               <div key={item.id} className="col-4">
                 <div className="Card border rounded-bottom rounded-3 m-1  ">
                   <Image className="card-img-top img-fluid" width={500} height={500} alt={item.altTag} src={item.mainImage}  />
@@ -121,6 +123,7 @@ export default function Facebrick(){
                     </div>
                 </div>
               </div>
+              ):null
             ))
           }
         </div>
