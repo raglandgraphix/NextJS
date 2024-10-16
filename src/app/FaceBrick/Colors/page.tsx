@@ -47,7 +47,19 @@ export default function Facebrick(){
     },[pathname]);
 
     useEffect(()=>{
-      selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):(selectedColor===null || selectedColor==='ALL'?setRangeCallout(''):null))));
+      if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
+        setRangeCallout('RED/BURGUNDY');
+      } else if (selectedColor === 'Black' || selectedColor === 'Plum') {
+        setRangeCallout('BLACK/PLUM');
+      } else if (selectedColor === 'Gray' || selectedColor === 'White' || selectedColor === 'Cream' || selectedColor === 'Buff') {
+        setRangeCallout('GRAY/WHITE/CREAM/BUFF');
+      } else if (selectedColor === 'Tan' || selectedColor === 'Brown' || selectedColor === 'Orange') {
+        setRangeCallout('TAN/BROWN/ORANGE');
+      } else if (selectedColor === null || selectedColor === 'ALL') { 
+        setRangeCallout(''); 
+      } else {
+        setRangeCallout(null); // Or a default value for other cases
+      }
     }),[selectedColor];
     
     
