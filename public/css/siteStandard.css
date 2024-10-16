@@ -47,4 +47,32 @@ body{
     min-height: 250px;
     
 }
+.svgWhite{
+	filter: invert(100%);
+	
+	z-index:1;
+}
+.social-circle{
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+	border:solid thin;
+	margin-right:10px;
+	border-radius: 50%;
+	display: inline-block;
+	border-color: black;
+}
+.SocialIcon{
+	
+	object-fit:contain ;
+	
+	
+}
+.imageInvert{
+	filter: invert(100%);
+}
+.belowFold{
+	margin-top: 100vh;
+	background-color: black;
+}
 

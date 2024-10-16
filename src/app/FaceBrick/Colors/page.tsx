@@ -1,14 +1,13 @@
 //Face brick Colors Page
 'use client';
-import Navigate from "../../component/navigate"
+import Navigate from "../../component/navigate";
+import Footer from "../../component/footer";
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import Link from 'next/link'
 import Image from "next/image";
 import Head from "next/head";
-
-
 interface Texture {
     texture: string;
     textureDescription?: string; // Optional property
@@ -74,8 +73,18 @@ export default function Facebrick(){
         <Navigate pageSettings="light"/>
         <div className="row ">
           <div className="col-6 faceBrickBox m-3 text-white ps-3 pt-2 pb-2 ">
-            <h1 className="univers-55-Oblique">Face Brick</h1>
-            <h2 className="museo-light">Endicott face brick: Durable and aesthetically versatile for timeless architectural design.</h2>
+            <div className="row">
+              <div className="col-6">
+              <h1 className="univers-55-Oblique d-inline-block ">Face Brick</h1>
+              </div>
+              <div className="col-6 d-flex justify-content-end">
+              <h2 className="museo-light d-inline  fs-6 fst-italic ">RED/BURGUNDY</h2>
+              </div>
+
+            </div>
+            
+            
+            <h2 className="museo-light ">Endicott face brick: Durable and aesthetically versatile for timeless architectural design.</h2>
             <span className="univers-55-Roman">Endicott face brick elevates architecture with its rich palette of colors, from classic red and black to contemporary gray and tan.  Complementing the diverse color selection are unique textures like velour, smooth, and artisan, offering endless design possibilities for stunning and enduring facades.</span>
           </div>
           <div className="col-12 col-xl-5 pb-2 pt-2 m-3   ">
@@ -137,6 +146,7 @@ export default function Facebrick(){
             ))
           }
         </div>
+        <Footer pageSetUp="light"/>
       </div>
     )
 }

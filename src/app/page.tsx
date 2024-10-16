@@ -2,6 +2,7 @@
 'use client';
 import Navigate from "./component/navigate";
 import { useState } from "react";
+import Footer from "./component/footer";
 
 export default function Home() {
   const [videoError1, setVideoError1] = useState(false);
@@ -117,7 +118,7 @@ const handleVideoError2 =()=>{
       </div>
     </div>
   </div>
-  {/* <div id="slick" className="row p-0 bg-news " aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
+   <div  className="row p-0 bg-news belowFold " aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
     <div id="holdme" className="col">
       <div className="row border-top  mt-5">
       </div>
@@ -144,7 +145,9 @@ const handleVideoError2 =()=>{
 
      
     </div>
-  </div>  */}
+    <Footer pageSetUp="gradient"/>
+  </div>  
+  
 </div>
 
    
