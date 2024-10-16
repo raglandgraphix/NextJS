@@ -6,7 +6,7 @@ import Footer from "../../component/footer";
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-import Link from 'next/link'
+//import Link from 'next/link'
 import Image from "next/image";
 import Head from "next/head";
 interface Texture {
@@ -38,13 +38,14 @@ export default function Facebrick(){
   }, []);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
      const [selectedColor,setSelectedColor]=useState<string | null>(null);
+     
     // const [rangeCallout,setRangeCallout]=useState<string | null>(null);
-    // const pathname = usePathname();
-    // useEffect(()=>{
-    //   setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+     const pathname = usePathname();
+     useEffect(()=>{
+       setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
       
     //   //selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):null)));
-    // },[pathname]);
+     },[pathname]);
 
     // useEffect(()=>{
     //   if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
