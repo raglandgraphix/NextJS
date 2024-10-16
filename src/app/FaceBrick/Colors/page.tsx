@@ -38,10 +38,17 @@ export default function Facebrick(){
   }, []);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
     const [selectedColor,setSelectedColor]=useState<string | null>(null);
+    const [rangeCallout,setRangeCallout]=useState<string | null>(null);
     const pathname = usePathname();
     useEffect(()=>{
       setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+      
+      //selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):null)));
     },[pathname]);
+
+    useEffect(()=>{
+      selectedColor==='Red' || selectedColor==='Burgundy'?setRangeCallout('RED/BURGUNDY'):(selectedColor==='Black' || selectedColor==='Plum'?setRangeCallout('BLACK/PLUM'):(selectedColor==='Gray' || selectedColor==='White' || selectedColor==='Cream' || selectedColor==='Buff'?setRangeCallout('GRAY/WHITE/CREAM/BUFF'):(selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?setRangeCallout('TAN/BROWN/ORANGE'):(selectedColor===null || selectedColor==='ALL'?setRangeCallout(''):null))));
+    }),[selectedColor];
     
     
     React.useEffect(() => {
@@ -78,7 +85,7 @@ export default function Facebrick(){
               <h1 className="univers-55-Oblique d-inline-block ">Face Brick</h1>
               </div>
               <div className="col-6 d-flex justify-content-end">
-              <h2 className="museo-light d-inline  fs-6 fst-italic ">RED/BURGUNDY</h2>
+              <h2 className="museo-light d-inline  fs-6 fst-italic ">{rangeCallout}</h2>
               </div>
 
             </div>
