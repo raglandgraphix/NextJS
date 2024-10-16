@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import Link from 'next/link'
 import Image from "next/image";
+import Head from "next/head";
 
 
 interface Texture {
@@ -33,6 +34,9 @@ interface Texture {
   }
  
 export default function Facebrick(){
+  useEffect(() => {
+    document.title = "Endicott Face Brick Colors ";
+  }, []);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
     const [selectedColor,setSelectedColor]=useState<string | null>(null);
     const pathname = usePathname();
@@ -60,13 +64,19 @@ export default function Facebrick(){
       }
     return(
       <div className="container-fluid">
-        
+        <Head>
+            <title>{document.title}</title>
+            <meta
+            name = "Endicott Face Brick Colors"
+            content = "Explore the diverse colors of Endicott Face Brick. Find the perfect brick for your residential or commercial project with our wide range of classic and contemporary hues."
+            />
+        </Head>
         <Navigate pageSettings="light"/>
         <div className="row ">
           <div className="col-6 faceBrickBox m-3 text-white ps-3 pt-2 pb-2 ">
             <h1 className="univers-55-Oblique">Face Brick</h1>
             <h2 className="museo-light">Endicott face brick: Durable and aesthetically versatile for timeless architectural design.</h2>
-            <span className="univers-55-Roman">Endicott face brick elevates architecture with its rich palette of colors, from classic reds and browns to contemporary grays and tans.  Complementing the diverse color selection are unique textures like Velour, Smooth, and Artisan, offering endless design possibilities for stunning and enduring facades.</span>
+            <span className="univers-55-Roman">Endicott face brick elevates architecture with its rich palette of colors, from classic red and black to contemporary gray and tan.  Complementing the diverse color selection are unique textures like velour, smooth, and artisan, offering endless design possibilities for stunning and enduring facades.</span>
           </div>
           <div className="col-12 col-xl-5 pb-2 pt-2 m-3   ">
             
