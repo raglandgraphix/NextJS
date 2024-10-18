@@ -8,6 +8,10 @@ export default function ColorCatalog(){
   const [selectedColor,setSelectedColor]=useState<string | null>(null);
     const [rangeCallout,setRangeCallout]=useState<string | null>(null);
     const [Product,setProduct]=useState<string | null>(null);
+    const [ProductRange,setProductRange]=useState<string[] | null>(null);
+    const FaceBrickRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
+    const ThinBrickRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
+    const PaverRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
     const pathname = usePathname();
     useEffect(()=>{
       const parts = pathname.split('/');
@@ -19,7 +23,17 @@ export default function ColorCatalog(){
       
       
     },[pathname]);
-    console.log(Product);
+    useEffect(()=>{
+      if(Product==='FaceBrick'){
+        setProductRange(FaceBrickRange);
+      }else if(Product==='ThinBrick'){
+        setProductRange(ThinBrickRange);
+      }else if(Product==='Paver'){
+        setProductRange(PaverRange);
+      }else{
+        setProductRange(null);
+      }
+    },[Product]);
     useEffect(()=>{
       if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
         setRangeCallout('RED/BURGUNDY');
@@ -80,11 +94,15 @@ export default function ColorCatalog(){
                 </div>
                 <div className="row">
                   <div className="col">
-                    <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-ALL"><span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null || selectedColor==='ALL'?'bg bg-black text-stone rounded-2':''} `}>All</span></Link>
+                    {
+                      ProductRange?.map((ranger,index)=>(
+                        <Link key={index}  className="text-decoration-none text-rock" href={`/${Product}/Colors-${ranger.split("/")[0]}`}><span className={`d-block text-uppercase  mt-2 pt-2 pb-2 ${index===0 && (selectedColor===null || selectedColor===ranger.split('/')[0])?'bg bg-black text-stone rounded-2':selectedColor === ranger.split('/')[0] ? 'bg-black text-stone rounded-2' : ''}  `}>{ranger}</span></Link>
+                      ))}
+                    {/* <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-ALL"><span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null || selectedColor==='ALL'?'bg bg-black text-stone rounded-2':''} `}>All</span></Link>
                     <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-Red"> <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span></Link>
                     <Link className="text-decoration-none text-rock " href='/FaceBrick/Colors-Black'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Black' || selectedColor==='Plum'?'bg bg-black text-stone rounded-2':''}`} >Black/Plum</span></Link>
                     <Link className="text-decoration-none text-rock" href='/FaceBrick/Colors-Gray'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Gray' || selectedColor==='White'|| selectedColor==='Cream' || selectedColor==='Buff'?'bg bg-black text-stone rounded-2':''}`}>Gray/White/Cream/Buff</span></Link>
-                    <Link className="text-decoration-none text-rock" href='/FaceBrick/Colors-Tan'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span></Link>
+                    <Link className="text-decoration-none text-rock" href='/FaceBrick/Colors-Tan'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span></Link> */}
                   </div>
                 </div>
                 
