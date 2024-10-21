@@ -1,8 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // images: {
+    //   domains: ['endicottfiles.com'],
+    // },
     images: {
-      domains: ['endicottfiles.com'],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'example.com', 
+          port: '', // Optional, if you need to specify a port
+          pathname: '/images/**', // Optional, if you need to specify a path
+        },
+        // ... more remote patterns
+      ],
     },
+
     async rewrites() {
       return [
         {

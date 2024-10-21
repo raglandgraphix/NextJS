@@ -71,7 +71,7 @@ export default function CatalogBody({productType}:CatalogBodyProps){
                 
               <div key={item.id} className=" col-11 col-md-6 col-xl-4 mb-5">
                 <div className="Card border rounded-bottom-4 m-1 shadow text-rock">
-                  <Image className="card-img-top img-fluid" width={500} height={500} alt={item.altTag} src={item.mainImage}  />
+                  <Image className="card-img-top img-fluid" loader={() => (item.mainImage)} width={500} height={500} alt={item.altTag} src={item.mainImage}  />
                     <div className="card-body">
                       <div className="card-title text-center">
                         <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.fullName.replace(/_/g, ' ')}</h2>
