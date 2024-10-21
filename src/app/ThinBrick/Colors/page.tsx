@@ -25,7 +25,7 @@ export default function Thinbrick(){
         </Head>
         <Navigate pageSettings="light"/>
         <Catalog/>
-        <CatalogBody productType='ThinBrick'/>
+        <CatalogBody />
         <Footer pageSetUp="light"/>
       </div>
     )

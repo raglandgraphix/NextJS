@@ -27,7 +27,7 @@ export default function Facebrick(){
         </Head>
         <Navigate pageSettings="light"/>
         <Catalog/>
-        <CatalogBody productType="FaceBrick"/>
+        <CatalogBody />
         <Footer pageSetUp="light"/>
       </div>
     )
