@@ -26,9 +26,9 @@ interface Texture {
     productCall: string;
     projects: unknown[]; // You might want to define a more specific type for projects if possible
   }
-  interface CatalogBodyProps {
-    productType: string;
-  }
+//   interface CatalogBodyProps {
+//     productType: string;
+//   }
  
 export default function CatalogBody(){
   
