@@ -27,29 +27,43 @@ interface Texture {
     productCall: string;
     projects: unknown[]; // You might want to define a more specific type for projects if possible
   }
-  interface CatalogBodyProps {
-    productType: string;
-  }
- 
-export default function CatalogBody({productType}:CatalogBodyProps){
   
-    console.log(productType);
+ 
+export default function CatalogBody(){
+  
+    //console.log(productType);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
-     const [selectedColor,setSelectedColor]=useState<string | null>(null);
+    const [selectedColor,setSelectedColor]=useState<string | null>(null);
+    const [Product,setProduct]= useState<string | null>(null);
+    //const [JSONData,setJSONData]=useState<string | null>(null);
      
    
      const pathname = usePathname();
      useEffect(()=>{
        setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+       const parts = pathname.split('/');
+      if(parts.length>1){
+        setProduct(parts[1]);
+      }
       
     },[pathname]);
 
-    
-    
+   
+   // let myVariable = JSONData;
     React.useEffect(() => {
+      let JSONData =  '/JSON/FacebrickColors.json';
+      if(Product==='FaceBrick'){
+        JSONData = '/JSON/FacebrickColors.json';
+      }else if(Product==='ThinBrick'){
+        JSONData = '/JSON/ThinbrickColors.json';
+      }else if(Product==='Paver'){
+        JSONData= '/JSON/PaverColors.json';
+      }
+      
         const fetchData = async () => {
+          
           try {
-            const response = await fetch('/JSON/FacebrickColors.json');
+            const response = await fetch(JSONData);
             const jsonData: DataItem[] = await response.json(); // Correct type
             setData(jsonData);
           } catch (error) {
@@ -58,7 +72,7 @@ export default function CatalogBody({productType}:CatalogBodyProps){
         };
     
         fetchData();
-      }, []);
+      }, [Product]);
     
       if (!data) {
         return <div></div>;  

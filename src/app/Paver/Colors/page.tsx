@@ -9,7 +9,7 @@ export default function Paver(){
     <div className="container-fluid">
         <Navigate pageSettings="light"/> {/*Adds navigation to the page */}
         <Catalog/>{/*Adds Catalog selections to the page */}
-        <CatalogBody productType="Paver"/>{/*Populates the colors on the catalog page */}
+        <CatalogBody />{/*Populates the colors on the catalog page */}
         <Footer pageSetUp="light"/>{/*Adds footer to the page */}
      </div>
   )

@@ -19,8 +19,8 @@ export default function ColorCatalog(){
     const ThinBrickHL ='Endicott thin brick: Durable and versatile for exterior applications, meeting PCI standards.';
     const ThinBrickDesc = 'Endicott thin brick expands design possibilities with its lightweight versatility, offering a wide range of colors and textures to achieve stunning and unique exterior applications. From modern commercial buildings to traditional homes, Endicott thin brick provides enduring beauty and lasting value.';
     const PaverRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
-    const PaverHL ='xoxo';
-    const PaverDesc = 'z';
+    const PaverHL ='Endicott pavers provide enduring beauty and functionality for a wide range of paving applications.';
+    const PaverDesc = 'Endicott pavers, provide enduring beauty and functionality for a wide range of paving applications.  Crafted for lasting performance, these pavers are available in a variety of colors to complement any design aesthetic.  Create stunning streetscapes, walkways, and driveways with the timeless elegance of Endicott pavers.';
     const pathname = usePathname();
     useEffect(()=>{
       const parts = pathname.split('/');
