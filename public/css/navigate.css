@@ -39,9 +39,9 @@
     .w-button{
         width: auto;
     }
-    .bg-stone{
+    /* .bg-stone{
     background-color: transparent;
-    }
+    } */
     .gradient{
        
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
@@ -72,6 +72,9 @@
     .border-custom-navigation{
         border-top:thin solid white;
     }
+}
+.navBG{
+    height: 86px;
 }
 
 

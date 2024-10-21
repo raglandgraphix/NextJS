@@ -37,12 +37,15 @@ export default function Navigate({pageSettings}:NavigateProps){
     }
 
     return(
-        <div className={`row ${pageSetup==='gradient'? 'gradient':(pageSetup==='dark'?'dark':(pageSetup==='light'?'light':''))}  holdNav`}>
+        <div className={`row ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav`}>
             <div className="col-12 p-0 ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
+                        <div className={`row  m-0 z-n1 fixed-top navBG ${pageSetup==='gradient'? 'gradient':(pageSetup==='dark'?'dark':(pageSetup==='light'?'light':''))} `}>
+
+                        </div>
                         <div className="row  ">
-                            <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2 ">
+                            <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2  ">
                                 <Image  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logos'/>
                             </div>
                         </div>
@@ -64,7 +67,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                                     
                                     {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
                                        
-                                        <button className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none  " key={index} role="button ">{link}</button>
+                                        <button className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none text-white " key={index} role="button ">{link}</button>
                                         
                                     ))}
                                       
@@ -83,7 +86,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                         {
                             activeKey &&(
                                 linkData[activeKey].map((link,index)=>(
-                                    <button role="button" key={index} className={`m-0 pt-2 pb-1 me-4`}>{link}</button>
+                                    <button role="button" key={index} className={`m-0 pt-2 pb-1 me-4 `}>{link}</button>
                                 ))
                             )                            
                         }

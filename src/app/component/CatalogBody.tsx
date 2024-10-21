@@ -61,7 +61,7 @@ export default function CatalogBody({productType}:CatalogBodyProps){
       }, []);
     
       if (!data) {
-        return <div>Loading...</div>;  
+        return <div></div>;  
       }
       return(
         <div className="row d-flex justify-content-center justify-content-md-start">

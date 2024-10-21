@@ -13,6 +13,10 @@ const nextConfig = {
           source: '/ThinBrick/Colors-:color', // Match the pattern with the color segment
           destination: '/ThinBrick/Colors', // Redirect to the Colors page
         },
+        {
+          source: '/Paver/Colors-:color', // Match the pattern with the color segment
+          destination: '/Paver/Colors', // Redirect to the Colors page
+        },
       ];
     }
   };
