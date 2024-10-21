@@ -2,21 +2,51 @@
 import Image from "next/image";
 import { useState } from "react";
 import "/public/css/navigate.css";
+import Link from "next/link";
 
 const linkData = {
-    'Projects':['All Projects','Face Brick','Thin Brick','Pavers'],
-    'Face Brick':['Colors','Textures','Sizes'],
-    'Thin Brick':['Colors','Textures','Sizes'],
-    'Pavers':['Colors','Sizes'],
+    'Projects': [
+    { text: 'All Projects', link: '/projects' },
+    { text: 'Face Brick', link: '/projects/facebrick' },
+    { text: 'Thin Brick', link: '/projects/thinbrick' },
+    { text: 'Pavers', link: '/projects/pavers' }
+  ],
+  'Face Brick':[
+    {text:'Colors', link:'/FaceBrick/Colors'},
+    {text:'Textures', link:'/FaceBrick/Textures'},
+    {text:'Sizes',link:'/FaceBrick/Sizes'}
+],
+    'Thin Brick':[
+        {text:'Colors',link:'/ThinBrick/Colors'},
+        {text:'Textures',link:'/ThinBrick/Textures'},
+        {text:'Sizes',link:'/ThinBrick/Sizes'}
+    ],
+     'Pavers':[
+        {text:'Colors',link:'/Paver/Colors'},
+        {text:'Sizes', link:'/Paver/Colors'}
+    ],
     'Pathway Aggregate':[],
-    'Resources':['Literature','BIM','Specifications','Technical Notes','Brick Briefs'],
-    'Who We Are':['Profile','Videos'],
-    'Careers':['Current Openings','Application','Solicitud','Apply Online'] 
+    'Resources':[
+        {text:'Literature',link:'/Literature'},
+        {text:'BIM',link:'/BIM'},
+        {text:'Specifications', link:'/Specifications'},
+        {text:'Technical Notes', link:'/TechnicalNotes'},
+        {text:'Brick Briefs',link:'/BrickBriefs'}
+    ],
+    'Who We Are':[
+        {text:'Profile', link:'/Profile'},
+        {text:'Videos', link:'/Videos'}
+    ],
+    'Careers':[
+        {text:'Current Openings', link:'/Careers/CurrentOpenings'},
+        {text:'Application', link:'/Careers/Application'},
+        {text:'Solicitud', link:'/Careers/Solicitud'},
+        {text:'Apply Online',link:'/Apply'}] 
 };
 type LinkDataKey = keyof typeof linkData;
 interface NavigateProps {
     pageSettings: string;
-  }
+}
 export default function Navigate({pageSettings}:NavigateProps){
     const pageSetup = pageSettings;
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
@@ -33,67 +63,60 @@ export default function Navigate({pageSettings}:NavigateProps){
     }
     const displayMenu = ()=>{
         setMainMenuShow(!mainMenuShow);
-
     }
-
     return(
-        <div className={`row ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav`}>
+        <nav role="navigation" className={`row ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav`}>
             <div className="col-12 p-0 ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
                         <div className={`row  m-0 z-n1 fixed-top navBG ${pageSetup==='gradient'? 'gradient':(pageSetup==='dark'?'dark':(pageSetup==='light'?'light':''))} `}>
-
                         </div>
                         <div className="row  ">
                             <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2  ">
-                                <Image  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logos'/>
+                               <Link href='/'><Image role="button"  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logo. Click to go to home page'/></Link>
                             </div>
                         </div>
                         <div className="row d-none d-md-flex text-center ">
                             <div className="col ">
-                                <span className="fs-6 ">Endicott Clay Products Company</span>
+                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-6" aria-label='Click to go to the Endicott Clay Products Home Page.'>Endicott Clay Products Company</span></Link>
                             </div>
                         </div>                
                     </div>
                     <div className="col d-flex d-xl-none justify-content-end me-4  ">
-                        <Image role="button" className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options"  onClick={()=>{displayMenu()}}/>
+                        <Image role="button" className="hamburger" src={`${pageSetup==='gradient' || pageSetup==='dark'?'/assets/Navigation_Menu_Icon-Stone.png':'/assets/Navigation_Menu_Icon_Black.png'}`} width={30} height={30} alt="Hamburger menu button. Click to see options for further navigation"  onClick={()=>{displayMenu()}}/>
                     </div>
                     <div className={`col-12 col-xl-9 border-custom-navigation   d-xl-flex align-items-end justify-content-end text-end ${mainMenuShow?'d-block d-xl-flex ':'d-none'} `}> 
                         {
                             Object.keys(linkData).map((key)=>(
                                 <div key={key} className="row d-flex justify-content-end  ">
+                                    
                                     <div className="col-10 col-md-5 col-xl-auto   ">
-                                    <button role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)}> {key}</button>
-                                    
-                                    {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
-                                       
-                                        <button className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none text-white " key={index} role="button ">{link}</button>
-                                        
-                                    ))}
-                                      
-                                   
+                                        <button role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)} aria-label="Click to open options for the selction made."> {key}</button>
+                                        {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
+                                            <button className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none text-white " key={index} role="button " aria-label="Links to go to the page for the option selected">{key}</button>
+                                        ))}
                                     </div>
-                                    
                                 </div>
-                                          
                             ))
                         }
                     </div>
                 </div>
                 <div className={`row d-none  bg-black text-white p-0 m-auto d-xl-flex justify-content-end   ${subShown?'subMenuOpen':'subMenu'}   `}>
                     <div className="col p-0  m-auto d-inline-flex justify-content-end ">
-                        
                         {
                             activeKey &&(
                                 linkData[activeKey].map((link,index)=>(
-                                    <button role="button" key={index} className={`m-0 pt-2 pb-1 me-4 `}>{link}</button>
+                                    <Link className="text-white" key={`${activeKey}-${index}`} href={link.link} >
+                                    <button role="button"  className={`m-0 pt-2 pb-1 me-4 `} aria-label="Links to go to the page for the option selected">{link.text}</button>
+                                    </Link>
+                                    
                                 ))
                             )                            
                         }
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 
 }
