@@ -47,6 +47,16 @@ body{
     min-height: 250px;
     
 }
+.thinBrickBox{
+    background-color: #8a2a2b;
+    min-height: 250px;
+    
+}
+.paverBox{
+    background-color: #9e652e;
+    min-height: 250px;
+    
+}
 .svgWhite{
 	filter: invert(100%);
 	

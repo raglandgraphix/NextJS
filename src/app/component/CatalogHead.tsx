@@ -9,9 +9,14 @@ export default function ColorCatalog(){
     const [rangeCallout,setRangeCallout]=useState<string | null>(null);
     const [Product,setProduct]=useState<string | null>(null);
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
+    const [ProductHL,setProductHL]=useState<string | null>(null);
+    const [ProductDesc,setProductDesc]=useState<string | null>(null);
     const FaceBrickRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
     const ThinBrickRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
     const PaverRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
+    const faceBrickHL = "Endicott face brick: Durable and aesthetically versatile for timeless architectural design.";
+    const faceBrickDesc = "Endicott face brick elevates architecture with its rich palette of colors, from classic red and black to contemporary gray and tan.  Complementing the diverse color selection are unique textures like velour, smooth, and artisan, offering endless design possibilities for stunning and enduring facades.";
+    
     const pathname = usePathname();
     useEffect(()=>{
       const parts = pathname.split('/');
@@ -26,6 +31,8 @@ export default function ColorCatalog(){
     useEffect(()=>{
       if(Product==='FaceBrick'){
         setProductRange(FaceBrickRange);
+        setProductDesc(faceBrickDesc);
+        setProductHL(faceBrickHL);
       }else if(Product==='ThinBrick'){
         setProductRange(ThinBrickRange);
       }else if(Product==='Paver'){
@@ -51,10 +58,10 @@ export default function ColorCatalog(){
     },[selectedColor]);
     return(
 <div className="row d-flex justify-content-between ">
-          <div className="col-12 col-xl-6 faceBrickBox ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 ">
+          <div className={`col-12 col-xl-6 ${Product==='FaceBrick'?'faceBrickBox':(Product==='ThinBrick'?'thinBrickBox':(Product==='Paver'?'paverBox':'')) } ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 `}>
             <div className="row">
               <div className="col-6">
-              <h1 className="univers-55-Oblique d-inline-block ">Face Brick</h1>
+              <h1 className="univers-55-Oblique d-inline-block ">{Product? Product.replace(/([a-z])([A-Z])/g, '$1 $2'):''}</h1>
               </div>
               <div className="col-6 d-flex justify-content-end">
               <h2 className="museo-light d-inline  fs-6 fst-italic ">{rangeCallout}</h2>
@@ -63,8 +70,8 @@ export default function ColorCatalog(){
             </div>
             
             
-            <h2 className="museo-light ">Endicott face brick: Durable and aesthetically versatile for timeless architectural design.</h2>
-            <span className="univers-55-Roman">Endicott face brick elevates architecture with its rich palette of colors, from classic red and black to contemporary gray and tan.  Complementing the diverse color selection are unique textures like velour, smooth, and artisan, offering endless design possibilities for stunning and enduring facades.</span>
+            <h2 className="museo-light ">{ProductHL}</h2>
+            <span className="univers-55-Roman">{ProductDesc}</span>
           </div>
           <div className="col-12 col-xl-5 pb-2 pt-2 ms-xl-3  ">
             
@@ -78,7 +85,7 @@ export default function ColorCatalog(){
                 </div>
                 <div className="row ">
                   <div className="col text-nowrap ">
-                    <span className="d-block text-uppercase  mt-2  pt-2 pb-2 text-rock ">ALL</span>
+                    {/* <span className="d-block text-uppercase  mt-2  pt-2 pb-2 text-rock ">ALL</span> */}
                     <span className="d-block text-uppercase   pt-2 pb-2 bg bg-black text-stone rounded-2">Face Brick</span>
                     <span className="d-block text-uppercase   pt-2 pb- text-rock">Thin Brick</span>
                     <span className="d-block text-uppercase   pt-2 pb-2 text-rock">Pavers</span>
@@ -96,7 +103,7 @@ export default function ColorCatalog(){
                   <div className="col">
                     {
                       ProductRange?.map((ranger,index)=>(
-                        <Link key={index}  className="text-decoration-none text-rock" href={`/${Product}/Colors-${ranger.split("/")[0]}`}><span className={`d-block text-uppercase  mt-2 pt-2 pb-2 ${index===0 && (selectedColor===null || selectedColor===ranger.split('/')[0])?'bg bg-black text-stone rounded-2':selectedColor === ranger.split('/')[0] ? 'bg-black text-stone rounded-2' : ''}  `}>{ranger}</span></Link>
+                        <Link key={index}  className="text-decoration-none text-rock" href={`/${Product}/Colors-${ranger.split("/")[0]}`}><span className={`d-block text-uppercase   pt-2 pb-2 ${index===0 && (selectedColor===null || selectedColor===ranger.split('/')[0])?'mt-2 bg bg-black text-stone rounded-2':selectedColor === ranger.split('/')[0] ? 'bg-black text-stone rounded-2' : ''}  `}>{ranger}</span></Link>
                       ))}
                     {/* <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-ALL"><span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null || selectedColor==='ALL'?'bg bg-black text-stone rounded-2':''} `}>All</span></Link>
                     <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-Red"> <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span></Link>
