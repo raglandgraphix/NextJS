@@ -19,7 +19,7 @@ export default function ColorCatalog(){
     const ThinBrickHL ='Endicott thin brick: Durable and versatile for exterior applications, meeting PCI standards.';
     const ThinBrickDesc = 'Endicott thin brick expands design possibilities with its lightweight versatility, offering a wide range of colors and textures to achieve stunning and unique exterior applications. From modern commercial buildings to traditional homes, Endicott thin brick provides enduring beauty and lasting value.';
     const PaverRange = ["ALL","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"];
-    const PaverHL ='x';
+    const PaverHL ='xoxo';
     const PaverDesc = 'z';
     const pathname = usePathname();
     useEffect(()=>{
