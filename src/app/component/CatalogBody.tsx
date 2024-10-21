@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
@@ -26,13 +27,13 @@ interface Texture {
     productCall: string;
     projects: unknown[]; // You might want to define a more specific type for projects if possible
   }
-//   interface CatalogBodyProps {
-//     productType: string;
-//   }
+  interface CatalogBodyProps {
+    productType: string;
+  }
  
-export default function CatalogBody(){
+export default function CatalogBody({productType}:CatalogBodyProps){
   
-    
+    console.log(productType);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
      const [selectedColor,setSelectedColor]=useState<string | null>(null);
      
