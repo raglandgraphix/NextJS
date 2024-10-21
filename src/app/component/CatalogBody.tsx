@@ -32,7 +32,7 @@ interface Texture {
  
 export default function CatalogBody({productType}:CatalogBodyProps){
   
-  
+    console.log(productType);
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
      const [selectedColor,setSelectedColor]=useState<string | null>(null);
      
