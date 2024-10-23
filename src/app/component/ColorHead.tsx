@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-import Link from 'next/link'
+//import Link from 'next/link'
 // import Image from "next/image";
 interface Texture {
   texture: string;
@@ -32,7 +32,7 @@ export default function ColorCatalog(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    const [Description,setDescription]=useState<string | null>(null);
+    //const [Description,setDescription]=useState<string | null>(null);
     
     const pathname = usePathname();
     useEffect(()=>{
@@ -100,8 +100,7 @@ export default function ColorCatalog(){
                 ):''
               ))
             }
-            {/* <h2 className="museo-light ">{Product}</h2>
-            <span className="univers-55-Roman">{Product}</span> */}
+            
           </div>
           <div className="col-12 col-xl-5 pb-2 pt-2 ms-xl-3  ">
             

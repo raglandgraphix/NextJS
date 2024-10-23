@@ -48,7 +48,7 @@ export default function ColorCatalog(){
       }else{
         setProductRange(null);
       }
-    },[Product]);
+    },[Product,FaceBrickRange,ThinBrickRange,PaverRange]);
     useEffect(()=>{
       if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
         setRangeCallout('RED/BURGUNDY');
