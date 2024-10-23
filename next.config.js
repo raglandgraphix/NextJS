@@ -29,6 +29,10 @@ const nextConfig = {
           source: '/Paver/Colors-:color', // Match the pattern with the color segment
           destination: '/Paver/Colors', // Redirect to the Colors page
         },
+        {
+          source: '/FaceBrick/Colors/:colorName', // Match the pattern with the color segment
+          destination: '/FaceBrick/Colors/IndividualColor', // Redirect to the Colors page
+        },
       ];
     }
   };

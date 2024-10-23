@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-//import Link from 'next/link'
+import Link from 'next/link'
 import Image from "next/image";
 
 interface Texture {
@@ -84,6 +84,7 @@ export default function CatalogBody(){
               selectedColor === 'ALL' || selectedColor === null || item.colorGroup.some(color => (selectedColor ?? '').includes(color)) ? (
                 
               <div key={item.id} className=" col-11 col-md-6 col-xl-4 mb-5">
+                <Link className="text-decoration-none" href={`/${Product}/Colors/${item.fullName}`} >
                 <div className="Card border rounded-bottom-4 m-1 shadow text-rock">
                   <Image className="card-img-top img-fluid" loader={() => (item.mainImage)} width={500} height={500} alt={item.altTag} src={item.mainImage}  />
                     <div className="card-body">
@@ -92,6 +93,7 @@ export default function CatalogBody(){
                       </div>
                     </div>
                 </div>
+                </Link>
               </div>
               ):null
             ))
