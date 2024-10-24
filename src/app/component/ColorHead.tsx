@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-import { DataItem,Texture } from "../../../Types/ProductTypes";
+import { DataItem } from "../../../Types/ProductTypes";
 import FBCSelections from "./FBCSelections";
 import TBCSelections from "./TBCSelections";
 import PCSelections from "./PCSelections";

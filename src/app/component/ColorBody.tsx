@@ -2,7 +2,7 @@ import React from "react";
 import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { DataItem,Texture } from "../../../Types/ProductTypes";
+import { DataItem} from "../../../Types/ProductTypes";
 
 
 
@@ -77,9 +77,9 @@ export default function ColorBody(){
                       item.fullName === Color ? (
                         <div key={item.id}>
                           {Texture ? ( // Check if Texture has a value
-                            item.textures.map((texture) => (
+                            item.textures.map((texture,index) => (
                               texture.texture === Texture ? (
-                                <div>
+                                <div key={index} >
                                 <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                 <div className="card-body">
                                 <div className="card-title text-center">
