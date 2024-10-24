@@ -4,29 +4,8 @@ import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import Link from 'next/link'
 import Image from "next/image";
+import {DataItem} from '../../../Types/ProductTypes';
 
-interface Texture {
-    texture: string;
-    textureDescription?: string; // Optional property
-    image: string;
-    fallbackImage?: string; // Optional property
-    fallbackLargeImage?: string; // Optional property
-    largeImage?: string; // Optional property
-    sizes: string[];
-  }  
-  interface DataItem {
-    id: number;
-    fullName: string;
-    descriptionTitle: string;
-    description: string;
-    mainImage: string;
-    colorGroup: string[];
-    altTag: string;
-    textures: Texture[];
-    productLine: string;
-    productCall: string;
-    projects: unknown[]; // You might want to define a more specific type for projects if possible
-  }
   
  
 export default function CatalogBody(){
