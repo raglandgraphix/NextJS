@@ -28,6 +28,7 @@ export default function FBCSelections (){
         let JSONData =  '/JSON/FacebrickColors.json';
         if(Product==='FaceBrick'){
           JSONData = '/JSON/FacebrickColors.json';
+          setTexture('Smooth');
         }else if(Product==='ThinBrick'){
           JSONData = '/JSON/ThinbrickColors.json';
         }else if(Product==='Paver'){
@@ -63,8 +64,8 @@ export default function FBCSelections (){
                             
                                 item.fullName===Color?
                               
-                                 item.textures.map((texture)=>(
-                                    <span className={`d-block text-uppercase   mt-2  pt-2 pb-2 text-rock ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `}>{texture.texture.replace(/_/g," ")}</span>
+                                 item.textures.map((texture,index)=>(
+                                    <span key={index} className={`d-block text-uppercase   mt-2  pt-2 pb-2 text-rock ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `}>{texture.texture.replace(/_/g," ")}</span>
                                  ))
                                 :''
                             
