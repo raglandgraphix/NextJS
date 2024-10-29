@@ -13,7 +13,7 @@ export default function ColorCatalog(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    const [Texture,setTexture]=useState<string | null>(null);
+    //const [Texture,setTexture]=useState<string | null>(null);
     
     //const [Description,setDescription]=useState<string | null>(null);
     
@@ -25,14 +25,7 @@ export default function ColorCatalog(){
           setColor( getTexture[0]);
         
         setProduct(parts[1]);
-        if(pathname.includes('-')){
-          setTexture(getTexture[getTexture.length-1]);
-         }else{
-          setTexture(null);
-         }
-       
-      }
-     
+      } 
       
       
       
