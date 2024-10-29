@@ -28,7 +28,7 @@ export default function CatalogBody(){
     },[pathname]);
 
    
-   // let myVariable = JSONData;
+   
     React.useEffect(() => {
       let JSONData =  '/JSON/FacebrickColors.json';
       if(Product==='FaceBrick'){

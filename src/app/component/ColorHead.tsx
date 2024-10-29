@@ -13,6 +13,7 @@ export default function ColorCatalog(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
+    const [Texture,setTexture]=useState<string | null>(null);
     
     //const [Description,setDescription]=useState<string | null>(null);
     
@@ -20,16 +21,23 @@ export default function ColorCatalog(){
     useEffect(()=>{
       const parts = pathname.split('/');
       if(parts.length>1){
-        setColor( parts[parts.length-1]);
+        const getTexture = parts[parts.length-1].split('-');
+          setColor( getTexture[0]);
+        
         setProduct(parts[1]);
-        //setColor(color.replace(/_/g," "));
+        if(pathname.includes('-')){
+          setTexture(getTexture[getTexture.length-1]);
+         }else{
+          setTexture(null);
+         }
+       
       }
      
       
       
       
     },[pathname]);
-    
+   // console.log(Color);
     React.useEffect(() => {
       let JSONData =  '/JSON/FacebrickColors.json';
       
@@ -91,7 +99,7 @@ export default function ColorCatalog(){
           <div className="col-12 col-md-12 col-lg-7 col-xl-5 p-0 ">
 
             {
-              Product==='FaceBrick'?<FBCSelections/>:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
+              Product==='FaceBrick'?<FBCSelections PageTexture={Texture as string}/>:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
           
           </div>
           

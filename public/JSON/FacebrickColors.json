@@ -36,7 +36,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
