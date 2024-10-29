@@ -99,7 +99,7 @@ export default function ColorCatalog(){
           <div className="col-12 col-md-12 col-lg-7 col-xl-5 p-0 ">
 
             {
-              Product==='FaceBrick'?<FBCSelections PageTexture={Texture as string}/>:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
+              Product==='FaceBrick'?<FBCSelections />:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
           
           </div>
           
