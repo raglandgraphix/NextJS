@@ -4,12 +4,13 @@ import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import { DataItem} from "../../../Types/ProductTypes";
 import { useRouter } from "next/navigation";
-export default function FBCSelections ({PageTexture}:{PageTexture:string}){
+export default function FBCSelections (){
   const [Product,setProduct]=useState<string | null>(null);
   const [Color,setColor]=useState<string | null>(null);
   const [Texture,setTexture]=useState<string | null>(null);
   const [Data,setData]=useState<DataItem[] | null>(null);
   const pathname = usePathname();
+
   useEffect(()=>{
     const parts = pathname.split('/');
     if(parts.length>1){
