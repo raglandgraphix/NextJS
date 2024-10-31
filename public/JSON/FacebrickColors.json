@@ -57,7 +57,7 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/DesertIronspotDarkSmoothFaceBrick-short.jpg",
+                "image":"https://endicottfiles.com/DesertIronspotDarkSmoothFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/DesertIronspotDarkSmoothFaceBrick-Large.jpg",
@@ -95,7 +95,7 @@
     },
     {
         "id":3,
-        "fullName":"Copper Canyon",
+        "fullName":"Copper_Canyon",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Modular.jpg",
@@ -186,7 +186,7 @@
     },
     {
         "id":5,
-        "fullName":"Medium Ironspot #77",
+        "fullName":"Medium_Ironspot_77",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/MediumIronspot77SmoothFaceBrick-Large.jpg",
@@ -231,7 +231,7 @@
     },
     {
         "id":6,
-        "fullName":"Medium Ironspot #46",
+        "fullName":"Medium_Ironspot_46",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/MediumIronspot46SmoothFaceBrick-Large.jpg",

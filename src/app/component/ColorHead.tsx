@@ -71,7 +71,7 @@ export default function ColorCatalog(){
               <h1 className="univers-55-Oblique d-inline-block ">{Product? Product.replace(/([a-z])([A-Z])/g, '$1 $2'):''}</h1>
               </div>
               <div className="col-6 d-flex justify-content-end">
-              <h2 className="museo-light d-inline  fs-6 fst-italic ">{Color?.replace(/_/g," ")}</h2>
+              <h2 className="museo-light d-inline  fs-6 fst-italic ">{Color==='Medium_Ironspot_77'? Color?.replace(/_/g," ").replace(/77/g,"#77"):(Color==='Medium_Ironspot_46'?Color?.replace(/_/g," ").replace(/46/g,"#46"):Color?.replace(/_/g," "))}</h2>
               </div>
 
             </div>
