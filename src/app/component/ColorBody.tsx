@@ -3,6 +3,7 @@ import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { DataItem} from "../../../Types/ProductTypes";
+import ArchitectSupport from "./ArchitectSupport";
 
 
 
@@ -66,6 +67,7 @@ export default function ColorBody(){
         }
     return(
         <div className="col-7">
+          
             <div className="row border boder-primary">
                 <div className="col-8 border border-danger" >
                     <div className="card ">
@@ -111,7 +113,7 @@ export default function ColorBody(){
 </div>
                 </div>
                 <div className="col-4 border border-success" style={{height:'300px'}}>
-
+<ArchitectSupport/>
                 </div>
 
             </div>
