@@ -131,7 +131,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -177,7 +177,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -222,7 +222,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -267,7 +267,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -276,7 +276,7 @@
     },
     {
         "id":7,
-        "fullName":"Dark Ironspot",
+        "fullName":"Dark_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/DarkIronspotSmoothFaceBrick-Large.jpg",
@@ -312,7 +312,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -321,7 +321,7 @@
     },
     {
         "id":8,
-        "fullName":"Ravenswood Ironspot",
+        "fullName":"Ravenswood_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Large.jpg",
@@ -339,10 +339,10 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/RavenwoodVelourFaceBrick-Short.jpg",
+                "image":"https://endicottfiles.com/RavenswoodVelourFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/RavenswoodSmoothFaceBrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             }
         ],
@@ -350,7 +350,7 @@
     },
     {
         "id":9,
-        "fullName":"Manganese Ironspot",
+        "fullName":"Manganese_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/ManganeseIronspotSmoothFaceBrick-Large.jpg",
@@ -368,7 +368,7 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/ManganeseIronspotSmoothFaceBrick-Short.jpg",
+                "image":"https://endicottfiles.com/ManganeseIronspotVelourFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/ManganeseIronspotSmoothFaceBrick-Large.jpg",
@@ -384,14 +384,14 @@
             },
             {
                 "texture":"Velvetex",
-            "image":"https://endicottfiles.com/ManganeseIronspotVelvetexFaceBrick-Short.jpg",
+            "image":"https://endicottfiles.com/ManganeseIronspotVelevetexFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/ManganeseIronspotVelvetexFaceBrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/ManganeseIronspotVelevetexFaceBrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"https://endicottfiles.com/ManganeseIronspotVerticalScoreFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
@@ -403,7 +403,7 @@
     },
     {
         "id":10,
-        "fullName":"Sienna Ironspot",
+        "fullName":"Sienna_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/SiennaIronspotSmoothFaceBrick-Large.jpg",
@@ -439,7 +439,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -448,7 +448,7 @@
     },
     {
         "id":11,
-        "fullName":"Executive Ironspot",
+        "fullName":"Executive_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive_Ironspot_Smooth_Face_Brick_Base.jpg",
@@ -484,7 +484,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -493,7 +493,7 @@
     },
     {
         "id":12,
-        "fullName":"Heritage 46",
+        "fullName":"Heritage_46",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Heritage_46/Heritage_46_Heritage_Face_Brick_Base.jpg",
@@ -528,7 +528,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -537,7 +537,7 @@
     },
     {
         "id":13,
-        "fullName":"Heritage 46 No Yellow",
+        "fullName":"Heritage_46_No_Yellow",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Heritage_46_No_Yellow/Heritage_46_No_Yellow_Heritage_Face_Brick_Base.jpg",
@@ -572,7 +572,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -581,7 +581,7 @@
     },
     {
         "id":14,
-        "fullName":"Rose Blend",
+        "fullName":"Rose_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Rose_Blend/Rose_Blend_Smooth_Face_Brick_Base.jpg",
@@ -617,7 +617,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -626,7 +626,7 @@
     },
     {
         "id":15,
-        "fullName":"Red Blend",
+        "fullName":"Red_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Red_Blend/Red_Blend_Smooth_Face_Brick_Base.jpg",
@@ -662,7 +662,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -671,7 +671,7 @@
     },
     {
         "id":16,
-        "fullName":"Burgundy Blend",
+        "fullName":"Burgundy_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Burgundy_Blend/Burgundy_Blend_Smooth_Face_Brick_Base.jpg",
@@ -707,7 +707,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -716,7 +716,7 @@
     },
     {
         "id":17,
-        "fullName":"Ruby Red Blend",
+        "fullName":"Ruby_Red_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Ruby_Red_Blend/Ruby_Red_Blend_Smooth_Face_Brick_Base.jpg",
@@ -752,7 +752,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -761,7 +761,7 @@
     },
     {
         "id":18,
-        "fullName":"Bordeaux Blend",
+        "fullName":"Bordeaux_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Bordeaux_Blend/Bordeaux_Blend_Smooth_Face_Brick_Modular.jpg",
@@ -796,7 +796,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -805,7 +805,7 @@
     },
     {
         "id":19,
-        "fullName":"Red Ironspot",
+        "fullName":"Red_Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"/assets/FaceBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Facebrick-Modular.jpg",
@@ -840,7 +840,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -849,7 +849,7 @@
     },
     {
         "id":20,
-        "fullName":"Golden Buff",
+        "fullName":"Golden_Buff",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
@@ -885,7 +885,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -894,7 +894,7 @@
     },
     {
         "id":21,
-        "fullName":"Light Gray Blend",
+        "fullName":"Light_Gray_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Light-Gray-Blend_Face-Brick_Velour_Modular.jpg",
@@ -930,7 +930,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -939,7 +939,7 @@
     },
     {
         "id":22,
-        "fullName":"Gray Blend",
+        "fullName":"Gray_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Gray-Blend_Face-Brick_Smooth_Modular.jpg",
@@ -975,7 +975,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -984,7 +984,7 @@
     },
     {
         "id":23,
-        "fullName":"Sandstone Light",
+        "fullName":"Sandstone_Light",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Sandstone-Light_Face-Brick_Smooth_Modular.jpg",
@@ -1021,7 +1021,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -1030,7 +1030,7 @@
     },
     {
         "id":24,
-        "fullName":"Sandstone Dark",
+        "fullName":"Sandstone_Dark",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
         "mainImage":"https://endicottfiles.com/Sandstone-Dark_Face-Brick_Smooth_Modular.jpg",
@@ -1066,7 +1066,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
@@ -1111,7 +1111,7 @@
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
-                "texture":"Vertical_Score",
+                "texture":"Vertical~Score",
                 "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }

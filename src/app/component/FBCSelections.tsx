@@ -1,3 +1,4 @@
+//FBCSelections is the menu to the right of the product description box.
 'use client';
 import React from "react";
 import { useState, useEffect } from "react";
@@ -53,7 +54,7 @@ export default function FBCSelections (){
   const router =useRouter();
   const TextureChange = (TextureValue:string)=>{
     const newUrl = `/FaceBrick/Colors/${Color}-${TextureValue}`; 
-    router.push(newUrl, undefined);
+    router.replace(newUrl, undefined);
   }        
   return(
     <div className="row univers-55-Roman text-rock h-100  w-100  d-flex justify-content-xl-end justify-content-center   p-0 m-0 pe-1 ">

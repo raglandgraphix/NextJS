@@ -68,7 +68,7 @@ export default function CatalogBody(){
                   <Image className="card-img-top img-fluid" loader={() => (item.mainImage)} width={500} height={500} alt={item.altTag} src={item.mainImage}  />
                     <div className="card-body">
                       <div className="card-title text-center">
-                        <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.fullName==='Medium_Ironspot_77'? item.fullName.replace(/_/g, ' ').replace(/77/g,'#77'):(item.fullName==='Medium_Ironspot_46'?item.fullName.replace(/_/g,' ').replace(/46/g,'#46'):item.fullName.replace(/_/g,' '))}</h2>
+                        <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.fullName.replace(/_/g,' ').replace(/(Medium Ironspot )(\d+)/g,'$1#$2')}</h2>
                       </div>
                     </div>
                 </div>
