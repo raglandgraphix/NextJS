@@ -324,42 +324,26 @@
         "fullName":"Ravenswood Ironspot",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
-        "mainImage":"https://endicottfiles.com/RavenswoodSmoothFaceBrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Ravenswood Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/RavenswoodSmoothFaceBrick-Short.jpg",
+                "image":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/RavenswoodSmoothFaceBrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
                  
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/RavenswoodVelourFaceBrick-Short.jpg",
+                "image":"https://endicottfiles.com/RavenwoodVelourFaceBrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/RavenswoodSmoothFaceBrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/RavenwoodSmoothFaceBrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
-            },
-            {
-                "texture":"Matt",
-                "textureDescription":"With a gently textured surface, Endicott's Matt finish enhances the visual appeal of the brick, adding depth and complexity.",
-                "image":"../assets/Desert-Ironspot-Matt-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
-            },
-            {
-                "texture":"Velvetex",
-                "image":"../assets/Desert-Ironspot-Velvetex-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
-            },
-            {
-                "texture":"Vertical_Score",
-                "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
         ],
         "productLine":"Face Brick"               
