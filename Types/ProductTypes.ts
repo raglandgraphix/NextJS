@@ -6,6 +6,7 @@ export type Texture = {
     fallbackLargeImage?: string; // Optional property
     largeImage?: string; // Optional property
     sizes: string[];
+    artx:string;
   };  
   export type DataItem = {
     id: number;
