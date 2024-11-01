@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
+// import Link from "next/link";
 import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { DataItem } from "../../../Types/ProductTypes";
 
@@ -56,7 +56,7 @@ export default function ArchitectSupport(){
                        item.fullName===Color?item.textures.map((texture)=>(
                         texture.texture===Texture?
                         
-                        <a className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                        <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
                             <div className="row mb-2 border-bottom ">
                                 <div className="col-3">
                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
@@ -85,7 +85,7 @@ export default function ArchitectSupport(){
                         item.fullName===Color?
                         item.textures.map((texture)=>(
                           texture.texture===Texture?
-                          <a href={texture.artx}>
+                          <a key={texture.texture} href={texture.artx}>
                           <Image className="h-75" src='/assets/MiscImages/artx-logo.svg' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                           </a>:'' 
                         )):''
