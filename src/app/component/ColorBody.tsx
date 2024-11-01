@@ -3,6 +3,7 @@ import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { DataItem} from "../../../Types/ProductTypes";
+import { FetchProduct } from "../../../Utilities/FetchProduct";
 import ArchitectSupport from "./ArchitectSupport";
 
 
@@ -37,30 +38,16 @@ export default function ColorBody(){
         
         
       },[pathname]);
-      
-      React.useEffect(() => {
-        let JSONData =  '/JSON/FacebrickColors.json';
-        if(Product==='FaceBrick'){
-          JSONData = '/JSON/FacebrickColors.json';
-        }else if(Product==='ThinBrick'){
-          JSONData = '/JSON/ThinbrickColors.json';
-        }else if(Product==='Paver'){
-          JSONData= '/JSON/PaverColors.json';
-        }
-        
-          const fetchData = async () => {
-            
-            try {
-              const response = await fetch(JSONData);
-              const jsonData: DataItem[] = await response.json(); // Correct type
-              setData(jsonData);
-            } catch (error) {
-              console.error('Error fetching data:', error);
-            }
-          };
-      
-          fetchData();
-        }, [Product]);
+      useEffect(() => {
+        const getData = async () => {
+          const result = await FetchProduct(Product);
+          setData(result);
+        };
+    
+        getData();
+      }, [Product]);
+    
+     
       
         if (!Data) {
           return <div></div>;  
@@ -112,9 +99,9 @@ export default function ColorBody(){
                   }
 </div>
                 </div>
-                <div className="col-4 border border-success" style={{height:'300px'}}>
+                
 <ArchitectSupport/>
-                </div>
+              
 
             </div>
 
