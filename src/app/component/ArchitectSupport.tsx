@@ -44,7 +44,7 @@ export default function ArchitectSupport(){
     
         getData();
       }, [Product]);
-    
+    //Still need to upload all images to the local server instead of the cloudflare to be downloaded due to protections.
     return(
         <div className="col-4" >
         <div className="row">
@@ -56,8 +56,7 @@ export default function ArchitectSupport(){
                        item.fullName===Color?item.textures.map((texture)=>(
                         texture.texture===Texture?
                         
-                        <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                            <div className="row mb-2 border-bottom ">
+                        <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>                           <div className="row mb-2 border-bottom ">
                                 <div className="col-3">
                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                 </div>
