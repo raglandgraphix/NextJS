@@ -5,13 +5,24 @@ import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import { DataItem} from "../../../Types/ProductTypes";
 import { useRouter } from "next/navigation";
-export default function FBCSelections (){
+interface FBCSelectionProps {
+  // product: string;
+  setSelectedSize: (newSize: string) => void; // Define the type of the callback prop
+}
+export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
   const [Product,setProduct]=useState<string | null>(null);
   const [Color,setColor]=useState<string | null>(null);
   const [Texture,setTexture]=useState<string | null>(null);
   const [Data,setData]=useState<DataItem[] | null>(null);
   const pathname = usePathname();
-
+  const [BrickSize,setBrickSize]=useState<string>("Modular");
+  
+  // useEffect(()=>{
+    const ChangeSize = (size:string)=>{
+      setBrickSize(size);
+      setSelectedSize(size);
+    }
+  //})
   useEffect(()=>{
     const parts = pathname.split('/');
     if(parts.length>1){
@@ -84,7 +95,7 @@ export default function FBCSelections (){
             <h2 className="fs-5 ">Sizes</h2>
           </div>
         </div>
-        <div className="row ">
+        <div className="row mt-2">
           <div className="col-12 ">
             <table className=" w-100">
               <tbody> 
@@ -97,7 +108,7 @@ export default function FBCSelections (){
                         return Array.from({ length: rowsCount }, (_, rowIndex) => (
                           <tr key={rowIndex}>
                             {sizes.slice(rowIndex * 3, (rowIndex + 1) * 3).map((size, colIndex) => (
-                              <td className="text-uppercase  mt-2  pt-2 pb-2  text-rock " key={colIndex}>{size}</td>
+                              <td className={`text-uppercase  mt-2  pt-2 pb-2  text-rock ${size===BrickSize?'bg bg-dark rounded-2 text-white':''}`} key={colIndex} onClick={()=>{ChangeSize(size)}}>{size}</td>
                             ))}
                           </tr>
                         ));

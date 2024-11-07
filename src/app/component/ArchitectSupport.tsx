@@ -84,8 +84,17 @@ export default function ArchitectSupport(){
                         item.fullName===Color?
                         item.textures.map((texture)=>(
                           texture.texture===Texture?
-                          <a key={texture.texture} href={texture.artx}>
-                          <Image className="h-75" src='/assets/MiscImages/artx-logo.svg' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
+                          <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                            <div className="row border-bottom">
+                            <div className="col-3">
+                            <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                            </div>
+                            <div className="col-9">
+                                <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                            </div>
+
+                            </div>
+                            
                           </a>:'' 
                         )):''
                     ))
@@ -96,12 +105,20 @@ export default function ArchitectSupport(){
 
         </div>
         
-        <div className="row">
+        <div className="row border-bottom mt-2 pb-2">
             <div className="col">
                 <a href="">
                 <Image src='/assets/MiscImages/CADdetails-Logo-horizontal.svg' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                 </a>
                 
+            </div>
+
+        </div>
+        <div className="row mt-2">
+            <div className="col">
+                <p className="museo-light fst-italic fs-4">Smooth Texture</p>
+                <p>The Smooth texture from Endicott complements both traditional and modern designs with its timeless appeal.</p>
+
             </div>
 
         </div>

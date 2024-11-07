@@ -11,6 +11,12 @@ const nextConfig = {
           port: '', // Optional, if you need to specify a port
           pathname: '/images/**', // Optional, if you need to specify a path
         },
+        {
+          protocol: 'https',
+          hostname: 'endicottfiles.com',
+          port: '',
+          pathname: '/**', // Adjust the pathname if needed 
+        },
         // ... more remote patterns
       ],
     },
@@ -36,6 +42,7 @@ const nextConfig = {
         {
           source: '/ThinBrick/Colors/:colorName', // Match the pattern with the color segment
           destination: '/ThinBrick/Colors/IndividualColor', // Redirect to the Colors page
+          
         },
       ];
     }

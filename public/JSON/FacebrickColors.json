@@ -14,7 +14,7 @@
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                "artx":"https://architextures.org/create?appid=1125",
+                "artx":"https://architextures.org/create/share/48281?appid=1125",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
                  
             },
@@ -24,7 +24,7 @@
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "artx":"https://architextures.org/create?appid=1125",
+                "artx":"https://architextures.org/create/share/48089?appid=1125",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
@@ -32,33 +32,32 @@
                 "textureDescription":"With a gently textured surface, Endicott's Matt finish enhances the visual appeal of the brick, adding depth and complexity.",
                 "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Facebrick-Modular.jpg",
+                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
-                "artx":"https://architextures.org/create?appid=1125",
-                "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
+                "artx":"https://architextures.org/create/share/48287?appid=1125",
+                "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
             },
             {
                 "texture":"Velvetex",
                 "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Short.jpg",
-                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular.jpg",
+                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
-                "artx":"https://architextures.org/create?appid=1125",
+                "artx":"https://architextures.org/create/share/48286?appid=1125",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             },
             {
                 "texture":"Vertical~Score",
                 "image":"https://endicottfiles.com/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Short.jpg",
-                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular.jpg",
+                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
-                "artx":"https://architextures.org/create?appid=1125",
+                "artx":"https://architextures.org/create/share/48288?appid=1125",
                 "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
             }
         ],
         "productLine":"Face Brick",
-        "productCall":"Face_Brick",
-        "projects":[]
+        "projects":["Fort Myers Regional Library","Gotham West Apartments","East Prairie Elementary School "]
     },
     {
         "id":2,

@@ -6,13 +6,16 @@ import { DataItem } from "../../../Types/ProductTypes";
 import FBCSelections from "./FBCSelections";
 import TBCSelections from "./TBCSelections";
 import PCSelections from "./PCSelections";
+interface ColorHeadProps {
+  setSelectedSize: (size: string | null) => void;
+}
 
-
-export default function ColorCatalog(){
+export default function ColorHead({ setSelectedSize }: ColorHeadProps){
  
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
+    //const [SelectedSize,setSelectedSize00]=useState<string>('Modular');
     //const [Texture,setTexture]=useState<string | null>(null);
     
     //const [Description,setDescription]=useState<string | null>(null);
@@ -92,7 +95,7 @@ export default function ColorCatalog(){
           <div className="col-12 col-md-12 col-lg-7 col-xl-5 p-0 ">
 
             {
-              Product==='FaceBrick'?<FBCSelections />:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
+              Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error'))            }
           
           </div>
           

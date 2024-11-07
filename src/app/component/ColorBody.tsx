@@ -2,13 +2,17 @@ import React from "react";
 import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { DataItem} from "../../../Types/ProductTypes";
-import { FetchProduct } from "../../../Utilities/FetchProduct";
+import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
+import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import ArchitectSupport from "./ArchitectSupport";
+import SizeBody from "./SizeBody";
+import ColorProjects from "./ColorProjects";
 
 
-
-export default function ColorBody(){
+interface ColorBodyProps {
+  selectedSize: string | null;
+}
+export default function ColorBody({ selectedSize }: ColorBodyProps){
     //const [selectedColor,setSelectedColor]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Product,setProduct]=useState<string | null>(null);
@@ -53,11 +57,14 @@ export default function ColorBody(){
           return <div></div>;  
         }
     return(
-        <div className="col-7">
+      <div className="row mt-5">
+
+      
+        <div className="col-7 border ">
           
-            <div className="row border boder-primary">
-                <div className="col-8 border border-danger" >
-                    <div className="card ">
+            <div className="row ">
+                <div className="col-8 " >
+                    <div className="card  border-0 ">
 
                     
                    
@@ -72,7 +79,7 @@ export default function ColorBody(){
                                 <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                 <div className="card-body">
                                 <div className="card-title text-center">
-                                  <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture}</h2>
+                                <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture}</h2>
                                 </div>
                               </div>
                               </div>
@@ -98,12 +105,17 @@ export default function ColorBody(){
                     ))
                   }
 </div>
+
                 </div>
                 
 <ArchitectSupport/>
               
 
             </div>
+
+        </div>
+              <SizeBody selectedSize={selectedSize}/>
+              <ColorProjects/>
 
         </div>
     )
