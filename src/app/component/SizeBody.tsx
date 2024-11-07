@@ -45,7 +45,11 @@ export default function SizeBody({ selectedSize }: SizeBodyProps){
 
 const [DisplaySize,setDisplaySize]=useState<string>('Modular');
 useEffect(()=>{
-    selectedSize?setDisplaySize(selectedSize):setDisplaySize('Modular');
+    if (selectedSize) {
+        setDisplaySize(selectedSize);
+      } else {
+        setDisplaySize('Modular');
+      }
 }) 
     return(
 
