@@ -72,8 +72,8 @@ useEffect(()=>{
             <p className="museo-light  fs-4 fst-italic">{DisplaySize}&nbsp;Brick</p>
             <p>Endicott {DisplaySize} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
             {
-                Data?.map((PDF)=>(
-                    PDF.Name===DisplaySize?<a role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''
+                Data?.map((PDF,index)=>(
+                    PDF.Name===DisplaySize?<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''
                 ))
             }
             
