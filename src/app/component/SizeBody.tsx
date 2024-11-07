@@ -58,7 +58,7 @@ useEffect(()=>{
         <div className="col-9">
             {
                 Data?.map((size,index)=>(
-                    size.Name===DisplaySize?<Image key={index} className="card-img-top img-fluid" src={size.image} width={100} height={100} alt="size drawing"/> :''
+                    size.Name===DisplaySize?<Image key={index} className="card-img-top img-fluid" src={size.image} width={500} height={500} alt="size drawing"/> :''
                 ))
             }
         
