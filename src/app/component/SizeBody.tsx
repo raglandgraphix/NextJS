@@ -53,24 +53,24 @@ useEffect(()=>{
 }) 
     return(
 
-<div className="col-5 ms-0 ps-2">
-    <div className="row border">
-        <div className="col-9">
+<div className="col-5  ps-2 ms-auto me-4 ">
+    <div className="row border d-flex justify-content-end h-100">
+        <div className="col-8">
             {
                 Data?.map((size,index)=>(
                     size.Name===DisplaySize?<Image key={index} className="card-img-top img-fluid" src={size.image} width={500} height={500} alt="size drawing"/> :''
                 ))
             }
         
-   <div className="card-body">
+   {/* <div className="card-body">
                                 <div className="card-title text-center">
                                   <h2 className="text-uppercase univers-45-light fs-5 mt-2">Size Drawing</h2>
                                 </div>
-                              </div>
+                              </div> */}
         </div>
-        <div className="col-3 pe-2">
-            <p className="museo-light  fs-4 fst-italic">{DisplaySize}&nbsp;Brick</p>
-            <p>Endicott {DisplaySize} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
+        <div className="col-4 pe-2">
+            <p className="museo-light  fs-4 fst-italic">{DisplaySize.replace(/_/g,"\u00A0")}</p>
+            <p>Endicott {DisplaySize.replace(/_/g,' ')} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
             {
                 Data?.map((PDF,index)=>(
                     PDF.Name===DisplaySize?<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''

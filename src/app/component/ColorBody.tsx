@@ -60,7 +60,7 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
       <div className="row mt-5">
 
       
-        <div className="col-7 border ">
+        <div className="col-6 ms-3 me-3 border">
           
             <div className="row ">
                 <div className="col-8 " >
@@ -75,11 +75,11 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
                           {Texture ? ( // Check if Texture has a value
                             item.textures.map((texture,index) => (
                               texture.texture === Texture ? (
-                                <div key={index} >
+                                <div key={index}>
                                 <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                 <div className="card-body">
                                 <div className="card-title text-center">
-                                <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture}</h2>
+                                {/* <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture.replace(/~/g, ' ')}</h2> */}
                                 </div>
                               </div>
                               </div>
@@ -114,7 +114,10 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
             </div>
 
         </div>
-              <SizeBody selectedSize={selectedSize}/>
+       
+        <SizeBody  selectedSize={selectedSize}/>
+       
+              
               <ColorProjects/>
 
         </div>

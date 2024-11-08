@@ -4,12 +4,15 @@ import { usePathname } from "next/navigation";
 // import Link from "next/link";
 import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { DataItem } from "../../../Types/ProductTypes";
+import { TextureData } from "../../../Types/TextureTypes";
+import { FetchTexture } from "../../../Utilities/FetchTextures";
 
 
 export default function ArchitectSupport(){
 
     
     const [Data,setData]=useState<DataItem[] | null>(null);
+    const [TextureData,setTextureData]=useState<TextureData[] | null>(null);
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Texture,setTexture]=useState<string | null>(null);
@@ -44,9 +47,18 @@ export default function ArchitectSupport(){
     
         getData();
       }, [Product]);
+
+      useEffect(() => {
+        const getData = async () => {
+          const result = await FetchTexture(Texture);
+          setTextureData(result);
+        };
+    
+        getData();
+      }, [Texture]);
     //Still need to upload all images to the local server instead of the cloudflare to be downloaded due to protections.
     return(
-        <div className="col-4" >
+        <div className="col-4 bg-stone-50" >
         <div className="row">
             
             <div className="col">
@@ -116,8 +128,23 @@ export default function ArchitectSupport(){
         </div>
         <div className="row mt-2">
             <div className="col">
-                <p className="museo-light fst-italic fs-4">Smooth Texture</p>
-                <p>The Smooth texture from Endicott complements both traditional and modern designs with its timeless appeal.</p>
+                
+                <p className="museo-light fst-italic fs-4">{Texture} Texture</p>
+                {
+                    Data?.map((item)=>(
+                        item.fullName===Color?
+                            item.textures.map((texture)=>(
+                                texture.texture===Texture?
+                                TextureData?.map((info)=>(
+                                    info.texture===Texture?
+                                    <p>{info.description}</p>:''
+                                )):''
+                                
+                            )):''
+                       
+                    ))
+                }
+                
 
             </div>
 

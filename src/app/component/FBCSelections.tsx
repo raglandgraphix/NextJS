@@ -81,7 +81,7 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
               Data?.map((item)=>(
                 item.fullName===Color?
                   item.textures.map((texture,index)=>(
-                    <span role="button" key={index} className={`d-block text-uppercase   mt-2  pt-2 pb-2 text-rock ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
+                    <span role="button" key={index} className={`d-block text-uppercase   mt-2  pt-2 pb-1.5 text-rock ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
                   ))
                 :''
               ))
@@ -106,9 +106,9 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
                         const sizes = mytexture.sizes;
                         const rowsCount = Math.ceil(sizes.length / 3);
                         return Array.from({ length: rowsCount }, (_, rowIndex) => (
-                          <tr key={rowIndex}>
+                          <tr  key={rowIndex} >
                             {sizes.slice(rowIndex * 3, (rowIndex + 1) * 3).map((size, colIndex) => (
-                              <td className={`text-uppercase  mt-2  pt-2 pb-2  text-rock ${size===BrickSize?'bg bg-dark rounded-2 text-white':''}`} key={colIndex} onClick={()=>{ChangeSize(size)}}>{size}</td>
+                              <td className={`    pt-2 pb-3 `} key={colIndex} onClick={()=>{ChangeSize(size)}}><span className={`text-uppercase p-2.5 text-rock ${size===BrickSize?'bg bg-dark rounded-2 text-white':''}`} >{size.replace(/_/g,' ')}</span></td>
                             ))}
                           </tr>
                         ));

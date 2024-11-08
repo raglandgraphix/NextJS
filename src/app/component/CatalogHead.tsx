@@ -3,11 +3,12 @@ import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
 import Link from 'next/link'
+import ProductBox from "./ProductBox";
 // import Image from "next/image";
 
 export default function ColorCatalog(){
   const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    const [rangeCallout,setRangeCallout]=useState<string | null>(null);
+    const [rangeCallout,setRangeCallout]=useState<string | null >(null);
     const [Product,setProduct]=useState<string | null>(null);
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
     const [ProductHL,setProductHL]=useState<string | null>(null);
@@ -61,26 +62,13 @@ export default function ColorCatalog(){
       } else if (selectedColor === null || selectedColor === 'ALL') { 
         setRangeCallout(''); 
       } else {
-        setRangeCallout(null); // Or a default value for other cases
+        setRangeCallout('All'); // Or a default value for other cases
       }
     },[selectedColor]);
     return(
 <div className="row d-flex justify-content-between ">
-          <div className={`col-12 col-xl-6 ${Product==='FaceBrick'?'faceBrickBox':(Product==='ThinBrick'?'thinBrickBox':(Product==='Paver'?'paverBox':'')) } ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 `}>
-            <div className="row">
-              <div className="col-6">
-              <h1 className="univers-55-Oblique d-inline-block ">{Product? Product.replace(/([a-z])([A-Z])/g, '$1 $2'):''}</h1>
-              </div>
-              <div className="col-6 d-flex justify-content-end">
-              <h2 className="museo-light d-inline  fs-6 fst-italic ">{rangeCallout}</h2>
-              </div>
-
-            </div>
-            
-            
-            <h2 className="museo-light ">{ProductHL}</h2>
-            <span className="univers-55-Roman">{ProductDesc}</span>
-          </div>
+<ProductBox setDescription={rangeCallout} productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
+        
           <div className="col-12 col-xl-5 pb-2 pt-2 ms-xl-3  ">
             
 
