@@ -36,7 +36,7 @@ export default function ArchitectSupport(){
         };
         
 
-    });
+    },[Pathname]);
     
     
     useEffect(() => {
@@ -135,9 +135,9 @@ export default function ArchitectSupport(){
                         item.fullName===Color?
                             item.textures.map((texture)=>(
                                 texture.texture===Texture?
-                                TextureData?.map((info)=>(
+                                TextureData?.map((info,index)=>(
                                     info.texture===Texture?
-                                    <p>{info.description}</p>:''
+                                    <p key={index}>{info.description}</p>:''
                                 )):''
                                 
                             )):''

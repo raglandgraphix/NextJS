@@ -18,7 +18,7 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
     const [Color,setColor]=useState<string | null>(null);
     const [CleanColor,setCleanColor]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    const [Texture,setTexture]=useState<string | null>('Smooth');
+    //const [Texture,setTexture]=useState<string | null>('Smooth');
     const [ProdHL,setProdHL]=useState<string | null>(null);
     const [ProdDesc,setProdDesc]=useState<string | null>(null);
     const pathname = usePathname();
@@ -29,7 +29,7 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
         setColor( getTexture[0]);
         
         setCleanColor(getTexture[0].replace(/_/g,' ').replace(/(Medium Ironspot )(\d+)/g, '$1#$2'));
-        setTexture(getTexture[getTexture.length-1]);
+        //setTexture(getTexture[getTexture.length-1]);
         setProduct(parts[1]);
       }
     },[pathname]);
