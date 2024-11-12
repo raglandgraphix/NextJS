@@ -38,9 +38,9 @@
 				"masonryBudget":"",
 				"completed":"",
 				"index":1,
-				"jobThumb":"assets/faceBrick/stanley/stanleyThumb.jpg",
-				"mainPhoto":"assets/faceBrick/stanley/stanle1.jpg",
-				"photoAlbum":["assets/faceBrick/stanley/stanley1.jpg","assets/faceBrick/stanley/stanley2.jpg","assets/faceBrick/stanley/stanley3.jpg","assets/faceBrick/stanley/stanley4.jpg","assets/faceBrick/stanley/stanley5.jpg","assets/faceBrick/stanley/stanley6.jpg","assets/faceBrick/stanley/stanley7.jpg","assets/faceBrick/stanley/stanley8.jpg","assets/faceBrick/stanley/stanley9.jpg"]
+				"jobThumb":"https://endicottfiles.com/StanleyMuseumBox.jpg",
+				"mainPhoto":"https://endicottfiles.com/StanleyMuseum1.jpg",
+				"photoAlbum":["https://endicottfiles.com/StanleyMuseum1.jpg","https://endicottfiles.com/StanleyMuseum2.jpg","https://endicottfiles.com/StanleyMuseum3.jpg","https://endicottfiles.com/StanleyMuseum4.jpg","https://endicottfiles.com/StanleyMuseum5.jpg","https://endicottfiles.com/StanleyMuseum6.jpg","https://endicottfiles.com/StanleyMuseum7.jpg","https://endicottfiles.com/StanleyMuseum8.jpg","https://endicottfiles.com/StanleyMuseum9.jpg"]
 	},
 	"eastPrairie":{
 		"productName":"Face Brick",

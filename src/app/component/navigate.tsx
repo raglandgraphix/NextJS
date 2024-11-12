@@ -65,7 +65,7 @@ export default function Navigate({pageSettings}:NavigateProps){
         setMainMenuShow(!mainMenuShow);
     }
     return(
-        <nav role="navigation" className={`row ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav`}>
+        <nav role="navigation" className={`row z-2 ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav `}>
             <div className="col-12 p-0 ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">

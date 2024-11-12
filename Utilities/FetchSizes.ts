@@ -1,15 +1,15 @@
 
 import { DataItem } from "../Types/SizesTypes";
 export async function FetchSizes(product: string | null): Promise<DataItem[] | null> {
-    let jsonFilePath = '/JSON/Sizes.json'; // Default path
+    let jsonFilePath = '/JSON/FaceBrickSizes.json'; // Default path
   
-    // if (product === 'FaceBrick') {
-    //   jsonFilePath = '/JSON/FacebrickColors.json';
-    // } else if (product === 'ThinBrick') {
-    //   jsonFilePath = '/JSON/ThinbrickColors.json';
-    // } else if (product === 'Paver') {
-    //   jsonFilePath = '/JSON/PaverColors.json';
-    // }
+    if (product === 'FaceBrick') {
+      jsonFilePath = '/JSON/FaceBrickSizes.json';
+    } else if (product === 'ThinBrick') {
+      jsonFilePath = '/JSON/ThinBrickSizes.json';
+    } else if (product === 'Paver') {
+      jsonFilePath = '/JSON/PaverSizes.json';
+    }
   
     try {
       const response = await fetch(jsonFilePath);

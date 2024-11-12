@@ -7,12 +7,22 @@ export type Product = {
     orderNum: string;
   }
   
-  export type Job = {
+export type Products = {
+    product1: Product;
+    product2?: Product; // Make product2 and subsequent products optional
+    product3?: Product;
+    product4?: Product;
+    product5?: Product;
+    product6?: Product;
+  }
+  
+export type Job = {
     productName: string;
     productType: string;
     jobTitle: string;
     jobName: string;
-    products: { [key: string]: Product }; // Index signature for 'products'
+    altTag: string;
+    products: Products;
     location: string;
     city: string;
     stateLong: string;
@@ -27,21 +37,13 @@ export type Product = {
     cost: string;
     masonryBudget: string;
     completed: string;
-    index: number | string; // Can be number or string
+    index: number;
     jobThumb: string;
     mainPhoto: string;
     photoAlbum: string[];
     gotoLocation?: string; // Optional property
-    coord?: string[];    // Optional property
-    gMapsImage?: string;  // Optional property
+    coord?: string[]; // Optional property
+    gMapsImage?: string; // Optional property
     architect1?: string; // Optional property
-    precaster?: string;  // Optional property
-    extra?: string;      // Optional property
+    "mainImage-Fallback"?: string; // Optional property with hyphen in key
   }
-  
-  export type BrickData = {
-    FaceBrick: { [key: string]: Job };
-    ThinBrick: { [key: string]: Job };
-    Pavers: { [key: string]: Job };
-  }
-  
