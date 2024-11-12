@@ -1,17 +1,17 @@
 import React from "react";
 import { useEffect, useState } from "react";
-//import Image from "next/image";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
-//import { Job } from "../../../Types/ProjectTypes";
+import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
 
 
 export default function ColorProjects(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    //const [ProjectData,setProjectData]=useState<Job[] | null>(null);
+    const [ProjectData,setProjectData]=useState<Job[] | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const pathname = usePathname();
    
@@ -79,26 +79,26 @@ export default function ColorProjects(){
          
            <div className="row">
             {
-                Data.map((item,index)=>(
+                Data.map((item)=>(
                     item.fullName===Color?
-                    <p key={index}>Color</p>:'did not work'
-//                      item.projects?.map((projects)=>(
+                    
+                     item.projects?.map((projects)=>(
                        
-//                          ProjectData?.map((items,index2)=>(
-//                              items.jobTitle===projects?
-//                              <div key={index2} className="col-2">
-//                                 <div className="card border ">
-//                              <Image src={items.jobThumb} alt="" height={500} width={500}/>
-//                              <div className="card-body">
-//                                 <h5 className="card-title fs-6">{items.jobName}</h5>
+                         ProjectData?.map((items,index2)=>(
+                             items.jobTitle===projects?
+                             <div key={index2} className="col-2">
+                                <div className="card border ">
+                             <Image src={items.jobThumb} alt="" height={500} width={500}/>
+                             <div className="card-body">
+                                <h5 className="card-title fs-6">{items.jobName}</h5>
 
-//                             </div>
-// </div>
-//                              </div>:''
-//                          ))
+                            </div>
+</div>
+                             </div>:''
+                         ))
                         
-//                      ))
-                    //:''
+                     ))
+                    :''
                 ))
             }
             
