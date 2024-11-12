@@ -61,7 +61,7 @@ export default function ColorProjects(){
     return(
         <div className="row">
             <div className="col">
-        {
+        {/* {
             Data.map((item)=>(
                 item.fullName===Color?
                 item.projects && (
@@ -74,7 +74,7 @@ export default function ColorProjects(){
                 )
                 :''
             ))
-        }
+        } */}
            
          
            <div className="row">
