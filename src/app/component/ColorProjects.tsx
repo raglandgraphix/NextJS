@@ -81,24 +81,24 @@ export default function ColorProjects(){
             {
                 Data.map((item)=>(
                     item.fullName===Color?
-                    
-                     item.projects?.map((projects)=>(
+                    <p>Color</p>:'did not work'
+//                      item.projects?.map((projects)=>(
                        
-                         ProjectData?.map((items,index2)=>(
-                             items.jobTitle===projects?
-                             <div key={index2} className="col-2">
-                                <div className="card border ">
-                             <Image src={items.jobThumb} alt="" height={500} width={500}/>
-                             <div className="card-body">
-                                <h5 className="card-title fs-6">{items.jobName}</h5>
+//                          ProjectData?.map((items,index2)=>(
+//                              items.jobTitle===projects?
+//                              <div key={index2} className="col-2">
+//                                 <div className="card border ">
+//                              <Image src={items.jobThumb} alt="" height={500} width={500}/>
+//                              <div className="card-body">
+//                                 <h5 className="card-title fs-6">{items.jobName}</h5>
 
-                            </div>
-</div>
-                             </div>:''
-                         ))
+//                             </div>
+// </div>
+//                              </div>:''
+//                          ))
                         
-                     ))
-                    :''
+//                      ))
+                    //:''
                 ))
             }
             
