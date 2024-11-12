@@ -121,7 +121,7 @@ export default function ColorProjects(){
            </div> */}
            <div className="row">
             {
-                Data.map((item,index)=>(
+                Data.map((item)=>(
                     item.fullName===Color?
                     
                      item.projects?.map((projects)=>(
