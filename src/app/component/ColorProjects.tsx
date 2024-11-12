@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+//import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
