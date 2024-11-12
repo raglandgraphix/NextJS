@@ -1,17 +1,17 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+//import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
-import { Job } from "../../../Types/ProjectTypes";
+//import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
 
 
 export default function ColorProjects(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    const [ProjectData,setProjectData]=useState<Job[] | null>(null);
+    //const [ProjectData,setProjectData]=useState<Job[] | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const pathname = usePathname();
    
@@ -79,9 +79,9 @@ export default function ColorProjects(){
          
            <div className="row">
             {
-                Data.map((item)=>(
+                Data.map((item,index)=>(
                     item.fullName===Color?
-                    <p>Color</p>:'did not work'
+                    <p key={index}>Color</p>:'did not work'
 //                      item.projects?.map((projects)=>(
                        
 //                          ProjectData?.map((items,index2)=>(
