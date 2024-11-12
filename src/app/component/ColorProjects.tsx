@@ -61,7 +61,7 @@ export default function ColorProjects(){
     return(
         <div className="row">
             <div className="col">
-        {/* {
+        {
             Data.map((item)=>(
                 item.fullName===Color?
                 item.projects && (
@@ -74,7 +74,7 @@ export default function ColorProjects(){
                 )
                 :''
             ))
-        } */}
+        }
            
          
            <div className="row">
@@ -88,7 +88,8 @@ export default function ColorProjects(){
                              items.jobTitle===projects?
                              <div key={index2} className="col-2">
                                 <div className="card border ">
-                             <Image src={items.jobThumb} alt="" height={500} width={500}/>
+                                    <p>{items.jobThumb}</p>
+                             {/* <Image src={items.jobThumb} alt="" height={500} width={500}/> */}
                              <div className="card-body">
                                 <h5 className="card-title fs-6">{items.jobName}</h5>
 
