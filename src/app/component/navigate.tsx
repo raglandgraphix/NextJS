@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const linkData = {
     'Projects': [
-    { text: 'All Projects', link: '/projects' },
-    { text: 'Face Brick', link: '/projects/facebrick' },
+    // { text: 'All Projects', link: '/FaceBrick/Projects' },
+    { text: 'Face Brick', link: '/FaceBrick/Projects' },
     { text: 'Thin Brick', link: '/projects/thinbrick' },
     { text: 'Pavers', link: '/projects/pavers' }
   ],

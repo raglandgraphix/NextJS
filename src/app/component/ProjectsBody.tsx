@@ -5,20 +5,22 @@ import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { SplitPathname } from "../../../Utilities/SplitPathname";
 
 
 export default function ProjectBody( ){
+    const { Product,RangeColors } = SplitPathname();
     const pathname = usePathname();
-    const [Product,setProduct]=useState<string | null>(null);
+    //const [Product,setProduct]=useState<string | null>(null);
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
-    const [RangeColors,setRangeColors]=useState<string | null>(null);
-    useEffect(()=>{
-        const parts = pathname.split('/');
-        if(parts.length>1){
-            setProduct(parts[1]);
-            setRangeColors( parts[2].includes('-')?pathname.split('-')[1]:null);
-        }
-    })
+    //const [RangeColors,setRangeColors]=useState<string | null>(null);
+    // useEffect(()=>{
+    //     const parts = pathname.split('/');
+    //     if(parts.length>1){
+    //         setProduct(parts[1]);
+    //         setRangeColors( parts[2].includes('-')?pathname.split('-')[1]:null);
+    //     }
+    // })
     useEffect(() => {
         const getProjectData = async () => {
           const result = await FetchProjects(Product);
