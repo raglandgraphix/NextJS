@@ -6,10 +6,7 @@ import { FetchProjects } from "../../../Utilities/FetchProjects";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-interface ProjectBodyProps {
-    //RangeColors: string;
-   // product:string;
-  }
+
 export default function ProjectBody( ){
     const pathname = usePathname();
     const [Product,setProduct]=useState<string | null>(null);
