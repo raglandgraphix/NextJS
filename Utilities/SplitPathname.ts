@@ -5,8 +5,8 @@ import { usePathname } from 'next/navigation';
 
 
 export const SplitPathname = () => {
-  const [product, setProduct] = useState<string | null>(null);
-  const [rangeColors, setRangeColors] = useState<string | null>(null);
+  const [Product, setProduct] = useState<string | null>(null);
+  const [RangeColors, setRangeColors] = useState<string | null>(null);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -15,8 +15,8 @@ export const SplitPathname = () => {
       setProduct(parts[1]);
       setRangeColors(parts[2].includes('-') ? pathname.split('-')[1] : null);
     }
-    console.log(rangeColors);
-  }, [pathname,  rangeColors]);
+    console.log(RangeColors);
+  }, [pathname,  RangeColors]);
 
-  return { product, setProduct,  rangeColors, setRangeColors };
+  return { Product, setProduct,  RangeColors, setRangeColors };
 };

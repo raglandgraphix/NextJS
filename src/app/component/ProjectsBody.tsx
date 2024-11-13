@@ -4,7 +4,6 @@ import { useState,useEffect } from "react";
 import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 
 
