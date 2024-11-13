@@ -6,20 +6,7 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 export default function ProductRangeSelection(){
     const {Product,Page,RangeColors}= SplitPathname();
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
-    const [Color,setColor]=useState<string | null>(null);
-    useEffect(()=>{
-        if(RangeColors==='Red' || RangeColors==='Burgundy'){
-            setColor('Red/Burgundy');            
-        }else if(RangeColors==='Black' || RangeColors==='Plum'){
-            setColor('Black/Plum');            
-        }else if(RangeColors==='Gray' || RangeColors==='White' || RangeColors==='Cream' || RangeColors==='Buff'){
-            setColor('Gray/White/Cream/Buff');            
-        }else if(RangeColors==='Tan' || RangeColors==='Brown' || RangeColors==='Orange'){
-            setColor('Tan/Brown/Orange');            
-        }else{
-            setColor(null);            
-        }
-    },[RangeColors]);
+   
     useEffect(()=>{
         if(Product==='FaceBrick'){
           setProductRange(["All","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"]);       
