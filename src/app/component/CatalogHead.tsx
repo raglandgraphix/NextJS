@@ -11,7 +11,7 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 export default function ColorCatalog(){
   const {Product}=SplitPathname();
   // const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    const [rangeCallout,setRangeCallout]=useState<string | null >(null);
+    //const [rangeCallout,setRangeCallout]=useState<string | null >(null);
     //const [Product,setProduct]=useState<string | null>(null);
     //const [ProductRange,setProductRange]=useState<string[] | null>(null);
     const [ProductHL,setProductHL]=useState<string | null>(null);
@@ -70,7 +70,7 @@ export default function ColorCatalog(){
     // },[selectedColor]);
     return(
 <div className="row d-flex justify-content-between ">
-<ProductBox setDescription={rangeCallout} productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
+<ProductBox setDescription='' productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
  <ProductRangeSelection/>       
           
         </div>
