@@ -7,19 +7,20 @@ import Image from "next/image";
 
 interface ProjectBodyProps {
     sharedValue: string;
+    product:string;
   }
-export default function ProjectBody( { sharedValue }: ProjectBodyProps){
-    const [Product,setProduct]=useState<string | null>(null);
+export default function ProjectBody( { sharedValue,product }: ProjectBodyProps){
+    //const [Product,setProduct]=useState<string | null>(null);
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
     
     useEffect(() => {
         const getProjectData = async () => {
-          const result = await FetchProjects(Product);
+          const result = await FetchProjects(product);
           setProjectData(result);
         };
     
         getProjectData();
-      }, [Product]);
+      }, [product]);
 
     return(
         <div className="row">
