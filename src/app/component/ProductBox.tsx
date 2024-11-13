@@ -3,7 +3,6 @@ import React from "react";
 import { useState,useEffect } from "react";
 import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
-import { usePathname } from "next/navigation";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 interface ProductBoxProps {
   setDescription: string | null;

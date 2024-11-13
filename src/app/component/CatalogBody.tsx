@@ -1,7 +1,6 @@
 'use client';
 import React from "react";
-import { useState, useEffect } from "react";
-import {usePathname} from 'next/navigation';
+import { useState} from "react";
 import Link from 'next/link'
 import Image from "next/image";
 import {DataItem} from '../../../Types/ProductTypes';
