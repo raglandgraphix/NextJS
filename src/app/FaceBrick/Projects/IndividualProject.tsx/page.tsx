@@ -31,6 +31,7 @@ useEffect(() => {
     };
 
     getProjectData();
+    console.log(ProjectData)
   }, [Product]);
 
   
