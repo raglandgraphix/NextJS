@@ -5,27 +5,28 @@ import {usePathname} from 'next/navigation';
 import Link from 'next/link'
 import Image from "next/image";
 import {DataItem} from '../../../Types/ProductTypes';
+import { SplitPathname } from "../../../Utilities/SplitPathname";
 
   
  
 export default function CatalogBody(){
   
-    //console.log(productType);
+    const {Product,RangeColors}=SplitPathname();
     const [data, setData] = useState<DataItem[] | null>(null); // Correct type
-    const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    const [Product,setProduct]= useState<string | null>(null);
+    //const [RangeColors,setRangeColors]=useState<string | null>(null);
+    //const [Product,setProduct]= useState<string | null>(null);
     //const [JSONData,setJSONData]=useState<string | null>(null);
      
    
-     const pathname = usePathname();
-     useEffect(()=>{
-       setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
-       const parts = pathname.split('/');
-      if(parts.length>1){
-        setProduct(parts[1]);
-      }
+    //  const pathname = usePathname();
+    //  useEffect(()=>{
+    //    setRangeColors(pathname.includes('-')?pathname.split('-')[1]:null);
+    //    const parts = pathname.split('/');
+    //   if(parts.length>1){
+    //     setProduct(parts[1]);
+    //   }
       
-    },[pathname]);
+    // },[pathname]);
 
    
    
@@ -60,7 +61,7 @@ export default function CatalogBody(){
         <div className="row d-flex justify-content-center justify-content-md-start">
           {
             data.map((item)=>(
-              selectedColor === 'ALL' || selectedColor === null || item.colorGroup.some(color => (selectedColor ?? '').includes(color)) ? (
+              RangeColors === 'All' || RangeColors === null || item.colorGroup.some(color => (RangeColors ?? '').includes(color)) ? (
                 
               <div key={item.id} className=" col-11 col-md-6 col-xl-4 mb-5">
                 <Link className="text-decoration-none" href={`/${Product}/Colors/${item.fullName}`} >

@@ -1,24 +1,52 @@
-'use client'
 import React from "react";
-import Navigate from "../../component/navigate";
-import ProjectsHead from "../../component/ProjectsHead";
+import Navigate from "@/app/component/navigate";
+import ProjectsHead from "@/app/component/ProjectsHead";
 import Footer from "@/app/component/footer";
 import ProjectBody from "@/app/component/ProjectsBody";
-//import { useState } from "react"; 
-
-
-
 export default function Projects(){
-    //const [sharedValue, setSharedValue] = useState('Initial value'); 
-    //const [product, setProduct] = useState<string>('FaceBrick');
     return(
         <div className="container-fluid">           
            <Navigate pageSettings="light"/>
            <ProjectsHead  />
            <ProjectBody />
            <Footer pageSetUp="light"/>
-
-
         </div>
-    )
+    )    
 }
+export function generateMetadata() {
+    return {
+      title: 'Endicott Brick Projects | Inspiring Architectural Designs', 
+      description: 'Explore a diverse gallery of projects showcasing the beauty and versatility of Endicott brick in various architectural styles.',
+      keywords: 'Endicott, brick, projects, architecture, design, face brick, thin brick, pavers, commercial, residential, inspiration', 
+      openGraph: {
+        title: 'Endicott Brick Projects',
+        description: 'Discover inspiring architectural designs featuring Endicott brick.',
+        url: 'https://www.endicott.com/projects', 
+        siteName: 'Endicott',
+        images: [
+          {
+            url: 'https://endicottfiles.com/StanleyMuseumBox.jpg', 
+            width: 800,
+            height: 800,
+          },
+          {
+            url: 'https://endicottfiles.com/EastPrairieBox.jpg',
+            width: 800,
+            height: 800,
+          },
+        ],
+        locale: 'en_US',
+        type: 'website',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Endicott Brick Projects',
+        description: 'Get inspired by these architectural designs featuring Endicott brick.',
+        site: 'https://x.com/EndicottBrick', 
+        images: [
+          'https://endicottfiles.com/StanleyMuseumBox.jpg',
+          'https://endicottfiles.com/EastPrairieBox.jpg',
+        ],
+      },
+    };
+  }
