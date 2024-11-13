@@ -9,13 +9,13 @@ import { useState } from "react";
 
 
 export default function Projects(){
-    const [sharedValue, setSharedValue] = useState('Initial value'); 
+    //const [sharedValue, setSharedValue] = useState('Initial value'); 
     const [product, setProduct] = useState<string>('FaceBrick');
     return(
         <div className="container-fluid">           
            <Navigate pageSettings="light"/>
            <ProjectsHead  />
-           <ProjectBody product={product}/>
+           <ProjectBody />
            <Footer pageSetUp="light"/>
 
 

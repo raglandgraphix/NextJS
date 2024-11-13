@@ -5,11 +5,11 @@ import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-interface ProjectHeadProps {
-    setSharedValue: (newValue: string) => void;
-  }
+// interface ProjectHeadProps {
+//     setSharedValue: (newValue: string) => void;
+//   }
 
-export default function ProjectsHead({ setSharedValue }: ProjectHeadProps){
+export default function ProjectsHead(){
     //const [Color,setColor]=useState<string | null>(null);
     //const [rangeCallout,setRangeCallout]=useState<string | null >(null);
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
@@ -27,7 +27,7 @@ export default function ProjectsHead({ setSharedValue }: ProjectHeadProps){
         setProduct(parts[1]);
       if(parts.length>1){
         const PathColor = parts[2].includes('-')?pathname.split('-')[1]:null;
-        setSharedValue(PathColor as string);
+        
           if(PathColor==='Red' || PathColor==='Burgundy'){
             setColor('Red/Burgundy ');
             setHeader("Get Inspired by Red and Burgundy Brick Projects");

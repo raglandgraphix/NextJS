@@ -8,27 +8,28 @@ import { usePathname } from "next/navigation";
 
 interface ProjectBodyProps {
     //RangeColors: string;
-    product:string;
+   // product:string;
   }
-export default function ProjectBody( { product }: ProjectBodyProps){
+export default function ProjectBody( ){
     const pathname = usePathname();
-    //const [Product,setProduct]=useState<string | null>(null);
+    const [Product,setProduct]=useState<string | null>(null);
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
     const [RangeColors,setRangeColors]=useState<string | null>(null);
     useEffect(()=>{
         const parts = pathname.split('/');
         if(parts.length>1){
+            setProduct(parts[1]);
             setRangeColors( parts[2].includes('-')?pathname.split('-')[1]:null);
         }
     })
     useEffect(() => {
         const getProjectData = async () => {
-          const result = await FetchProjects(product);
+          const result = await FetchProjects(Product);
           setProjectData(result);
         };
     
         getProjectData();
-      }, [product]);
+      }, [Product]);
 
     return(
         <div className="row">
