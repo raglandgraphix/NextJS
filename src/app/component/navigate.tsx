@@ -44,8 +44,9 @@ const linkData = {
         {text:'Apply Online',link:'/Apply'}] 
 };
 type LinkDataKey = keyof typeof linkData;
+type PageSettings = 'light'|'dark'|'gradient';//this sets the only options that can be chosen.
 interface NavigateProps {
-    pageSettings: string;
+    pageSettings: PageSettings;
 }
 export default function Navigate({pageSettings}:NavigateProps){
     const pageSetup = pageSettings;

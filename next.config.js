@@ -44,6 +44,10 @@ const nextConfig = {
           destination: '/ThinBrick/Colors/IndividualColor', // Redirect to the Colors page
           
         },
+        {
+          source: '/FaceBrick/Projects-:color', // Match the pattern with the color segment
+          destination: '/FaceBrick/Projects', // Redirect to the Colors page
+        },
       ];
     }
   };

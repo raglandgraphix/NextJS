@@ -45,5 +45,6 @@ export type Job = {
     coord?: string[]; // Optional property
     gMapsImage?: string; // Optional property
     architect1?: string; // Optional property
+    colorRange:string[];
     "mainImage-Fallback"?: string; // Optional property with hyphen in key
   }

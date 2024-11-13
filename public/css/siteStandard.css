@@ -89,4 +89,16 @@ body{
 .bg-stone-50{
 	background-color: rgba(168, 169, 158, 0.5); 
 }
-
+.bg-white-75{
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.project-container:hover .text-overlay {
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .text-overlay {
+	visibility: hidden; 
+	opacity: 0; 
+	transition: opacity 1s ease; 
+  }
