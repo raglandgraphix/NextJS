@@ -4,15 +4,23 @@ import { useState,useEffect } from "react";
 import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 interface ProjectBodyProps {
-    sharedValue: string;
+    //RangeColors: string;
     product:string;
   }
-export default function ProjectBody( { sharedValue,product }: ProjectBodyProps){
+export default function ProjectBody( { product }: ProjectBodyProps){
+    const pathname = usePathname();
     //const [Product,setProduct]=useState<string | null>(null);
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
-    
+    const [RangeColors,setRangeColors]=useState<string | null>(null);
+    useEffect(()=>{
+        const parts = pathname.split('/');
+        if(parts.length>1){
+            setRangeColors( parts[2].includes('-')?pathname.split('-')[1]:null);
+        }
+    })
     useEffect(() => {
         const getProjectData = async () => {
           const result = await FetchProjects(product);
@@ -26,9 +34,9 @@ export default function ProjectBody( { sharedValue,product }: ProjectBodyProps){
         <div className="row">
             {
                 ProjectData?.map((item, index)=>(
-                    sharedValue ? (
+                    RangeColors ? (
                         item.colorRange.map((items)=>(
-                            items===sharedValue?
+                            items===RangeColors?
                             <div key={index} className="col-3 mb-3 position-relative d-flex justify-content-center project-container ">
                             <Image className="rounded-3" src={item.jobThumb} alt="some description" width={500} height={500}/>
                             <div className=" bg-white-75 w-100 position-absolute bottom-0 rounded-bottom-2  text-overlay ">

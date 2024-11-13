@@ -10,7 +10,8 @@ interface ProjectHeadProps {
   }
 
 export default function ProjectsHead({ setSharedValue }: ProjectHeadProps){
-   
+    //const [Color,setColor]=useState<string | null>(null);
+    //const [rangeCallout,setRangeCallout]=useState<string | null >(null);
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Header,setHeader]=useState<string | null>(null);

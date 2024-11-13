@@ -14,8 +14,8 @@ export default function Projects(){
     return(
         <div className="container-fluid">           
            <Navigate pageSettings="light"/>
-           <ProjectsHead setSharedValue={setSharedValue} />
-           <ProjectBody sharedValue={sharedValue} product={product}/>
+           <ProjectsHead  />
+           <ProjectBody product={product}/>
            <Footer pageSetUp="light"/>
 
 
