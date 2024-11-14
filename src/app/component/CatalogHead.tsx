@@ -9,9 +9,9 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 
 
 export default function ColorCatalog(){
-  const {Product}=SplitPathname();
-  // const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    //const [rangeCallout,setRangeCallout]=useState<string | null >(null);
+  const {Product,RangeColors}=SplitPathname();
+  // const [RangeColors,setRangeColors]=useState<string | null>(null);
+    const [rangeCallout,setRangeCallout]=useState<string | null >(null);
     //const [Product,setProduct]=useState<string | null>(null);
     //const [ProductRange,setProductRange]=useState<string[] | null>(null);
     const [ProductHL,setProductHL]=useState<string | null>(null);
@@ -32,7 +32,7 @@ export default function ColorCatalog(){
     //     setProduct(parts[1]);
     //   }
      
-    //   setSelectedColor(pathname.includes('-')?pathname.split('-')[1]:null);
+    //   setRangeColors(pathname.includes('-')?pathname.split('-')[1]:null);
       
       
     // },[pathname]);
@@ -53,21 +53,21 @@ export default function ColorCatalog(){
         //setProductRange(null);
       }
     },[Product]);
-    // useEffect(()=>{
-    //   if (selectedColor === 'Red' || selectedColor === 'Burgundy') {
-    //     setRangeCallout('RED/BURGUNDY');
-    //   } else if (selectedColor === 'Black' || selectedColor === 'Plum') {
-    //     setRangeCallout('BLACK/PLUM');
-    //   } else if (selectedColor === 'Gray' || selectedColor === 'White' || selectedColor === 'Cream' || selectedColor === 'Buff') {
-    //     setRangeCallout('GRAY/WHITE/CREAM/BUFF');
-    //   } else if (selectedColor === 'Tan' || selectedColor === 'Brown' || selectedColor === 'Orange') {
-    //     setRangeCallout('TAN/BROWN/ORANGE');
-    //   } else if (selectedColor === null || selectedColor === 'ALL') { 
-    //     setRangeCallout(''); 
-    //   } else {
-    //     setRangeCallout('All'); // Or a default value for other cases
-    //   }
-    // },[selectedColor]);
+    useEffect(()=>{
+      if (RangeColors === 'Red' || RangeColors === 'Burgundy') {
+        setRangeCallout('RED/BURGUNDY');
+      } else if (RangeColors === 'Black' || RangeColors === 'Plum') {
+        setRangeCallout('BLACK/PLUM');
+      } else if (RangeColors === 'Gray' || RangeColors === 'White' || RangeColors === 'Cream' || RangeColors === 'Buff') {
+        setRangeCallout('GRAY/WHITE/CREAM/BUFF');
+      } else if (RangeColors === 'Tan' || RangeColors === 'Brown' || RangeColors === 'Orange') {
+        setRangeCallout('TAN/BROWN/ORANGE');
+      } else if (RangeColors === null || RangeColors === 'ALL') { 
+        setRangeCallout(''); 
+      } else {
+        setRangeCallout('All'); // Or a default value for other cases
+      }
+    },[RangeColors]);
     return(
 <div className="row d-flex justify-content-between ">
 <ProductBox setDescription='' productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
