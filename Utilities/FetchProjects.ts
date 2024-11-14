@@ -1,7 +1,7 @@
 import { Job } from "../Types/ProjectTypes";
 //import { DataItem } from "../Types/SizesTypes";
 export async function FetchProjects(product: string | null): Promise<Job[] | null> {
-    let jsonFilePath = '/JSON/FaceBrickProjects.json'; // Default path
+    let jsonFilePath = '/JSON/FacebrickProjects.json'; // Default path
   
     if (product === 'FaceBrick') {
       jsonFilePath = '/JSON/FacebrickProjects.json';
