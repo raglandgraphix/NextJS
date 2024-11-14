@@ -37,22 +37,18 @@ export default function ColorProjects(){
 
     useEffect(() => {
         const getData = async () => {
-          const result = await FetchProduct(Product);
-          setData(result);
-
-        
-        };
-    
-        getData();
-      }, [Product]);
-    
-      useEffect(() => {
-        const getProjectData = async () => {
-          const result = await FetchProjects(Product);
-          setProjectData(result);
-        };
-    
-        getProjectData();
+            if (Product) { // Only fetch data if Product is not null
+              const result = await FetchProduct(Product);
+              setData(result);
+      
+              if (result) {
+                const projectResult = await FetchProjects(Product);
+                setProjectData(projectResult);
+              }
+            }
+          };
+      
+          getData();
       }, [Product]);
       
         if (!Data) {
