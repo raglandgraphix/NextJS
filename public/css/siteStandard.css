@@ -102,3 +102,6 @@ body{
 	opacity: 0; 
 	transition: opacity 1s ease; 
   }
+  .overflow-x-hidden{
+	overflow-x: hidden;
+  }

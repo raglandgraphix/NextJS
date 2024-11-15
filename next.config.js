@@ -49,6 +49,15 @@ const nextConfig = {
           destination: '/FaceBrick/Projects', // Redirect to the Colors page
         },
         
+        {
+          source: '/FaceBrick/:jobTitle', // Match the pattern with the color segment
+          destination: '/FaceBrick/Projects/IndividualProject', // Redirect to the Colors page
+        },
+        {
+          source: '/apply', // Match the pattern with the color segment
+          destination: '/Careers', // Redirect to the Colors page
+        },
+        
       ];
     }
   };

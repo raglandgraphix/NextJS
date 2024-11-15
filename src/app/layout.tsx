@@ -3,6 +3,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import '/public/css/siteStandard.css';
 // import Head from "next/head";
 
@@ -35,7 +36,7 @@ export default function RootLayout({
 /> 
 </Head> */}
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}style={{ paddingTop: '150px' }}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}style={{ paddingTop: '125px' } }
       >
         {children}
       </body>

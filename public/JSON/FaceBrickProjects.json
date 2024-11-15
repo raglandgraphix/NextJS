@@ -2,28 +2,28 @@
 	{
 				"productName":"Face Brick",
 				"productType":"faceBrick",
-				"jobTitle":"stanley",
+				"jobTitle":"Stanley",
 				"jobName":"Stanley Museum of Art ",
 				"altTag": "The Stanley Museum of Art at the University of Iowa, featuring a striking facade of Endicott Manganese Ironspot face brick in a velour texture.", 
 				"colorRange":["Black"],
-                "products":{
-					"product1":{
-					"color":"Manganese Ironspot",
+                "products":[
+                    {
+                    "color":"Manganese Ironspot",
 					"colorSafe":"manganese",
 					"size":"Norman",
 					"texture":"Velour",
 					"qty":"N/A",
 					"orderNum":""
-					},
-					"product2":{
-						"color":"Manganese Ironspot",
+                    },
+                    {"color":"Manganese Ironspot",
 						"colorSafe":"manganese",
 						"size":"Shapes",
 						"texture":"Velour",
 						"qty":"N/A",
 						"orderNum":""
-						}
-				},
+						
+                    }
+                ],				
 				"location":"160 W Burlington St",
 				"city":"Iowa City",
 				"stateLong":"Iowa ",
@@ -40,35 +40,33 @@
 				"completed":"",
 				"index":1,
 				"jobThumb":"https://endicottfiles.com/StanleyMuseumBox.jpg",
-				"mainPhoto":"assets/faceBrick/stanley/stanle1.jpg",
-				"photoAlbum":["assets/faceBrick/stanley/stanley1.jpg","assets/faceBrick/stanley/stanley2.jpg","assets/faceBrick/stanley/stanley3.jpg","assets/faceBrick/stanley/stanley4.jpg","assets/faceBrick/stanley/stanley5.jpg","assets/faceBrick/stanley/stanley6.jpg","assets/faceBrick/stanley/stanley7.jpg","assets/faceBrick/stanley/stanley8.jpg","assets/faceBrick/stanley/stanley9.jpg"]
+				"mainPhoto":"https://endicottfiles.com/StanleyMuseum1.jpg",
+				"photoAlbum":["https://endicottfiles.com/StanleyMuseum1.jpg","https://endicottfiles.com/StanleyMuseum2.jpg","https://endicottfiles.com/StanleyMuseum3.jpg","https://endicottfiles.com/StanleyMuseum4.jpg","https://endicottfiles.com/StanleyMuseum5.jpg","https://endicottfiles.com/StanleyMuseum8.jpg","https://endicottfiles.com/StanleyMuseum9.jpg"]
 	},
 	{
 		"productName":"Face Brick",
 		"productType":"faceBrick",
-		"jobTitle":"eastPrairie",
+		"jobTitle":"EastPrairie",
 		"jobName":"East Prairie Elementary School ",
 		"colorRange":["Gray","Tan"],
         "altTag": "East Prairie Elementary School in Skokie, Illinois, showcasing a blend of Endicott Desert Ironspot Light and Medium Ironspot #77 bricks in a smooth texture.", 
-		"products":{
-			"product1":{
-			"color":"Desert Ironspot Light",
+		"products":[
+            {"color":"Desert Ironspot Light",
 			"colorSafe":"desertLight",
 			"size":"Utility",
 			"texture":"Smooth",
 			"qty":"N/A",
-			"orderNum":""
-			},
-			"product2":{
-				"color":"Medium Ironspot #77",
-				"colorSafe":"medIS77",
-				"size":"Utility",
-				"texture":"Artisan",
-				"qty":"N/A",
-				"orderNum":""
-				}
-		},
-		"location":"7616 E Prairie Rd",
+			"orderNum":""},
+            {
+            "color":"Medium Ironspot #77",
+            "colorSafe":"medIS77",
+            "size":"Utility",
+            "texture":"Artisan",
+            "qty":"N/A",
+            "orderNum":""
+            }
+        ],
+        "location":"7616 E Prairie Rd",
 		"city":"Skokie",
 		"stateLong":"Illinois ",
 		"stateShort":" IL ",
@@ -84,67 +82,67 @@
 		"completed":"",
 		"index":1,
 		"jobThumb":"https://endicottfiles.com/EastPrairieBox.jpg",
-		"mainPhoto":"assets/faceBrick/eastPrairie/eastPrairie1.jpg",
-		"photoAlbum":["assets/faceBrick/eastPrairie/eastPrairie1.jpg","assets/faceBrick/eastPrairie/eastPrairie2.jpg","assets/faceBrick/eastPrairie/eastPrairie3.jpg","assets/faceBrick/eastPrairie/eastPrairie4.jpg","assets/faceBrick/eastPrairie/eastPrairie5.jpg"]
+		"mainPhoto":"https://endicottfiles.com/EastPrairie1.jpg",
+		"photoAlbum":["https://endicottfiles.com/EastPrairie1.jpg","https://endicottfiles.com/EastPrairie2.jpg","https://endicottfiles.com/EastPrairie3.jpg","https://endicottfiles.com/EastPrairie4.jpg","https://endicottfiles.com/EastPrairie5.jpg"]
 },
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"zachary",
+    "jobTitle":"Zachary",
     "jobName":"Hotel Zachary, Chicago, a Tribute Portfolio Hotel",
     "altTag":"Hotel Zachary in Chicago, Illinois, featuring a sophisticated blend of Endicott Desert Ironspot Dark and Medium Ironspot #77 bricks.",
     "colorRange":["Black","Tan"],
-    "products":{
-        "product1":{
+    "products":[
+    {
         "color":"Desert Ironspot Dark",
         "colorSafe":"desertDark",
         "size":"Modular",
         "texture":"smooth",
         "qty":"N/A",
         "orderNum":"212014"
-        },
-        "product2":{
+        
+    },
+    {
         "color":"Desert Ironspot Dark",
         "colorSafe":"desertDark",
         "size":"Norman",
         "texture":"smooth",
         "qty":"",
         "orderNum":"212014"
-        },
-        "product3":{
+    },
+    {
         "color":"Medium Ironspot #77",
         "colorSafe":"medIS77",
         "size":"Modular",
         "texture":"smooth",
         "qty":"",
         "orderNum":"212014"
-        },
-        "product4":{
+        
+    },{
         "color":"Medium Ironspot #77",
         "colorSafe":"medIS77",
         "size":"Utility",
         "texture":"smooth",
         "qty":"",
         "orderNum":"212014"
-        },
-        "product5":{
+        
+    },{
         "color":"Dark Ironspot",
         "colorSafe":"darkIronspot",
         "size":"Modular",
         "texture":"smooth",
         "qty":"",
         "orderNum":"212014"
-        },
-        "product6":{
+    },
+    {
         "color":"Medium Ironspot #77",
         "colorSafe":"medIS77",
         "size":"Shapes",
         "texture":"smooth",
         "qty":"",
         "orderNum":"212014"
-        }
-
-    },
+    }
+    ],
     "location":"3630 N Clark St",
     "city":"Chicago",
     "stateLong":"Illinois ",
@@ -171,8 +169,8 @@
     "jobName":"Nebraska Department Environment & Energy.",
     "altTag":"The Nebraska Department of Environment & Energy building in Lincoln, Nebraska, featuring a facade of Endicott Sienna Ironspot and Copper Canyon Face brick with a velour texture.",
     "colorRange":["Black","Tan"],
-    "products":{
-        "product1":{
+    "products":[
+        {
         "color":"Sienna Ironspot",
         "colorSafe":"siennaIronspot",
         "size":"Meridian",
@@ -180,7 +178,7 @@
         "qty":"N/A",
         "orderNum":""
         },
-        "product2":{
+        {
         "color":"Copper Canyon",
         "colorSafe":"copperCanyon",
         "size":"Meridian",
@@ -188,8 +186,7 @@
         "qty":"",
         "orderNum":""
         }
-
-    },
+    ],
     "location":"245 Fallbrook Blvd suite 100",
     "city":"Lincoln",
     "stateLong":"Nebraska ",
@@ -212,28 +209,28 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"peabody",
+    "jobTitle":"Peabody",
     "jobName":"Peabody Walk lofts",
     "altTag":"Peabody Walk lofts in Baltimore, Maryland, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
     "colorRange":["Black"],
-    "products":{
-        "product1":{
-        "color":"Ravenswood Ironspot",
-        "colorSafe":"ravenswood",
-        "size":"Modular",
-        "texture":"velour",
-        "qty":"67000",
-        "orderNum":"224392"
+    "products":[
+        {
+            "color":"Ravenswood Ironspot",
+            "colorSafe":"ravenswood",
+            "size":"Modular",
+            "texture":"velour",
+            "qty":"67000",
+            "orderNum":"224392"
         },
-        "product2":{
-        "color":"Ravenswood Ironspot",
-        "colorSafe":"ravenswood",
-        "size":"Shapes",
-        "texture":"velour",
-        "qty":"",
-        "orderNum":"224392"
+        {
+            "color":"Ravenswood Ironspot",
+            "colorSafe":"ravenswood",
+            "size":"Shapes",
+            "texture":"velour",
+            "qty":"",
+            "orderNum":"224392"
         }
-    },
+    ],
     "location":"111 W 28th St.",
     "city":"Baltimore",
     "stateLong":"Maryland ",
@@ -256,12 +253,12 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"debruce",
+    "jobTitle":"DeBruce",
     "jobName":"Kansas City Art Institute - Paul & Linda DeBruce Hall",
     "altTag":"Kansas City Art Institute - Paul & Linda DeBruce Hall in Kansas City, Missouri, featuring a facade of Endicott Manganese Ironspot face brick with a velour texture.",
     "colorRange":["Black"],
-    "products":{
-        "product1":{
+    "products":[
+        {
         "color":"Manganese Ironspot",
         "colorSafe":"manganese",
         "size":"Modular",
@@ -269,7 +266,7 @@
         "qty":"",
         "orderNum":""
         }
-    },
+    ],
     "location":"4415 Warwick Blvd",
     "city":"Kansas City",
     "stateLong":"Missouri ",
@@ -292,20 +289,20 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"stMary",
+    "jobTitle":"StMary",
     "jobName":"St. Mary's Chapel",
     "altTag":"St. Mary's Chapel in Livonia, Michigan, featuring a facade of Endicott Dark Ironspot face brick with a smooth texture.",
     "colorRange":["Black"],
-    "products":{
-        "product1":{
-        "color":"Dark Ironspot",
-        "colorSafe":"darkIronspot",
-        "size":"Modular",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"214440"
+    "products":[
+        {
+            "color":"Dark Ironspot",
+            "colorSafe":"darkIronspot",
+            "size":"Modular",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"214440"
         }
-    },
+    ],
     "location":"18200 Merriman Rd",
     "city":"Livonia",
     "stateLong":"Michigan ",
@@ -328,52 +325,53 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"nesbitt",
+    "jobTitle":"Nesbitt",
     "jobName":"Bruce D. Nesbitt African American Cultural Center",
     "altTag":"Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign, featuring a mix of Endicott Manganese Ironspot, Sienna Ironspot, Dark Sandstone, and Light Sandstone face brick with a velour texture.",
     "colorRange":["Black","Tan"],
-    "products":{
-        "product1":{
-        "color":"Manganese Ironspot",
-        "colorSafe":"manganese",
-        "size":"Norman",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"215722"
+    "products":[
+        {
+            "color":"Manganese Ironspot",
+            "colorSafe":"manganese",
+            "size":"Norman",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"215722"
         },
-        "product2":{
-        "color":"Sienna Ironspot",
-        "colorSafe":"sienna",
-        "size":"Norman",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"215722"
+        {
+            
+            "color":"Sienna Ironspot",
+            "colorSafe":"sienna",
+            "size":"Norman",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"215722"
         },
-        "product3":{
-        "color":"Dark Sandstone",
-        "colorSafe":"darkSandstone",
-        "size":"Norman",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"215722"
+        {
+            "color":"Dark Sandstone",
+            "colorSafe":"darkSandstone",
+            "size":"Norman",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"215722"
         },
-        "product4":{
-        "color":"Light Sandstone",
-        "colorSafe":"lightSandstone",
-        "size":"Norman",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"215722"
+        {
+            "color":"Light Sandstone",
+            "colorSafe":"lightSandstone",
+            "size":"Norman",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"215722"
         },
-        "product5":{
-        "color":"Manganese Ironspot",
-        "colorSafe":"manganese",
-        "size":"Utility",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"215722"
+        {
+            "color":"Manganese Ironspot",
+            "colorSafe":"manganese",
+            "size":"Utility",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"215722"
         }
-    },
+    ],
     "location":"University of Illinois Urbana-Champaign",
     "city":"Champaign",
     "stateLong":"Illinois ",
@@ -396,28 +394,28 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"stGreg",
+    "jobTitle":"StGregory",
     "jobName":"St. Gregory The Great Catholic Church",
     "altTag":"St. Gregory The Great Catholic Church in Marysville, Kansas, featuring a facade of Endicott Medium Ironspot #46 face brick with a velour texture.",
     "colorRange":["Red"],
-    "products":{
-        "product1":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Modular",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"212985"
-        },
-        "product2":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Shapes",
-        "texture":"Velour",
-        "qty":"",
-        "orderNum":"212985"
-        }
-    },
+    "products":[
+        {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Modular",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"212985"
+            },
+            {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Shapes",
+            "texture":"Velour",
+            "qty":"",
+            "orderNum":"212985"
+            }
+    ],
     "location":"1310 Carolina St",
     "city":"Marysville",
     "stateLong":"Kansas ",
@@ -439,28 +437,28 @@
 },{
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"arrive",
+    "jobTitle":"ArriveHotel",
     "jobName":"Arrive Hotel",
     "altTag":"Arrive Hotel in Austin, Texas, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
     "colorRange":["Black"],
-    "products":{
-        "product1":{
-        "color":"Manganese Ironspot",
-        "colorSafe":"manganese",
-        "size":"Modular",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"216442"
+    "products":[
+        {
+            "color":"Manganese Ironspot",
+            "colorSafe":"manganese",
+            "size":"Modular",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"216442"
         },
-        "product2":{
-        "color":"Manganese Ironspot",
-        "colorSafe":"manganese",
-        "size":"Modular",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"215288"
+        {
+            "color":"Manganese Ironspot",
+            "colorSafe":"manganese",
+            "size":"Modular",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"215288"
         }
-    },
+    ],
     "location":"1813 E 6th St",
     "city":"Austin",
     "stateLong":"Texas",
@@ -484,12 +482,12 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"asbjornson",
+    "jobTitle":"Asbjornson",
     "jobName":"Norm Asbjornson Hall - Montana State University",
     "altTag":"Norm Asbjornson Hall at Montana State University in Bozeman, Montana, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
     "colorRange":["Black"],
-    "products":{
-        "product1":{
+    "products":[
+        {
         "color":"Manganese Ironspot",
         "colorSafe":"manganese",
         "size":"Norman",
@@ -497,7 +495,7 @@
         "qty":"",
         "orderNum":"211194"
         }
-    },
+    ],
     "location":"W Grant St",
     "city":"Bozeman",
     "stateLong":"Montana",
@@ -520,44 +518,44 @@
 {
     "productName":"Face Brick",
     "productType":"faceBrick",
-    "jobTitle":"four51",
+    "jobTitle":"Four51",
     "jobName":"Four51 Marlborough",
     "altTag":"Four51 Marlborough in Boston, Massachusetts, featuring a facade of Endicott Medium Ironspot #46 face brick with a smooth texture.",
     "colorRange":["Red"],
-    "products":{
-        "product1":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Roman",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"204457"
+    "products":[
+        {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Roman",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"204457"
         },
-        "product2":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Modular",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"204457"
+        {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Modular",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"204457"
         },
-        "product3":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Utility",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"204457"
+        {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Utility",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"204457"
         },
-        "product4":{
-        "color":"Medium Ironspot #46",
-        "colorSafe":"medIS46",
-        "size":"Shapes",
-        "texture":"Smooth",
-        "qty":"",
-        "orderNum":"204457"
+        {
+            "color":"Medium Ironspot #46",
+            "colorSafe":"medIS46",
+            "size":"Shapes",
+            "texture":"Smooth",
+            "qty":"",
+            "orderNum":"204457"
         }
-    },
+    ],
     "location":"451 Marlborough St.",
     "city":"Boston",
     "stateLong":"Massachusetts",

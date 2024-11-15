@@ -3,7 +3,7 @@ import Navigate from "@/app/component/navigate";
 import ProjectsHead from "@/app/component/ProjectsHead";
 import Footer from "@/app/component/footer";
 import ProjectBody from "@/app/component/ProjectsBody";
-export default function Projects(){
+export default function Project(){
     return(
         <div className="container-fluid">           
            <Navigate pageSettings="light"/>
