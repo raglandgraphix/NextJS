@@ -50,12 +50,12 @@ useEffect(() => {
 <Carousel className="">
       
         {
-            ProjectData?.map((item,index)=>(
+            ProjectData?.map((item)=>(
                 item.jobTitle===ProjectName?
                 
                 item.photoAlbum.map((photo,index)=>(
                    
-                    <Carousel.Item>
+                    <Carousel.Item key={index}>
                     
                     <Image key={index} className="" src={photo} alt={item.altTag} width={2000} height={1000}style={{ 
               width: '100%',
