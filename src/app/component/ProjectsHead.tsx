@@ -9,6 +9,7 @@ export default function ProjectsHead(){
     const [Color,setColor]=useState<string | null>(null);
     const [Header,setHeader]=useState<string | null>(null);
     const [Description,setDescription]=useState<string | null>(null);
+    console.log(`I am the RangeColors ${RangeColors}`);
     useEffect(()=>{
         if(RangeColors==='Red' || RangeColors==='Burgundy'){
             setColor('Red/Burgundy ');

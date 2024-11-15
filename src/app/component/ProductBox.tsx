@@ -23,7 +23,7 @@ export default function ProductBox({ setDescription,productHeadLine,ProductDescr
     return <div></div>;  
   }
 return(
-  <div className={`col-12 col-lg-5  col-xl-6 rounded-2 ${Product==='FaceBrick'?'faceBrickBox':(Product==='ThinBrick'?'thinBrickBox':(Product==='Paver'?'paverBox':'')) } ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 `}>
+  <div className={`col-12 col-xlg-5  col-xl-6 rounded-2 ${Product==='FaceBrick'?'faceBrickBox':(Product==='ThinBrick'?'thinBrickBox':(Product==='Paver'?'paverBox':'')) } ms-0 m-xl-3 text-white ps-3 pt-2 pb-2 `}>
     <div className="row">
       <div className="col-6">
         <h1 className="univers-55-Oblique d-inline-block ">{Product? Product.replace(/([a-z])([A-Z])/g, '$1 $2'):''}</h1>

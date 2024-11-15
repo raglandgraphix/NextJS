@@ -18,9 +18,10 @@ export const SplitPathname = () => {
       setProduct(parts[1]);
       if(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2] !=='Colors'){
         setProject(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2])
-      }else{
-        setRangeColors(parts[2].includes('-') ? pathname.split('-')[1] : null);
       }
+      
+        setRangeColors(parts[2].includes('-') ? pathname.split('-')[1] : null);
+     
       
       setPage(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2]);
     }

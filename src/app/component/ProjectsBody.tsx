@@ -22,7 +22,7 @@ export default function ProjectBody( ){
                     RangeColors && RangeColors!=='All' ? 
                         item.colorRange.map((items)=>(
                             items===RangeColors?
-                                <div key={index} className="col-3 mb-3 position-relative d-flex justify-content-center project-container ">
+                                <div key={index} className="col-12 col-md-6 col-lg-3 mb-3 position-relative d-flex justify-content-center project-container ">
                                     <Image className="rounded-3" src={item.jobThumb} alt="some description" width={500} height={500}/>
                                     <div className=" bg-white-75 w-100 position-absolute bottom-0 rounded-bottom-2  text-overlay ">
                                     <h2 className="fs-6 text-center">{item.jobName}</h2>
@@ -30,7 +30,7 @@ export default function ProjectBody( ){
                                 </div>
                                 </div> :''
                             
-                        ))  :  <div key={index} className="col-3 mb-3 position-relative d-flex justify-content-center project-container ">
+                        ))  :  <div key={index} className="col-12 col-md-6 col-lg-3 mb-3 position-relative d-flex justify-content-center project-container ">
                         <Image className="rounded-3" src={item.jobThumb} alt="some description" width={500} height={500}/>
                         <div className=" bg-white-75 w-100 position-absolute bottom-0 rounded-bottom-2  text-overlay ">
                         <h2 className="fs-6 text-center">{item.jobName}</h2>
