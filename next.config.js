@@ -20,6 +20,7 @@ const nextConfig = {
         // ... more remote patterns
       ],
     },
+    
 
     async rewrites() {
       return [
@@ -63,3 +64,5 @@ const nextConfig = {
   };
   
   module.exports = nextConfig;
+
+  

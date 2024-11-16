@@ -57,7 +57,7 @@ useEffect(() => {
                    
                     <Carousel.Item key={index}>
                     
-                    <Image key={index} className="" placeholder="blur"  src={photo} alt={item.altTag} width={1000} height={500}style={{ 
+                    <Image key={index} className="" placeholder="blur"   src={photo} alt={item.altTag} width={1500} height={750}style={{ 
               width: '100%',
               height: '90vh', // Set height to 100vh
               objectFit: 'cover' // Use objectFit to cover the area
