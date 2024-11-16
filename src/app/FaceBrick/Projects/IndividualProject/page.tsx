@@ -27,27 +27,14 @@ useEffect(() => {
     getProjectData();
     console.log(ProjectData)
   }, [Product]);
-//   useEffect(()=>{
-//     const ColorsWithDuplicates:string[] = [];
-//     ProjectData?.map((item)=>{
-//         item.jobTitle===ProjectName?
-//         item.products.map((product)=>{
-            
-//             ColorsWithDuplicates.push(product.color);
-//         }):''
-//     })
-//     const uniqueColors = Array.from(new Set(ColorsWithDuplicates)); 
-//     setProdColors(uniqueColors);
-//   },[ProjectData,ProjectName])
 
- //console.log(ProdColors);
   
   return(
-    
-<div className="row p-0 ">
+<div className="container-fluid ">    
+{/* <div className="row border border-danger  m-auto    "> */}
 <Navigate pageSettings="light" />
-<div className="row d-flex  border p-0">
-<Carousel className=" border p-0 m-0">
+<div className="row  ">
+<Carousel className="border border-danger p-0 w-100 ">
       
         {
             ProjectData?.map((item)=>(
@@ -111,6 +98,7 @@ useEffect(() => {
         
 <Footer pageSetUp="light"/>
     </div>
+    // </div>
   )
     
 }

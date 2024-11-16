@@ -1,4 +1,50 @@
-[
+[{
+    "productName":"Face Brick",
+    "productType":"faceBrick",
+    "jobTitle":"Mohawk",
+    "jobName":"Mohawk Residence",
+    "altTag":"Four51 Marlborough in Chicago, Illinois, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
+    "colorRange":["Black"],
+    "products":[
+        {
+            "color":"Ravenswood Ironspot",
+            "colorSafe":"ravenswood",
+            "size":"modular",
+            "texture":"velour",
+            "qty":"",
+            "orderNum":""
+        },
+        {
+            "color":"Ravenswood Ironspot",
+            "colorSafe":"ravenswood",
+            "size":"Shapes",
+            "texture":"",
+            "qty":"",
+            "orderNum":""
+        }
+    ],
+    "location":"",
+    "city":"Chicago",
+    "stateLong":"Illinois",
+    "stateShort":"IL",
+    "coord":[],
+    "gMapsImage":"",
+    "distributor":"Bricks Incorporated",
+    "architect":"",
+    "structuralEngineer":"",
+    "constructionManager":"",
+    "facadeEngineer":"",
+    "masonryContractor":"",
+    "jobSize":"",
+    "cost":"",
+    "masonryBudget":"",
+    "completed":"2016",
+    "index":8,
+    "jobThumb":"https://endicottfiles.com/MohawkHouseBox.jpg",
+    "mainPhoto":"https://endicottfiles.com/MohawkHouse1.jpg",
+    "photoAlbum":["https://endicottfiles.com/MohawkHouse1.jpg","https://endicottfiles.com/MohawkHouse2.jpg","https://endicottfiles.com/MohawkHouse3.jpg","https://endicottfiles.com/MohawkHouse4.jpg","https://endicottfiles.com/MohawkHouse5.jpg","https://endicottfiles.com/MohawkHouse6.jpg"],
+    "blur":["https://endicottfiles.com/four51-1-Blur.jpg","https://endicottfiles.com/four51-2-Blur.jpg","https://endicottfiles.com/four51-3-Blur.jpg","https://endicottfiles.com/four51-4-Blur.jpg","https://endicottfiles.com/four51-5-Blur.jpg","https://endicottfiles.com/four51-6-Blur.jpg"]
+},
 	{
 				"productName":"Face Brick",
 				"productType":"faceBrick",
