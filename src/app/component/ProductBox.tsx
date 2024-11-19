@@ -29,11 +29,11 @@ return(
         <h1 className="univers-55-Oblique d-inline-block ">{Product? Product.replace(/([a-z])([A-Z])/g, '$1 $2'):''}</h1>
       </div>
       <div className="col-6 d-flex justify-content-end">
-        <h2 className="museo-light d-inline  fs-6 fst-italic me-2 ">{setDescription}</h2>
+        <h2 className="museo-light d-inline  fs-6 fst-italic me-2">{setDescription}</h2>
       </div>
     </div>
-    <h2 className="museo-light ">{productHeadLine}</h2>
-    <span className="univers-55-Roman">{ProductDescription}</span>
+    <h2 className="museo-light d-none d-md-block">{productHeadLine}</h2>
+    <span className="univers-55-Roman d-none d-md-block">{ProductDescription}</span>
   </div>
 )
 

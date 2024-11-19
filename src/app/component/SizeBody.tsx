@@ -53,7 +53,7 @@ useEffect(()=>{
 }) 
     return(
 
-<div className="col-5  ps-2 ms-auto me-4 ">
+<div className="col-12 col-md-5 mt-3 mt-md-0  ps-2 ms-auto me-4 ">
     <div className="row border d-flex justify-content-end h-100">
         <div className="col-8">
             {

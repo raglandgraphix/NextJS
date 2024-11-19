@@ -25,8 +25,9 @@ export default function ArchitectSupport(){
             setProduct(Parts[1]);
             if(Pathname.includes('-')){
                 ColorTexture = Parts[Parts.length-1].split('-');
+                
                 setColor(ColorTexture[0]);
-            setTexture(ColorTexture[ColorTexture.length-1]);
+            setTexture(ColorTexture[ColorTexture.length-1].replace(/~/g,' '));
             }else{
                 setColor(Parts[Parts.length-1]);
                 setTexture('Smooth');
@@ -58,7 +59,10 @@ export default function ArchitectSupport(){
       }, [Texture]);
     //Still need to upload all images to the local server instead of the cloudflare to be downloaded due to protections.
     return(
-        <div className="col-4 bg-stone-50" >
+        <div className="col-12 col-md-4 bg-stone-50" >
+
+
+
         <div className="row">
             
             <div className="col">
@@ -66,6 +70,10 @@ export default function ArchitectSupport(){
                     Data?.map((item)=>(
                        
                        item.fullName===Color?item.textures.map((texture)=>(
+
+                        texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
+
+
                         texture.texture===Texture?
                         
                         <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>                           <div className="row mb-2 border-bottom ">
@@ -89,12 +97,16 @@ export default function ArchitectSupport(){
             </div>
 
         </div>
+
+
+        
         <div className="row ">
             <div className="col">
                 {
                     Data?.map((item)=>(
                         item.fullName===Color?
                         item.textures.map((texture)=>(
+                            texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                           texture.texture===Texture?
                           <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
                             <div className="row border-bottom">
@@ -134,7 +146,7 @@ export default function ArchitectSupport(){
                     Data?.map((item)=>(
                         item.fullName===Color?
                             item.textures.map((texture)=>(
-                                texture.texture===Texture?
+                                texture.texture.replace(/~/g,' ')===Texture?
                                 TextureData?.map((info,index)=>(
                                     info.texture===Texture?
                                     <p key={index}>{info.description}</p>:''

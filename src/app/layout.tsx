@@ -36,7 +36,7 @@ export default function RootLayout({
 /> 
 </Head> */}
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}style={{ paddingTop: '100px' } }
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}style={{ paddingTop: '125px' } }
       >
         {children}
       </body>

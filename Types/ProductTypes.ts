@@ -19,5 +19,9 @@ export type Texture = {
     textures: Texture[];
     productLine: string;
     productCall: string;
-    projects: string[]; // You might want to define a more specific type for projects if possible
+    projects: Project []; // You might want to define a more specific type for projects if possible
+  };
+  export type Project = {
+    photo?:string[];
+    video?:string[];
   };

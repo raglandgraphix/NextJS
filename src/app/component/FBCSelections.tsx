@@ -6,7 +6,7 @@ import {usePathname} from 'next/navigation';
 import { DataItem} from "../../../Types/ProductTypes";
 import { useRouter } from "next/navigation";
 interface FBCSelectionProps {
-  // product: string;
+  
   setSelectedSize: (newSize: string) => void; // Define the type of the callback prop
 }
 export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
@@ -69,19 +69,19 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
   }        
   return(
     <div className="row univers-55-Roman text-rock h-100  w-100  d-flex justify-content-xl-end justify-content-center   p-0 m-0 pe-1 ">
-      <div className="col-12 col-sm-4 col-md-6 col-lg-3 col-xl-3 border-end  text-center   ">
+      <div className="col-2 col-sm-4 col-md-6 col-lg-3 col-xl-3 border-end  text-center   ">
         <div className="row border-bottom ">
           <div className="col  ">
             <h2 className="fs-5 ">Texture</h2>
           </div>
         </div>
         <div className="row ">
-          <div className="col-12 text-nowrap">
+          <div className="col-12 text-md-nowrap">
             {
               Data?.map((item)=>(
                 item.fullName===Color?
                   item.textures.map((texture,index)=>(
-                    <span role="button" key={index} className={`d-block text-uppercase   mt-2  pt-2 pb-1.5 text-rock ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
+                    <span role="button" key={index} className={`d-block text-uppercase MenuSetByScreenSize   mt-2  pt-2 pb-1.5 text-rock  ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
                   ))
                 :''
               ))
@@ -89,13 +89,13 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
             </div>
         </div>
       </div>
-      <div className="col-12 col-sm-8 col-md-6 col-lg-9  text-center  m-0 p-0">
+      <div className="col-10 col-sm-8 col-md-6 col-lg-9  text-center  m-0 p-0">
         <div className="row">
           <div className="col border-bottom">
             <h2 className="fs-5 ">Sizes</h2>
           </div>
         </div>
-        <div className="row mt-2">
+        <div className="row mt-2 MenuSetByScreenSize">
           <div className="col-12 ">
             <table className=" w-100">
               <tbody> 

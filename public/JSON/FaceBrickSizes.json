@@ -21,58 +21,63 @@
 },
 {
     "Name":"Slim_Kings",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/SlimKingSizeFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/SlimKingSizeFaceBrick.pdf"
 },
 {
     "Name":"Engineer_Modular",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/EngineerModularFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/EngineerModularFaceBrick.pdf"
 },
 {
     "Name":"Engineer_Kingsize",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/EngineerKingSizeFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/EngineerKingSizeFaceBrick.pdf"
 },
 {
     "Name":"Norwegian",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/NorwegianFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/NorwegianFaceBrick.pdf"
 },
 {
     "Name":"Closure",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/ClosureFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/ClosureFaceBrick.jpg"
 },
 {
     "Name":"3\"_Utility",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/3UtilityFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/3UtilityFaceBrick.pdf"
 },
 {
     "Name":"Utility",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/UtiilityFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/UtiilityFaceBrick.jpg"
 },
 {
     "Name":"2_1/4\"_Meridian",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/2-1_4MERIDIAN.jpg",
+    "pdf":"https://endicottfiles.com/2-1_4MERIDIAN.pdf"
+},
+{
+    "Name":"Meridian",
+    "image":"https://endicottfiles.com/MeridianFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/MeridianFaceBrick.pdf"
 },
 {
     "Name":"6\"_Thru_The_Wall",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/6TTWFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/6TTWFaceBrick.pdf"
 },
 {
     "Name":"8\"_Thru_The_Wall",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/8TTWFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/8TTWFaceBrick.pdf"
 },
 {
     "Name":"Triple",
-    "image":"https://endicottfiles.com/NormanFaceBrick.jpg",
-    "pdf":"https://endicottfiles.com/NormanFaceBrick.pdf"
+    "image":"https://endicottfiles.com/TripleFaceBrick.jpg",
+    "pdf":"https://endicottfiles.com/TripleFaceBrick.pdf"
 }
 
 ]

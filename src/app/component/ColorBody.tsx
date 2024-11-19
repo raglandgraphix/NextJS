@@ -61,10 +61,10 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
       <div className="row mt-5">
 
       
-        <div className="col-6 ms-3 me-3 border">
+        <div className="col-12 col-md-6 ms-0 ms-md-3 me-3 ">
           
             <div className="row ">
-                <div className="col-8 " >
+                <div className="col-12 col-md-8  " >
                     <div className="card  border-0 ">
 
                     
@@ -84,6 +84,7 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
                                 </div>
                               </div>
                               </div>
+                                
                                 ) : null
                             ))
                           ) : (

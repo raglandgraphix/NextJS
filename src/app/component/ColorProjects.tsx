@@ -7,6 +7,7 @@ import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetc
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import { Job } from "../../../Types/ProjectTypes";
 import { FetchProjects } from "../../../Utilities/FetchProjects";
+import Link from "next/link";
 
 
 export default function ColorProjects(){
@@ -57,7 +58,7 @@ export default function ColorProjects(){
        
     return(
         <div className="row">
-            <div className="col">
+            <div className="col ">
         {
             Data.map((item)=>(
                 item.fullName===Color?
@@ -77,23 +78,35 @@ export default function ColorProjects(){
            <div className="row">
             {
                 Data.map((item)=>(
-                    item.fullName===Color?
+                    item.fullName===Color?//exmple Desert_Ironspot_Light
                     
-                     item.projects?.map((projects)=>(
+                     item.projects?.map((photos)=>(//These are projects listed in the colors
                        
-                         ProjectData?.map((items,index2)=>(
-                             items.jobTitle===projects?
-                             <div key={index2} className="col-2">
-                                <div className="card border ">
-                                    
-                             <Image src={items.jobThumb} alt="some copy. are you this fucking sticky" height={500} width={500}/>
-                             <div className="card-body">
-                                <h5 className="card-title fs-6">{items.jobName}</h5>
+                        photos.photo?photos.photo.map((projects)=>(
+                            ProjectData?.map((items,index2)=>(
+                                items.jobTitle===projects?
+                                <div key={index2} className="col-6 col-md-2">
+                                   <div className="card border ">
+                                <Link href={`/FaceBrick/${items.jobTitle}`}>       
+                                <Image src={items.jobThumb} alt="some copy. are you this fucking sticky" height={500} width={500}/>
+                                </Link>
+                                <div className="card-body">
+                                   <h5 className="card-title fs-6 text-center">{items.jobName}</h5>
+                                   <Image className="d-block" src='https://endicottfiles.com/Photo.png' height={25} width={25} alt="icon : This is project photos"/>
+   
+                               </div>
+   </div>
+                                </div>:''
+                            ))
+   
+                        )):
+                        (photos.video?
+                            '':''
+                            
+                            )
 
-                            </div>
-</div>
-                             </div>:''
-                         ))
+                         
+
                         
                      ))
                     :''

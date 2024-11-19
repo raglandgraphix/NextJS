@@ -44,7 +44,7 @@ body{
 }
 .faceBrickBox{
     background-color: #333F48;
-    min-height: 250px;
+    /* min-height: 250px; */
     
 }
 .thinBrickBox{
@@ -104,4 +104,33 @@ body{
   }
   .overflow-x-hidden{
 	overflow-x: hidden;
+  }
+  .fs-7{
+	font-size: .8em;
+  }
+  
+  
+
+  @media (max-width: 767px){
+
+	.faceBrickBox{
+		
+		max-height: 100px; 
+	}
+	.MenuSetByScreenSize{
+		font-size: .8em;
+	}
+  }
+
+  @media (min-width: 768px){
+
+	.faceBrickBox{
+		min-height: 250px;
+		
+	}
+	.MenuSetByScreenSize{
+		font-size: 1em;
+	}
+	
+
   }

@@ -34,7 +34,7 @@ useEffect(() => {
 {/* <div className="row border border-danger  m-auto    "> */}
 <Navigate pageSettings="light" />
 <div className="row  ">
-<Carousel className="border border-danger p-0 w-100 ">
+<Carousel className=" p-0  " variant="dark" fade  >
       
         {
             ProjectData?.map((item)=>(
@@ -42,17 +42,17 @@ useEffect(() => {
                 
                 item.photoAlbum.map((photo,index)=>(
                    
-                    <Carousel.Item key={index}>
+                    <Carousel.Item className="" key={index}>
                     
                     <Image key={index} className="" priority  src={photo}  alt={item.altTag} width={1200} height={600}style={{ 
               width: '100%',
               height: '90vh', // Set height to 100vh
-              objectFit: 'cover' // Use objectFit to cover the area
+              objectFit: 'contain' // Use objectFit to cover the area
             }}/>
             
-                    <Carousel.Caption className="bg-stone-50 rounded-3 text-black d-flex justify-content-center">
-                    <div className="text-start">
-                    <h3>{item.jobName}</h3>
+                    <Carousel.Caption className=" text-black w-100 d-flex justify-content-start" style={{ position: 'absolute', left: 0,  }}>
+                    <div className="text-start ms-2 bg-white-75 shadow p-4 rounded-3" style = {{display:'inline-block'}}>
+                    <h3 className="">{item.jobName}</h3>
                     
                     <p><span className="univers-45-light fst-italic">Color: </span>
                     {
