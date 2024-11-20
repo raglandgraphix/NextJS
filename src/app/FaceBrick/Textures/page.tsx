@@ -48,8 +48,8 @@ export default function Textures(){
             </div>
             <div className="row">
                 {
-                    Data?.map((item)=>(
-                        <div className="col-3" >
+                    Data?.map((item,index)=>(
+                        <div key={index} className="col-3" >
                             <div className="card mt-3 mb-2" role="button" onClick={()=>{handleShow(item.texture)}} >
                                 <Image className="card-img-top" src={item.image} alt={item.altTag} width={500} height={500}/>
                                 <div className="card-body">
@@ -72,9 +72,9 @@ export default function Textures(){
       <Modal show={showModal} onHide={handleClose} size="lg">
         <Modal.Header className="" closeButton>
             {
-                Data?.map((item)=>(
+                Data?.map((item,index)=>(
                     item.texture===Texture?
-<Modal.Title className="text-uppercase text-center fs-2 ">{item.texture} Texture</Modal.Title>:''
+<Modal.Title key={index} className="text-uppercase text-center fs-2 ">{item.texture} Texture</Modal.Title>:''
                 ))
             }
           
