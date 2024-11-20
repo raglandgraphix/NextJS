@@ -16,47 +16,81 @@ export default function ArchitectSupport(){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [Texture,setTexture]=useState<string | null>(null);
+    const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
     const Pathname = usePathname();
     
+    
     useEffect(()=>{
+        
         const Parts = Pathname.split('/');
         if(Parts.length>1){
             let ColorTexture;
             setProduct(Parts[1]);
+            
             if(Pathname.includes('-')){
                 ColorTexture = Parts[Parts.length-1].split('-');
                 
                 setColor(ColorTexture[0]);
             setTexture(ColorTexture[ColorTexture.length-1].replace(/~/g,' '));
+            
             }else{
-                setColor(Parts[Parts.length-1]);
-                setTexture('Smooth');
+                const getColor=Parts[Parts.length-1];
+
+                 
+                 
+                 setColor(getColor);
+console.log(DefaultTexture);
+                setTexture(DefaultTexture);
+                 
+                
+                
+               
+                
             }
             
             
         };
         
 
-    },[Pathname]);
-    
+    },[Pathname,DefaultTexture]);
     
     useEffect(() => {
         const getData = async () => {
           const result = await FetchProduct(Product);
           setData(result);
+          if(result && result.length>1){
+            for(const x of result){
+                if(x.fullName===Color){
+                    setDefaultTexture(x.textures[0].texture);
+                    
+                }
+              }
+          }
+          
         };
     
         getData();
+        
       }, [Product]);
 
       useEffect(() => {
         const getData = async () => {
-          const result = await FetchTexture(Texture);
-          setTextureData(result);
-        };
+            if (Product) { // Only fetch data if Product is not null
+              const result = await FetchTexture(Product);
+              setTextureData(result);
+              
+            }
+          };
+        
+          getData();
+          
+        
+      }, [Product]);
+
+
     
-        getData();
-      }, [Texture]);
+      
+      
     //Still need to upload all images to the local server instead of the cloudflare to be downloaded due to protections.
     return(
         <div className="col-12 col-md-4 bg-stone-50" >
@@ -148,6 +182,7 @@ export default function ArchitectSupport(){
                             item.textures.map((texture)=>(
                                 texture.texture.replace(/~/g,' ')===Texture?
                                 TextureData?.map((info,index)=>(
+                                    
                                     info.texture===Texture?
                                     <p key={index}>{info.description}</p>:''
                                 )):''

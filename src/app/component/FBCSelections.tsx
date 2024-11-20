@@ -16,6 +16,7 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
   const [Data,setData]=useState<DataItem[] | null>(null);
   const pathname = usePathname();
   const [BrickSize,setBrickSize]=useState<string>("Modular");
+   const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
   
   // useEffect(()=>{
     const ChangeSize = (size:string)=>{
@@ -38,10 +39,10 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
           setTexture(CapTexture.toLowerCase().charAt(0).toUpperCase() + CapTexture.toLowerCase().slice(1));
         }
       }else{
-        setTexture('Smooth');
+        setTexture(DefaultTexture);
       }
     }
-  },[pathname]);
+  },[pathname,DefaultTexture]);
   React.useEffect(() => {
     let JSONData =  '/JSON/FacebrickColors.json';
     if(Product==='FaceBrick'){
@@ -56,6 +57,15 @@ export default function FBCSelections ({setSelectedSize }: FBCSelectionProps){
         const response = await fetch(JSONData);
         const jsonData: DataItem[] = await response.json(); // Correct type
         setData(jsonData);
+        if(jsonData && jsonData.length>1){
+          for(const x of jsonData){
+              if(x.fullName===Color){
+                  setDefaultTexture(x.textures[0].texture);
+                 
+                  
+              }
+            }
+        }
       } catch (error) {
         console.error('Error fetching data:', error);
       }

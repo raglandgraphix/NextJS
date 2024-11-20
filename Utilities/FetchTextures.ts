@@ -1,7 +1,14 @@
 import { TextureData } from "../Types/TextureTypes";
-export async function FetchTexture(texture: string | null): Promise<TextureData[] | null> {
-    let jsonFilePath = '/JSON/Textures.json'; // Default path
-  
+export async function FetchTexture(product: string | null): Promise<TextureData[] | null> {
+    let jsonFilePath = '/JSON/ThinbrickTextures.json'; // Default path
+    
+    if (product === 'FaceBrick') {
+      jsonFilePath = '/JSON/FaceBrickTextures.json';
+    } else if (product === 'ThinBrick') {
+      jsonFilePath = '/JSON/ThinbrickTextures.json';
+    } else if (product === 'Paver') {
+      jsonFilePath = '/JSON/PaverTextures.json';
+    }
     
   
     try {
@@ -13,3 +20,14 @@ export async function FetchTexture(texture: string | null): Promise<TextureData[
       return null;
     }
   }
+  // useEffect(() => {
+  //   const getData = async () => {
+  //       if (Product) { // Only fetch data if Product is not null
+  //         const result = await FetchTexture(Product);
+  //         setTextureData(result);
+  //       }
+  //     };
+    
+  //     getData();
+    
+  // }, [Product]);
