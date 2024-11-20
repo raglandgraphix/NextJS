@@ -3,7 +3,7 @@ export async function FetchTexture(product: string | null): Promise<TextureData[
     let jsonFilePath = '/JSON/ThinbrickTextures.json'; // Default path
     
     if (product === 'FaceBrick') {
-      jsonFilePath = '/JSON/FaceBrickTextures.json';
+      jsonFilePath = '/JSON/FacebrickTextures.json';
     } else if (product === 'ThinBrick') {
       jsonFilePath = '/JSON/ThinbrickTextures.json';
     } else if (product === 'Paver') {
