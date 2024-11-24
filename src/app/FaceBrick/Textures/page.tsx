@@ -23,7 +23,7 @@ export default function Textures(){
     const HeaderCopy='Endicott Textures: Elevate Your Design with Brick';
     const BodyCopy='Explore the diverse textures of Endicott brick, from smooth and classic to rugged and rustic.  Our unique finishes, like Velour,  Artisan, and Vertical Score, add depth, character, and visual interest to any brick facade.'
     const [ColorArray,setColorArray]=useState<string[] | null>(null);
-    const NumberofColumns = 4;
+    const NumberofColumns = 3;
     const NumberofRows = Math.ceil(ColorArray?ColorArray.length/NumberofColumns:0)
     const tableRows: JSX.Element[] = [];
         for (let i = 0; i < NumberofRows; i++) {
