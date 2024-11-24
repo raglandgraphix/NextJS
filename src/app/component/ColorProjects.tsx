@@ -85,10 +85,10 @@ export default function ColorProjects(){
                         photos.photo?photos.photo.map((projects)=>(
                             ProjectData?.map((items,index2)=>(
                                 items.jobTitle===projects?
-                                <div key={index2} className="col-6 col-md-2">
+                                <div key={index2} className="col-12 col-md-2">
                                    <div className="card border ">
                                 <Link href={`/FaceBrick/${items.jobTitle}`}>       
-                                <Image src={items.jobThumb} alt="some copy. are you this fucking sticky" height={500} width={500}/>
+                                <Image src={items.jobThumb} alt={item.altTag} height={500} width={500}/>
                                 </Link>
                                 <div className="card-body">
                                    <h5 className="card-title fs-6 text-center">{items.jobName}</h5>
