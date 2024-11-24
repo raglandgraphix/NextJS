@@ -26,7 +26,7 @@ export default function Textures(){
     const [NumberofColumns,setNumberofColumn]=useState<number>(2);
     const NumberofRows = Math.ceil(ColorArray?ColorArray.length/NumberofColumns:0)
     const tableRows: JSX.Element[] = [];
-    const [WindowWidth,setWindowWidth]=useState<number>(0);
+   
     useEffect(()=>{
         const WidthWindow = window.innerWidth;
         if(WidthWindow<=1200){
