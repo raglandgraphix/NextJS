@@ -60,9 +60,9 @@ export default function Sizes(){
             <Modal show={showModal} onHide={handleClose} size="lg">
         <Modal.Header className="" closeButton>
             {
-                Data?.map((item)=>(
+                Data?.map((item,index)=>(
                     item.Name===Size?
-<Modal.Title className="text-uppercase text-center fs-2 univers-55-Oblique "> Texture</Modal.Title>:''
+<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique "> Texture</Modal.Title>:''
                  ))
             } 
           
