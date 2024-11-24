@@ -7,7 +7,7 @@
         "altTag":"Endicott Brick with Smooth Texture",
         "astm216":["FBX","FBS","FBA"],
         "astm652":["HBX","HBS","HBA"],
-        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Dark_Ironspot","Ravenswood_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Red_Ironspot","Golden_Buff","Gray_Blend","Sandstone_Light","Sandstone_Dark","Graphite"]
+        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Dark_Ironspot","Ravenswood_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Red_Ironspot","Golden_Buff","Gray_Blend","Sandstone_Light","Sandstone_Dark","Graphite"]
     },
     {
         "id":2,
@@ -16,7 +16,7 @@
         "image":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Facebrick-Large.jpg",
         "altTag":"Endicott Brick with Velour Texture",
         "astm216":["FBX","FBS","FBA"],
-        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Dark_Ironspot","Ravenswood_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Red_Ironspot","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Sandstone_Dark","Graphite"]
+        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Dark_Ironspot","Ravenswood_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Red_Ironspot","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Sandstone_Dark","Graphite"]
     },
     {
         "id":3,
@@ -25,7 +25,7 @@
         "image":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
         "altTag":"Endicott Brick with Matt Texture",
         "astm216":["FBS","FBA"],
-        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Graphite"]
+        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Graphite"]
     },
     {
         "id":4,
@@ -34,7 +34,7 @@
         "image":"https://endicottfiles.com/Medium-Ironspot-46-Velvetex-Facebrick-Large.jpg",
         "altTag":"Endicott Brick with Velvetex Texture",
         "astm216":["FBS","FBA"],
-        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Dark_Ironspot","Manganese_Ironspot","Rose_Blend","Red_Blend","Ruby_Red"]
+        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Dark_Ironspot","Manganese_Ironspot","Rose_Blend","Red_Blend","Ruby_Red"]
     },
     {
         "id":5,
@@ -43,7 +43,7 @@
         "image":"https://endicottfiles.com/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
         "altTag":"Endicott Brick with Vertical Score Texture",
         "astm216":["FBS","FBA"],
-        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Dark_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Graphite"]
+        "AvailableColors":["Desert_Ironspot_Light","Desert_Ironspot_Dark","Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Dark_Ironspot","Manganese_Ironspot", "Sienna_Ironspot","Executive_Ironspot","Rose_Blend","Red_Blend","Burgundy_Blend","Ruby_Red","Bordeaux_Blend","Golden_Buff","Light_Gray _Blend","Gray_Blend","Sandstone_Light","Graphite"]
     },
     {
         "id":6,
@@ -52,7 +52,7 @@
         "image":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
         "altTag":"Endicott Brick with Artisan Texture",
         "astm216":["FBA"],
-        "AvailableColors":["Copper_Canyon","Coppertone","Medium_Ironspot_77","Medium_Ironspot_46","Dark_Ironspot","Manganese_Ironspot"]
+        "AvailableColors":["Copper_Canyon","Coppertone","Medium_Ironspot_#77","Medium_Ironspot_#46","Dark_Ironspot","Manganese_Ironspot"]
     },
     {
         "id":7,

@@ -27,8 +27,8 @@ export const SplitPathname = () => {
     }
     console.log(Product);
     console.log(RangeColors);
-    console.log(Page);
-    console.log(Project);
+     console.log(Page);//example: colors or textures
+     console.log(Project);
   }, [pathname,Product, RangeColors,Page]);
   return { Product, setProduct,Page,setPage, RangeColors, setRangeColors,Project, setProject };
 };

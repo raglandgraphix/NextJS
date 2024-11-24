@@ -43,7 +43,7 @@ export default function Textures(){
                     if (colorIndex < ColorArray.length) {
                         row.push(
                             
-                        <td className="pt-3 ps-3 TextureColor univers-55-Roman" key={colorIndex}  ><Link className="text-decoration-none text-black ms-3 " key={colorIndex} href={`/${Product}/Colors/${ColorArray[colorIndex]}-${Texture}`}>{ColorArray[colorIndex].replaceAll(/_/g,' ')}</Link></td>
+                        <td className="pt-3 ps-3 TextureColor univers-55-Roman" key={colorIndex}  ><Link className="text-decoration-none text-black ms-3 " key={colorIndex} href={`/${Product}/Colors/${ColorArray[colorIndex].replace(/#/g,'')}-${Texture}`}>{ColorArray[colorIndex].replaceAll(/_/g,' ')}</Link></td>
                         
                         );
                     } else {
