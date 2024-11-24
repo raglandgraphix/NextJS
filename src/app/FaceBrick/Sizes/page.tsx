@@ -72,7 +72,7 @@ export default function Sizes(){
             {
                 Data?.map((item,index)=>(
                     item.Name===Size?
-                 <div className="text-center ">
+                 <div key={index} className="text-center ">
 <Image className="w-100" src={item.image} width={600} height={600} alt={item.alt}/>
 <button type="button" className="btn btn-secondary " onClick={()=>{handleClose(); window.open(`${item.pdf}`, '_blank')}}>Download</button>
 
