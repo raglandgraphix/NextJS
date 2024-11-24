@@ -125,6 +125,9 @@ body{
 	.MenuSetByScreenSize{
 		font-size: .8em;
 	}
+	.TextureColor{
+		font-size: .8em;
+	}
   }
 
   @media (min-width: 768px){
