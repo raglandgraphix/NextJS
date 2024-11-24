@@ -62,7 +62,7 @@ export default function Sizes(){
             {
                 Data?.map((item,index)=>(
                     item.Name===Size?
-<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique "> Texture</Modal.Title>:''
+<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique ">{item.Name} {Product}</Modal.Title>:''
                  ))
             } 
           
@@ -70,6 +70,18 @@ export default function Sizes(){
 
         <Modal.Body>
             {
+                Data?.map((item,index)=>(
+                    item.Name===Size?
+                 <div className="text-center ">
+<Image className="w-100" src={item.image} width={600} height={600} alt={item.alt}/>
+<button type="button" className="btn btn-secondary " onClick={()=>{handleClose(); window.open(`${item.pdf}`, '_blank')}}>Download</button>
+
+
+                 </div>
+                 
+                 
+                 :''       
+                ))
               
             }
             

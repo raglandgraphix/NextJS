@@ -85,7 +85,7 @@ export default function Textures(){
             <div className="row">
                 {
                     Data?.map((item,index)=>(
-                        <div key={index} className="col-3 d-flex" >
+                        <div key={index} className="col-12 col-lg-3 d-flex" >
                             <div className="card shadow mt-3 mb-2 flex-fill" role="button" onClick={()=>{handleShow(item.texture)}} >
                                 <Image className="card-img-top " src={item.image} alt={item.altTag} width={500} height={500}/>
                                 <div className="card-body">
