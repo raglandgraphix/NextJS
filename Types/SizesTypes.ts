@@ -4,5 +4,6 @@ export type DataItem = {
     Description: string;
     image: string;
     pdf: string;
+    alt: string;
     
   };

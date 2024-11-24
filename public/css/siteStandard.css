@@ -85,7 +85,12 @@ body{
 	margin-top: 100vh;
 	background-color: black;
 }
-
+/* .bg-stone{
+	background-color: rgba(168, 169, 158, 1); 
+} */
+.bg-rock{
+	background-color:#564B49; 
+}
 .bg-stone-50{
 	background-color: rgba(168, 169, 158, 0.5); 
 }

@@ -31,7 +31,7 @@ export default function ArchitectSupport(){
                 ColorTexture = Parts[Parts.length-1].split('-');
                 
                 setColor(ColorTexture[0]);
-            setTexture(ColorTexture[ColorTexture.length-1].replace(/~/g,' '));
+            setTexture(ColorTexture[ColorTexture.length-1]);
             
             }else{
                 const getColor=Parts[Parts.length-1];
@@ -39,7 +39,7 @@ export default function ArchitectSupport(){
                  
                  
                  setColor(getColor);
-console.log(DefaultTexture);
+
                 setTexture(DefaultTexture);
                  
                 
@@ -110,7 +110,8 @@ console.log(DefaultTexture);
 
                         texture.texture===Texture?
                         
-                        <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>                           <div className="row mb-2 border-bottom ">
+                        <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                            <div className="row mb-2 border-bottom ">
                                 <div className="col-3">
                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                 </div>
@@ -175,17 +176,18 @@ console.log(DefaultTexture);
         <div className="row mt-2">
             <div className="col">
                 
-                <p className="museo-light fst-italic fs-4">{Texture} Texture</p>
+                <p className="museo-light fst-italic fs-4">{Texture?.replace(/~/g,' ')} Texture</p>
                 {
                     Data?.map((item)=>(
                         item.fullName===Color?
                             item.textures.map((texture)=>(
-                                texture.texture.replace(/~/g,' ')===Texture?
-                                TextureData?.map((info,index)=>(
+                                
+                                 texture.texture===Texture?
+                                 TextureData?.map((info,index)=>(
                                     
-                                    info.texture===Texture?
-                                    <p key={index}>{info.description}</p>:''
-                                )):''
+                                    info.texture===Texture.replace(/~/g,' ')?
+                                 <p key={index}>{info.description}</p>:''
+                                 )):''
                                 
                             )):''
                        

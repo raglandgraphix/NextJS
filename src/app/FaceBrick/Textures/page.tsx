@@ -10,6 +10,7 @@ import ProductBox from "@/app/component/ProductBox";
 import Image from "next/image";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import Link from "next/link";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 
@@ -19,7 +20,32 @@ export default function Textures(){
     const [Data,setData]=useState<TextureData[] | null>(null);
     const [Texture,setTexture]=useState<string | StaticImport| null>(null);
     const [showModal, setShowModal] = useState(false);
-
+    const HeaderCopy='Endicott Textures: Elevate Your Design with Brick';
+    const BodyCopy='Explore the diverse textures of Endicott brick, from smooth and classic to rugged and rustic.  Our unique finishes, like Velour,  Artisan, and Vertical Score, add depth, character, and visual interest to any brick facade.'
+    const [ColorArray,setColorArray]=useState<string[] | null>(null);
+    const NumberofColumns = 4;
+    const NumberofRows = Math.ceil(ColorArray?ColorArray.length/NumberofColumns:0)
+    const tableRows: JSX.Element[] = [];
+        for (let i = 0; i < NumberofRows; i++) {
+            const row = [];
+            for (let j = 0; j < NumberofColumns; j++) {
+                const colorIndex = i * NumberofColumns + j;
+                if(ColorArray){
+                    if (colorIndex < ColorArray.length) {
+                        row.push(
+                            
+                        <td className="pt-3 ps-3 " key={colorIndex}  ><Link className="text-decoration-none text-black ms-3 " key={colorIndex} href={`/${Product}/Colors/${ColorArray[colorIndex]}-${Texture}`}>{ColorArray[colorIndex].replaceAll(/_/g,' ')}</Link></td>
+                        
+                        );
+                    } else {
+                        row.push(<td  key={colorIndex}></td>); // Add empty cells if needed
+                    }
+                }
+                    
+            }
+  tableRows.push(<tr   key={i}>{row}</tr>);
+}
+    
   const handleClose = () => setShowModal(false);
   const handleShow = (texture:string) => {
     setTexture(texture);
@@ -31,29 +57,39 @@ export default function Textures(){
                 if (Product) { // Only fetch data if Product is not null
                   const result = await FetchTexture(Product);
                   setData(result);
+                  if(result && result.length>0){
+                    for(const item of result){
+                        if(item.texture===Texture){
+                            setColorArray(item.AvailableColors);
+                        }
+                        
+                    }
+                  }
+                  
+                  
                 }
               };
             
               getData();
             
-          }, [Product]);
-      
+          }, [Product,Texture]);
+          
       
 
     return(
         <div className="container-fluid">
             <Navigate pageSettings="light"/>
             <div className="row">
-                <ProductBox setDescription="" productHeadLine="Headline about how awesome texture is" ProductDescription="product description"/>
+                <ProductBox setDescription="" productHeadLine={HeaderCopy} ProductDescription={BodyCopy}/>
             </div>
             <div className="row">
                 {
                     Data?.map((item,index)=>(
-                        <div key={index} className="col-3" >
-                            <div className="card mt-3 mb-2" role="button" onClick={()=>{handleShow(item.texture)}} >
-                                <Image className="card-img-top" src={item.image} alt={item.altTag} width={500} height={500}/>
+                        <div key={index} className="col-3 d-flex" >
+                            <div className="card shadow mt-3 mb-2 flex-fill" role="button" onClick={()=>{handleShow(item.texture)}} >
+                                <Image className="card-img-top " src={item.image} alt={item.altTag} width={500} height={500}/>
                                 <div className="card-body">
-                                    <h2 className="card-title">{item.texture}</h2>
+                                    <h2 className="card-title univers-55-Oblique">{item.texture}</h2>
                                     <p>{item.description}</p>
                                 </div>
                             </div>
@@ -64,17 +100,14 @@ export default function Textures(){
                 }
 
             </div>
-            {/* <Button variant="primary" onClick={handleShow}>   
-
-        Launch Modal
-      </Button> */}
+            
 
       <Modal show={showModal} onHide={handleClose} size="lg">
         <Modal.Header className="" closeButton>
             {
                 Data?.map((item,index)=>(
                     item.texture===Texture?
-<Modal.Title key={index} className="text-uppercase text-center fs-2 ">{item.texture} Texture</Modal.Title>:''
+<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique ">{item.texture} Texture</Modal.Title>:''
                 ))
             }
           
@@ -84,15 +117,50 @@ export default function Textures(){
             {
                 Data?.map((item, index)=>(
                     item.texture===Texture?(
-                        <div key={index}>
+                        <div className="univers-45-light" key={index}>
 
-                            <Image src={item.image} alt="alt text" width={1000} height={1000}/>
-                            <p className="d-inline" >Conforms to ASTM C216 Type: </p>
+                            <Image src={item.image} alt={item.altTag} width={1000} height={1000}/>
+                            <p className="d-inline " >Conforms to ASTM C216 Type: </p>
                             {
                                 item.astm216.map((value, index, arr)=>(
                                     <p className="d-inline" key={index}>{value}{index < arr.length -1?',':''} </p>
                                 ))
                             }
+                           
+                            {
+                                item.astm652 && item.astm652.length>0?
+                                <div className="d-inline">
+                                    <p className="d-inline"> and </p>
+                                    {item.astm652.map((value,index,arr)=>(
+                                    <p className="d-inline" key={index}>{value}{index < arr.length -1?',':''} </p> 
+                                ))}
+                                </div>
+                                :''
+                            }
+                            <div className="border">                            
+                                <table className="w-100">
+                                    <thead> 
+                                        <tr>
+                                            <th colSpan={4} className="univers-45-light fs-4 bg-rock p-2 text-white ">
+                                                Colors Available in this Texture:
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                   
+                                        {
+                                           item.AvailableColors && item.AvailableColors.length>0?
+                                           
+                                            <tbody>
+                                                
+                                            {tableRows}
+                                            </tbody> 
+                                           :''
+                                        }
+
+                                    
+                                </table>
+                            
+                            </div>
                          </div>
                          
                     ):null
