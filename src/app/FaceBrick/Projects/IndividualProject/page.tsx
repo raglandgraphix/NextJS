@@ -73,7 +73,7 @@ useEffect(() => {
                       ))
                     }
                     </p>
-                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Location: </span><span className="d-none d-md-inline">{item.city}, {item.stateShort}</span></p>
+                    <p><span className="univers-45-light fst-italic ">Location: </span><span >{item.city}, {item.stateShort}</span></p>
                     
                     </div>    
                     </Carousel.Caption>
