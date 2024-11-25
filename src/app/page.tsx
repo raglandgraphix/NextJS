@@ -1,10 +1,10 @@
 //Home Page
 'use client';
 import Navigate from "./component/navigate";
-import { useState } from "react";
+//import { useState } from "react";
 import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
-import Image from "next/image";
+//import Image from "next/image";
 
 export default function Home() {
 //   const [videoError1, setVideoError1] = useState(false);
