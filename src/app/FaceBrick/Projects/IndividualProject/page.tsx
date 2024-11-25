@@ -54,26 +54,26 @@ useEffect(() => {
                     <div className="text-start ms-2 bg-white-75 shadow p-4 rounded-3" style = {{display:'inline-block'}}>
                     <h3 className="">{item.jobName}</h3>
                     
-                    <p><span className="univers-45-light fst-italic">Color: </span>
+                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Color: </span>
                     {
                         Array.from(new Set(item.products?.map(product => product.color))).map((color, index, arr) => (
-                        <span key={index}>
+                        <span className="d-none d-md-inline" key={index}>
                         {color}{index < arr.length - 1 ? ", " : ""}
                         </span>
                         ))
                     }
                     
                     </p>
-                    <p><span className="univers-45-light fst-italic">Size: </span>
+                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Size: </span>
                     {
                        Array.from(new Set(item.products.map(product => product.size))).map((size, index, arr) => (
-                        <span key={index}>
+                        <span className="d-none d-md-inline" key={index}>
                           {size}{index < arr.length - 1 ? ", " : ""}
                         </span>
                       ))
                     }
                     </p>
-                    <p><span className="univers-45-light fst-italic">Location: </span><span>{item.city}, {item.stateShort}</span></p>
+                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Location: </span><span className="d-none d-md-inline">{item.city}, {item.stateShort}</span></p>
                     
                     </div>    
                     </Carousel.Caption>
