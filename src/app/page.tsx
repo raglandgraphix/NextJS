@@ -7,17 +7,17 @@ import { Carousel } from "react-bootstrap";
 import Image from "next/image";
 
 export default function Home() {
-  const [videoError1, setVideoError1] = useState(false);
-const [videoError2, setVideoError2] = useState(false);
+//   const [videoError1, setVideoError1] = useState(false);
+// const [videoError2, setVideoError2] = useState(false);
  
-const handleVideoError1 = ()=>{
+// const handleVideoError1 = ()=>{
   
-  setVideoError1(true);
+//   setVideoError1(true);
 
-};  
-const handleVideoError2 =()=>{
-  setVideoError2(true);
-}
+// };  
+// const handleVideoError2 =()=>{
+//   setVideoError2(true);
+// }
   return (
     <div className="container-fluid">
       <Navigate pageSettings="gradient" />      
