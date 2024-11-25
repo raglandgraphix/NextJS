@@ -142,3 +142,12 @@ body{
 	
 
   }
+
+  .carousel-height{
+	max-height: 800px;
+  }
+  .carousel-control-prev-icon, 
+.carousel-control-next-icon, 
+.carousel-indicators [data-bs-target] { 
+  background-color: lightgray; /* Set your desired gray color */
+}
