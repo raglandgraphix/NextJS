@@ -82,8 +82,9 @@ body{
 	filter: invert(100%);
 }
 .belowFold{
-	margin-top: 100vh;
+	margin-top: 90vh;
 	background-color: black;
+	
 }
 /* .bg-stone{
 	background-color: rgba(168, 169, 158, 1); 
@@ -147,7 +148,10 @@ body{
 	max-height: 800px;
   }
   .carousel-control-prev-icon, 
-.carousel-control-next-icon, 
-.carousel-indicators [data-bs-target] { 
-  background-color: lightgray; /* Set your desired gray color */
+.carousel-control-next-icon
+ { 
+	background-color: lightgray; /* Set your desired gray color */
+ 
+	border-radius: 25%;
 }
+
