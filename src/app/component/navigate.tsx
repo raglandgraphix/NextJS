@@ -66,7 +66,7 @@ export default function Navigate({pageSettings}:NavigateProps){
         setMainMenuShow(!mainMenuShow);
     }
     return(
-        <nav role="navigation" className={`row w-100 z-2 ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav `}>
+        <nav role="navigation" className={`row  z-2 ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav `}>
             <div className="col-12 p-0 ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
@@ -79,7 +79,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                         </div>
                         <div className="row d-none d-md-flex text-center ">
                             <div className="col ">
-                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-6" aria-label='Click to go to the Endicott Clay Products Home Page.'>Endicott Clay Products Company</span></Link>
+                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-6" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>Endicott Clay Products Company</span></Link>
                             </div>
                         </div>                
                     </div>
