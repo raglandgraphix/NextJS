@@ -94,8 +94,8 @@ export default function Navigate({pageSettings}:NavigateProps){
                                     <div className="col-10 col-md-5 col-xl-auto   ">
                                         <button aria-label={`Links to go to the page for the option of ${key}  selected`} role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)} > {key}</button>
                                         {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
-                                            <Link role="button" className="text-decoration-none" key={`${activeKey}-${index}`} href={link.link} >
-                                            <span className="p-2 pb-0 me-2 bg-black w-button d-inline d-xl-none text-white " key={index}  >{link.text}</span>
+                                            <Link role="button" className="text-decoration-none d-flex justify-content-end " key={`${activeKey}-${index}`} href={link.link} >
+                                            <span className="p-2 pb-0 me-2 bg-black w-button d-block d-xl-none text-white text-center  " key={index}  >{link.text}</span>
                                             </Link>
                                         ))}
                                     </div>
