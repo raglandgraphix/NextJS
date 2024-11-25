@@ -44,9 +44,9 @@ useEffect(() => {
                    
                     <Carousel.Item className="  carousel-height d-flex justify-content-center " key={index}>
                     
-                    <Image key={index} className="object-fit-cover object-fit-lg-contain   " priority  src={photo}  alt={item.altTag} width={1200} height={600}style={{ 
+                    <Image key={index} className="object-fit-cover" priority  src={photo}  alt={item.altTag} width={1600} height={800}style={{ 
               // width: '100%',
-              height: '90vh', // Set height to 100vh
+              height: '100vh', // Set height to 100vh
               //objectFit: 'cover' // Use objectFit to cover the area
             }}/>
             
