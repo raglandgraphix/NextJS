@@ -4,6 +4,7 @@ import Navigate from "./component/navigate";
 import { useEffect, useState, useRef } from "react";
 import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
+import Image from "next/image";
 //import Image from "next/image";
 
 export default function Home() {
@@ -119,8 +120,8 @@ export default function Home() {
       </div>
       <div className="row mt-5 ">
         <div className="col-lg-3 col-md-6 ">
-          <div className="card border border-black rounded-lg shadow h-100 " aria-label="a card that is about the ACE HOTEL winning the Best in Class for the Brick in Architecture awards">
-            <img className="card-img-top d-flex" src="assets/ace1.jpg" aria-label="Image of the Ace Hotel in Toronto Canada"/>
+          <div className="card border border-black rounded-lg shadow " aria-label="a card that is about the ACE HOTEL winning the Best in Class for the Brick in Architecture awards">
+            <Image className="w-100" src='https://endicottfiles.com/AceHotel1.jpg' height={300} width={300} alt="Image of the Ace Hotel in Toronto, with Endicott brick on it."  />
             <div className="card-body">
               <h2 className="card-title text-start univers-45-light fs-3 ">Ace Hotel - Best in Class</h2>
               <p className="card-text text-start univers-45-light fs-6">The Ace Hotel - Toronto, won Best in Class - Commercial and Craftsmanship. Endicott thin brick and pavers were use through out the project. See the project here.</p>
@@ -129,11 +130,11 @@ export default function Home() {
         </div>
         <div className="col-lg-3 col-md-6 ">
           <div className="card border border-black rounded-lg shadow h-100" aria-label="a card that is about the Boys Town in Boys Town Nebraska winning Silver in the Brick in Architecture awards">
-            <img className="card-img-top d-flex" src="assets/boystown1.jpg" aria-label="An Image of the Boys Town Project"/>
-            <div className="card-body">
-              <h2 className="card-title text-start univers-45-light fs-3 ">Boys Town - BIA Silver Winner</h2>
-              <p className="card-text text-start univers-45-light fs-6">Boys Town, won silver in the BIA Brick in Architecture Awards. Endicott thin brick and pavers were use through out the project. See the project here.</p>
-            </div>
+            <Image className="w-100 " src='https://endicottfiles.com/BoysTown1.jpg' width={300} height={300} alt="Image of Boys Town School using Endicott Thin Brick"/>
+              <div className="card-body">
+                <h2 className="card-title text-start univers-45-light fs-3 ">Boys Town - BIA Silver Winner</h2>
+                <p className="card-text text-start univers-45-light fs-6">Boys Town, won silver in the BIA Brick in Architecture Awards. Endicott thin brick and pavers were use through out the project. See the project here.</p>
+              </div>
           </div>
         </div>
       </div>
