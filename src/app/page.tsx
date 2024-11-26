@@ -1,27 +1,53 @@
 //Home Page
 'use client';
 import Navigate from "./component/navigate";
-//import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
 //import Image from "next/image";
 
 export default function Home() {
-//   const [videoError1, setVideoError1] = useState(false);
-// const [videoError2, setVideoError2] = useState(false);
- 
-// const handleVideoError1 = ()=>{
-  
-//   setVideoError1(true);
+  const divRef = useRef<HTMLDivElement>(null);
+  const [divHeight, setDivHeight] = useState(0);
+  //const [isCarouselLoaded, setIsCarouselLoaded] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null); 
+  const [isVideoLoaded,setIsVideoLoaded]=useState(false);
 
-// };  
-// const handleVideoError2 =()=>{
-//   setVideoError2(true);
-// }
+  const handleCarouselLoad = () => {
+    if (divRef.current) {
+      const height = divRef.current.clientHeight;
+      setDivHeight(height);
+    }
+    //setIsCarouselLoaded(true);
+  };
+
+  useEffect(() => {
+    const checkVideoLoad = () => {
+      if (videoRef.current && videoRef.current.readyState === 4) {
+        handleCarouselLoad();
+        setIsVideoLoaded(true);
+      } else {
+        setTimeout(checkVideoLoad, 100);
+      }
+    };
+
+    checkVideoLoad(); // Start checking for video load
+
+    const updateHeight = () => {
+      if (divRef.current) {
+        const height = divRef.current.clientHeight;
+        setDivHeight(height);
+      }
+    };
+
+    window.addEventListener('resize', updateHeight);
+    return () => window.removeEventListener('resize', updateHeight);
+  }, []); // Empty dependency array
+
   return (
     <div className="container-fluid">
       <Navigate pageSettings="gradient" />      
-        <div className="row fixed-top " style={{ zIndex: 1 }} >
+        <div className="row fixed-top " style={{ zIndex: 1 }} ref={divRef} >
           <div className="col p-0" >
 
 
@@ -29,14 +55,14 @@ export default function Home() {
 
             
 
-<Carousel className=" p-0  " variant="light" fade interval={null}  >
+<Carousel className=" p-0  " variant="light" fade interval={null}   >
       
        
                     <Carousel.Item className="   d-flex justify-content-center " >
                     <div className="d-flex justify-content-center   " >
             
             
-              <video className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
+              <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
                 <source   src="https://endicottfiles.com/East_Prarie_2024_Montage_V1_Compressed.mp4" type="video/mp4" ></source>
               </video>
            
@@ -44,11 +70,17 @@ export default function Home() {
                     
                     {/* <Image  className="object-fit-cover" priority  src='x'  alt='info' width={1600} height={800}/> */}
             
-                    <Carousel.Caption className=" text-black h-100 d-flex justify-content-start" style={{ position: 'absolute', left: 0,  }}>
-                    
-                    
+                    <Carousel.Caption className="text-white mb-5 text-start " >
+                    <h2 className="museo-light d-block">
+                      
+                      East Prairie Elementary School
+                    </h2>
+                    <p className="d-block" >Color: <span> Desert Ironspot Light, Medium Ironspot #77</span></p>
+                    <p className="d-block">Size: <span> Utility</span></p>
+                    <p className="d-block">Location: <span> Skokie,IL</span></p>
                         
                     </Carousel.Caption>
+
                     
                     </Carousel.Item>
                     <Carousel.Item className="   d-flex justify-content-center " >
@@ -81,9 +113,9 @@ export default function Home() {
 
     </div>
   </div>
-   <div style={{zIndex:3, marginTop:'100vh'}} className="row  p-0 "  aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
-    <div className=" col bg bg-dark z-3" style={{height:600}}>
-<div className="row border-top  mt-5">
+   <div style={{zIndex:3, marginTop:divHeight-125}} className={`row  p-0 ${isVideoLoaded ? '' : 'd-none'} `}  aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
+    <div className=" col bg bg-dark z-3" >
+<div className="row border-top  mt-5 ">
       </div>
       <div className="row mt-5 ">
         <div className="col-lg-3 col-md-6 ">
