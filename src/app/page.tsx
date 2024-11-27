@@ -8,7 +8,6 @@ import Image from "next/image";
 export default function Home() {
   const divRef = useRef<HTMLDivElement>(null);
   const [divHeight, setDivHeight] = useState(0);
-  //const [isCarouselLoaded, setIsCarouselLoaded] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null); 
   const [isVideoLoaded,setIsVideoLoaded]=useState(false);
   const handleCarouselLoad = () => {
