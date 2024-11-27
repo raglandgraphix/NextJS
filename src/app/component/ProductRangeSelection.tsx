@@ -44,7 +44,7 @@ export default function ProductRangeSelection(){
                         <div className="col">
                             {
                                 ProductRange?.map((ranger,index)=>(
-                                    <Link key={index}  className="text-decoration-none text-rock" href={`/${Product}/${Page}-${ranger.split("/")[0]}`} ><span className={`d-block text-uppercase   pt-2 pb-2 ${index===0 && (RangeColors===null || RangeColors===ranger.split('/')[0])?'mt-2 bg bg-black text-stone rounded-2':RangeColors === ranger.split('/')[0] ? 'mt-2 bg bg-black text-stone rounded-2' : ''}  `} >{ranger}</span></Link>
+                                    <Link role="link" key={index}  className="text-decoration-none text-rock" href={`/${Product}/${Page}-${ranger.split("/")[0]}`} ><span className={`d-block text-uppercase   pt-2 pb-2 ${index===0 && (RangeColors===null || RangeColors===ranger.split('/')[0])?'mt-2 bg bg-black text-stone rounded-2':RangeColors === ranger.split('/')[0] ? 'mt-2 bg bg-black text-stone rounded-2' : ''}  `} >{ranger}</span></Link>
                                 ))}
                         </div>
                     </div>
