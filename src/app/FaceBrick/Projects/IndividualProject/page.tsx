@@ -14,10 +14,7 @@ export default function IndividualProject(){
     const { Product,Project } = SplitPathname();
     const ProjectName = Project;//This will become a variable that is passed in by the Parameter list    
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
-    //const [ProdColors,setProdColors]=useState<string[] | null>(null)
-    
-    
-   
+ 
 useEffect(() => {
     const getProjectData = async () => {
       const result = await FetchProjects(Product);

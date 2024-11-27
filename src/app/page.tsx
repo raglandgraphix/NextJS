@@ -101,3 +101,40 @@ export default function Home() {
     </div>
   );
 }
+export function generateMetadata() {
+  return {
+    title: 'Endicott Clay Products: High-Quality Brick Manufacturer', 
+    description: 'Endicott Clay Products: Your trusted source for high-quality brick. We offer a wide selection of face brick, thin brick, and pavers for any project. Explore our products and find inspiration for your designs.',
+    keywords: 'brick, black brick, red brick, brown brick, face brick, thin brick, pavers, clay products, brick manufacturer, North America', 
+    openGraph: {
+      title: 'Endicott Brick Projects',
+      description: 'Build with the best. Endicott brick provides unmatched durability, beauty, and sustainability for your residential or commercial projects. Discover our range of colors, textures, and sizes.',
+      url: 'https://www.endicott.com', 
+      siteName: 'Endicott',
+      images: [
+        {
+          url: 'https://endicottfiles.com/StanleyMuseumBox.jpg', 
+          width: 800,
+          height: 800,
+        },
+        {
+          url: 'https://endicottfiles.com/EastPrairieBox.jpg',
+          width: 800,
+          height: 800,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Endicott Brick ',
+      description: 'Get inspired by these architectural designs featuring Endicott brick.',
+      site: 'https://x.com/EndicottBrick', 
+      images: [
+        'https://endicottfiles.com/StanleyMuseumBox.jpg',
+        'https://endicottfiles.com/EastPrairieBox.jpg',
+      ],
+    },
+  };
+}
