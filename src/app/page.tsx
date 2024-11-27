@@ -47,7 +47,8 @@ export default function Home() {
 
   return (
     <div className="container-fluid">
-      <Navigate pageSettings="gradient" />      
+      <Navigate pageSettings="gradient" /> 
+      <main>     
         <div className="row fixed-top " style={{ zIndex: 1 }} ref={divRef} >
           <div className="col p-0" >
 
@@ -173,10 +174,11 @@ export default function Home() {
 
      
     </div> */}
+    
     <Footer pageSetUp="gradient"/>
     </div>
   </div>  
-  
+  </main>
 </div>
 
    
