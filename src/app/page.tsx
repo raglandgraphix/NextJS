@@ -43,7 +43,7 @@ export default function Home() {
           <div className="col p-0" >
             <Carousel className=" p-0  " variant="light" fade interval={null}   >
               <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
-                <div className="d-flex justify-content-center   " >
+                <div className="d-flex justify-content-center vidHold  " >
                   <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
                     <source   src="https://endicottfiles.com/East_Prarie_2024_Montage_V1_Compressed.mp4" type="video/mp4" ></source>
                   </video>
@@ -57,7 +57,7 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item className="   d-flex justify-content-center " >
                 <div className="d-flex justify-content-center vidHold  " >
-                  <video className="object-fit-cover w-100"  aria-label="Vidoe of the project called Monumental Journey" muted autoPlay loop playsInline    >
+                  <video ref={videoRef} className="object-fit-cover w-100"  aria-label="Vidoe of the project called Monumental Journey" muted autoPlay loop playsInline    >
                     <source   src="https://endicottfiles.com/BoysTown-Compressed.mp4" type="video/mp4" ></source>
                   </video>
                 </div>
