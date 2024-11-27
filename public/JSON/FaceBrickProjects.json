@@ -3,7 +3,8 @@
     "productType":"faceBrick",
     "jobTitle":"Mohawk",
     "jobName":"Mohawk Residence",
-    "altTag":"Mohawk Residence in Chicago, Illinois, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
+    "description":"Mohawk Residence in Chicago, Illinois, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
+    "altTag":"Image of Mohawk Residence in Chicago Illinois",
     "colorRange":["Black"],
     "products":[
         {
@@ -49,8 +50,9 @@
 				"productType":"faceBrick",
 				"jobTitle":"Stanley",
 				"jobName":"Stanley Museum of Art ",
-				"altTag": "The Stanley Museum of Art at the University of Iowa, featuring a striking facade of Endicott Manganese Ironspot face brick in a velour texture.", 
-				"colorRange":["Black"],
+				"description": "The Stanley Museum of Art at the University of Iowa, featuring a striking facade of Endicott Manganese Ironspot face brick in a velour texture.", 
+				"altTag":"Image of Stanley Museum in Des Moines Iowa",
+                "colorRange":["Black"],
                 "products":[
                     {
                     "color":"Manganese Ironspot",
@@ -93,8 +95,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"EastPrairie",
 		"jobName":"East Prairie Elementary School ",
-		"colorRange":["Gray","Tan"],
-        "altTag": "East Prairie Elementary School in Skokie, Illinois, showcasing a blend of Endicott Desert Ironspot Light and Medium Ironspot #77 bricks in a smooth texture.", 
+		"altTag":"Image of East Prairie Elementary School in Skokie Illinois",
+        "colorRange":["Gray","Tan"],
+        "description": "East Prairie Elementary School in Skokie, Illinois, showcasing a blend of Endicott Desert Ironspot Light and Medium Ironspot #77 bricks in a smooth texture.", 
 		"products":[
             {"color":"Desert Ironspot Light",
 			"colorSafe":"desertLight",
@@ -135,7 +138,8 @@
     "productType":"faceBrick",
     "jobTitle":"Zachary",
     "jobName":"Hotel Zachary, Chicago, a Tribute Portfolio Hotel",
-    "altTag":"Hotel Zachary in Chicago, Illinois, featuring a sophisticated blend of Endicott Desert Ironspot Dark and Medium Ironspot #77 bricks.",
+    "description":"Hotel Zachary in Chicago, Illinois, featuring a sophisticated blend of Endicott Desert Ironspot Dark and Medium Ironspot #77 bricks.",
+    "altTag":"Image of Zachary Hotel in Chicago Illinois",
     "colorRange":["Black","Tan"],
     "products":[
     {
@@ -212,7 +216,8 @@
     "productType":"faceBrick",
     "jobTitle":"NDEE",
     "jobName":"Nebraska Department Environment & Energy.",
-    "altTag":"The Nebraska Department of Environment & Energy building in Lincoln, Nebraska, featuring a facade of Endicott Sienna Ironspot and Copper Canyon Face brick with a velour texture.",
+    "description":"The Nebraska Department of Environment & Energy building in Lincoln, Nebraska, featuring a facade of Endicott Sienna Ironspot and Copper Canyon Face brick with a velour texture.",
+    "altTag":"Image of Nebraska Department of Environment and Engergy in Lincoln Nebraska",
     "colorRange":["Black","Tan"],
     "products":[
         {
@@ -256,7 +261,8 @@
     "productType":"faceBrick",
     "jobTitle":"Peabody",
     "jobName":"Peabody Walk lofts",
-    "altTag":"Peabody Walk lofts in Baltimore, Maryland, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
+    "description":"Peabody Walk lofts in BaltTagimore, Maryland, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
+    "altTag":"Image of Peabody Lofts in BaltTagimore Maryland",
     "colorRange":["Black"],
     "products":[
         {
@@ -277,7 +283,7 @@
         }
     ],
     "location":"111 W 28th St.",
-    "city":"Baltimore",
+    "city":"BaltTagimore",
     "stateLong":"Maryland ",
     "stateShort":" MD ",
     "distributor":"Potomac Valley",
@@ -300,7 +306,8 @@
     "productType":"faceBrick",
     "jobTitle":"DeBruce",
     "jobName":"Kansas City Art Institute - Paul & Linda DeBruce Hall",
-    "altTag":"Kansas City Art Institute - Paul & Linda DeBruce Hall in Kansas City, Missouri, featuring a facade of Endicott Manganese Ironspot face brick with a velour texture.",
+    "description":"Kansas City Art Institute - Paul & Linda DeBruce Hall in Kansas City, Missouri, featuring a facade of Endicott Manganese Ironspot face brick with a velour texture.",
+    "altTag":"Image of Kansas City Art Institute in Kansas City Missouri",
     "colorRange":["Black"],
     "products":[
         {
@@ -336,7 +343,8 @@
     "productType":"faceBrick",
     "jobTitle":"StMary",
     "jobName":"St. Mary's Chapel",
-    "altTag":"St. Mary's Chapel in Livonia, Michigan, featuring a facade of Endicott Dark Ironspot face brick with a smooth texture.",
+    "description":"St. Mary's Chapel in Livonia, Michigan, featuring a facade of Endicott Dark Ironspot face brick with a smooth texture.",
+    "altTag":"Image of St. Mary's Chapel in Livonia Michigan",
     "colorRange":["Black"],
     "products":[
         {
@@ -372,7 +380,8 @@
     "productType":"faceBrick",
     "jobTitle":"Nesbitt",
     "jobName":"Bruce D. Nesbitt African American Cultural Center",
-    "altTag":"Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign, featuring a mix of Endicott Manganese Ironspot, Sienna Ironspot, Dark Sandstone, and Light Sandstone face brick with a velour texture.",
+    "description":"Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign, featuring a mix of Endicott Manganese Ironspot, Sienna Ironspot, Dark Sandstone, and Light Sandstone face brick with a velour texture.",
+    "altTag":"Image of Bruce Nesbitt Cultural Center",
     "colorRange":["Black","Tan"],
     "products":[
         {
@@ -441,7 +450,8 @@
     "productType":"faceBrick",
     "jobTitle":"StGregory",
     "jobName":"St. Gregory The Great Catholic Church",
-    "altTag":"St. Gregory The Great Catholic Church in Marysville, Kansas, featuring a facade of Endicott Medium Ironspot #46 face brick with a velour texture.",
+    "description":"St. Gregory The Great Catholic Church in Marysville, Kansas, featuring a facade of Endicott Medium Ironspot #46 face brick with a velour texture.",
+    "altTag":"Image of St. Gregory The Great Catholic Church in Marysville, Kansas", 
     "colorRange":["Red"],
     "products":[
         {
@@ -484,7 +494,8 @@
     "productType":"faceBrick",
     "jobTitle":"ArriveHotel",
     "jobName":"Arrive Hotel",
-    "altTag":"Arrive Hotel in Austin, Texas, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
+    "description":"Arrive Hotel in Austin, Texas, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
+    "altTag":"Image of Arrive Hotel in Austin, Texas",
     "colorRange":["Black"],
     "products":[
         {
@@ -529,7 +540,8 @@
     "productType":"faceBrick",
     "jobTitle":"Asbjornson",
     "jobName":"Norm Asbjornson Hall - Montana State University",
-    "altTag":"Norm Asbjornson Hall at Montana State University in Bozeman, Montana, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
+    "description":"Norm Asbjornson Hall at Montana State University in Bozeman, Montana, featuring a facade of Endicott Manganese Ironspot face brick with a smooth texture.",
+    "altTag":"Image of Norm Asbjornson Hall at Montana State University in Bozeman, Montana",
     "colorRange":["Black"],
     "products":[
         {
@@ -565,7 +577,8 @@
     "productType":"faceBrick",
     "jobTitle":"Four51",
     "jobName":"Four51 Marlborough",
-    "altTag":"Four51 Marlborough in Boston, Massachusetts, featuring a facade of Endicott Medium Ironspot #46 face brick with a smooth texture.",
+    "description":"Four51 Marlborough in Boston, Massachusetts, featuring a facade of Endicott Medium Ironspot #46 face brick with a smooth texture.",
+    "altTag":"Image of Four51 Marlborough in Boston, Massachusetts", 
     "colorRange":["Red"],
     "products":[
         {
@@ -627,8 +640,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Hoch",
 		"jobName":"Residence",
-		"altTag":"Residence in Omaha, Nebraska, featuring a mix of Endicott Burgundy Sands, Red Blend, and Manganese Ironspot face brick in wirecut and heritage textures.",
-		"colorRange":["Black","Red"],
+		"description":"Residence in Omaha, Nebraska, featuring a mix of Endicott Burgundy Sands, Red Blend, and Manganese Ironspot face brick in wirecut and heritage textures.",
+		"altTag":"Image of Residence in Omaha, Nebraska",
+        "colorRange":["Black","Red"],
         "products":[
 			{
 			"color":"Burgundy Sands",
@@ -689,8 +703,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"FortMeyers",
 		"jobName":"Fort Myers Regional Library",
-		"altTag":"Fort Myers Regional Library in Fort Myers, Florida, featuring a blend of Endicott Coppertone and Desert Ironspot Light face brick with a smooth texture.",
-		"colorRange":["Gray","Tan"],
+		"description":"Fort Myers Regional Library in Fort Myers, Florida, featuring a blend of Endicott Coppertone and Desert Ironspot Light face brick with a smooth texture.",
+		"altTag":"Image of Fort Myers Regional Library in Fort Myers, Florida",
+        "colorRange":["Gray","Tan"],
         "products":[
 			{
 			"color":"Coppertone",
@@ -767,8 +782,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Gotham",
 		"jobName":"Gotham West Apartments",
-		"altTag":"Gotham West Apartments in New York City, New York, featuring a mix of Endicott Dark Ironspot, Desert Ironspot Light, Medium Ironspot #77, and Medium Ironspot #46 face brick with velour and artisan textures.",
-		"colorRange":["Black","Tan","Red"],
+		"description":"Gotham West Apartments in New York City, New York, featuring a mix of Endicott Dark Ironspot, Desert Ironspot Light, Medium Ironspot #77, and Medium Ironspot #46 face brick with velour and artisan textures.",
+		"altTag":"Image of Gotham West Apartments in New York City, New York",
+        "colorRange":["Black","Tan","Red"],
         "products":[
 			{
 			"color":"Dark Ironspot",
@@ -836,8 +852,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"UNFBio",
 		"jobName":"University of Northern Florida Bio-Science",
-		"altTag":"University of Northern Florida Bio-Science building in Jacksonville, Florida, featuring a mix of Endicott Medium Ironspot #77 and Coppertone face brick with a velour texture.",
-		"colorRange":["Tan"],
+		"description":"University of Northern Florida Bio-Science building in Jacksonville, Florida, featuring a mix of Endicott Medium Ironspot #77 and Coppertone face brick with a velour texture.",
+		"altTag":"University of Northern Florida Bio-Science building in Jacksonville, Florida",
+        "colorRange":["Tan"],
         "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -881,8 +898,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"AurariaScience",
 		"jobName":"Science Building Auraria Campus",
-		"altTag":"Science Building at Auraria Campus in Denver, Colorado, featuring a mix of Endicott Medium Ironspot #46, Medium Ironspot #77, and Dark Ironspot face brick with a velour texture.",
-		"colorRange":["Red","Tan","Black"],
+		"description":"Science Building at Auraria Campus in Denver, Colorado, featuring a mix of Endicott Medium Ironspot #46, Medium Ironspot #77, and Dark Ironspot face brick with a velour texture.",
+		"altTag":"Image of Science Building at Auraria Campus in Denver, Colorado",
+        "colorRange":["Red","Tan","Black"],
         "products":[
 			{
 			"color":"Medium Ironspot #46",
@@ -934,8 +952,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"KingCenter",
 		"jobName":"King Center",
-		"altTag":"King Center at Auraria Campus in Denver, Colorado, featuring Endicott Medium Ironspot #46 face brick with a velour texture.",
-		"colorRange":["Red"],
+		"description":"King Center at Auraria Campus in Denver, Colorado, featuring Endicott Medium Ironspot #46 face brick with a velour texture.",
+		"altTag":"Image of King Center at Auraria Campus in Denver, Colorado", 
+        "colorRange":["Red"],
         "products":[
 			{
 			"color":"Medium Ironspot #46",
@@ -979,8 +998,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"AurariaMetro",
 		"jobName":"Metropolitan State University of Denver Auraria Campus & Marriott",
-		"altTag":"Metropolitan State University of Denver Auraria Campus & Marriott in Denver, Colorado, featuring Endicott Dark Ironspot face brick with a smooth texture.",
-		"colorRange":["Black"],
+		"description":"Metropolitan State University of Denver Auraria Campus & Marriott in Denver, Colorado, featuring Endicott Dark Ironspot face brick with a smooth texture.",
+		"altTag":"Image of Metropolitan State University of Denver Auraria Campus & Marriott in Denver, Colorado",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Dark Ironspot",
@@ -1051,8 +1071,8 @@
 		"productType":"faceBrick",
 		"jobTitle":"CreekSide",
 		"jobName":"Creekside Middle School",
-		"altTag":"Creekside Middle School in Carmel, Indiana, featuring a mix of Endicott Golden Buff and Medium Ironspot #46 face brick with a velour texture.",
-		"colorRange":["Gray","Red"],
+		"description":"Creekside Middle School in Carmel, Indiana, featuring a mix of Endicott Golden Buff and Medium Ironspot #46 face brick with a velour texture.",
+		"altTag":"Creekside Middle School in Carmel, Indiana", "colorRange":["Gray","Red"],
         "products":[
 			{
 			"color":"Golden Buff",
@@ -1096,8 +1116,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Wharton",
 		"jobName":"Huntsman Hall-Wharton School of Business",
-		"altTag":"Huntsman Hall at the Wharton School of Business in Philadelphia, Pennsylvania, featuring Endicott Red Blend face brick with a smooth texture.",
-		"colorRange":["Red"],
+		"description":"Huntsman Hall at the Wharton School of Business in Philadelphia, Pennsylvania, featuring Endicott Red Blend face brick with a smooth texture.",
+		"altTag":"Image of Huntsman Hall at the Wharton School of Business in Philadelphia, Pennsylvania", 
+        "colorRange":["Red"],
         "products":[
 			{
 			"color":"Red Blend",
@@ -1132,9 +1153,10 @@
 		"productName":"Face Brick",
 		"productType":"faceBrick",
 		"jobTitle":"Yale",
-		"jobName":"Yale Health Center",
-		"altTag":"ale Health Center in New Haven, Connecticut, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
-		"colorRange":["Black"],
+		"jobName":"Yale HealtTagh Center",
+		"description":"Yale HealtTagh Center in New Haven, Connecticut, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
+		"altTag":"Image of Yale HealtTagh Center in New Haven, Connecticut",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Manganese Ironspot",
@@ -1158,7 +1180,7 @@
 		"city":"New Haven",
 		"stateLong":"Connecticut",
 		"stateShort":"CT",
-		"gMapsImage":"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d335.01158070075326!2d-72.92736734961298!3d41.31508556735418!2m2!1f266.86703838209354!2f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x89e7d9b744ef25b7%3A0x781bb5d6e8440a68!2sYale+Health!5e1!3m2!1sen!2sus!4v1527171505077",
+		"gMapsImage":"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d335.01158070075326!2d-72.92736734961298!3d41.31508556735418!2m2!1f266.86703838209354!2f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x89e7d9b744ef25b7%3A0x781bb5d6e8440a68!2sYale+HealtTagh!5e1!3m2!1sen!2sus!4v1527171505077",
 		"distributor":"Tri-State Brick of Connecticut",
 		"architect":"Mack Scogin Merrill Elam Architects",
 		"structuralEngineer":"DeSimone Consulting Engineers",
@@ -1179,8 +1201,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Bolling",
 		"jobName":"Bruce C. Bolling Municipal Building",
-		"altTag":"Bruce C. Bolling Municipal Building in Boston, Massachusetts, featuring Endicott Medium Ironspot #46 face brick in smooth, velour, and artisan textures.",
-		"colorRange":["Red"],
+		"description":"Bruce C. Bolling Municipal Building in Boston, Massachusetts, featuring Endicott Medium Ironspot #46 face brick in smooth, velour, and artisan textures.",
+		"altTag":"Image of Bruce C. Bolling Municipal Building in Boston, Massachusetts", 
+        "colorRange":["Red"],
         "products":[
 			{
 			"color":"Medium Ironspot #46",
@@ -1249,8 +1272,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Fordham",
 		"jobName":"Fordham Campbell, Salice & residence Halls",
-		"altTag":"Fordham Campbell, Salice & Residence Halls in Bronx, New York, featuring Endicott Manganese Ironspot face brick in artisan and velour textures.",
-		"colorRange":["Black"],
+		"description":"Fordham Campbell, Salice & Residence Halls in Bronx, New York, featuring Endicott Manganese Ironspot face brick in artisan and velour textures.",
+		"altTag":"Image of Fordham Campbell, Salice & Residence Halls in Bronx, New York",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Manganese Ironspot",
@@ -1294,8 +1318,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Kennesaw",
 		"jobName":"Kennesaw State University Design II",
-		"altTag":"Kennesaw State University Design II in Marietta, Georgia, featuring a mix of Endicott Medium Ironspot #77 and Medium Ironspot #46 face brick in smooth and velour textures.",
-		"colorRange":["Red","Tan"],
+		"description":"Kennesaw State University Design II in Marietta, Georgia, featuring a mix of Endicott Medium Ironspot #77 and Medium Ironspot #46 face brick in smooth and velour textures.",
+		"altTag":"Image of Kennesaw State University Design II in Marietta, Georgia",
+        "colorRange":["Red","Tan"],
         "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -1347,8 +1372,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Princeton",
 		"jobName":"Princeton Public Library",
-		"altTag":"Princeton Public Library in Princeton, New Jersey, featuring Endicott Burgundy Blend face brick with a smooth texture.",
-		"colorRange":["Red"],
+		"description":"Princeton Public Library in Princeton, New Jersey, featuring Endicott Burgundy Blend face brick with a smooth texture.",
+		"altTag":"Image of Princeton Public Library in Princeton, New Jersey", 
+        "colorRange":["Red"],
         "products":[
 			{
 			"color":"Burgundy Blend",
@@ -1392,8 +1418,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Beauregard",
 		"jobName":"Beauregard Condominiums",
-		"altTag":"Beauregard Condominiums in Washington, D.C., featuring a mix of Endicott Medium Ironspot #46 and Manganese Ironspot face brick with a smooth texture.",
-		"colorRange":["Black","Red"],
+		"description":"Beauregard Condominiums in Washington, D.C., featuring a mix of Endicott Medium Ironspot #46 and Manganese Ironspot face brick with a smooth texture.",
+		"altTag":"Image of Beauregard Condominiums in Washington, D.C.",
+        "colorRange":["Black","Red"],
         "products":[
 			{
 			"color":"Medium Ironspot #46",
@@ -1437,8 +1464,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Moody",
 		"jobName":"Moody Center for the Arts, Rice University",
-		"altTag":"Moody Center for the Arts at Rice University in Houston, Texas, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
-		"colorRange":["Black"],
+		"description":"Moody Center for the Arts at Rice University in Houston, Texas, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
+		"altTag":"Image of Moody Center for the Arts at Rice University in Houston, Texas",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Manganese Ironspot",
@@ -1456,7 +1484,7 @@
 		"stateShort":"TX",
 		"gMapsImage":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1502.8748676763348!2d-95.40642801994962!3d29.71443218194458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c06551d681eb%3A0x5d5042416bd0bddc!2sMoody+Center+For+The+Arts!5e1!3m2!1sen!2sus!4v1527173013975",
 		"distributor":"Upchurch Kimbrough",
-		"architect":"Michael Maltzan Architecture, Inc.",
+		"architect":"Michael MaltTagzan Architecture, Inc.",
 		"structuralEngineer":"",
 		"constructionManager":"",
 		"facadeEngineer":"",
@@ -1475,8 +1503,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"ZMBRT",
 		"jobName":"ZMBRT House",
-		"altTag":"ZMBRT House in Covington, Kentucky, featuring Endicott Dark Ironspot face brick with a smooth texture.",
-		"colorRange":["Black"],
+		"description":"ZMBRT House in Covington, Kentucky, featuring Endicott Dark Ironspot face brick with a smooth texture.",
+		"altTag":"Image of ZMBRT House in Covington, Kentucky",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Dark Ironspot",
@@ -1511,8 +1540,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Raptor",
 		"jobName":"Raptor House",
-		"altTag":"Raptor House in Oklahoma City, Oklahoma, featuring Endicott Manganese Ironspot face brick in velour and artisan textures.",
-		"colorRange":["Black"],
+		"description":"Raptor House in Oklahoma City, Oklahoma, featuring Endicott Manganese Ironspot face brick in velour and artisan textures.",
+		"altTag":"Image of Raptor House in Oklahoma City, Oklahoma",
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Manganese Ironspot",
@@ -1563,8 +1593,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Emme",
 		"jobName":"Emme Apartments",
-		"altTag":"Emme Apartments in Chicago, Illinois, featuring a mix of Endicott Gray Blend and Light Gray face brick with a velour texture.",
-		"colorRange":["Gray"],
+		"description":"Emme Apartments in Chicago, Illinois, featuring a mix of Endicott Gray Blend and Light Gray face brick with a velour texture.",
+		"altTag":"Image of Emme Apartments in Chicago, Illinois", 
+        "colorRange":["Gray"],
         "products":[
 			{
 			"color":"Gray Blend",
@@ -1608,8 +1639,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"PleasantHill",
 		"jobName":"Pleasant Hill Library",
-		"altTag":"Pleasant Hill Library in Hastings, Minnesota, featuring a mix of Endicott Medium Ironspot #77 and Medium Ironspot #46 face brick with a velour texture.",
-		"colorRange":["Red","Tan"],
+		"description":"Pleasant Hill Library in Hastings, Minnesota, featuring a mix of Endicott Medium Ironspot #77 and Medium Ironspot #46 face brick with a velour texture.",
+		"altTag":"Image of Pleasant Hill Library in Hastings, Minnesota", 
+        "colorRange":["Red","Tan"],
         "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -1661,8 +1693,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Monumental",
 		"jobName":"A Monumental Journey",
-		"altTag":"A Monumental Journey sculpture in Des Moines, Iowa, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
-		"colorRange":["Black"],
+		"description":"A Monumental Journey sculpture in Des Moines, Iowa, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
+		"altTag":"Image of A Monumental Journey sculpture in Des Moines, Iowa", 
+        "colorRange":["Black"],
         "products":[
 			{
 			"color":"Manganese Ironspot",
@@ -1699,8 +1732,9 @@
 		"productType":"faceBrick",
 		"jobTitle":"Knolls",
 		"jobName":"The Knolls",
-		"altTag":"The Knolls in Lincoln, Nebraska, featuring Endicott Sienna Ironspot face brick with a velour texture.",
-		"colorRange":["Black","Tan"],
+		"description":"The Knolls in Lincoln, Nebraska, featuring Endicott Sienna Ironspot face brick with a velour texture.",
+		"altTag":"Image of The Knolls in Lincoln, Nebraska", 
+        "colorRange":["Black","Tan"],
         "products":[
 			{
 			"color":"Sienna Ironspot",
