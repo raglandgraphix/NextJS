@@ -76,7 +76,7 @@ export default function Home() {
             <div className="row mt-5 border-top border-white pt-5">
               <div className="col-lg-3 col-md-6 ">
                 <div className="card border border-black rounded-lg shadow h-100 " aria-label="a card that is about the ACE HOTEL winning the Best in Class for the Brick in Architecture awards">
-                  <Image  className="w-100" src='https://endicottfiles.com/AceHotel1.jpg' height={300} width={300} alt="Image of the Ace Hotel in Toronto, with Endicott brick on it."  />
+                  <Image style={{height:260}}  className="w-100" src='https://endicottfiles.com/AceHotel1.jpg' height={300} width={300} alt="Image of the Ace Hotel in Toronto, with Endicott brick on it."  />
                   <div className="card-body">
                     <h2 className="card-title text-start univers-45-light fs-3 ">Ace Hotel - Best in Class</h2>
                     <p className="card-text text-start univers-45-light fs-6">The Ace Hotel - Toronto, won Best in Class - Commercial and Craftsmanship. Endicott thin brick and pavers were use through out the project. See the project here.</p>
@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <div className="col-lg-3 col-md-6 ">
                 <div className="card border border-black rounded-lg shadow h-100" aria-label="a card that is about the Boys Town in Boys Town Nebraska winning Silver in the Brick in Architecture awards">
-                  <Image style={{height:225}}  className="w-100 " src='https://endicottfiles.com/BoysTown1.jpg' width={300} height={300} alt="Image of Boys Town School using Endicott Thin Brick"/>
+                  <Image style={{height:260}}  className="w-100 " src='https://endicottfiles.com/BoysTown1.jpg' width={300} height={300} alt="Image of Boys Town School using Endicott Thin Brick"/>
                   <div className="card-body">
                     <h2 className="card-title text-start univers-45-light fs-3 ">Boys Town - BIA Silver Winner</h2>
                     <p className="card-text text-start univers-45-light fs-6">Boys Town, won silver in the BIA Brick in Architecture Awards. Endicott thin brick and pavers were use through out the project. See the project here.</p>
