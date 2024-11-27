@@ -9,12 +9,12 @@ export default function footer({pageSetUp}:FooterProps){
         <div className="container-fluid">
             <div className="row mt-5">
     <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
-      <a href="#" className="text-secondary d-inline-block me-lg-5 ms-lg-5">Privacy and Legal Terms </a>
-      <a href="#" className="text-secondary d-inline-block  ">Careers </a>
+      <a href="#" className="text-white d-inline-block me-lg-5 ms-lg-5">Privacy and Legal Terms </a>
+      <a href="#" className="text-white d-inline-block  ">Careers </a>
     </div>
     <div className="col d-flex justify-content-center justify-content-lg-end">
     {/* we need to write js that will set the year to the current year */}
-      <p className="text-secondary me-5 ms-5 mt-5 ms-lg-0 mt-lg-0">© Endicott-2024 • 402-729-3315 • endicott@endicott.com</p>
+      <p className="text-white me-5 ms-5 mt-5 ms-lg-0 mt-lg-0">© Endicott-2024 • 402-729-3315 • endicott@endicott.com</p>
     </div>
   </div>
   <div className="row">
