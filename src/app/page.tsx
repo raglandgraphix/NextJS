@@ -55,12 +55,13 @@ export default function Home() {
                   <p className="d-block">Location: <span> Skokie,IL</span></p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item className="   d-flex justify-content-center " >
+              <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
                 <div className="d-flex justify-content-center vidHold  " >
-                  <video ref={videoRef} className="object-fit-cover w-100"  aria-label="Vidoe of the project called Monumental Journey" muted autoPlay loop playsInline    >
+                  <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
                     <source   src="https://endicottfiles.com/BoysTown-Compressed.mp4" type="video/mp4" ></source>
                   </video>
-                </div>
+                </div> 
+                
                 <Carousel.Caption className="text-white mb-5 text-start ">
                   <h2 className="museo-light d-block">Boys Town Education Center</h2>
                   <p className="d-block" >Color: <span> Ivory Blend, Desert Ironspot, Desert Sands</span></p>
