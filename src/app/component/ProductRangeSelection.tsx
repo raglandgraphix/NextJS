@@ -3,14 +3,14 @@ import React from "react";
 import { useState,useEffect } from "react";
 import Link from "next/link";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
-import {usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 export default function ProductRangeSelection(){
     const {Product,Page,RangeColors}= SplitPathname();
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
     const router = useRouter(); 
-const pathname = usePathname();
 
-const handleLinkClick = (path: string) => {
+
+const handleLinkClick = () => {
     
 //   if (pathname === path) {
     
@@ -39,15 +39,15 @@ const handleLinkClick = (path: string) => {
                     </div>
                     <div className="row" role="menu">
                         <div className="col text-nowrap mt-2 mb-1 text-dark">
-                            <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={() => handleLinkClick('/FaceBrick/Projects')}>
+                            <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={() => handleLinkClick()}>
                             <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='FaceBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem">Face Brick</span>
                             </Link>
                             
                             <Link role="link" className="text-decoration-none mb-1" href='/ThinBrick/Projects'>
-                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/ThinBrick/Projects')}>Thin Brick</span>
+                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick()}>Thin Brick</span>
                             </Link>
                             <Link role="link" className="text-decoration-none mb-1" href='/Pavers/Projects'>
-                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/Pavers/Projects')}>Pavers</span>
+                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick()}>Pavers</span>
                             </Link>
                             
                             
