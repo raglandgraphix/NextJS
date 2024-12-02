@@ -5,7 +5,7 @@ import { useState,useEffect } from "react";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import ProductRangeSelection from "./ProductRangeSelection";
 export default function ProjectsHead(){
-    const { RangeColors } = SplitPathname();
+    const { Product,RangeColors } = SplitPathname();
     const [Color,setColor]=useState<string | null>(null);
     const [Header,setHeader]=useState<string | null>(null);
     const [Description,setDescription]=useState<string | null>(null);
@@ -29,10 +29,22 @@ export default function ProjectsHead(){
             setDescription("Explore the warmth and versatility of Endicott's tan, brown, and orange brick in a diverse collection of projects. These earthy hues create inviting facades, adding a touch of natural beauty to both traditional and contemporary designs.");
         }else{
             setColor(null);
-            setHeader("Endicott Face Brick: Inspiring Project Gallery");
-            setDescription("Endicott face brick projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
-        }
-    },[RangeColors]);
+            console.log(Product)
+            if(Product==='FaceBrick'){
+                setHeader("Endicott Face Brick: Inspiring Project Gallery");
+                setDescription("Endicott face brick projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
+        
+            }else if(Product==='ThinBrick'){
+                setHeader("Endicott Thin Brick: Inspiring Project Gallery");
+                setDescription("Endicott thin brick projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
+            
+            }else if(Product==='Pavers'){
+                setHeader("Endicott Pavers: Inspiring Project Gallery");
+                setDescription("Endicott Paver projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
+        
+            }
+            }
+    },[RangeColors,Product]);
     return(
         <div className="row  d-flex justify-content-between ">
             <ProductBox setDescription={Color} productHeadLine={Header} ProductDescription={Description}/>

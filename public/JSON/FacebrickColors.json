@@ -870,44 +870,61 @@
     {
         "id":17,
         "fullName":"Ruby_Red_Blend",
-        "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
-        "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
-        "mainImage":"/assets/FaceBrick/Colors/Ruby_Red_Blend/Ruby_Red_Blend_Smooth_Face_Brick_Base.jpg",
+        "descriptionTitle":"Endicott Ruby Red Brick: A Timeless Classic",
+        "description":"Endicott Ruby Red brick embodies timeless elegance with its rich, vibrant hue. This classic color adds a touch of warmth and sophistication to any project, creating a facade that is both beautiful and enduring.",
+        "mainImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Ruby Red Blend colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Short.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
-                 
+                "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                "artx":"https://architextures.org/create/share/48907?appid=1125",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                "image":"https://endicottfiles.com/Ruby-Red-Velour-Facebrick-Short.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                "largeImage":"https://endicottfiles.com/Ruby-Red-Velour-Facebrick-Large.jpg",
+                "artx":"https://architextures.org/create/share/48908?appid=1125",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","6\"\u00A0Thru-Wall","8\"\u00A0Thru-Wall","Triple"]
+                
             },
             {
                 "texture":"Matt",
-                "textureDescription":"With a gently textured surface, Endicott's Matt finish enhances the visual appeal of the brick, adding depth and complexity.",
-                "image":"../assets/Desert-Ironspot-Matt-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
+                "image":"https://endicottfiles.com/NotAvailable.jpg",
+                "fallbackImage":"",
+                "fallbackLargeImage":"",
+                "largeImage":"",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility"]
+            
             },
             {
                 "texture":"Velvetex",
-                "image":"../assets/Desert-Ironspot-Velvetex-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
+                "image":"https://endicottfiles.com/NotAvailable.jpg",
+                "fallbackImage":"",
+                "fallbackLargeImage":"",
+                "largeImage":"",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility"]
+            
             },
             {
                 "texture":"Vertical~Score",
-                "image":"../assets/Desert-Ironspot-Velour-Facebrick-Modular.jpg",
-                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3_Utility","Utility","Triple"]
+                "image":"https://endicottfiles.com/NotAvailable.jpg",
+                "fallbackImage":"",
+                "fallbackLargeImage":"",
+                "largeImage":"",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility"]
+            
             }
         ],
         "productLine":"Face Brick"               
