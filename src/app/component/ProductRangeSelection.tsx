@@ -14,7 +14,9 @@ const handleLinkClick = () => {
     
 //   if (pathname === path) {
     
-    router.refresh(); // Reload the page if the path is the same
+setTimeout(() => {
+    router.refresh();
+  }, 500); 
  // }
 };
     useEffect(()=>{
