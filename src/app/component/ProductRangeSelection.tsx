@@ -3,18 +3,18 @@ import React from "react";
 import { useState,useEffect } from "react";
 import Link from "next/link";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
-//import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 export default function ProductRangeSelection(){
     const {Product,Page,RangeColors}= SplitPathname();
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
-    //const router = useRouter(); 
+    const router = useRouter(); 
 
 
 const handleLinkClick = () => {
     
 //   if (pathname === path) {
     
-   //router.refresh(); // Reload the page if the path is the same
+    router.refresh(); // Reload the page if the path is the same
  // }
 };
     useEffect(()=>{
