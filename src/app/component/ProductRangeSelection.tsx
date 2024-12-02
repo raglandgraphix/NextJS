@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function ProductRangeSelection(){
     const {Product,Page,RangeColors}= SplitPathname();
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
-    const router = useRouter(); 
+    //const router = useRouter(); 
 
 
 const handleLinkClick = () => {
