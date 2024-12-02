@@ -5,7 +5,7 @@ import { useEffect, useState, useRef } from "react";
 import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
 import Image from "next/image";
-import { Metadata } from "next";
+//import { Metadata } from "next";
 export default function Home() {
   const divRef = useRef<HTMLDivElement>(null);
   const [divHeight, setDivHeight] = useState(0);
