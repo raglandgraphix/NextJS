@@ -6,7 +6,7 @@ export async function FetchProjects(product: string | null): Promise<Job[] | nul
     if (product === 'FaceBrick') {
       jsonFilePath = '/JSON/FaceBrickProjects.json';
     } else if (product === 'ThinBrick') {
-      jsonFilePath = '/JSON/ThinbrickProjects.json';
+      jsonFilePath = '/JSON/ThinBrickProjects.json';
     } else if (product === 'Paver') {
       jsonFilePath = '/JSON/PaverProjects.json';
     }
