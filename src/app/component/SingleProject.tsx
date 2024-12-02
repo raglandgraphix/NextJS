@@ -6,11 +6,11 @@ import { Job } from "../../../Types/ProjectTypes";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 import Head from "next/head";
-interface myProps{
-  onData: (data: string[]) => void; 
-}
+// interface myProps{
+//   onData: (data: string[]) => void; 
+// }
 
 export default function SingleProject(){
     const { Product,Project } = SplitPathname();
