@@ -6,7 +6,7 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 import ProductRangeSelection from "./ProductRangeSelection";
 
 export default function ProjectsHead(){
-    const { Product,RangeColors,Page,Project } = SplitPathname();
+    const { Product,RangeColors } = SplitPathname();
     const [Color,setColor]=useState<string | null>(null);
     const [Header,setHeader]=useState<string | null>(null);
     const [Description,setDescription]=useState<string | null>(null);
