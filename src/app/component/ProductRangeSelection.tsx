@@ -1,3 +1,4 @@
+'use client'
 //Accesibility checked 11/27/24
 import React from "react";
 import { useState,useEffect } from "react";
@@ -11,7 +12,7 @@ export default function ProductRangeSelection(){
 
 
 const handleLinkClick = (myPath:string) => {
-    
+    console.log(Product);
 //   if (pathname === path) {
     
 // setTimeout(() => {
@@ -42,16 +43,16 @@ const handleLinkClick = (myPath:string) => {
                     </div>
                     <div className="row" role="menu">
                         <div className="col text-nowrap mt-2 mb-1 text-dark">
-                            <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={() => handleLinkClick('/FaceBrick/Projects')}>
-                            <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='FaceBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem">Face Brick</span>
-                            </Link>
+                            {/* <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={() => handleLinkClick('/FaceBrick/Projects')}> */}
+                            <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='FaceBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/FaceBrick/Projects')}>Face Brick</span>
+                            {/* </Link> */}
                             
-                            <Link role="link" className="text-decoration-none mb-1" href='/ThinBrick/Projects'>
-                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/ThinBrick/Projects')}>Thin Brick</span>
-                            </Link>
-                            <Link role="link" className="text-decoration-none mb-1" href='/Pavers/Projects'>
+                            {/* <Link role="link" className="text-decoration-none mb-1" href='/ThinBrick/Projects' onClick={() => handleLinkClick('/ThinBrick/Projects')}> */}
+                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"onClick={() => handleLinkClick('/ThinBrick/Projects')} >Thin Brick</span>
+                            {/* </Link> */}
+                            {/* <Link role="link" className="text-decoration-none mb-1" href='/Pavers/Projects'onClick={() => handleLinkClick('/FaceBrick/Projects')}> */}
                             <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/FaceBrick/Projects')}>Pavers</span>
-                            </Link>
+                            {/* </Link> */}
                             
                             
                             
