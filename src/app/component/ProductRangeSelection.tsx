@@ -14,9 +14,9 @@ const handleLinkClick = () => {
     
 //   if (pathname === path) {
     
-setTimeout(() => {
-    router.refresh();
-  }, 500); 
+// setTimeout(() => {
+//     router.refresh();
+//   }, 500); 
  // }
 };
     useEffect(()=>{
