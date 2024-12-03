@@ -1,13 +1,21 @@
+import { useEffect } from "react";
 import { Job } from "../Types/ProjectTypes";
+import { usePathname } from "next/navigation";
 //import { DataItem } from "../Types/SizesTypes";
-export async function FetchProjects(product: string | null): Promise<Job[] | null> {
+export async function FetchProjects(Product: string | null): Promise<Job[] | null> {
+    
+    // useEffect(()=>{
+    //     const path = usePathname();
+    //     console.log('path');
+    // })
+    
     let jsonFilePath = '/JSON/FaceBrickProjects.json'; // Default path
   
-    if (product === 'FaceBrick') {
+    if (Product === 'FaceBrick') {
       jsonFilePath = '/JSON/FaceBrickProjects.json';
-    } else if (product === 'ThinBrick') {
+    } else if (Product === 'ThinBrick') {
       jsonFilePath = '/JSON/ThinBrickProjects.json';
-    } else if (product === 'Paver') {
+    } else if (Product === 'Paver') {
       jsonFilePath = '/JSON/PaverProjects.json';
     }
   

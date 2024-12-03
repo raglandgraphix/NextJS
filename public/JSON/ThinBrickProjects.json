@@ -4,8 +4,10 @@
 		"productType":"thinBrick",
 		"jobTitle":"aceHotel",
 		"jobName":"The Ace Hotel - Toronto",
-		"altTag":"The Ace Hotel in Toronto, Ontario, Canada, featuring a mix of Endicott Medium Ironspot #46 thin brick in smooth and velour textures.",
-		"products":[
+		"description":"The Ace Hotel in Toronto, Ontario, Canada, featuring a mix of Endicott Medium Ironspot #46 thin brick in smooth and velour textures.",
+		"altTag":"Image of the Ace Hotel in Toronto Canada that uses Endocott Medium Iornspot #46",
+        "colorRange":["Black"],
+        "products":[
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
