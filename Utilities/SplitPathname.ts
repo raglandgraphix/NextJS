@@ -12,10 +12,12 @@ export const SplitPathname = () => {
   const pathname = usePathname();
 
   useEffect(() => {
+    
     const parts = pathname.split('/');
     
     if (parts.length > 1) {
       setProduct(parts[1]);
+      
       if(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2] !=='Colors'){
         setProject(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2])
       }
@@ -25,10 +27,11 @@ export const SplitPathname = () => {
       
       setPage(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2]);
     }
-    console.log(Product);
-    console.log(RangeColors);
-     console.log(Page);//example: colors or textures
-     console.log(Project);
-  }, [pathname,Product, RangeColors,Page]);
+    
+  }, [pathname,Product, RangeColors,Page,Project]);
+  // console.log(Product);
+  //   console.log(RangeColors);
+  //    console.log(Page);//example: colors or textures
+  //    console.log(Project);
   return { Product, setProduct,Page,setPage, RangeColors, setRangeColors,Project, setProject };
 };

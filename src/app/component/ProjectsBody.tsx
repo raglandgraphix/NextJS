@@ -7,11 +7,16 @@ import { FetchProjects } from "../../../Utilities/FetchProjects";
 import Image from "next/image";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import Link from "next/link";
+//import { useRouter } from "next/navigation";
+
 export default function ProjectBody( ){
+    
+    
     const { Product,RangeColors } = SplitPathname();
     const [ProjectData,setProjectData]=useState<Job[] | null>(null);
     useEffect(() => {
         const getProjectData = async () => {
+            
             const result = await FetchProjects(Product);
             setProjectData(result);
         };

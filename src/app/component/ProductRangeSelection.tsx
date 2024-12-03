@@ -5,6 +5,12 @@ import { useState,useEffect } from "react";
 import Link from "next/link";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import { useRouter } from "next/navigation";
+// interface childProps {
+//     Product: string | null;
+//     RangeColors:string | null;
+//     Page:string | null;
+//     Project:string | null;
+// }
 export default function ProductRangeSelection(){
     const {Product,Page,RangeColors}= SplitPathname();
     const [ProductRange,setProductRange]=useState<string[] | null>(null);
@@ -12,14 +18,16 @@ export default function ProductRangeSelection(){
 
 
 const handleLinkClick = (myPath:string) => {
-   
+    //console.log(Product);
 //   if (pathname === path) {
     
-setTimeout(() => {
-    router.replace(myPath);
-  }, 500); 
+// setTimeout(() => {
+//     router.refresh();
+//   }, 500); 
  // }
+ router.replace(myPath);
  
+ // }
 };
     useEffect(()=>{
         if(Product==='FaceBrick'){

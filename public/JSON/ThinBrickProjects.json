@@ -51,8 +51,10 @@
 				"productType":"thinBrick",
 				"jobTitle":"brickMachine",
 				"jobName":"The Brick and The Machine",
-				"altTag":"The Brick and The Machine in Culver City, California, featuring Endicott Manganese Ironspot thin brick with a smooth texture.",
-				"products":[
+				"description":"The Brick and The Machine in Culver City, California, featuring Endicott Manganese Ironspot thin brick with a smooth texture.",
+				"altTag":"The Brick and The Machine in Culver City, California",
+                "colorRange":["Black"],
+                "products":[
 					{
 					"color":"Manganese Ironspot",
 					"colorSafe":"manganeseIronspot",

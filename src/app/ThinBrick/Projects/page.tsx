@@ -1,3 +1,4 @@
+
 //Projects page
 //This page has been tested for Accessibility on 11-27-24
 import React from "react";
@@ -5,13 +6,18 @@ import Navigate from "@/app/component/navigate";
 import ProjectsHead from "@/app/component/ProjectsHead";
 import Footer from "@/app/component/footer";
 import ProjectBody from "@/app/component/ProjectsBody";
+//import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import { Metadata } from "next";
+
 export default function Project(){
+ //const {Product,RangeColors,Page,Project}=SplitPathname();
+ //const { Product, RangeColors, Page, Project } = SplitPathname();
+
     return(
       <div className="container-fluid">           
           <Navigate pageSettings="light"/>
-          <ProjectsHead  />
-          <ProjectBody />
+          <ProjectsHead   />
+          <ProjectBody  />
           <Footer pageSetUp="light"/>
       </div>
     )    

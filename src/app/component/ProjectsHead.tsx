@@ -4,12 +4,13 @@ import ProductBox from "./ProductBox";
 import { useState,useEffect } from "react";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import ProductRangeSelection from "./ProductRangeSelection";
+
 export default function ProjectsHead(){
-    const { Product,RangeColors } = SplitPathname();
+    const { Product,RangeColors,Page,Project } = SplitPathname();
     const [Color,setColor]=useState<string | null>(null);
     const [Header,setHeader]=useState<string | null>(null);
     const [Description,setDescription]=useState<string | null>(null);
-    console.log(`I am the RangeColors ${RangeColors}`);
+    
     useEffect(()=>{
         if(RangeColors==='Red' || RangeColors==='Burgundy'){
             setColor('Red/Burgundy ');
@@ -48,7 +49,7 @@ export default function ProjectsHead(){
     return(
         <div className="row  d-flex justify-content-between ">
             <ProductBox setDescription={Color} productHeadLine={Header} ProductDescription={Description}/>
-            <ProductRangeSelection/>            
+            <ProductRangeSelection   />            
         </div>
     )   
 }

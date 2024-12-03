@@ -1,30 +1,26 @@
 import { useEffect } from "react";
 import { Job } from "../Types/ProjectTypes";
-import { usePathname } from "next/navigation";
-//import { DataItem } from "../Types/SizesTypes";
+
 export async function FetchProjects(Product: string | null): Promise<Job[] | null> {
+    if (Product) { // Check if product is not null
+        // Determine the correct path based on the product
+        const jsonFilePath = Product === 'FaceBrick' 
+          ? '/JSON/FaceBrickProjects.json' 
+          : Product === 'ThinBrick'
+            ? '/JSON/ThinBrickProjects.json'
+            : Product === 'Paver'
+              ? '/JSON/PaverProjects.json'
+              : '/JSON/ThinBrickProjects.json'; // Default path
     
-    // useEffect(()=>{
-    //     const path = usePathname();
-    //     console.log('path');
-    // })
-    
-    let jsonFilePath = '/JSON/FaceBrickProjects.json'; // Default path
-  
-    if (Product === 'FaceBrick') {
-      jsonFilePath = '/JSON/FaceBrickProjects.json';
-    } else if (Product === 'ThinBrick') {
-      jsonFilePath = '/JSON/ThinBrickProjects.json';
-    } else if (Product === 'Paver') {
-      jsonFilePath = '/JSON/PaverProjects.json';
+        try {
+          const response = await fetch(jsonFilePath);
+          const jsonData: Job[] = await response.json();
+          return jsonData;
+        } catch (error) {
+          console.error('Error fetching data:', error);
+          return null;
+        }
+      } else {
+        return null; // Or return a default value or an empty array if needed
+      }
     }
-  
-    try {
-      const response = await fetch(jsonFilePath);
-      const jsonData: Job[] = await response.json();
-      return jsonData;
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      return null;
-    }
-  }
