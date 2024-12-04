@@ -25,6 +25,7 @@ const handleLinkClick = (myPath:string) => {
 //     router.refresh();
 //   }, 500); 
  // }
+
  router.replace(myPath);
  
  // }
@@ -51,16 +52,16 @@ const handleLinkClick = (myPath:string) => {
                     </div>
                     <div className="row" role="menu">
                         <div className="col text-nowrap mt-2 mb-1 text-dark">
-                            {/* <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={() => handleLinkClick('/FaceBrick/Projects')}> */}
-                            <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='FaceBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick(`/FaceBrick/${Page}`)}>Face Brick</span>
-                            {/* </Link> */}
+                            <Link role="link" className="text-decoration-none" href='/FaceBrick/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/FaceBrick/${Page}`);}}  >
+                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='FaceBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Face Brick</span>
+                            </Link>
                             
-                            {/* <Link role="link" className="text-decoration-none mb-1" href='/ThinBrick/Projects' onClick={() => handleLinkClick('/ThinBrick/Projects')}> */}
-                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"onClick={() => handleLinkClick(`/ThinBrick/${Page}`)} >Thin Brick</span>
-                            {/* </Link> */}
-                            {/* <Link role="link" className="text-decoration-none mb-1" href='/Pavers/Projects'onClick={() => handleLinkClick('/FaceBrick/Projects')}> */}
-                            <span className={`d-block text-uppercase   pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem" onClick={() => handleLinkClick('/FaceBrick/Projects')}>Pavers</span>
-                            {/* </Link> */}
+                            <Link role="link" className="text-decoration-none" href='/ThinBrick/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/ThinBrick/${Page}`);}}  >
+                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Thin Brick</span>
+                            </Link>
+                            <Link role="link" className="text-decoration-none" href='/Pavers/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/PaverasBrick/${Page}`);}}  >
+                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Pavers</span>
+                            </Link>
                             
                             
                             
