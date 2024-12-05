@@ -41,7 +41,7 @@ export default function ProjectBody( ){
                                 
                         )):
                             <div key={index} className="col-12 col-md-6 col-lg-3 mb-3 position-relative d-flex justify-content-center project-container ">
-                                <Link href={`/FaceBrick/${item.jobTitle}`} aria-label={`View details for the ${item.jobName} project`}>
+                                <Link href={`/${Product}/${item.jobTitle}`} aria-label={`View details for the ${item.jobName} project`}>
                                     <Image className="rounded-3" src={item.jobThumb} alt={item.altTag} width={500} height={500}/>
                                 </Link>
                                 <div className=" bg-white-75 w-100 position-absolute bottom-0 rounded-bottom-2  text-overlay ">

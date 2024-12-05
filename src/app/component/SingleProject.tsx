@@ -42,9 +42,9 @@ useEffect(() => {
   //console.log(SendArray);
   return(
     <div className="row  ">
-      <Head>
+      {/* <Head>
         <title>Rockstar</title>
-      </Head>
+      </Head> */}
       
 <Carousel className=" p-0  " variant="light" fade  >
       
