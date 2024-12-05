@@ -54,7 +54,7 @@
 				"jobName":"The Brick and The Machine",
 				"description":"The Brick and The Machine in Culver City, California, featuring Endicott Manganese Ironspot thin brick with a smooth texture.",
 				"altTag":"The Brick and The Machine in Culver City, California",
-                "colorRange":["Black"],
+                
                 "colorRange":["Black"], 
 "products":[
 					{
@@ -92,9 +92,9 @@
 				"productType":"thinBrick",
 				"jobTitle":"boystown",
 				"jobName":"Boys Town Education Center",
-				"altTag":"Boys Town Education Center in Boys Town, Nebraska, featuring a mix of Endicott Ivory Blend, Desert Ironspot Light, and Desert Sands thin brick in velour and sanded textures.",
-				"colorRange":["Black"],
-                "colorRange":["Black"], 
+				"description":"Boys Town Education Center in Boys Town, Nebraska, featuring a mix of Endicott Ivory Blend, Desert Ironspot Light, and Desert Sands thin brick in velour and sanded textures.",
+				"altTag":"Image of Boys Town Education Center in Boys Town, Nebraska",
+                "colorRange":["Gray","Tan"], 
 "products":[
 					{
 					"color":"Ivory Blend",
@@ -155,9 +155,9 @@
 				"productType":"thinBrick",
 				"jobTitle":"heart",
 				"jobName":"Heart Ministry Center",
-				"altTag":"Heart Ministry Center in Omaha, Nebraska, featuring Endicott Sienna Ironspot thin brick with a smooth texture.",
-				"colorRange":["Black"],
-                "colorRange":["Black"], 
+				"description":"Heart Ministry Center in Omaha, Nebraska, featuring Endicott Sienna Ironspot thin brick with a smooth texture.",
+				"altTag":"Image of Heart Ministry Center in Omaha, Nebraska",
+                "colorRange":["Black","Tan"], 
 "products":[
 					{
 					"color":"Sienna Ironspot",
@@ -192,8 +192,8 @@
 				"productType":"thinBrick",
 				"jobTitle":"honor",
 				"jobName":"Honor Credit Union Operation Center",
-				"altTag":"Honor Credit Union Operation Center in Berrien Springs, Michigan, featuring Endicott Manganese Ironspot thin brick with a wirecut texture.",
-				"colorRange":["Black"],
+				"description":"Honor Credit Union Operation Center in Berrien Springs, Michigan, featuring Endicott Manganese Ironspot thin brick with a wirecut texture.",
+				"altTag":"Image of Honor Credit Union Operation Center in Berrien Springs, Michigan",
                 "colorRange":["Black"], 
 "products":[
 					{
@@ -228,9 +228,9 @@
 				"productType":"thinBrick",
 				"jobTitle":"nesbitt",
 				"jobName":"Bruce D. Nesbitt African American Cultural Center",
-				"altTag":"Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign, featuring a mix of Endicott Manganese Ironspot, Sienna Ironspot, Dark Sandstone, and Light Sandstone thin brick with a velour texture. (This project appears in both FaceBrick and ThinBrick)",
-				"colorRange":["Black"],
-                "colorRange":["Black"], 
+				"description":"Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign, featuring a mix of Endicott Manganese Ironspot, Sienna Ironspot, Dark Sandstone, and Light Sandstone thin brick with a velour texture. (This project appears in both FaceBrick and ThinBrick)",
+				"altTag":"Image of Bruce D. Nesbitt African American Cultural Center at the University of Illinois Urbana-Champaign ",
+                "colorRange":["Black","Tan","Gray"], 
 "products":[
 					{
 					"color":"Manganese Ironspot",
@@ -297,8 +297,9 @@
 			"productType":"thinBrick",
 			"jobTitle":"dcwest",
 			"jobName":"DC West Elementary School",
-			"altTag":"DC West Elementary School in Valley, Nebraska, featuring Endicott Dark Sandstone thin brick with an artisan texture.",
-			"colorRange":["Black"], 
+			"description":"DC West Elementary School in Valley, Nebraska, featuring Endicott Dark Sandstone thin brick with an artisan texture.",
+			"altTag":"Image of DC West Elementary School in Valley, Nebraska ",
+			"colorRange":["Tan"], 
 "products":[
 				{
 				"color":"Dark Sandstone",
@@ -334,8 +335,9 @@
 			"productType":"thinBrick",
 			"jobTitle":"creighton",
 			"jobName":"Creighton University School of Dentistry",
-			"altTag":"Creighton University School of Dentistry in Omaha, Nebraska, featuring a mix of Endicott Burgundy Sands No Black and Autumn Sands No Black thin brick with a square edge no-texture finish.",
-			"colorRange":["Black"], 
+			"description":"Creighton University School of Dentistry in Omaha, Nebraska, featuring a mix of Endicott Burgundy Sands No Black and Autumn Sands No Black thin brick with a square edge no-texture finish.",
+			"altTag":"image of Creighton University School of Dentistry in Omaha, Nebraska",
+			"colorRange":["Red","Black","Tan"], 
 "products":[
 				{
 				"color":"Burgundy Sands No Black",
@@ -379,8 +381,9 @@
 		"productType":"thinBrick",
 		"jobTitle":"joey",
 		"jobName":"Joey DTLA Restaurant",
-		"altTag":"Joey DTLA Restaurant in Los Angeles, California, featuring Endicott Ivory Blend thin brick with a velour texture.",
-		"colorRange":["Black"], 
+		"description":"Joey DTLA Restaurant in Los Angeles, California, featuring Endicott Ivory Blend thin brick with a velour texture.",
+		"altTag":"Image of Joey DTLA Restaurant in Los Angeles, California",
+		"colorRange":["Gray"], 
 "products":[
 			{
 			"color":"Ivory Blend",
@@ -424,8 +427,9 @@
 		"productType":"thinBrick",
 		"jobTitle":"bostonCollege",
 		"jobName":"Boston College, Fish Field House",
-		"altTag":"Boston College, Fish Field House in Chestnut Hill, Massachusetts, featuring a mix of Endicott Desert Ironspot Dark and Coppertone thin brick with a velour texture.",
-		"colorRange":["Black"], 
+		"description":"Boston College, Fish Field House in Chestnut Hill, Massachusetts, featuring a mix of Endicott Desert Ironspot Dark and Coppertone thin brick with a velour texture.",
+		"altTag":"Image of Boston College, Fish Field House in Chestnut Hill, Massachusetts",
+		"colorRange":["Tan"], 
 "products":[
 			{
 			"color":"Desert Ironspot Dark",
@@ -469,8 +473,9 @@
 			"productType":"thinBrick",
 			"jobTitle":"augsburg",
 			"jobName":"Augsburg University - Hagfors Center For Science, Business & Religion",
-			"altTag":"Augsburg University - Hagfors Center For Science, Business & Religion in Minneapolis, Minnesota, featuring a mix of Endicott Medium Ironspot #46, Manganese Ironspot, and Dark Ironspot thin brick with a smooth texture.",
-			"colorRange":["Red"],
+			"description":"Augsburg University - Hagfors Center For Science, Business & Religion in Minneapolis, Minnesota, featuring a mix of Endicott Medium Ironspot #46, Manganese Ironspot, and Dark Ironspot thin brick with a smooth texture.",
+			"altTag":"Image of Augsburg University - Hagfors Center For Science, Business & Religion in Minneapolis, Minnesota",
+			"colorRange":["Red","Black"],
             
 "products":[
 				{
@@ -523,8 +528,9 @@
 		"productType":"thinBrick",
 		"jobTitle":"hobokenViaduct",
 		"jobName":"14th St. Hoboken Viaduct",
-		"altTag":"14th St. Hoboken Viaduct in Hoboken, New Jersey, featuring a mix of Endicott Desert Ironspot Dark, Desert Ironspot Light, Golden Buff, and Medium Ironspot #77 thin brick in smooth and velour textures.",
-		"colorRange":["Black"], 
+		"description":"14th St. Hoboken Viaduct in Hoboken, New Jersey, featuring a mix of Endicott Desert Ironspot Dark, Desert Ironspot Light, Golden Buff, and Medium Ironspot #77 thin brick in smooth and velour textures.",
+		"alt":"Image of 14th St. Hoboken Viaduct in Hoboken, New Jersey",
+		"colorRange":["Gray","Tan"], 
 "products":[
 			{
 			"color":"Desert Ironspot Dark",
@@ -584,7 +590,7 @@
 		"jobTitle":"uncommon",
 		"jobName":"The Uncommon/Lark on Main",
 		"altTag":"The Uncommon/Lark on Main in Charlottesville, Virginia, featuring a mix of Endicott Dark Ironspot, Manganese Ironspot, and Sienna Ironspot thin brick with a smooth texture.",
-		"colorRange":["Black"], 
+		"colorRange":["Black","Tan"], 
 "products":[
 			{
 			"color":"Dark Ironspot",
@@ -636,7 +642,7 @@
 		"jobTitle":"villiages",
 		"jobName":"Villages Charter High School",
 		"altTag":"Villages Charter High School in The Villages, Florida, featuring Endicott Autumn Sands thin brick with a heritage texture.",
-		"colorRange":["Black"], 
+		"colorRange":["Tan"], 
 "products":[
 			{
 			"color":"Autumn Sands",
@@ -672,7 +678,7 @@
 		"jobTitle":"swfa",
 		"jobName":"SWFA Outdoors",
 		"altTag":"SWFA Outdoors in Midlothian, Texas, featuring a mix of Endicott Desert Ironspot Dark, Executive Ironspot, Golden Buff, Manganese Ironspot, and Coppertone thin brick in smooth and velour textures.",
-		"colorRange":["Black"], 
+		"colorRange":["Black","Gray","Tan"], 
 "products":[
 			{
 			"color":"Desert Ironspot Dark",
@@ -740,7 +746,7 @@
 		"jobTitle":"sanford",
 		"jobName":"Sanford USD Medical Center",
 		"altTag":"Sanford USD Medical Center in Sioux Falls, South Dakota, featuring a mix of Endicott Desert Ironspot Light, Desert Ironspot Dark, Coppertone, and Golden Buff thin brick with a velour texture.",
-		"colorRange":["Black"], 
+		"colorRange":["Gray","Tan"], 
 "products":[
 			{
 			"color":"Desert Ironspot Light",
@@ -836,7 +842,7 @@
 		"jobTitle":"lucasOil",
 		"jobName":"Lucas Oil Stadium",
 		"altTag":"Lucas Oil Stadium in Indianapolis, Indiana, showcasing the versatility of Endicott Medium Ironspot #77 thin brick with a velour texture, used to create a dynamic and textured facade.",
-		"colorRange":["Black"], 
+		"colorRange":["Tan"], 
 "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -872,7 +878,7 @@
 		"jobTitle":"tcf",
 		"jobName":"TCF Bank Stadium",
 		"altTag":"TCF Bank Stadium in Minneapolis, Minnesota, featuring a combination of Endicott Medium Ironspot #77 and Sienna Ironspot thin brick with a velour texture, adding warmth and texture to the stadium's exterior.",
-		"colorRange":["Black"], 
+		"colorRange":["Black","Tan"], 
 "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -916,8 +922,8 @@
 		"jobTitle":"avera",
 		"jobName":"Avera McKennan Hospital",
 		"altTag":"Avera McKennan Hospital in Sioux Falls, South Dakota, utilizing Endicott Medium Ironspot #77 and Medium Ironspot #46 thin brick with a velour texture to create a welcoming and aesthetically pleasing facade.",
-		"colorRange":["Red"],
-        "colorRange":["Black"], 
+		"colorRange":["Red","Tan"],
+        
 "products":[
 			{
 			"color":"Medium Ironspot #77",
@@ -961,7 +967,7 @@
 		"jobTitle":"sdsu",
 		"jobName":"South Dakota State University Residential",
 		"altTag":"South Dakota State University Residential building in Brookings, South Dakota, featuring a blend of Endicott Copper Canyon, Burgundy Blend, Red Blend, and Bordeaux Blend thin brick with a wirecut texture for a contemporary and durable exterior.",
-		"colorRange":["Black"], 
+		"colorRange":["Red","Tan"], 
 "products":[
 			{
 			"color":"Copper Canyon",
@@ -1021,8 +1027,8 @@
 		"jobTitle":"normandale",
 		"jobName":"Normandale Community College Parking Ramp",
 		"altTag":"Normandale Community College Parking Ramp in Bloomington, Minnesota, utilizing a variety of Endicott thin brick colors, including Desert Ironspot Dark, Medium Ironspot #46, Dark Ironspot, and Executive Ironspot, with a smooth texture for a clean and modern look.",
-		"colorRange":["Red"],
-        "colorRange":["Black"], 
+		"colorRange":["Red","Black","Tan"],
+        
 "products":[
 			{
 			"color":"Desert Ironspot Dark",
@@ -1084,7 +1090,7 @@
 		"jobTitle":"stCloud",
 		"jobName":"St. Cloud City Hall",
 		"altTag":"St. Cloud City Hall in St. Cloud, Florida, featuring a combination of Endicott Autumn Sands thin brick with a square edge no-texture finish and Gray Blend thin brick with a wire cut texture, creating a visually interesting and durable facade.",
-		"colorRange":["Black"], 
+		"colorRange":["Gray","Tan"], 
 "products":[
 			{
 			"color":"Autumn Sands",
@@ -1129,8 +1135,8 @@
 		"jobTitle":"suntrust",
 		"jobName":"SunTrust Park",
 		"altTag":"SunTrust Park in Atlanta, Georgia, showcasing a mix of Endicott Burgundy Sands No Black thin brick with a square edge no-texture finish, Medium Ironspot #46 thin brick with a velour texture, and Dark Ironspot thin brick with a velour texture, creating a dynamic and visually appealing stadium exterior.",
-		"colorRange":["Red"],
-        "colorRange":["Black"], 
+		"colorRange":["Red","Black"],
+        
 "products":[
 			{
 			"color":"Burgundy Sands No Black",
@@ -1184,7 +1190,7 @@
 		"jobTitle":"clearwater",
 		"jobName":"Clearwater Fire Station #45",
 		"altTag":"Clearwater Fire Station #45 in Clearwater, Florida, featuring a combination of Endicott Red Ironspot and Desert Ironspot Light thin brick with a velour texture, providing a durable and aesthetically pleasing finish for this essential community building.",
-		"colorRange":["Black"], 
+		"colorRange":["Red","Gray","Tan"], 
 "products":[
 			{
 			"color":"Red Ironspot",
@@ -1228,8 +1234,8 @@
 		"jobTitle":"binney",
 		"jobName":"50-60 Binney",
 		"altTag":"50-60 Binney in Cambridge, Massachusetts, featuring a mix of Endicott Dark Ironspot and Medium Ironspot #46 thin brick with a smooth texture, contributing to the building's modern and sophisticated design.",
-		"colorRange":["Red"],
-        "colorRange":["Black"], 
+		"colorRange":["Black","Red"],
+       
 "products":[
 			{
 			"color":"Dark Ironspot",
@@ -1274,7 +1280,7 @@
 		"jobTitle":"glaze",
 		"jobName":"Endicott Glazed",
 		"altTag":"Endicott Glazed thin brick, available in both smooth and velour textures, showcasing the versatility and beauty of glazed brick in various applications.",
-		"colorRange":["Black"], 
+		"colorRange":["Gray"], 
 "products":[
 			{
 			"color":"Glazed",
