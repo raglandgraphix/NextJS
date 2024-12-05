@@ -7,7 +7,7 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
 //import { useRouter } from "next/router";
-import Head from "next/head";
+//import Head from "next/head";
 // interface myProps{
 //   onData: (data: string[]) => void; 
 // }
