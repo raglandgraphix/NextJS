@@ -5,7 +5,7 @@ export async function FetchTexture(product: string | null): Promise<TextureData[
     if (product === 'FaceBrick') {
       jsonFilePath = '/JSON/FacebrickTextures.json';
     } else if (product === 'ThinBrick') {
-      jsonFilePath = '/JSON/ThinbrickTextures.json';
+      jsonFilePath = '/JSON/ThinBrickTextures.json';
     } else if (product === 'Paver') {
       jsonFilePath = '/JSON/PaverTextures.json';
     }
