@@ -6,7 +6,7 @@ import { TextureData } from "../../../../Types/TextureTypes"
 import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
-import ProductBox from "@/app/component/ProductBox";
+
 import Image from "next/image";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -21,8 +21,6 @@ export default function Textures(){
     const [Data,setData]=useState<TextureData[] | null>(null);
     const [Texture,setTexture]=useState<string | StaticImport| null>(null);
     const [showModal, setShowModal] = useState(false);
-    const HeaderCopy='Endicott Textures: Elevate Your Design with Brick';
-    const BodyCopy='Explore the diverse textures of Endicott brick, from smooth and classic to rugged and rustic.  Our unique finishes, like Velour,  Artisan, and Vertical Score, add depth, character, and visual interest to any brick facade.'
     const [ColorArray,setColorArray]=useState<string[] | null>(null);
     const [NumberofColumns,setNumberofColumn]=useState<number>(2);
     const NumberofRows = Math.ceil(ColorArray?ColorArray.length/NumberofColumns:0)
