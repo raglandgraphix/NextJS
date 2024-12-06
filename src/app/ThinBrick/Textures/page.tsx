@@ -6,7 +6,7 @@ import { TextureData } from "../../../../Types/TextureTypes"
 import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
-import ProductBox from "@/app/component/ProductBox";
+import TextureHead from "@/app/component/TextureHead";
 import Image from "next/image";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -89,7 +89,9 @@ export default function Textures(){
         <div className="container-fluid">
             <Navigate pageSettings="light"/>
             <div className="row">
-                <ProductBox setDescription="" productHeadLine={HeaderCopy} ProductDescription={BodyCopy}/>
+               <div className="col">
+                <TextureHead/>
+               </div>
             </div>
             <div className="row">
                 {
@@ -129,9 +131,9 @@ export default function Textures(){
                         <div className="univers-45-light" key={index}>
 
                             <Image src={item.image} alt={item.altTag} width={1000} height={1000}/>
-                            <p className="d-inline " >Conforms to ASTM C216 Type: </p>
+                            <p className="d-inline " >Conforms to ASTM C1088 Type: </p>
                             {
-                                item.astm216.map((value, index, arr)=>(
+                                item.astm1088.map((value, index, arr)=>(
                                     <p className="d-inline" key={index}>{value}{index < arr.length -1?',':''} </p>
                                 ))
                             }

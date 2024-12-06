@@ -12,6 +12,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Link from "next/link";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import TextureHead from "@/app/component/TextureHead";
 
 
 
@@ -89,7 +90,10 @@ export default function Textures(){
         <div className="container-fluid">
             <Navigate pageSettings="light"/>
             <div className="row">
-                <ProductBox setDescription="" productHeadLine={HeaderCopy} ProductDescription={BodyCopy}/>
+                <div className="col">
+                    <TextureHead/>
+
+                </div>
             </div>
             <div className="row">
                 {

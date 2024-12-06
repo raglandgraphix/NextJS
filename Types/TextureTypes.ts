@@ -6,5 +6,6 @@ export type TextureData = {
         altTag:string,
         astm216:string[],
         astm652:string[],
+        astm1088:string[],
         AvailableColors:string[]    
 }
