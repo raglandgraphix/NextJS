@@ -327,8 +327,8 @@
 			"masonryBudget":"",
 			"completed":"",
 			"jobThumb":"https://endicottfiles.com/DCWestBox.jpg",
-			"mainPhoto":"https://endicottfiles.com/DCWestBox1.jpg",
-			"photoAlbum":["https://endicottfiles.com/DCWestBox1.jpg","https://endicottfiles.com/DCWestBox2.jpg","https://endicottfiles.com/DCWestBox3.jpg","https://endicottfiles.com/DCWestBox4.jpg","https://endicottfiles.com/DCWestBox5.jpg","https://endicottfiles.com/DCWestBox6.jpg","https://endicottfiles.com/DCWestBox7.jpg"]
+			"mainPhoto":"https://endicottfiles.com/DCwest1.jpg",
+			"photoAlbum":["https://endicottfiles.com/DCwest1.jpg","https://endicottfiles.com/DCwest2.jpg","https://endicottfiles.com/DCwest3.jpg","https://endicottfiles.com/DCwest4.jpg","https://endicottfiles.com/DCwest5.jpg","https://endicottfiles.com/DCwest6.jpg","https://endicottfiles.com/DCwest7.jpg"]
 		},
 	{
 			"productName":"Thin Brick",
@@ -639,7 +639,7 @@
 	{
 		"productName":"Thin Brick",
 		"productType":"thinBrick",
-		"jobTitle":"villiages",
+		"jobTitle":"villages",
 		"jobName":"Villages Charter High School",
 		"altTag":"Villages Charter High School in The Villages, Florida, featuring Endicott Autumn Sands thin brick with a heritage texture.",
 		"colorRange":["Tan"], 
@@ -657,7 +657,7 @@
 		"city":"The Villages",
 		"stateLong":"Florida",
 		"stateShort":"FL",
-		"gMapsImage":"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d587.56202224968!2d-82.01876124849703!3d28.924955853847337!2m2!1f354.4065044251797!2f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88e7c4eaac37d611%3A0xe3b3d0c3d635418f!2sThe+Villages+Charter+High+School!5e1!3m2!1sen!2sus!4v1527178588369",
+		"gMapsImage":"https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d587.56202224968!2d-82.01876124849703!3d28.924955853847337!2m2!1f354.4065044251797!2f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88e7c4eaac37d611%3A0xe3b3d0c3d635418f!2sThe+Villiages+Charter+High+School!5e1!3m2!1sen!2sus!4v1527178588369",
 		"distributor":"Harwood Brick",
 		"architect":"Haskell",
 		"structuralEngineer":"",
@@ -669,8 +669,8 @@
 		"masonryBudget":"",
 		"completed":"",
 		"jobThumb":"https://endicottfiles.com/VillagesBox.jpg",
-		"mainPhoto":"https://endicottfiles.com/Villages1.jpg",
-		"photoAlbum":["https://endicottfiles.com/Villages1.jpg","https://endicottfiles.com/Villages2.jpg","https://endicottfiles.com/Villages3.jpg","https://endicottfiles.com/Villages4.jpg","https://endicottfiles.com/Villages5.jpg","https://endicottfiles.com/Villages6.jpg","https://endicottfiles.com/Villages7.jpg"]
+		"mainPhoto":"https://endicottfiles.com/Villiages1.jpg",
+		"photoAlbum":["https://endicottfiles.com/Villiages1.jpg","https://endicottfiles.com/Villiages2.jpg","https://endicottfiles.com/Villiages3.jpg","https://endicottfiles.com/Villiages4.jpg","https://endicottfiles.com/Villiages5.jpg","https://endicottfiles.com/Villiages6.jpg","https://endicottfiles.com/Villiages7.jpg"]
 	},
 	{
 		"productName":"Thin Brick",
@@ -1033,7 +1033,7 @@
 			{
 			"color":"Desert Ironspot Dark",
 			"colorSafe":"desertDark",
-			"size":"null",
+			"size":"Modular",
 			"texture":"Smooth",
 			"qty":"",
 			"orderNum":"191986"
@@ -1041,7 +1041,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"null",
+			"size":"Modular",
 			"texture":"Smooth",
 			"qty":"",
 			"orderNum":"191986"
@@ -1049,7 +1049,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"null",
+			"size":"Modular",
 			"texture":"Smooth",
 			"qty":"",
 			"orderNum":"191986"
@@ -1057,7 +1057,7 @@
 			{
 			"color":"Executive Ironspot",
 			"colorSafe":"executive",
-			"size":"null",
+			"size":"Modular",
 			"texture":"Smooth",
 			"qty":"",
 			"orderNum":"191986"
@@ -1317,7 +1317,7 @@
 		"completed":"",
 		"jobThumb":"https://endicottfiles.com/GlazedBox.jpg",
 		"mainPhoto":"https://endicottfiles.com/Glazed1.jpg",
-		"photoAlbum":["https://endicottfiles.com/Glazed1.jpg","https://endicottfiles.com/Glazed2.jpg","https://endicottfiles.com/Glazed3.jpg","https://endicottfiles.com/Glazed4.jpg","https://endicottfiles.com/Glazed5.jpg","https://endicottfiles.com/Glazed6.jpg","https://endicottfiles.com/Glazed7.jpg"]
+		"photoAlbum":["https://endicottfiles.com/Glazed-1.jpg","https://endicottfiles.com/Glazed-2.jpg","https://endicottfiles.com/Glazed-3.jpg","https://endicottfiles.com/Glazed-4.jpg","https://endicottfiles.com/Glazed-5.jpg","https://endicottfiles.com/Glazed-6.jpg","https://endicottfiles.com/Glazed-7.jpg"]
 		}
 
 ]

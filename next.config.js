@@ -54,10 +54,18 @@ const nextConfig = {
           source: '/ThinBrick/Projects-:color', // Match the pattern with the color segment
           destination: '/ThinBrick/Projects', // Redirect to the Colors page
         },
+        {
+          source: '/Paver/Projects-:color', // Match the pattern with the color segment
+          destination: '/Paver/Projects', // Redirect to the Colors page
+        },
         
         {
           source: '/FaceBrick/:jobTitle', // Match the pattern with the color segment
           destination: '/FaceBrick/Projects/IndividualProject', // Redirect to the Colors page
+        },
+        {
+          source: '/Paver/:jobTitle', // Match the pattern with the color segment
+          destination: '/Paver/Projects/IndividualProject', // Redirect to the Colors page
         },
         
         

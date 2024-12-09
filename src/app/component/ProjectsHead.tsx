@@ -39,7 +39,7 @@ export default function ProjectsHead(){
                 setHeader("Endicott Thin Brick: Inspiring Project Gallery");
                 setDescription("Endicott thin brick projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
             
-            }else if(Product==='Pavers'){
+            }else if(Product==='Paver'){
                 setHeader("Endicott Pavers: Inspiring Project Gallery");
                 setDescription("Endicott Paver projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
         

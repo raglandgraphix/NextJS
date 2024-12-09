@@ -9,7 +9,7 @@ const linkData = {
     // { text: 'All Projects', link: '/FaceBrick/Projects' },
     { text: 'Face Brick', link: '/FaceBrick/Projects' },
     { text: 'Thin Brick', link: '/ThinBrick/Projects' },
-    { text: 'Pavers', link: '/projects/pavers' }
+    { text: 'Pavers', link: '/Paver/Projects' }
   ],
   'Face Brick':[
     {text:'Colors', link:'/FaceBrick/Colors'},

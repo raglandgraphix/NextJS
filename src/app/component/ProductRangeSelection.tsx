@@ -36,7 +36,7 @@ const handleLinkClick = (myPath:string) => {
         }else if(Product==='ThinBrick'){
           setProductRange(["All","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"]);      
         }else if(Product==='Paver'){
-          setProductRange(["All","Red/Burgundy","Black/Plum","Gray/White/Cream/Buff","Tan/Brown/Orange"]);        
+          setProductRange(["All","Red/Burgundy","Black/Plum","Tan/Brown/Orange"]);        
         }else{
           setProductRange(null);
         }
@@ -59,8 +59,8 @@ const handleLinkClick = (myPath:string) => {
                             <Link role="link" className="text-decoration-none" href='/ThinBrick/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/ThinBrick/${Page}`);}}  >
                                 <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Thin Brick</span>
                             </Link>
-                            <Link role="link" className="text-decoration-none" href='/Pavers/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/PaverasBrick/${Page}`);}}  >
-                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='Pavers'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Pavers</span>
+                            <Link role="link" className="text-decoration-none" href='/Paver/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/Paver/${Page}`);}}  >
+                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='Paver'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Pavers</span>
                             </Link>
                             
                             
