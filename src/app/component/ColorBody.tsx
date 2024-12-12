@@ -11,11 +11,12 @@ import SizeBody from "./SizeBody";
 import ColorProjects from "./ColorProjects";
 import ColorDisplay from "./ColorDisplay";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
-//add splitnamepath
+
 
 
 interface ColorBodyProps {
   selectedSize: string | null;
+
 }
 export default function ColorBody({ selectedSize }: ColorBodyProps){
   
