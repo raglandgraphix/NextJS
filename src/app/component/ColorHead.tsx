@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import {usePathname} from 'next/navigation';
-import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
+import { DataItem } from "../../../Types/ProductTypes";
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import FBCSelections from "./FBCSelections";
 import TBCSelections from "./TBCSelections";
@@ -17,7 +17,7 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [CleanColor,setCleanColor]=useState<string | null>(null);
-    const [Data,setData]=useState<DataItem[] | null>(null);
+    const [Data, setData] = useState<DataItem[] | null>(null); 
     //const [Texture,setTexture]=useState<string | null>('Smooth');
     const [ProdHL,setProdHL]=useState<string | null>(null);
     const [ProdDesc,setProdDesc]=useState<string | null>(null);
@@ -35,8 +35,14 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
     },[pathname]);
     useEffect(() => {
       const getData = async () => {
-        const result = await FetchProduct(Product);
-        setData(result);
+         
+              const result = await FetchProduct(Product);
+      
+              // Type assertion based on Product
+              
+                setData(result);
+             
+            
       };
   
       getData();

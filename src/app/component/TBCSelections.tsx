@@ -12,9 +12,9 @@ export default function TBCSelections (){
                 <div className="row ">
                   <div className="col text-nowrap ">
                     {/* <span className="d-block text-uppercase  mt-2  pt-2 pb-2 text-rock ">ALL</span> */}
-                    <span className="d-block text-uppercase   pt-2 pb-2 bg bg-black text-stone rounded-2">Face Brick</span>
-                    <span className="d-block text-uppercase   pt-2 pb- text-rock">Thin Brick</span>
-                    <span className="d-block text-uppercase   pt-2 pb-2 text-rock">Pavers</span>
+                    <span className="d-block text-uppercase   pt-2 pb-2 bg bg-black text-stone rounded-2">1/2" Thick</span>
+                    <span className="d-block text-uppercase   pt-2 pb- text-rock">5/8" Thick</span>
+                    <span className="d-block text-uppercase   pt-2 pb-2 text-rock">1" Thick</span>
                   </div>
                 </div>
                 

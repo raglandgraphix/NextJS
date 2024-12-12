@@ -2,52 +2,66 @@
 import React from "react";
 import { useState,useEffect } from "react";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
-import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
+//import Image from "next/image";
+import { DataItem as FacebrickDataItem } from "../../../Types/ProductTypes";
+import { DataItem as ThinbrickDataItem } from "../../../Types/ProductTypes";
 import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import ArchitectSupport from "./ArchitectSupport";
 import SizeBody from "./SizeBody";
 import ColorProjects from "./ColorProjects";
+import ColorDisplay from "./ColorDisplay";
+import { SplitPathname } from "../../../Utilities/SplitPathname";
+//add splitnamepath
 
 
 interface ColorBodyProps {
   selectedSize: string | null;
 }
 export default function ColorBody({ selectedSize }: ColorBodyProps){
+  
+  const{Product}=SplitPathname();
     //const [selectedColor,setSelectedColor]=useState<string | null>(null);
-    const [Color,setColor]=useState<string | null>(null);
-    const [Product,setProduct]=useState<string | null>(null);
-    const [Data,setData]=useState<DataItem[] | null>(null);
-    const [Texture,setTexture]=useState<string | null>('Smooth');
-    const pathname = usePathname();
+   // const [Color,setColor]=useState<string | null>(null);
+   // const [Product,setProduct]=useState<string | null>(null);
+   const [Data, setData] = useState<FacebrickDataItem[] | ThinbrickDataItem[] | null>(null);
+   // const [Texture,setTexture]=useState<string | null>('Smooth');
+    //const pathname = usePathname();
    
-    useEffect(()=>{
-        const parts = pathname.split('/');
+    // useEffect(()=>{
+    //     const parts = pathname.split('/');
         
        
-        if(parts.length>1){
+    //     if(parts.length>1){
           
-          setProduct(parts[1]);
-          const getTexture = parts[parts.length-1].split('-');
-          setColor( getTexture[0]);
-          if(pathname.includes('-')){
-            setTexture(getTexture[getTexture.length-1]);
-           }else{
-            setTexture(null);
-           }
+    //       setProduct(parts[1]);
+    //       const getTexture = parts[parts.length-1].split('-');
+    //       setColor( getTexture[0]);
+    //       if(pathname.includes('-')){
+    //         setTexture(getTexture[getTexture.length-1]);
+    //        }else{
+    //         setTexture(null);
+    //        }
           
-        }
+    //     }
        
         
 
         
         
-      },[pathname]);
-      useEffect(() => {
-        const getData = async () => {
-          const result = await FetchProduct(Product);
-          setData(result);
-        };
+    //   },[pathname]);
+    useEffect(() => {
+      const getData = async () => {
+          if (Product) {
+              const result = await FetchProduct(Product);
+      
+              // Type assertion based on Product
+              if (Product === 'FaceBrick') {
+                setData(result as FacebrickDataItem[]);
+              } else if (Product === 'ThinBrick') {
+                setData(result as ThinbrickDataItem[]);
+              }
+            }
+      };
     
         getData();
       }, [Product]);
@@ -64,51 +78,7 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
         <div className="col-12 col-md-6 ms-0 ms-md-3 me-3 ">
           
             <div className="row ">
-                <div className="col-12 col-md-8  " >
-                    <div className="card  border-0 ">
-
-                    
-                   
-                   {
-                    Data.map((item) => (
-                      item.fullName === Color ? (
-                        <div key={item.id}>
-                          {Texture ? ( // Check if Texture has a value
-                            item.textures.map((texture,index) => (
-                              texture.texture === Texture ? (
-                                <div key={index}>
-                                <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
-                                <div className="card-body">
-                                <div className="card-title text-center">
-                                {/* <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture.replace(/~/g, ' ')}</h2> */}
-                                </div>
-                              </div>
-                              </div>
-                                
-                                ) : null
-                            ))
-                          ) : (
-                            
-
-                               //<h1>{item.textures[0].sizes}</h1>
-                               <div>
-                                <Image  className="card-img-top img-fluid" loader={() => (item.textures[0].image)} width={500} height={500} alt={item.altTag} src={item.textures[0].image}  />
-                                <div className="card-body">
-                                <div className="card-title text-center">
-                                  <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.textures[0].texture}</h2>
-                                </div>
-                              </div>
-                                </div>
-                           
-                          )}
-                        
-                        </div>
-                      ) : null
-                    ))
-                  }
-</div>
-
-                </div>
+          <ColorDisplay/>
                 
 <ArchitectSupport/>
               
