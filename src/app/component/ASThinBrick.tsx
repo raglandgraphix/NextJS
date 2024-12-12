@@ -133,7 +133,7 @@ return(
                             item.fullName===Color?
                                 item.thick.map((thickness)=>(
                                     thickness.size===Thickness?
-                                        thickness.textures.map((texture,id)=>(
+                                        thickness.textures.map((texture)=>(
                                             texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                                                 texture.texture===Texture?
                                                     <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">

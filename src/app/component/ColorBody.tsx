@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { useState,useEffect } from "react";
-import { usePathname } from "next/navigation";
+//import { usePathname } from "next/navigation";
 //import Image from "next/image";
 import { DataItem as FacebrickDataItem } from "../../../Types/ProductTypes";
 import { DataItem as ThinbrickDataItem } from "../../../Types/ProductTypes";

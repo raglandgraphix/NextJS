@@ -4,12 +4,12 @@ import { SplitPathname } from "../../../Utilities/SplitPathname";
 import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { DataItem as FacebrickDataItem } from "../../../Types/ProductTypes";
 import { DataItem as ThinbrickDataItem } from "../../../Types/ProductTypes";
-import Image from "next/image";
+//import Image from "next/image";
 
 export default function TextureLoadThinbrick(){
-const {Product,Texture,Color}=SplitPathname();
+const {Product,Color}=SplitPathname();
 const [Data, setData] = useState<FacebrickDataItem[] | ThinbrickDataItem[] | null>(null);
-const [Thickness,setThickness]=useState<string>("1/2\"");
+//const [Thickness,setThickness]=useState<string>("1/2\"");
 
 useEffect(() => {
     const getData = async () => {
