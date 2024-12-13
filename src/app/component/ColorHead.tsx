@@ -66,11 +66,11 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
 
     
     return(
-      <div className="row d-flex justify-content-between ">
-          <ProductBox setDescription={CleanColor} productHeadLine={ProdHL}ProductDescription={ProdDesc}/>
-          <div className="col-12 col-md-12 col-lg-7 col-xl-5 p-0  ">
+      <div className="row d-flex justify-content-start  m-auto  w-100">
+          <ProductBox  setDescription={CleanColor} productHeadLine={ProdHL}ProductDescription={ProdDesc}/>
+          <div className="col     ">
           {
-            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections/>:(Product==='Paver'?<PCSelections/>:'Error')) 
+            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections />:(Product==='Paver'?<PCSelections/>:'Error')) 
           }
           </div>
       </div>
