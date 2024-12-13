@@ -27,7 +27,8 @@ export default function TBCSelections (){
       if(result){
         result.map((items)=>{   
             
-          items.fullName === Color ? (
+          //items.fullName === Color ? (
+            if(items.fullName===Color){
             items.thick.map((thickness) => {
               setThickness(items.thick[0].size);
               const thisThickness: string = items.thick[0].size;
@@ -51,8 +52,8 @@ export default function TBCSelections (){
           
               return null; // Add a return statement here
             })
-          ) : null
-        
+          //) : null
+          }
         })
 
 
