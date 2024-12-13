@@ -3,10 +3,10 @@ import { FetchProductThin } from "../../../Utilities/FetchProductThin";
 import { DataItemThin } from "../../../Types/ProductTypesThinbrick";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import Link from "next/link";
-interface TBCSelectionProps {
+// interface TBCSelectionProps {
   
-  setSelectedSize: (newSize: string) => void; // Define the type of the callback prop
-}
+//   setSelectedSize: (newSize: string) => void; // Define the type of the callback prop
+// }
 
 export default function TBCSelections (){
   const {Product,Color,Texture}=SplitPathname();//SplitPathname is a function that I created to always split the url and get the values from it
@@ -27,7 +27,7 @@ export default function TBCSelections (){
       if(result){
         result.map((items)=>{   
             
-          items.fullName===Color? 
+          items.fullName===Color?( 
           
               items.thick.map((thickness)=>{   
                 setThickness(items.thick[0].size);
@@ -56,7 +56,7 @@ export default function TBCSelections (){
               }
             
             })
-          :null// belongs to items.fullName===Color?
+          ):null// belongs to items.fullName===Color?
         
         })
 
@@ -143,7 +143,7 @@ export default function TBCSelections (){
                 <div className="row ">
                   <div className="col ">
                     <table className="w-100 ">
-              <tbody className="  "> 
+              
                 {
                   Data?.map((item)=>(
                     item.fullName===Color?
@@ -172,12 +172,12 @@ export default function TBCSelections (){
                                  
                                 }
                                 return(
-                                  <span className=" ">{row}</span>
+                                  <tbody className="  ">  {row}</tbody>
                                 )
                               }
                             }else{
 
-                              console.log(Texture)
+                              
 
                               
                             }
@@ -196,7 +196,7 @@ export default function TBCSelections (){
 
                   ))
                 }
-              </tbody>
+             
             </table>
               
                   </div>
