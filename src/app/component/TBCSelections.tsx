@@ -27,36 +27,31 @@ export default function TBCSelections (){
       if(result){
         result.map((items)=>{   
             
-          items.fullName===Color?( 
+          items.fullName === Color ? (
+            items.thick.map((thickness) => {
+              setThickness(items.thick[0].size);
+              const thisThickness: string = items.thick[0].size;
+              setThickness(items.thick[0].size); // This line seems redundant
           
-              items.thick.map((thickness)=>{   
-                setThickness(items.thick[0].size);
-                const thisThickness:string = items.thick[0].size;
-                setThickness(items.thick[0].size);
-                if(Thickness){
-                  
-                  if(thickness.size===Thickness){
-                    
-                    setDefaultTexture(thickness.textures[0].texture)
-                    thickness.textures.map((texture)=>{
-                      
-                      setSize(texture.sizes[0]);
-                    })                  
-                }
-              }else{
-               
-                if(thickness.size===thisThickness){
-                  
-                  setDefaultTexture(thickness.textures[0].texture)
-                  thickness.textures.map((texture)=>{
-                    
+              if (Thickness) {
+                if (thickness.size === Thickness) {
+                  setDefaultTexture(thickness.textures[0].texture);
+                  thickness.textures.forEach((texture) => { // Use forEach instead of map
                     setSize(texture.sizes[0]);
-                  })                  
+                  });
+                }
+              } else {
+                if (thickness.size === thisThickness) {
+                  setDefaultTexture(thickness.textures[0].texture);
+                  thickness.textures.forEach((texture) => { // Use forEach instead of map
+                    setSize(texture.sizes[0]);
+                  });
+                }
               }
-              }
-            
+          
+              return null; // Add a return statement here
             })
-          ):null// belongs to items.fullName===Color?
+          ) : null
         
         })
 
@@ -143,7 +138,7 @@ export default function TBCSelections (){
                 <div className="row ">
                   <div className="col ">
                     <table className="w-100 ">
-              
+              <tbody className="  "> 
                 {
                   Data?.map((item)=>(
                     item.fullName===Color?
@@ -172,7 +167,7 @@ export default function TBCSelections (){
                                  
                                 }
                                 return(
-                                  <tbody className="  ">  {row}</tbody>
+                                  <span key={texture.texture} className=" ">{row}</span>
                                 )
                               }
                             }else{
@@ -196,7 +191,7 @@ export default function TBCSelections (){
 
                   ))
                 }
-             
+              </tbody>
             </table>
               
                   </div>
