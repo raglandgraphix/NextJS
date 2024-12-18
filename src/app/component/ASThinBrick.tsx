@@ -19,18 +19,18 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
     const [Data,setData]=useState<DataItemThin[]| null>(null);
     const [TextureData,setTextureData]=useState<TextureData[] | null>(null);
     //const Thickness = '1/2\" Thick'
-    const [Thickness,setThickness]=useState<string | null>(null);
+    // const [Thickness,setThickness]=useState<string | null>(null);
    
     useEffect(() => {
         
        
-        if(ASthickness){
+        // if(ASthickness){
            
-            setThickness(ASthickness);
-        }else{
-            // console.log('shamp')
-            // setThickness("1/2\" Thick")
-        }
+        //     setThickness(ASthickness);
+        // }else{
+        //     // console.log('shamp')
+        //     // setThickness("1/2\" Thick")
+        // }
         
         const getData = async () => {
           const result = await FetchProductThin(Product);

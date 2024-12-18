@@ -10,8 +10,8 @@ import ArchitectSupport from "./ArchitectSupport";
 import SizeBody from "./SizeBody";
 import ColorProjects from "./ColorProjects";
 import ColorDisplay from "./ColorDisplay";
-import { SplitPathname } from "../../../Utilities/SplitPathname";
-import ColorProjectsThinBrick from "./ColorProjectsThinBrick";
+// import { SplitPathname } from "../../../Utilities/SplitPathname";
+
 
 
 
@@ -22,7 +22,7 @@ interface ColorBodyProps {
 }
 export default function ColorBody({ selectedSize,CBThickness }: ColorBodyProps){
   
-  const{Product}=SplitPathname();
+  // const{Product}=SplitPathname();
   
 
     //const [selectedColor,setSelectedColor]=useState<string | null>(null);
