@@ -2,11 +2,11 @@
 import React from "react";
 import { useState } from "react";
 import ColorHead from "@/app/component/ColorHead";
-import ColorBody from "@/app/component/ColorBody";
+//import ColorBody from "@/app/component/ColorBody";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
 export default function IndividualColor(){
-    const [selectedSize, setSelectedSize] = useState<string | null>(null); 
+    //const [selectedSize, setSelectedSize] = useState<string | null>(null); 
     
    
     return(
