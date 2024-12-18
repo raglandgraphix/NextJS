@@ -186,8 +186,8 @@ const SizeClick=((newSize:string)=>{
                             thickness.size===Thickness?
                             
                               thickness.textures.map((texture,id)=>(
-                                <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); TextureClick(`/${Product}/${Page}/${Color}`,texture.texture);}}>
-                                <span className={`d-block text-uppercase p-0 fs-6  pt-2 pb-2 text-rock ${texture.texture===DefaultTexture || texture.texture===Texture?"bg bg-black rounded-2 text-white":""}`} key={id}>{texture.texture.replace(/_/g, ' ')}</span>
+                                <Link key={id} className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); TextureClick(`/${Product}/${Page}/${Color}`,texture.texture);}}>
+                                <span className={`d-block text-uppercase p-0 fs-6  pt-2 pb-2 text-rock ${texture.texture===DefaultTexture || texture.texture===Texture?"bg bg-black rounded-2 text-white":""}`} >{texture.texture.replace(/_/g, ' ')}</span>
                                 </Link>
                                 
                               ))
