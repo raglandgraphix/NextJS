@@ -48,9 +48,9 @@ export default function Sizes(){
                     Data?.map((item,index)=>(
                         <div className="col-12 col-lg-3 mb-5 " key={index}>
                             
-                            <div className="card " onClick={()=>{handleShow(item.Name)}}>
+                            <div className="card h-100" onClick={()=>{handleShow(item.Name)}}>
                                 <Image src={item.image} width={500} height={500} alt={item.alt}/>
-                                <h3 className="text-center">{item.Name.replace(/_/g,' ')} Brick</h3>
+                                <h3 className="text-center fs-4">{item.Name.replace(/_/g,' ')} Brick</h3>
                             </div>
                         </div>
                     ))

@@ -10,10 +10,11 @@ import PCSelections from "./PCSelections";
 import ProductBox from "./ProductBox";
 interface ColorHeadProps {
   setSelectedSize: (size: string | null) => void;
+  // selectedThickness:React.Dispatch<React.SetStateAction<string>>;
+  selectedThickness?: (size: string | null)  => void ;
 }
 
-export default function ColorHead({ setSelectedSize }: ColorHeadProps){
- 
+export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHeadProps){
     const [Product,setProduct]=useState<string | null>(null);
     const [Color,setColor]=useState<string | null>(null);
     const [CleanColor,setCleanColor]=useState<string | null>(null);
@@ -22,6 +23,10 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
     const [ProdHL,setProdHL]=useState<string | null>(null);
     const [ProdDesc,setProdDesc]=useState<string | null>(null);
     const pathname = usePathname();
+    
+    
+    //const [Thickness,setThickness]=useState<string | null>(null);
+
     useEffect(()=>{
       const parts = pathname.split('/');
       if(parts.length>1){
@@ -63,6 +68,17 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
       if (!Data) {
         return <div></div>;  
       }
+      const ChildThickness = (newThickness:string)=>{
+        console.log(`moving the ${newThickness}on up`)
+        //setThickness(newThickness)
+        if(selectedThickness){
+          
+          selectedThickness(newThickness);
+        }
+          
+        
+        
+      }
 
     
     return(
@@ -70,7 +86,7 @@ export default function ColorHead({ setSelectedSize }: ColorHeadProps){
           <ProductBox  setDescription={CleanColor} productHeadLine={ProdHL}ProductDescription={ProdDesc}/>
           <div className="col     ">
           {
-            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections />:(Product==='Paver'?<PCSelections/>:'Error')) 
+            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections passThickness = {ChildThickness} setSelectedSize={setSelectedSize}/>:(Product==='Paver'?<PCSelections/>:'Error')) 
           }
           </div>
       </div>

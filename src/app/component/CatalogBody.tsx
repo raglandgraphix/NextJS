@@ -1,9 +1,10 @@
 'use client';
 import React from "react";
-import { useState} from "react";
+import { useState,useEffect} from "react";
 import Link from 'next/link'
 import Image from "next/image";
 import {DataItem} from '../../../Types/ProductTypes';
+import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 
   
@@ -29,29 +30,31 @@ export default function CatalogBody(){
 
    
    
-    React.useEffect(() => {
-      let JSONData =  '/JSON/FacebrickColors.json';
-      if(Product==='FaceBrick'){
-        JSONData = '/JSON/FacebrickColors.json';
-      }else if(Product==='ThinBrick'){
-        JSONData = '/JSON/ThinbrickColors.json';
-      }else if(Product==='Paver'){
-        JSONData= '/JSON/PaverColors.json';
-      }
+    useEffect(() => {
+      // let JSONData =  '/JSON/FacebrickColors.json';
+      // if(Product==='FaceBrick'){
+      //   JSONData = '/JSON/FacebrickColors.json';
+      // }else if(Product==='ThinBrick'){
+      //   JSONData = '/JSON/ThinbrickColors.json';
+      // }else if(Product==='Paver'){
+      //   JSONData= '/JSON/PaverColors.json';
+      // }
       
-        const fetchData = async () => {
-          
-          try {
-            const response = await fetch(JSONData);
-            const jsonData: DataItem[] = await response.json(); // Correct type
-            setData(jsonData);
-          } catch (error) {
-            console.error('Error fetching data:', error);
-          }
-        };
-    
-        fetchData();
-      }, [Product]);
+      
+      const getData = async () => {
+        if(Product){
+            const result = await FetchProduct(Product);
+            
+            
+            
+            setData(result);
+        }
+      
+      
+    };
+
+    getData();
+}, [Product]);
     
       if (!data) {
         return <div></div>;  

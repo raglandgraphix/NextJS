@@ -1,30 +1,34 @@
-'use client'
+//'use client'
 import React from "react";
-import { useState,useEffect } from "react";
+//import { useState,useEffect } from "react";
 //import { usePathname } from "next/navigation";
 //import Image from "next/image";
-import { DataItem as FacebrickDataItem } from "../../../Types/ProductTypes";
-import { DataItem as ThinbrickDataItem } from "../../../Types/ProductTypes";
-import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
+//import { DataItem as FacebrickDataItem } from "../../../Types/ProductTypes";
+//import { DataItem as ThinbrickDataItem } from "../../../Types/ProductTypes";
+//import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import ArchitectSupport from "./ArchitectSupport";
 import SizeBody from "./SizeBody";
 import ColorProjects from "./ColorProjects";
 import ColorDisplay from "./ColorDisplay";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
+import ColorProjectsThinBrick from "./ColorProjectsThinBrick";
 
 
 
 interface ColorBodyProps {
   selectedSize: string | null;
+  CBThickness:string | null;
 
 }
-export default function ColorBody({ selectedSize }: ColorBodyProps){
+export default function ColorBody({ selectedSize,CBThickness }: ColorBodyProps){
   
   const{Product}=SplitPathname();
+  
+
     //const [selectedColor,setSelectedColor]=useState<string | null>(null);
    // const [Color,setColor]=useState<string | null>(null);
    // const [Product,setProduct]=useState<string | null>(null);
-   const [Data, setData] = useState<FacebrickDataItem[] | ThinbrickDataItem[] | null>(null);
+   //const [Data, setData] = useState<FacebrickDataItem[] | ThinbrickDataItem[] | null>(null);
    // const [Texture,setTexture]=useState<string | null>('Smooth');
     //const pathname = usePathname();
    
@@ -50,28 +54,31 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
         
         
     //   },[pathname]);
-    useEffect(() => {
-      const getData = async () => {
-          if (Product) {
-              const result = await FetchProduct(Product);
-      
-              // Type assertion based on Product
-              if (Product === 'FaceBrick') {
-                setData(result as FacebrickDataItem[]);
-              } else if (Product === 'ThinBrick') {
-                setData(result as ThinbrickDataItem[]);
-              }
-            }
-      };
     
-        getData();
-      }, [Product]);
+//     useEffect(() => {
+//       const getData = async () => {
+//           if (Product) {
+//               const result = await FetchProduct(Product);
+      
+//               // Type assertion based on Product
+//               if (Product === 'FaceBrick') {
+//                 setData(result as FacebrickDataItem[]);
+//               } else if (Product === 'ThinBrick') {
+//                 setData(result as ThinbrickDataItem[]);
+//               }
+//             }
+//       };
+    
+//         getData();
+//       }, [Product]);
     
      
       
-        if (!Data) {
-          return <div></div>;  
-        }
+//         if (!Data) {
+//           return <div></div>;  
+//         }
+// console.log(`I have everthing set up for CB thickness ${CBThickness}`)
+        
     return(
       <div className="row mt-5">
 
@@ -79,9 +86,10 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
         <div className="col-12 col-md-6 ms-0 ms-md-3 me-3 ">
           
             <div className="row ">
-          <ColorDisplay/>
+              
+          <ColorDisplay DisplayThickness = {CBThickness}/>
                 
-<ArchitectSupport/>
+<ArchitectSupport DisplayThickness = {CBThickness}/>
               
 
             </div>
@@ -90,9 +98,11 @@ export default function ColorBody({ selectedSize }: ColorBodyProps){
        
         <SizeBody  selectedSize={selectedSize}/>
        
+              {/* {
+                Product==='FaceBrick'?<ColorProjects/>:(Product==='ThinBrick'?<ColorProjectsThinBrick/>:null)
+              } */}
               
               <ColorProjects/>
-
         </div>
     )
 }

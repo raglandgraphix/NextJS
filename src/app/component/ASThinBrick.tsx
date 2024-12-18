@@ -9,14 +9,29 @@ import { FetchTexture } from "../../../Utilities/FetchTextures";
 //import { FetchProduct } from "../../../Utilities/FetchProduct";
 import Image from "next/image";
 
-export default function ASThinBrick(){
+interface ASThinBrickProps {
+    ASthickness: string | null;
+  }
+
+export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
     const {Product,Color,Texture}=SplitPathname();
     const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
     const [Data,setData]=useState<DataItemThin[]| null>(null);
     const [TextureData,setTextureData]=useState<TextureData[] | null>(null);
-    const Thickness = '1/2\" Thick'
-
+    //const Thickness = '1/2\" Thick'
+    const [Thickness,setThickness]=useState<string | null>(null);
+   
     useEffect(() => {
+        
+       
+        if(ASthickness){
+           
+            setThickness(ASthickness);
+        }else{
+            // console.log('shamp')
+            // setThickness("1/2\" Thick")
+        }
+        
         const getData = async () => {
           const result = await FetchProductThin(Product);
           setData(result);
@@ -28,9 +43,16 @@ export default function ASThinBrick(){
                 if(x.fullName===Color){
                     
                     x.thick.map((thickness)=>{
-                        if(thickness.size==Thickness){
-                           setDefaultTexture(thickness.textures[0].texture)
+                        if(ASthickness){
+                            if(thickness.size===ASthickness){
                             
+                                setDefaultTexture(thickness.textures[0].texture)
+                                 
+                             }
+                        }else{
+                            if(thickness.size==="1/2\" Thick"){
+                                setDefaultTexture(thickness.textures[0].texture)
+                            }
                         }
                         
                     })
@@ -71,11 +93,11 @@ return(
                         Data?.map((item)=>(                       
                             item.fullName===Color?
 
-
+                                ASthickness?
                                 item.thick.map((thickness)=>(
 
                                     
-                                    thickness.size===Thickness?
+                                    thickness.size===ASthickness?
 
 
                                         
@@ -120,7 +142,37 @@ return(
                                     
                                 
                                 
-                                    )):''
+                                    )):
+                                    item.thick.map((thickness)=>(
+                                        thickness.size==="1/2\" Thick"?
+                                            thickness.textures.map((texture)=>(
+                                                Texture?
+                                                texture.texture===Texture?
+                                            <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                                <div className="row mb-2 border-bottom ">
+                                                    <div className="col-3">
+                                                        <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                    </div>
+                                                    <div className="col-9">
+                                                        <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                                    </div>
+                                                </div>
+                                            </a>:""
+                                                :texture.texture===DefaultTexture?
+                                                 <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                                <div className="row mb-2 border-bottom ">
+                                                    <div className="col-3">
+                                                        <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                    </div>
+                                                    <div className="col-9">
+                                                        <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                                    </div>
+                                                </div>
+                                            </a>:""
+                                            ))
+                                        :""
+                                    ))
+                                    :null
                      ))
                 }
             </div>
@@ -129,41 +181,95 @@ return(
             <div className="col">
                 {
                     
-                        Data?.map((item)=>(
+                      
+                        Data?.map((item)=>(                       
                             item.fullName===Color?
+
+                                ASthickness?
                                 item.thick.map((thickness)=>(
-                                    thickness.size===Thickness?
+
+                                    
+                                    thickness.size===ASthickness?
+
+
+                                        
                                         thickness.textures.map((texture)=>(
-                                            texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
-                                                texture.texture===Texture?
-                                                    <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                                        <div className="row border-bottom">
-                                                            <div className="col-3">
-                                                                <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
-                                                            </div>
-                                                            <div className="col-9">
-                                                                <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>:
-                                                (texture.texture===DefaultTexture?
-                                                    <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                                        <div className="row border-bottom">
-                                                            <div className="col-3">
-                                                                <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
-                                                            </div>
-                                                            <div className="col-9">
-                                                                <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                :null)
-                                                    
-                                                    
-                                                ))
+                                            texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':(
+                                            Texture?
+                                            texture.texture===Texture?                        
+                                            <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                            <div className="row border-bottom">
+                                                <div className="col-3">
+                                                   
+                                                    <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                </div>
+                                                <div className="col-9">
+                                                    <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                            :null
+                                            :(
+                                                texture.texture===DefaultTexture?
+                                                <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                                <div className="row border-bottom">
+                                                    <div className="col-3">
+                                                        
+                                                        <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                    </div>
+                                                    <div className="col-9">
+                                                        <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            :null
+
+                                            )
+                                        )
+
+                                        ))
+
+
                                     :null
-                                )):''
-                        ))
+
+                                    
+                                    
+                                
+                                
+                                    )):
+                                    item.thick.map((thickness)=>(
+                                        thickness.size==="1/2\" Thick"?
+                                            thickness.textures.map((texture)=>(
+                                                Texture?
+                                                texture.texture===Texture?
+                                                <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                                <div className="row border-bottom">
+                                                    <div className="col-3">
+                                                        
+                                                        <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                    </div>
+                                                    <div className="col-9">
+                                                        <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>:""
+                                                :texture.texture===DefaultTexture?
+                                                <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                                <div className="row border-bottom">
+                                                    <div className="col-3">
+                                                        
+                                                        <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                                    </div>
+                                                    <div className="col-9">
+                                                        <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                                    </div>
+                                                </div>
+                                            </a>:""
+                                            ))
+                                        :""
+                                    ))
+                                    :null
+                     ))
                 }
             </div>
         </div>        
@@ -179,39 +285,104 @@ return(
             <p className="museo-light fst-italic fs-4">{Texture?Texture.replace(/~/g,' '):DefaultTexture?.replace(/~/g,' ')} Texture</p>
                 {
                  
-                    Data?.map((item)=>(
+                    // Data?.map((item)=>(
+                    //     item.fullName===Color?
+                    //         item.thick.map((thickness)=>(
+                                
+                    //             thickness.size===ASthickness?
+
+                    //                 Texture?
+                                        
+                    //                 thickness.textures.map((texture)=>(
+                    //                     texture.texture===Texture?
+                                       
+                    //                     TextureData?.map((info,index)=>(
+                    //                         info.texture===Texture.replace(/~/g,' ')?
+                    //                             <p key={index}>{info.description}</p>:''
+                    //                     )):null//texture.texture===Texture?
+                    //                 )):null//Texture?
+                    //                 :null//(
+                    //                     // thickness.textures.map((texture)=>(
+                    //                     //     texture.texture===DefaultTexture?
+                    //                     //     TextureData?.map((info,index)=>(
+                    //                     //         info.texture===DefaultTexture.replace(/~/g,' ')?
+                    //                     //             <p key={index}>{info.description}</p>:''
+                    //                     //     )):null//texture.texture===DefaultTexture?
+                    //                     // ))
+                                        
+                                        
+                                        
+                    //                 //)
+                                    
+                                    
+                    //         )):null
+                    //     ))
+                    Data?.map((item)=>(                       
                         item.fullName===Color?
+
+                            ASthickness?
                             item.thick.map((thickness)=>(
-                                thickness.size===Thickness?
 
-                                    Texture?
+                                
+                                thickness.size===ASthickness?
 
+
+                                    
                                     thickness.textures.map((texture)=>(
-                                        texture.texture===Texture?
+                                      //  texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':(
+                                        Texture?
+                                        texture.texture===Texture?   
+                                        
                                         TextureData?.map((info,index)=>(
+
                                             info.texture===Texture.replace(/~/g,' ')?
-                                                <p key={index}>{info.description}</p>:''
-                                        )):null
-                                    ))
-                                    
-                                    
-                                    :null
-                                    :(
-                                        thickness.textures.map((texture)=>(
+                                            <p key={index}>{info.description}</p>:''
+                                        ))
+                                  
+                                        :null
+                                        :(
                                             texture.texture===DefaultTexture?
                                             TextureData?.map((info,index)=>(
+
                                                 info.texture===DefaultTexture.replace(/~/g,' ')?
-                                                    <p key={index}>{info.description}</p>:''
-                                            )):null
+                                                <p key={index}>{info.description}</p>:''
+                                            ))
+                                        :null
+
+                                        )
+                                   // )
+
+                                    ))
+
+
+                                :null
+
+                                
+                                
+                            
+                            
+                                )):
+                                item.thick.map((thickness)=>(
+                                    thickness.size==="1/2\" Thick"?
+                                        thickness.textures.map((texture)=>(
+                                            Texture?
+                                            texture.texture===Texture?
+                                            TextureData?.map((info,index)=>(
+
+                                                info.texture===Texture.replace(/~/g,' ')?
+                                                <p key={index}>{info.description}</p>:''
+                                            )):""
+                                            :texture.texture===DefaultTexture?
+                                            TextureData?.map((info,index)=>(
+
+                                                info.texture===DefaultTexture.replace(/~/g,' ')?
+                                                <p key={index}>{info.description}</p>:''
+                                            )):""
                                         ))
-                                        
-                                        
-                                        
-                                    )
-                                    
-                                    
-                            )):null
-                        ))
+                                    :""
+                                ))
+                                :null
+                 ))
                 }
             </div>
         </div>

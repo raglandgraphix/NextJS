@@ -1,36 +1,41 @@
 'use client'
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+//import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/SizesTypes";//this is part of the fetch
 import { FetchSizes } from "../../../Utilities/FetchSizes";//This is part of the fetch
+import { SplitPathname } from "../../../Utilities/SplitPathname";
 interface SizeBodyProps {
     selectedSize: string | null;
   }
 export default function SizeBody({ selectedSize }: SizeBodyProps){
-    const pathname = usePathname();
-    const [Product,setProduct]=useState<string | null>(null);
+    const {Product}=SplitPathname();
+    //const pathname = usePathname();
+    //const [Product,setProduct]=useState<string | null>(null);
     const [Data,setData]=useState<DataItem[] | null>(null);
-    useEffect(()=>{
-        const parts = pathname.split('/');
+    // useEffect(()=>{
+    //     const parts = pathname.split('/');
         
        
-        if(parts.length>1){
+    //     if(parts.length>1){
           
-          setProduct(parts[1]);
+    //       setProduct(parts[1]);
           
           
-        }
+    //     }
        
         
 
         
         
-      },[pathname]);
+    //   },[pathname]);
     useEffect(() => {
         const getData = async () => {
           const result = await FetchSizes(Product);
           setData(result);
+          if(result){
+
+          }
         };
     
         getData();
@@ -43,7 +48,7 @@ export default function SizeBody({ selectedSize }: SizeBodyProps){
         // }
 
 
-const [DisplaySize,setDisplaySize]=useState<string>('Modular');
+const [DisplaySize,setDisplaySize]=useState<string | null>(null);
 useEffect(()=>{
     if (selectedSize) {
         setDisplaySize(selectedSize);
@@ -69,8 +74,8 @@ useEffect(()=>{
                               </div> */}
         </div>
         <div className="col-4 pe-2">
-            <p className="museo-light  fs-4 fst-italic">{DisplaySize.replace(/_/g,"\u00A0")}</p>
-            <p>Endicott {DisplaySize.replace(/_/g,' ')} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
+            <p className="museo-light  fs-4 fst-italic">{DisplaySize?.replace(/_/g,"\u00A0")}</p>
+            <p>Endicott {DisplaySize?.replace(/_/g,' ')} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
             {
                 Data?.map((PDF,index)=>(
                     PDF.Name===DisplaySize?<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''

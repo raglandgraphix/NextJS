@@ -45,16 +45,19 @@ export default function ColorProjects(){
               if (result) {
                 const projectResult = await FetchProjects(Product);
                 setProjectData(projectResult);
+                
               }
             }
           };
       
           getData();
       }, [Product]);
+       
       
         if (!Data) {
           return <div></div>;  
         }
+       
        
     return(
         <div className="row">
@@ -62,14 +65,29 @@ export default function ColorProjects(){
         {
             Data.map((item)=>(
                 item.fullName===Color?
-                item.projects && (
-<div className="row mt-2 mb-2">
-            <div className="col-12">
-                <h2 className="text-center">Projects & Videos</h2>
+                    item.projects.map((photos)=>(
+                      photos.photo?
+                      <div className="row mt-2 mb-2">
+                              <div className="col-12">
+                                  <h2 className="text-center">Projects & Videos</h2>
+      
+                              </div>
+                          </div>:null
+                              
+                        
+                        
+                    ))
 
-            </div>
-           </div>
-                )
+                // item.projects && (
+                //     <div className="row mt-2 mb-2">
+                //         <div className="col-12">
+                //             <h2 className="text-center">Projects & Videos</h2>
+
+                //         </div>
+                //     </div>
+                // )
+
+
                 :''
             ))
         }
@@ -83,6 +101,9 @@ export default function ColorProjects(){
                      item.projects?.map((photos)=>(//These are projects listed in the colors
                        
                         photos.photo?photos.photo.map((projects)=>(
+
+
+
                             ProjectData?.map((items,index2)=>(
                                 items.jobTitle===projects?
                                 <div key={index2} className="col-12 col-md-2">

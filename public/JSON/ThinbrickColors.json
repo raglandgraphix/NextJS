@@ -39,30 +39,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Short.jpg",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Short.jpg",
                             "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48287?appid=1125",
+                            "sizes":["Modular","Closure"]
                         },
                         {
-                            "texture":"Vertical_Score",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Short.jpg",
+                            "texture":"Vertical~Score",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Short.jpg",
                             "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48288?appid=1125",
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Short.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -76,7 +76,7 @@
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
@@ -93,7 +93,400 @@
 
 
         ],
-        "projects":["BoysTown","Hoboken","Sanford"],
+        
+        "projects":[{"photo":["BoysTown","Hoboken","sanford"]},{"video":[]}],
+        "productLine":""
+       
+    },
+    {
+        "id":2,
+        "fullName":"Desert_Ironspot_Dark",
+        "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
+        "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
+        "mainImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
+        "colorGroup":["Tan","Brown","Orange"],
+        "altTag":"Image of Endicott Desert Ironspot Dark Brick",
+        "thick":[
+            
+                {
+                    "size":"1/2\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                },
+                {
+                    "size":"5/8\" Thick",
+                    "textures":[
+                        
+                        {
+                            "texture":"Matt",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Vertical~Score",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Artisan",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Modular","Closure"]
+                        }
+                    ]
+                },
+                {
+                    "size":"1\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                }
+
+
+        ],
+        "projects":[],
+        "productLine":""
+       
+    },
+    {
+        "id":3,
+        "fullName":"Copper_Canyon",
+        "descriptionTitle":"The Warm Hues of Copper Canyon Brick",
+        "description":"Endicott Copper Canyon brick captures the beauty of the natural world with its earthy brown tones and subtle red undertones, adding warmth and character to any facade. ",
+        "mainImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
+        "colorGroup":["Tan","Brown","Orange"],
+        "altTag":"Copper Canyon Ironspot colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "thick":[
+            
+                {
+                    "size":"1/2\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyone-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                },
+                {
+                    "size":"5/8\" Thick",
+                    "textures":[
+                        
+                        {
+                            "texture":"Matt",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Vertical~Score",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Artisan",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        }
+                    ]
+                },
+                {
+                    "size":"1\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                }
+
+
+        ],
+        "projects":["sdsu"],
+        "productLine":""
+       
+    },
+    {
+        "id":4,
+        "fullName":"Coppertone",
+        "descriptionTitle":"Endicott Coppertone Brick: Light Brown with Timeless Appeal",
+        "description":"Endicott Coppertone brick offers a warm and inviting light brown hue, perfect for creating classic or contemporary facades. This versatile color blends seamlessly with a variety of architectural styles, adding a touch of understated elegance to any project.",
+        "mainImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+        "colorGroup":["Tan","Brown","Orange"],
+        "altTag":"Coppertone Ironspot colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "thick":[
+            
+                {
+                    "size":"1/2\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
+                        
+                        }
+                    ]
+                },
+                {
+                    "size":"5/8\" Thick",
+                    "textures":[
+                        
+                        {
+                            "texture":"Matt",
+                            "image":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Vertical~Score",
+                            "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48632?appid=1125",
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Artisan",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        }
+                    ]
+                },
+                {
+                    "size":"1\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                }
+
+
+        ],
+        "projects":["bostonCollege","swfa","sanford"],
+        "productLine":""
+       
+    },
+    {
+        "id":5,
+        "fullName":"Medium_Ironspot_77",
+        "descriptionTitle":"Endicott Medium Ironspot #77: Deep Brown with Timeless Character",
+        "description":"Endicott Medium Ironspot #77 brick offers a rich, deep brown hue with subtle ironspots that add depth and complexity. This classic color creates a sense of warmth and permanence, making it an ideal choice for traditional and contemporary designs.",
+        "mainImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
+        "colorGroup":["Tan","Brown","Orange"],
+        "altTag":"Medium Ironspot #77 colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "thick":[
+            
+                {
+                    "size":"1/2\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                },
+                {
+                    "size":"5/8\" Thick",
+                    "textures":[
+                        
+                        {
+                            "texture":"Matt",
+                            "image":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                        },
+                        {
+                            "texture":"Vertical~Score",
+                            "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48632?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                        },
+                        {
+                            "texture":"Artisan",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                        }
+                    ]
+                },
+                {
+                    "size":"1\" Thick",
+                    "textures":[
+                        {
+                            "texture":"Smooth",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Utility"]
+                        },
+                        {
+                            "texture":"Velour",
+                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Short.jpg",
+                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                        
+                        }
+                    ]
+                }
+
+
+        ],
+        "projects":["bostonCollege","swfa","sanford"],
         "productLine":""
        
     }

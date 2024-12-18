@@ -1,16 +1,14 @@
 
 import { DataItem } from "../Types/SizesTypes";
 export async function FetchSizes(product: string | null): Promise<DataItem[] | null> {
-    let jsonFilePath = '/JSON/FaceBrickSizes.json'; // Default path
-  
-    if (product === 'FaceBrick') {
-      jsonFilePath = '/JSON/FaceBrickSizes.json';
-    } else if (product === 'ThinBrick') {
-      jsonFilePath = '/JSON/ThinBrickSizes.json';
-    } else if (product === 'Paver') {
-      jsonFilePath = '/JSON/PaverSizes.json';
-    }
-  
+    
+    const jsonFilePath = product === 'FaceBrick' 
+    ? '/JSON/FaceBrickSizes.json' 
+    : product === 'ThinBrick'
+      ? '/JSON/ThinBrickSizes.json'
+      : product === 'Paver'
+        ? '/JSON/PaverSizes.json'
+        : '/JSON/ThinBrickSizes.json'; // Default path
     try {
       const response = await fetch(jsonFilePath);
       const jsonData: DataItem[] = await response.json();

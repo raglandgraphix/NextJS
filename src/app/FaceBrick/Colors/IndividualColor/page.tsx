@@ -7,14 +7,14 @@ import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
 export default function IndividualColor(){
     const [selectedSize, setSelectedSize] = useState<string | null>(null); 
-    
+    const [selectedThickness,setSelectedThickness]=useState<string | null>(null);
    
     return(
        <div className="container-fluid">
 
         <Navigate pageSettings="light"/>
-        <ColorHead setSelectedSize={setSelectedSize} /> 
-      <ColorBody selectedSize={selectedSize} /> {/* Pass the selected size */}
+        <ColorHead setSelectedSize={setSelectedSize} selectedThickness={setSelectedThickness} /> 
+      <ColorBody selectedSize={selectedSize} CBThickness={selectedThickness} /> {/* Pass the selected size */}
         <Footer pageSetUp="light"/>
         
 

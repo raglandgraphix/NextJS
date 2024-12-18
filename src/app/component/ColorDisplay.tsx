@@ -6,19 +6,43 @@ import { DataItemThin } from "../../../Types/ProductTypesThinbrick";
 import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import { FetchProductThin } from "../../../Utilities/FetchProductThin";
-
-export default function ColorDisplay(){
-    const Thickness = '1/2\" Thick'
+interface ColorDisplayProps {
+    DisplayThickness: string | null; // Add the selectedThickness prop
+  }
+export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
+    
+     //const Thickness = '5/8\" Thick'
+    const [Thickness,setThickness]=useState<string | null>(null)
     const [Data,setData]=useState<DataItem[] | null>(null);
     const [DataThin,setDataThin]=useState<DataItemThin[] | null>(null);
     //const [Color,setColor]=useState<string | null>(null);    
     //const [Texture,setTexture]=useState<string | null>('Smooth');
     const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
     const {Product,Color,Texture}=SplitPathname();
+    useEffect(()=>{
+        
+        // if(selectedThickness){
+            //setThickness(selectedThickness);
+            if(DisplayThickness){
+                setThickness(DisplayThickness);
+            }else if(DisplayThickness===null){
+                setThickness("1/2\" Thick");
+            }
+           
+        // }
+        
+    })
     useEffect(() => {
         const getData = async () => {
-          const result = await FetchProduct(Product);
-          setData(result);
+            if(Product){
+                const result = await FetchProduct(Product);
+                
+                
+                
+                setData(result);
+            }
+          
+          
         };
     
         getData();
@@ -44,6 +68,7 @@ export default function ColorDisplay(){
     
         getData();
     }, [Product]);
+    
    
     return(
         <div className="col-12 col-md-8  " >
@@ -87,14 +112,20 @@ export default function ColorDisplay(){
                         item.fullName===Color?
                         <div key={item.id}>
                             {
+                                
                                 Texture?
                                 item.thick.map((thickness)=>(
+                                    
                                    thickness.size===Thickness?
                                         thickness.textures.map((texture,id)=>(
+                                            
+                                            
                                             texture.texture===Texture?(
                                                 <div key={id}>
+                                                   
                                                     <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                                     <div className="card-body">
+                                                       
                                                         <div className="card-title text-center"></div>
                                                     </div>
                                                 </div>
@@ -103,20 +134,31 @@ export default function ColorDisplay(){
                                    :null 
                                 ))
                                 :
+
+                            
+
                                 item.thick.map((thickness)=>(
+                                    
                                     thickness.size===Thickness?
                                          thickness.textures.map((texture,id)=>(
+
                                              texture.texture===DefaultTexture?(
+                                                
                                                  <div key={id}>
+
                                                      <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
+                                                    
                                                      <div className="card-body">
                                                          <div className="card-title text-center"></div>
                                                      </div>
                                                  </div>
                                              ):null
                                          ))
-                                    :null 
+                                    :null
                                  ))
+
+
+
                             }
                         </div>
                         :null

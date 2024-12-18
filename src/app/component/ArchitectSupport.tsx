@@ -11,11 +11,13 @@ import React from "react";
 import ASFaceBrick from "./ASFaceBrick";
 import ASThinBrick from "./ASThinBrick";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
-
-
-export default function ArchitectSupport(){
+interface ColorDisplayProps {
+    DisplayThickness: string | null; // Add the selectedThickness prop
+  }
+export default function ArchitectSupport({DisplayThickness}:ColorDisplayProps){
     //const Thickness = '1/2\" Thick'
     const {Product}=SplitPathname();
+    
     //const [Data,setData]=useState<DataItem[] | null>(null);
     //const [DataThin,setDataThin]=useState<DataItemThin[]|null>(null);
     //const [TextureData,setTextureData]=useState<TextureData[] | null>(null);
@@ -39,8 +41,9 @@ export default function ArchitectSupport(){
         <div className="col-12 col-md-4 bg-stone-50" >
             {
                 Product==='FaceBrick'?<ASFaceBrick/>:
-                (Product==='ThinBrick'? <ASThinBrick/>:null)
+                (Product==='ThinBrick'? <ASThinBrick ASthickness={DisplayThickness} />:null)
             }
+          
              
         </div>
 )
