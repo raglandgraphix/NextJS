@@ -65,9 +65,9 @@ export default function ColorProjects(){
         {
             Data.map((item)=>(
                 item.fullName===Color?
-                    item.projects.map((photos)=>(
+                    item.projects.map((photos,id)=>(
                       photos.photo?
-                      <div className="row mt-2 mb-2">
+                      <div key={id} className="row mt-2 mb-2">
                               <div className="col-12">
                                   <h2 className="text-center">Projects & Videos</h2>
       
