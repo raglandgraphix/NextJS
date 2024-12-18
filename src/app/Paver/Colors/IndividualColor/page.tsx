@@ -14,7 +14,7 @@ export default function IndividualColor(){
 
         <Navigate pageSettings="light"/>
         <ColorHead setSelectedSize={setSelectedSize} /> 
-      <ColorBody selectedSize={selectedSize} /> {/* Pass the selected size */}
+      {/* <ColorBody selectedSize={selectedSize} /> Pass the selected size */}
         <Footer pageSetUp="light"/>
         
 
