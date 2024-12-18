@@ -1,7 +1,7 @@
 'use client';
 import React from "react";
 //import { useState } from "react";
-import ColorHead from "@/app/component/ColorHead";
+//import ColorHead from "@/app/component/ColorHead";
 //import ColorBody from "@/app/component/ColorBody";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
