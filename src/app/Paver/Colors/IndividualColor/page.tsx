@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import { useState } from "react";
+//import { useState } from "react";
 import ColorHead from "@/app/component/ColorHead";
 //import ColorBody from "@/app/component/ColorBody";
 import Navigate from "@/app/component/navigate";
@@ -13,7 +13,7 @@ export default function IndividualColor(){
        <div className="container-fluid">
 
         <Navigate pageSettings="light"/>
-        <ColorHead setSelectedSize={setSelectedSize} /> 
+        {/* <ColorHead setSelectedSize={setSelectedSize} />  */}
       {/* <ColorBody selectedSize={selectedSize} /> Pass the selected size */}
         <Footer pageSetUp="light"/>
         
