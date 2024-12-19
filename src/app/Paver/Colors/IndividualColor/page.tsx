@@ -7,7 +7,8 @@ import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
 export default function IndividualColor(){
     const [selectedSize, setSelectedSize] = useState<string | null>(null); 
-    const [selectedThickness,setSelectedThickness]=useState<string | null>(null);
+    //const [selectedThickness,setSelectedThickness]=useState<string | null>(null);
+    const selectedThickness = null;
    console.log(`What is the selectes size now ${selectedSize}`)
     return(
        <div className="container-fluid">
