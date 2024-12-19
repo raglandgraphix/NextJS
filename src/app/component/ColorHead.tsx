@@ -25,6 +25,7 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
     const pathname = usePathname();
     
     
+    
     //const [Thickness,setThickness]=useState<string | null>(null);
 
     useEffect(()=>{
@@ -68,8 +69,9 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
       if (!Data) {
         return <div></div>;  
       }
+      
       const ChildThickness = (newThickness:string)=>{
-        console.log(`moving the ${newThickness}on up`)
+        
         //setThickness(newThickness)
         if(selectedThickness){
           
@@ -86,7 +88,7 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
           <ProductBox  setDescription={CleanColor} productHeadLine={ProdHL}ProductDescription={ProdDesc}/>
           <div className="col     ">
           {
-            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections passThickness = {ChildThickness} setSelectedSize={setSelectedSize}/>:(Product==='Paver'?<PCSelections/>:'Error')) 
+            Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections passThickness = {ChildThickness} setSelectedSize={setSelectedSize}/>:(Product==='Paver'?<PCSelections setSelectedSize={setSelectedSize}/>:'Error')) 
           }
           </div>
       </div>

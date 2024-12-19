@@ -4,12 +4,12 @@ import Image from "next/image";
 //import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/SizesTypes";//this is part of the fetch
 import { FetchSizes } from "../../../Utilities/FetchSizes";//This is part of the fetch
-//import { FetchSizesThin } from "../../../Utilities/FetchSizesThin";
+import { FetchSizesThin } from "../../../Utilities/FetchSizesThin";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 interface SizeBodyProps {
     selectedSize: string | null;
   }
-export default function SizeBody({ selectedSize }: SizeBodyProps){
+export default function SizeBodyThin({ selectedSize }: SizeBodyProps){
     const {Product}=SplitPathname();
     
     //const pathname = usePathname();
@@ -32,9 +32,9 @@ export default function SizeBody({ selectedSize }: SizeBodyProps){
         
     //   },[pathname]);
     useEffect(() => {
-      // if(Product==='FaceBrick'){
+      
         const getData = async () => {
-          const result = await FetchSizes(Product);
+          const result = await FetchSizesThin(Product);
           setData(result);
           if(result){
 
@@ -43,18 +43,7 @@ export default function SizeBody({ selectedSize }: SizeBodyProps){
     
         getData();
 
-      // }else if(Product==='ThinBrick'){
-      //   const getData = async () => {
-      //     const result = await FetchSizesThin(Product);
-      //     setData(result);
-      //     if(result){
-
-      //     }
-      //   };
-    
-      //   getData();
-
-      // }
+      
         
       }, [Product]);
     
@@ -101,12 +90,11 @@ useEffect(()=>{
             {
                 Data?.map((PDF,index)=>(
                   
-                    PDF.Name===DisplaySize?<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''
+                    PDF.Name===DisplaySize?<div>{Product}<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a></div>:''
                 ))
             }
             
         </div>
-        
         <div className="row">
         <p className="museo-light  fs-4 fst-italic">{DisplaySize?.replace(/_/g,"\u00A0")}</p>
         <div className=" col">

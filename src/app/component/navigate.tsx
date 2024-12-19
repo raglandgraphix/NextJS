@@ -23,7 +23,7 @@ const linkData = {
     ],
      'Pavers':[
         {text:'Colors',link:'/Paver/Colors'},
-        {text:'Sizes', link:'/Paver/Colors'}
+        {text:'Sizes', link:'/Paver/Sizes'}
     ],
     'Pathway Aggregate':[],
     'Resources':[

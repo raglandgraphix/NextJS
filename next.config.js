@@ -47,6 +47,11 @@ const nextConfig = {
           
         },
         {
+          source: '/Paver/Colors/:colorName', // Match the pattern with the color segment
+          destination: '/Paver/Colors/IndividualColor', // Redirect to the Colors page
+          
+        },
+        {
           source: '/FaceBrick/Projects-:color', // Match the pattern with the color segment
           destination: '/FaceBrick/Projects', // Redirect to the Colors page
         },

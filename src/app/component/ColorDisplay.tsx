@@ -3,9 +3,11 @@ import { useEffect,useState } from "react";
 import Image from "next/image";
 import { DataItem} from "../../../Types/ProductTypes";//this is part of the fetch
 import { DataItemThin } from "../../../Types/ProductTypesThinbrick";
+import { DataItemPaver } from "../../../Types/ProductTypesPaver";
 import { FetchProduct } from "../../../Utilities/FetchProduct";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import { FetchProductThin } from "../../../Utilities/FetchProductThin";
+import { FetchProductPaver } from "../../../Utilities/FetchProductPaver";
 interface ColorDisplayProps {
     DisplayThickness: string | null; // Add the selectedThickness prop
   }
@@ -15,6 +17,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
     const [Thickness,setThickness]=useState<string | null>(null)
     const [Data,setData]=useState<DataItem[] | null>(null);
     const [DataThin,setDataThin]=useState<DataItemThin[] | null>(null);
+    const [DataPaver,setDataPaver]=useState<DataItemPaver[] | null>(null);
     //const [Color,setColor]=useState<string | null>(null);    
     //const [Texture,setTexture]=useState<string | null>('Smooth');
     const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
@@ -23,6 +26,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
         
         // if(selectedThickness){
             //setThickness(selectedThickness);
+            
             if(DisplayThickness){
                 setThickness(DisplayThickness);
             }else if(DisplayThickness===null){
@@ -33,42 +37,96 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
         
     })
     useEffect(() => {
-        const getData = async () => {
-            if(Product){
-                const result = await FetchProduct(Product);
-                
-                
-                
-                setData(result);
-            }
-          
-          
-        };
-    
-        getData();
-    }, [Product]);
-    useEffect(() => {
-        const getData = async () => {
-          const result = await FetchProductThin(Product);
-          setDataThin(result);
-          if(result){
-            for(const items of result){
-                if(items.fullName===Color){
-                    for(const thickness of items.thick){
-                        if(thickness.size==='1/2\" Thick'){
-                            setDefaultTexture(thickness.textures[0].texture)
-                            
-                        }
-                    }
+        if(Product==='FaceBrick'){
+            const getData = async () => {
+                if(Product){
+                    const result = await FetchProduct(Product);
                     
+                    
+                    
+                    setData(result);
                 }
-            }
-          }
-        };
+              
+              
+            };
+            getData();
+        }else if(Product==='ThinBrick'){
+            const getData = async () => {
+                const result = await FetchProductThin(Product);
+                setDataThin(result);
+                if(result){
+                  for(const items of result){
+                      if(items.fullName===Color){
+                          
+                          for(const thickness of items.thick){
+                              if(thickness.size==='1/2\" Thick'){
+                                  setDefaultTexture(thickness.textures[0].texture)
+                                  
+                              }
+                          }
+                          
+                      }
+                  }
+                }
+              };
+              getData();
+        }else if(Product==='Paver'){
+            const getData = async () => {
+                if(Product){
+                    const result = await FetchProductPaver(Product);
+                    
+                    
+                    
+                    setDataPaver(result);
+                }
+              
+              
+            };
+        
+            getData();
+        }
+       
     
-        getData();
+        
     }, [Product]);
+    // useEffect(() => {
+    //     const getData = async () => {
+    //       const result = await FetchProductThin(Product);
+    //       setDataThin(result);
+    //       if(result){
+    //         for(const items of result){
+    //             if(items.fullName===Color){
+                    
+    //                 for(const thickness of items.thick){
+    //                     if(thickness.size==='1/2\" Thick'){
+    //                         setDefaultTexture(thickness.textures[0].texture)
+                            
+    //                     }
+    //                 }
+                    
+    //             }
+    //         }
+    //       }
+    //     };
     
+    //     getData();
+    // }, [Product]);
+    
+    // useEffect(() => {
+    //     const getData = async () => {
+    //         if(Product){
+    //             const result = await FetchProductPaver(Product);
+                
+                
+                
+    //             setDataPaver(result);
+    //         }
+          
+          
+    //     };
+    
+    //     getData();
+    // }, [Product]);
    
     return(
         <div className="col-12 col-md-8  " >
@@ -162,7 +220,16 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                             }
                         </div>
                         :null
-                    )):null
+                    )):
+                    Product==='Paver'?
+                    DataPaver?.map((item)=>(
+                        item.fullName===Color &&
+                            item.textures.map((textures)=>(
+                                <Image src={textures.image} width={500} height={500} alt={textures.alt}/>
+                            ))
+                        
+                    ))
+                    :""
                     )
                 }
             </div>

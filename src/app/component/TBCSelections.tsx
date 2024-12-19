@@ -39,7 +39,7 @@ export default function TBCSelections ({passThickness,setSelectedSize}: ChildCom
               
               
               if(!Texture){//This is when there is no Texture set in the url. it sets it to the first possible texture
-                console.log('i have texture')
+               
                 setThickness(items.thick[0].size);
                 
                 const thisThickness: string = items.thick[0].size;//sets a constant for thickness
@@ -62,7 +62,7 @@ export default function TBCSelections ({passThickness,setSelectedSize}: ChildCom
                 
                 thickness.textures.map((textures)=>{
                   if(textures.texture===Texture){
-                    console.log(thickness.size);
+                    // console.log(thickness.size);
                     setThickness(thickness.size);
                     passThickness(thickness.size);
                     setSize(textures.sizes[0])
@@ -91,7 +91,11 @@ export default function TBCSelections ({passThickness,setSelectedSize}: ChildCom
     getData();
     
   }, [Product]);
-
+useEffect(()=>{
+  Data?.map((item)=>{
+    console.log(item.thick)
+  })
+})
 
 
   const ThicknessClick = ((myPath:string,newThickness:string)=>{
@@ -100,6 +104,7 @@ export default function TBCSelections ({passThickness,setSelectedSize}: ChildCom
     passThickness(newThickness);
     
     Data?.map((items)=>{
+      
       if(items.fullName===Color){
       items.thick.map((thickness)=>{
         

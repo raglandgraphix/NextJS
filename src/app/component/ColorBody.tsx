@@ -1,5 +1,5 @@
 //'use client'
-import React from "react";
+import React, { useEffect } from "react";
 //import { useState,useEffect } from "react";
 //import { usePathname } from "next/navigation";
 //import Image from "next/image";
@@ -8,8 +8,11 @@ import React from "react";
 //import { FetchProduct } from "../../../Utilities/FetchProduct";//This is part of the fetch
 import ArchitectSupport from "./ArchitectSupport";
 import SizeBody from "./SizeBody";
+import SizeBodyThin from "./SizeBodyThin";
+import SizeBodyPaver from "./SizeBodyPaver";
 import ColorProjects from "./ColorProjects";
 import ColorDisplay from "./ColorDisplay";
+import { SplitPathname } from "../../../Utilities/SplitPathname";
 // import { SplitPathname } from "../../../Utilities/SplitPathname";
 
 
@@ -21,8 +24,14 @@ interface ColorBodyProps {
 
 }
 export default function ColorBody({ selectedSize,CBThickness }: ColorBodyProps){
+  const {Product}=SplitPathname();
   
   // const{Product}=SplitPathname();
+  // useEffect(()=>{
+  //   if(selectedSize){
+  //     console.log(`the selected size is ${selectedSize}`)
+  //   }
+  // })
   
 
     //const [selectedColor,setSelectedColor]=useState<string | null>(null);
@@ -95,8 +104,12 @@ export default function ColorBody({ selectedSize,CBThickness }: ColorBodyProps){
             </div>
 
         </div>
+        {
+          
+Product==='FaceBrick'?<SizeBody  selectedSize={selectedSize}/>:(Product==='ThinBrick' ?<SizeBodyThin  selectedSize={selectedSize}/>:(Product==='Paver' && <SizeBodyPaver  selectedSize={selectedSize}/>))
+        }
        
-        <SizeBody  selectedSize={selectedSize}/>
+       
        
               {/* {
                 Product==='FaceBrick'?<ColorProjects/>:(Product==='ThinBrick'?<ColorProjectsThinBrick/>:null)

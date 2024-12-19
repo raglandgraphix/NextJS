@@ -1,45 +1,202 @@
+//FBCSelections is the menu to the right of the product description box.
+'use client';
 import React from "react";
-//import { DataItem,Texture } from "../../../Types/productTypes";
-export default function FBCSelections (){
-    return(
-        <div className="row univers-55-Roman text-rock h-100  w-100  d-flex justify-content-xl-end justify-content-center ">
-              <div className="col-4 col-md-5 col-xl-3 border-end  text-center   ">
-                <div className="row border-bottom ">
-                  <div className="col ">
-                    <h2 className="fs-5 ">Wire Texture</h2>
-                  </div>
-                </div>
-                <div className="row ">
-                  <div className="col text-nowrap ">
-                    {/* <span className="d-block text-uppercase  mt-2  pt-2 pb-2 text-rock ">ALL</span> */}
-                    <span className="d-block text-uppercase   pt-2 pb-2 bg bg-black text-stone rounded-2">Face Brick</span>
-                    <span className="d-block text-uppercase   pt-2 pb- text-rock">Thin Brick</span>
-                    <span className="d-block text-uppercase   pt-2 pb-2 text-rock">Pavers</span>
-                  </div>
-                </div>
+import { useState, useEffect } from "react";
+//import {usePathname} from 'next/navigation';
+//import { DataItem} from "../../../Types/ProductTypes";
+import { DataItemPaver } from "../../../Types/ProductTypesPaver";
+import { useRouter } from "next/navigation";
+// import { FetchProduct } from "../../../Utilities/FetchProduct";
+import { FetchProductPaver } from "../../../Utilities/FetchProductPaver";
+
+import { SplitPathname } from "../../../Utilities/SplitPathname";
+
+interface PCSelectionProps {
+  
+  setSelectedSize: (newSize: string) => void; // Define the type of the callback prop
+}
+export default function PCSelections ({setSelectedSize }: PCSelectionProps){
+  const {Product,Color,Texture}=SplitPathname();
+ 
+  const [Data,setData]=useState<DataItemPaver[] | null>(null);
+  
+  const [BrickSize,setBrickSize]=useState<string | null>(null);
+   const [DefaultTexture,setDefaultTexture]=useState<string | null>(null);
+   const router= useRouter();
+  
+   useEffect(() => {
+    const getData = async () => {
+      const result = await FetchProductPaver(Product);
+      setData(result);
+      
+      if(result){
+       
+        if(!Texture){
+          
+          result.map((item)=>{
+            if(item.fullName===Color){
+            
+              setDefaultTexture(item.textures[0].texture);
+              
+              if(BrickSize===null){
                 
-              </div>
-              <div className="col-7 col-md-5 col-xl-6 text-center">
-                <div className="row">
-                  <div className="col border-bottom">
-                    <h2 className="fs-5 ">Color Range</h2>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col">
-                    {/* {
-                      ProductRange?.map((ranger,index)=>(
-                        <Link key={index}  className="text-decoration-none text-rock" href={`/${Product}/Colors-${ranger.split("/")[0]}`}><span className={`d-block text-uppercase   pt-2 pb-2 ${index===0 && (selectedColor===null || selectedColor===ranger.split('/')[0])?'mt-2 bg bg-black text-stone rounded-2':selectedColor === ranger.split('/')[0] ? 'bg-black text-stone rounded-2' : ''}  `}>{ranger}</span></Link>
-                      ))} */}
-                    {/* <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-ALL"><span className={`d-block text-uppercase  mt-2 pt-2 pb-2  ${selectedColor===null || selectedColor==='ALL'?'bg bg-black text-stone rounded-2':''} `}>All</span></Link>
-                    <Link className="text-decoration-none text-rock" href="/FaceBrick/Colors-Red"> <span className={`d-block text-uppercase   pt-2 pb-2  ${selectedColor==='Red' || selectedColor==='Burgundy'?'bg bg-black text-stone rounded-2':''} `}>Red/Burgundy</span></Link>
-                    <Link className="text-decoration-none text-rock " href='/FaceBrick/Colors-Black'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Black' || selectedColor==='Plum'?'bg bg-black text-stone rounded-2':''}`} >Black/Plum</span></Link>
-                    <Link className="text-decoration-none text-rock" href='/FaceBrick/Colors-Gray'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Gray' || selectedColor==='White'|| selectedColor==='Cream' || selectedColor==='Buff'?'bg bg-black text-stone rounded-2':''}`}>Gray/White/Cream/Buff</span></Link>
-                    <Link className="text-decoration-none text-rock" href='/FaceBrick/Colors-Tan'><span className={`d-block text-uppercase   pt-2 pb-2 ${selectedColor==='Tan' || selectedColor==='Brown' || selectedColor==='Orange'?'bg bg-black text-stone rounded-2':''}`}>Tan/Brown/Orange</span></Link> */}
-                  </div>
-                </div>
+                item.textures.map((size)=>{
+                  
+                  setSelectedSize(size.sizes[0]);
+                  setBrickSize(size.sizes[0]);
+                })
+               
+              }
+              
+
+
+
+
+            }
+          })
+
+          
+       
+        }else if(Texture && !BrickSize){
+          result.map((item)=>{
+            if(item.fullName===Color){
+              item.textures.map((texture)=>{
+                setBrickSize(texture.sizes[0]);
+                setSelectedSize(texture.sizes[0]);
+              })
+            }
+          })
+          
+
+        }else{
+
+        }
+      }
+    }
+    getData();
+  },[Product]);
+
+
+  
+    const ChangeSize = (size:string)=>{
+    
+      
+      
+      setBrickSize(size);
+      setSelectedSize(size);
+      
+    }
+  
+
+
+
+
+  
+  const TextureChange = (TextureValue:string)=>{
+    const newUrl = `/Paver/Colors/${Color}-${TextureValue}`;
+    Data?.map((item)=>{
+      if(item.fullName===Color){
+        
+      item.textures.map((texture)=>{
+        if(texture.texture===TextureValue){
+         
+          if(BrickSize){
+            const compare = texture.sizes.includes(BrickSize);
+
+            
+            if(!compare){
+              setBrickSize(texture.sizes[0]);
+              setSelectedSize(texture.sizes[0]);
+            }
+         
+          }
+          
+        }
+      })
+      }
+    }) 
+    router.replace(newUrl, undefined);
+  }        
+  return(
+    <div className="row univers-55-Roman text-rock h-100  w-100  d-flex justify-content-xl-end justify-content-center   p-0 m-0 pe-1 ">
+      <div className="col-2 col-sm-4 col-md-6 col-lg-3 col-xl-3 border-end  text-center   ">
+        <div className="row border-bottom ">
+          <div className="col  ">
+            <h2 className="fs-5 ">Texture</h2>
+          </div>
+        </div>
+        <div className="row ">
+          <div className="col-12 text-md-nowrap">
+            {
+              Data?.map((item)=>(
+                item.fullName===Color?
+                Texture?
                 
-              </div>
+                  item.textures?.map((texture,index)=>(
+                  
+                    <span role="button" key={index} className={`d-block text-uppercase MenuSetByScreenSize   mt-2  pt-2 pb-1.5 text-rock  ${texture.texture===Texture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
+                    )):
+
+                    item.textures?.map((texture,index)=>(
+                    <span role="button" key={index} className={`d-block text-uppercase MenuSetByScreenSize   mt-2  pt-2 pb-1.5 text-rock  ${texture.texture===DefaultTexture?'bg bg-black rounded-3 text-white':''} `} onClick={()=>{TextureChange(texture.texture)}} >{texture.texture.replace(/~/g," ")}</span>
+                  ))
+                :''
+              ))
+            }
             </div>
-    )
+        </div>
+      </div>
+      <div className="col-10 col-sm-8 col-md-6 col-lg-9  text-center  m-0 p-0">
+        <div className="row">
+          <div className="col border-bottom">
+            <h2 className="fs-5 ">Sizes</h2>
+          </div>
+        </div>
+        <div className="row mt-2 MenuSetByScreenSize">
+          <div className="col-12 ">
+            <table className=" w-100">
+              <tbody> 
+                {Data?.map((item) => (
+                  item.fullName === Color ? (
+                    item.textures?.map((mytexture) => {
+
+                      if(Texture){
+                        if (mytexture.texture === Texture) {
+                          const sizes = mytexture.sizes;
+                          const rowsCount = Math.ceil(sizes.length / 3);
+                          return Array.from({ length: rowsCount }, (_, rowIndex) => (
+                            <tr  key={rowIndex} >
+                              {sizes.slice(rowIndex * 3, (rowIndex + 1) * 3).map((size, colIndex) => (
+                                <td role="button" className={`    pt-2 pb-3 `} key={colIndex} onClick={()=>{ChangeSize(size)}}><span className={`text-uppercase p-2.5 text-rock ${size===BrickSize?'bg bg-dark rounded-2 text-white':''}`} >{size.replace(/_/g,' ')}</span></td>
+                              ))}
+                            </tr>
+                          ));
+                        }
+
+
+                      }else{
+                       if(mytexture.texture===DefaultTexture){
+                        const sizes = mytexture.sizes;
+                        const rowsCount = Math.ceil(sizes.length / 3);
+                        return Array.from({ length: rowsCount }, (_, rowIndex) => (
+                          <tr  key={rowIndex} >
+                            {sizes.slice(rowIndex * 3, (rowIndex + 1) * 3).map((size, colIndex) => (
+                              <td role="button" className={`    pt-2 pb-3 custom-nobreak`} key={colIndex} onClick={()=>{ChangeSize(size)}}><span className={`text-uppercase p-2.5 text-rock ${size===BrickSize?'bg bg-dark rounded-2 text-white':''}`} >{size.replace(/_/g,' ').replace(/INVISI-LUG®/g, " \u00A0 \u00A0 INVISI\u2011LUG®")}</span></td>
+                            ))}
+                          </tr>
+                        ));
+                      }
+                    }
+                        return "";
+                    })
+                  ) : ''
+                  
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }

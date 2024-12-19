@@ -10,6 +10,7 @@ import React from "react";
 //import { FetchTexture } from "../../../Utilities/FetchTextures";
 import ASFaceBrick from "./ASFaceBrick";
 import ASThinBrick from "./ASThinBrick";
+import ASFacePaver from "./ASPaver";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 interface ColorDisplayProps {
     DisplayThickness: string | null; // Add the selectedThickness prop
@@ -41,7 +42,8 @@ export default function ArchitectSupport({DisplayThickness}:ColorDisplayProps){
         <div className="col-12 col-md-4 bg-stone-50" >
             {
                 Product==='FaceBrick'?<ASFaceBrick/>:
-                (Product==='ThinBrick'? <ASThinBrick ASthickness={DisplayThickness} />:null)
+                (Product==='ThinBrick'? <ASThinBrick ASthickness={DisplayThickness} />:
+                (Product==='Paver'&&<ASFacePaver/>))
             }
           
              
