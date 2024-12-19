@@ -159,7 +159,7 @@ return(
 
                                 TextureData?.map((info,index)=>(
                                     info.texture===Texture.replace(/~/g,' ')?
-                                    <p >Experience the subtle texture and visual depth of wirecut pavers, a classic finish that adds a touch of elegance to any design.</p>
+                                    <p key={index}>Experience the subtle texture and visual depth of wirecut pavers, a classic finish that adds a touch of elegance to any design.</p>
                                     :null
                                 )):null
 
@@ -172,7 +172,7 @@ return(
                                 texture.texture===DefaultTexture?
                                 TextureData?.map((info,index)=>(
                                     info.texture===DefaultTexture?.replace(/~/g,' ')?
-                                    <p >Experience the subtle texture and visual depth of wirecut pavers, a classic finish that adds a touch of elegance to any design.</p>
+                                    <p key={index} >Experience the subtle texture and visual depth of wirecut pavers, a classic finish that adds a touch of elegance to any design.</p>
                                     :null
                                 )):null
 

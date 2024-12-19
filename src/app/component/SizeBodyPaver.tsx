@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 //import { usePathname } from "next/navigation";
 import { DataItem} from "../../../Types/SizesTypes";//this is part of the fetch
-import { FetchSizes } from "../../../Utilities/FetchSizes";//This is part of the fetch
+
 import { FetchSizesPaver } from "../../../Utilities/FetchSizesPaver";
 //import { FetchSizesThin } from "../../../Utilities/FetchSizesThin";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
@@ -103,7 +103,7 @@ useEffect(()=>{
             {
                 Data?.map((PDF,index)=>(
                   
-                    PDF.Name===DisplaySize?<div>{Product}<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a></div>:''
+                    PDF.Name===DisplaySize?<div key={index}>{Product}<a  role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a></div>:''
                 ))
             }
             

@@ -224,8 +224,8 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                     Product==='Paver'?
                     DataPaver?.map((item)=>(
                         item.fullName===Color &&
-                            item.textures.map((textures)=>(
-                                <Image src={textures.image} width={500} height={500} alt={textures.alt}/>
+                            item.textures.map((textures,index)=>(
+                                <Image key={index} src={textures.image} width={500} height={500} alt={textures.alt}/>
                             ))
                         
                     ))
