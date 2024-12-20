@@ -4,12 +4,13 @@ import { useEffect,useState } from "react";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
 import ProductBox from "@/app/component/ProductBox";
-import { FetchSizes } from "../../../../Utilities/FetchSizes";
+import { FetchSizesPaver } from "../../../../Utilities/FetchSizesPaver";
 import { DataItem } from "../../../../Types/SizesTypes";
 import Image from "next/image";
 import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import SizeHead from "@/app/component/SizeHead";
 
 
 export default function Sizes(){
@@ -21,7 +22,7 @@ export default function Sizes(){
     useEffect(() => {
         const getData = async () => {
             if (Product) { // Only fetch data if Product is not null
-              const result = await FetchSizes(Product);
+              const result = await FetchSizesPaver(Product);
               setData(result);
               console.log(result);
             }
@@ -39,9 +40,7 @@ export default function Sizes(){
     return(
         <div className="container-fluid">
             <Navigate pageSettings="light" />
-            <div className="row">
-                <ProductBox setDescription='' productHeadLine='Endicott Brick Sizes: Find the Perfect Fit for Your Project' ProductDescription='Endicott offers a wide range of brick sizes to suit any architectural style and design vision. From classic modular dimensions to the elongated Roman size. Explore our selection to find the perfect fit for your next project.'/>
-            </div>
+            <SizeHead/>
             <div className="row ps-3 pe-3  ">
                 
                 {
@@ -50,7 +49,8 @@ export default function Sizes(){
                             
                             <div className="card h-100" onClick={()=>{handleShow(item.Name)}}>
                                 <Image src={item.image} width={500} height={500} alt={item.alt}/>
-                                <h3 className="text-center fs-4">{item.Name.replace(/_/g,' ')} Brick</h3>
+                                
+                                <h3 className="text-center fs-4">{item.Name.replace(/_/g,' ')}{Product!=='Paver'?' Brick':' Pavers'} </h3>
                             </div>
                         </div>
                     ))

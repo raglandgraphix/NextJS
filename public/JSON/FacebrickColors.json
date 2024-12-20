@@ -10,8 +10,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "artx":"https://architextures.org/create/share/48281?appid=1125",
@@ -19,8 +19,8 @@
                 },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "artx":"https://architextures.org/create/share/48089?appid=1125",
@@ -28,8 +28,8 @@
                 },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
                 "artx":"https://architextures.org/create/share/48287?appid=1125",
@@ -37,8 +37,8 @@
                 },
             {
                 "texture":"Velvetex",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velvetex-Facebrick-Modular-Large.jpg",
                 "artx":"https://architextures.org/create/share/48286?appid=1125",
@@ -47,8 +47,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Vertical-Score-Facebrick-Modular-Large.jpg",
                 "artx":"https://architextures.org/create/share/48288?appid=1125",
@@ -68,8 +68,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48622?appid=1125",
@@ -77,8 +77,8 @@
                },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48623?appid=1125",
@@ -86,8 +86,8 @@
                 },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Matt-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48624?appid=1125",
@@ -95,8 +95,8 @@
                 },
             {
                 "texture":"Velvetex",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velvetex-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velvetex-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velvetex-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velvetex-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velvetex-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velvetex-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48625?appid=1125",
@@ -104,8 +104,8 @@
                 },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Vertical-Score-Facebrick-short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Vertical-Score-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Vertical-Score-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48626?appid=1125",
@@ -126,8 +126,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48627?appid=1125",
@@ -136,8 +136,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Copper-Canyon-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Copper-Canyon-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Copper-Canyon-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48628?appid=1125",
@@ -194,8 +194,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48629?appid=1125",
@@ -204,8 +204,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Coppertone-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Coppertone-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Coppertone-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48630?appid=1125",
@@ -214,8 +214,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
                 "artx":"",
@@ -234,8 +234,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48632?appid=1125",
@@ -267,8 +267,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48633?appid=1125",
@@ -277,8 +277,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48634?appid=1125",
@@ -287,8 +287,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Matt-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48635?appid=1125",
@@ -297,8 +297,8 @@
             },
             {
                 "texture":"Velvetex",
-                "image":"https://endicottfiles.com/Medium-Ironspot-77-Velvetex-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velvetex-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-77-Velvetex-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velvetex-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Velvetex-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Velvetex-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48636?appid=1125",
@@ -307,8 +307,8 @@
             },
             {
                 "texture":"Vertical~Score",
-               "image":"https://endicottfiles.com/Medium-Ironspot-77-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Facebrick-Short.jpg",
+               "image":"https://endicottfiles.com/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Vertical-Score-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Veertical-Score-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"],
@@ -316,8 +316,8 @@
             },
             {
                 "texture":"Artisan",
-               "image":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Facebrick-Short.jpg",
+               "image":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium_Ironspot_77-Artisan-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -339,8 +339,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"],
@@ -349,8 +349,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","6\"\u00A0Thru-Wall","8\"\u00A0Thru-Wall","Triple"],
@@ -359,8 +359,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Matt-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -369,8 +369,8 @@
             },
             {
                 "texture":"Velvetex",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Velvetex-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velvetex-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Velvetex-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velvetex-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Velvetex-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Velvetex-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -379,8 +379,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Vertical-Score-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -389,8 +389,8 @@
             },
             {
                 "texture":"Artisan",
-                "image":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Artisan-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium-Ironspot-46/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -412,8 +412,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"],
@@ -421,8 +421,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velour-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","6\"\u00A0Thru-Wall","8\"\u00A0Thru-Wall","Meridian","Triple"],
@@ -430,8 +430,8 @@
             },
             {
                 "texture":"Velvetex",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Velvetex-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velvetex-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Velvetex-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velvetex-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Velvetex-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velvetex-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -439,8 +439,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -448,8 +448,8 @@
             },
             {
                 "texture":"Artisan",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Artisan-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
@@ -471,8 +471,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Ravenswood-Ironspot-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Smooth-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Ravenswood-Ironspot-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Smooth-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Smooth-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Ravenswood-Ironspot-Smooth-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"],
@@ -480,8 +480,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Ravenswood-Ironspot-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Velour-Facebrick-Short.jpg",
+                "image":"https://endicottfiles.com/Ravenswood-Ironspot-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Velour-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Ravenswood-Ironspot/Ravenswood-Ironspot-Velour-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Ravenswood-Ironspot-Velour-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","6\"\u00A0Thru-Wall","8\"\u00A0Thru-Wall","Meridian","Triple"],
@@ -502,8 +502,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
                 "artx":"",
@@ -512,8 +512,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Manganese-Ironspot-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
                 "artx":"",
@@ -521,8 +521,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
                 "artx":"",
@@ -530,8 +530,8 @@
             },
             {
                 "texture":"Velvetex",
-            "image":"https://endicottfiles.com/Manganese-Ironspot-Velvetex-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+            "image":"https://endicottfiles.com/Manganese-Ironspot-Velvetex-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/ManganeseIronspotVelevetexFaceBrick-Large.jpg",
                 "artx":"",
@@ -539,8 +539,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"",
@@ -561,8 +561,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/SiennaIronspotSmoothFaceBrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48732?appid=1125",
@@ -571,8 +571,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Sienna-Ironspot-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Sienna-Ironspot-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/SiennaIronspotVelourFaceBrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48733?appid=1125",
@@ -610,8 +610,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48734?appid=1125",
@@ -620,8 +620,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Executive-Ironspot-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Executive-Ironspot-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Executive-Ironspot-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48735?appid=1125",
@@ -657,8 +657,8 @@
         "textures":[
             {
                 "texture":"Heritage",
-                "image":"https://endicottfiles.com/Heritage-46-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Heritage-46-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Heritage-46-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48726?appid=1125",
@@ -679,8 +679,8 @@
         "textures":[
             {
                 "texture":"Heritage",
-                "image":"https://endicottfiles.com/Heritage-46-No-Yellow-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Heritage-46-No-Yellow-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Heritage-46-No-Yellow-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48736?appid=1125",
@@ -701,8 +701,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Rose-Blend-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Rose-Blend-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Rose-Blend-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48795?appid=1125",
@@ -711,8 +711,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Rose-Blend-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Rose-Blend-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Rose-Blend-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48796?appid=1125",
@@ -721,8 +721,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Rose-Blend-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Rose-Blend-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Rose-Blend-Matt-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48797?appid=1125",
@@ -740,8 +740,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48798?appid=1125",
@@ -762,8 +762,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Red-Blend-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Red-Blend-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Red-Blend-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48808?appid=1125",
@@ -772,8 +772,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Red-Blend-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Red-Blend-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Red-Blend-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48809?appid=1125",
@@ -781,10 +781,10 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Red-Blend-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Red-Blend-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                "largeImage":"https://endicottfiles.com/Red-Blend-Matt-Facebrick-Short.jpg",
+                "largeImage":"https://endicottfiles.com/Red-Blend-Matt-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48810?appid=1125",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
             
@@ -801,8 +801,8 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Red-Blend-Vertical-Score-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Red-Blend-Vertical-Score-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Red-Blend-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48810?appid=1125",
@@ -825,8 +825,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48812?appid=1125",
@@ -835,8 +835,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Burgundy-Blend-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48813?appid=1125",
@@ -844,8 +844,8 @@
             },
             {
                 "texture":"Matt",
-                "image":"https://endicottfiles.com/Burgundy-Blend-Matt-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Burgundy-Blend-Matt-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Burgundy-Blend-Matt-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48814?appid=1125",
@@ -878,8 +878,8 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48907?appid=1125",
@@ -888,8 +888,8 @@
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Ruby-Red-Velour-Facebrick-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Ruby-Red-Velour-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Ruby-Red-Velour-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/48908?appid=1125",
@@ -940,16 +940,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -984,16 +984,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1029,16 +1029,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1074,16 +1074,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1119,16 +1119,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1165,16 +1165,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1210,16 +1210,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
@@ -1255,16 +1255,16 @@
         "textures":[
             {
                 "texture":"Smooth",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
             },
             {
                 "texture":"Velour",
-                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
-                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Short.jpg",
+                "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]

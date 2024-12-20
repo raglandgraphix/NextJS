@@ -91,11 +91,7 @@ export default function TBCSelections ({passThickness,setSelectedSize}: ChildCom
     getData();
     
   }, [Product]);
-useEffect(()=>{
-  Data?.map((item)=>{
-    console.log(item.thick)
-  })
-})
+
 
 
   const ThicknessClick = ((myPath:string,newThickness:string)=>{

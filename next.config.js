@@ -87,8 +87,21 @@ const nextConfig = {
         },
         
       ];
-    }
+    },
+    async redirects() {
+      return [
+        {
+          source: '/testingRedirect.html',
+          destination: '/FaceBrick/Textures',
+          permanent: true, // Use permanent redirect for SEO
+        },
+      ];
+    },
+    
   };
+  
+   
+  
   
   module.exports = nextConfig;
 

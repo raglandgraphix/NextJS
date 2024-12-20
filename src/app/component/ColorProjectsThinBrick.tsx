@@ -63,12 +63,12 @@ export default function ColorProjectsThinBrick(){
             Data.map((item)=>(
                 item.fullName===Color?
                 item.projects && (
-<div className="row mt-2 mb-2">
-            <div className="col-12">
-                <h2 className="text-center">Projects & Videos</h2>
+                    <div className="row mt-2 mb-2">
+                        <div className="col-12">
+                            <h2 className="text-center">Projects & Videos</h2>
 
-            </div>
-           </div>
+                            </div>
+                        </div>
                 )
                 :''
             ))
@@ -78,11 +78,14 @@ export default function ColorProjectsThinBrick(){
            <div className="row">
             {
                 Data.map((item)=>(
+                    
                     item.fullName===Color?//exmple Desert_Ironspot_Light
                     
                      item.projects?.map((photos)=>(//These are projects listed in the colors
                        
                         photos.photo?photos.photo.map((projects)=>(
+
+                            
                             ProjectData?.map((items,index2)=>(
                                 items.jobTitle===projects?
                                 <div key={index2} className="col-12 col-md-2">
@@ -111,6 +114,10 @@ export default function ColorProjectsThinBrick(){
                      ))
                     :''
                 ))
+
+
+
+
             }
             
            </div>

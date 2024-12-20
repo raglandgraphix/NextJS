@@ -92,7 +92,7 @@ export default function ColorBody({ selectedSize,CBThickness }: ColorBodyProps){
       <div className="row mt-5">
 
       
-        <div className="col-12 col-md-6 ms-0 ms-md-3 me-3 ">
+        <div className="col-12 col-md-8 ms-0 ms-md-3 me-3 ">
           
             <div className="row ">
               

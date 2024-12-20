@@ -2,9 +2,9 @@
     {
         "id":1,
         "Name":"1-1/4\"_X_3-5/8\"_X_7-5/8\"",
-        "image":"https://endicottfiles.com/KingSizeThinBrick.jpg",
-        "pdf":"https://endicottfiles.com/KingSizeThinBrick.pdf",
-        "alt":"Image of 2-1/4\"_X_3-5/8\"_X_7-5/8\""
+        "image":"https://endicottfiles.com/1-1_4x3-5_8x7-5_8Paver.jpg",
+        "pdf":"https://endicottfiles.com/1-1_4x3-5_8x7-5_8Paver.pdf",
+        "alt":"Image of 1-1/4\"_X_3-5/8\"_X_7-5/8\""
         
     },
     {
@@ -57,19 +57,19 @@
         "alt":"Image of Triple Drawing"
     },{
         "id":9,
-        "Name":"2-1/4\"_X_3-5/8\"_X_11-5/8\"_Plank_Paver",
+        "Name":"2-1/4\"_X_3-5/8\"_X_11-5/8\"_Plank",
         "image":"https://endicottfiles.com/TripleFaceBrick.jpg",
         "pdf":"https://endicottfiles.com/TripleFaceBrick.pdf",
         "alt":"Image of Triple Drawing"
     },{
         "id":10,
-        "Name":"2-1/4\"_X_4\"_X_12\"_INVISI-LUG®_Plank_Paver",
+        "Name":"2-1/4\"_X_4\"_X_12\"_INVISI-LUG®_Plank",
         "image":"https://endicottfiles.com/TripleFaceBrick.jpg",
         "pdf":"https://endicottfiles.com/TripleFaceBrick.pdf",
         "alt":"Image of Triple Drawing"
     },{
         "id":11,
-        "Name":"2-1/4\"_X_4\"_X_12\"_Relieved Edge Lugged_Plank_Paver",
+        "Name":"2-1/4\"_X_4\"_X_12\"_Relieved Edge Lugged_Plank",
         "image":"https://endicottfiles.com/TripleFaceBrick.jpg",
         "pdf":"https://endicottfiles.com/TripleFaceBrick.pdf",
         "alt":"Image of Triple Drawing"

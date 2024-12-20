@@ -6,6 +6,7 @@ import Link from "next/link";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
 import { useRouter } from "next/navigation";
 
+
 export default function ProductSelection(){
     const {Product,Page}= SplitPathname();
     
@@ -39,7 +40,12 @@ const handleLinkClick = (myPath:string) => {
                                 <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='ThinBrick'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Thin Brick</span>
                             </Link>
                             {/* There is no Paver because this is used for the textures pages and Pavers only has one texture. */}
-                            
+                            {
+                                Page === 'Sizes' && 
+                                <Link role="link" className="text-decoration-none" href='/Paver/Projects' onClick={(e) => {e.preventDefault(); handleLinkClick(`/Paver/${Page}`);}}  >
+                                <span className={`d-block text-uppercase pt-2 pb-2 ${Product==='Paver'?'bg bg-black text-stone rounded-2':'text-dark'} `} role="menuitem"  >Paver</span>
+                            </Link>
+                            }
                             
                             
                         </div>

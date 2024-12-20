@@ -10,6 +10,7 @@ import Image from "next/image";
 import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import SizeHead from "@/app/component/SizeHead";
 
 
 export default function Sizes(){
@@ -39,9 +40,7 @@ export default function Sizes(){
     return(
         <div className="container-fluid">
             <Navigate pageSettings="light" />
-            <div className="row">
-                <ProductBox setDescription='' productHeadLine='Endicott Brick Sizes: Find the Perfect Fit for Your Project' ProductDescription='Endicott offers a wide range of brick sizes to suit any architectural style and design vision. From classic modular dimensions to the elongated Roman size. Explore our selection to find the perfect fit for your next project.'/>
-            </div>
+            <SizeHead />
             <div className="row ps-3 pe-3  ">
                 
                 {

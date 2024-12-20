@@ -31,14 +31,7 @@ export default function CatalogBody(){
    
    
     useEffect(() => {
-      // let JSONData =  '/JSON/FacebrickColors.json';
-      // if(Product==='FaceBrick'){
-      //   JSONData = '/JSON/FacebrickColors.json';
-      // }else if(Product==='ThinBrick'){
-      //   JSONData = '/JSON/ThinbrickColors.json';
-      // }else if(Product==='Paver'){
-      //   JSONData= '/JSON/PaverColors.json';
-      // }
+      
       
       
       const getData = async () => {
