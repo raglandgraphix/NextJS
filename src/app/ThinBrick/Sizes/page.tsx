@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect,useState } from "react";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
-import ProductBox from "@/app/component/ProductBox";
+//import ProductBox from "@/app/component/ProductBox";
 
 import { FetchSizesThin } from "../../../../Utilities/FetchSizesThin";
 import { DataItem } from "../../../../Types/SizesTypes";
@@ -12,7 +12,7 @@ import { SplitPathname } from "../../../../Utilities/SplitPathname";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import SizeHead from "@/app/component/SizeHead";
-import Link from "next/link";
+//import Link from "next/link";
 
 
 export default function Sizes(){

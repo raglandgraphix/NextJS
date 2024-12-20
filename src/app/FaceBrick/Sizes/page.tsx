@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect,useState } from "react";
 import Navigate from "@/app/component/navigate";
 import Footer from "@/app/component/footer";
-import ProductBox from "@/app/component/ProductBox";
+//import ProductBox from "@/app/component/ProductBox";
 import { FetchSizes } from "../../../../Utilities/FetchSizes";
 import { DataItem } from "../../../../Types/SizesTypes";
 import Image from "next/image";
