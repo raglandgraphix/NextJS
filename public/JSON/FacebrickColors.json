@@ -545,6 +545,15 @@
                 "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "artx":"",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+            },
+            {
+                "texture":"Artisan",
+                "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
+                "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
+                "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
             }
         ],
         "productLine":"Face Brick",
