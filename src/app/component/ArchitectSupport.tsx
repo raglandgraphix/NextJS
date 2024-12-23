@@ -39,7 +39,7 @@ export default function ArchitectSupport({DisplayThickness}:ColorDisplayProps){
       
     //Still need to upload all images to the local server instead of the cloudflare to be downloaded due to protections.
     return(
-        <div className="col-12 col-md-4 bg-stone-50" >
+        <div className="col-12 col-md-3 bg-stone-50" >
             {
                 Product==='FaceBrick'?<ASFaceBrick/>:
                 (Product==='ThinBrick'? <ASThinBrick ASthickness={DisplayThickness} />:

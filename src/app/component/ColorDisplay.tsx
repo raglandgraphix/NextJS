@@ -129,7 +129,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
     // }, [Product]);
    
     return(
-        <div className="col-12 col-md-8  " >
+        <div className="col-12 col-md-9  " >
             <div className="card  border-0 ">
                 {
                     Product==='FaceBrick'?

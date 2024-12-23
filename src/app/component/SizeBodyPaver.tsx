@@ -49,6 +49,7 @@ export default function SizeBodyPaver({ selectedSize }: SizeBodyProps){
       //     const result = await FetchSizesThin(Product);
       //     setData(result);
       //     if(result){
+        //
 
       //     }
       //   };
@@ -106,6 +107,7 @@ useEffect(()=>{
                     PDF.Name===DisplaySize?<div key={index}>{Product}<a  role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a></div>:''
                 ))
             }
+             
             
         </div>
         <div className="row">

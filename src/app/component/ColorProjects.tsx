@@ -65,7 +65,8 @@ export default function ColorProjects(){
         {
             Data.map((item)=>(
                 item.fullName===Color?
-                    item.projects.map((photos,id)=>(
+                    
+                    item.projects?.map((photos,id)=>(
                       photos.photo?
                       <div key={id} className="row mt-2 mb-2">
                               <div className="col-12">
