@@ -1279,7 +1279,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"null",
+			"size":"Modular",
 			"texture":"Artisan",
 			"qty":"",
 			"orderNum":"182654"
@@ -1287,7 +1287,7 @@
 			{
 				"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-				"size":"null",
+				"size":"Modular",
 				"texture":"Velour",
 				"qty":"",
 				"orderNum":"182564"
@@ -1547,7 +1547,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"null",
+			"size":"Norman",
 			"texture":"Velour",
 			"qty":"N/A",
 			"orderNum":"201984"
@@ -1600,7 +1600,7 @@
 			{
 			"color":"Gray Blend",
 			"colorSafe":"greyBlend",
-			"size":"null",
+			"size":"Norman",
 			"texture":"Velour",
 			"qty":"",
 			"orderNum":"210080"
@@ -1608,7 +1608,7 @@
 			{
 			"color":"Light Gray",
 			"colorSafe":"lightGrey",
-			"size":"null",
+			"size":"Norman",
 			"texture":"Velour",
 			"qty":"",
 			"orderNum":"210080"

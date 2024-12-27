@@ -127,6 +127,14 @@
 					"texture":"Sanded",
 					"qty":"",
 					"orderNum":""
+					},					
+					{
+					"color":"Desert Sands",
+					"colorSafe":"desertSands",
+					"size":"Triple",
+					"texture":"Sanded",
+					"qty":"",
+					"orderNum":""
 					}
 
 					
