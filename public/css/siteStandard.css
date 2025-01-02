@@ -42,6 +42,9 @@ body{
 .text-rock{
 	color: #564B49;
 }
+.ClayText{
+	color:#a24a13
+}
 .faceBrickBox{
     background-color: #333F48;
     /* min-height: 250px; */
@@ -56,6 +59,15 @@ body{
     background-color: #9e652e;
     min-height: 250px;
     
+}
+.PathwayAggregateBox{
+    background-color: #84754E;
+    min-height: 250px;
+    
+}
+.StandardBox{
+	background-color: #48494b;
+    min-height: 250px;
 }
 .svgWhite{
 	filter: invert(100%);
@@ -156,5 +168,11 @@ body{
 }
 .menuText{
 	font-size: 130%;
+}
+.PATop{
+	margin-top:1500px;
+}
+.logoLetterSpacing{
+	letter-spacing: 1px;
 }
 

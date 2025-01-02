@@ -11,6 +11,7 @@ export const SplitPathname = () => {
   const [Project,setProject]=useState<string | null>(null);
   const [Texture,setTexture]=useState<string | null>(null);
   const [Color,setColor]=useState<string | null>(null);
+  const [AggregatePage,setAggregatePage]=useState<string | null>(null);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -26,7 +27,7 @@ export const SplitPathname = () => {
       // if(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2] !=='Colors'){
       //   setProject(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2])
       // }
-      if(parts[2].includes('-')){
+      if(parts[2]?.includes('-')){
         setRangeColors(parts[2].split('-')[1]);
         setPage(parts[2].split('-')[0]);
         // if(parts[2].split('-')[0]=== 'Projects'){
@@ -64,7 +65,6 @@ export const SplitPathname = () => {
       // setPage(parts[2].includes('-') ? parts[2].split('-')[0] : parts[2]);
     }
     }
-    
     }
     
   }, [pathname,Product, RangeColors,Page,Project,Texture,Color]);
@@ -72,5 +72,5 @@ export const SplitPathname = () => {
   //   console.log(RangeColors);
   //    console.log(Page);//example: colors or textures
   //    console.log(Project);
-  return { Product, setProduct,Page,setPage, RangeColors, setRangeColors,Project, setProject,Color,setColor,Texture,setTexture };
+  return { Product, setProduct,Page,setPage, RangeColors, setRangeColors,Project, setProject,Color,setColor,Texture,setTexture, AggregatePage,setAggregatePage };
 };

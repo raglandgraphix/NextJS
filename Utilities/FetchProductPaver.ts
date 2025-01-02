@@ -1,6 +1,6 @@
 import { DataItemPaver } from "../Types/ProductTypesPaver";
 export async function FetchProductPaver(product: string | null): Promise<DataItemPaver[] | null> {
-    let jsonFilePath = '/JSON/ThinbrickColors.json'; // Default path
+    let jsonFilePath = '/JSON/PaverColors.json'; // Default path
   
     if (product === 'FaceBrick') {
       jsonFilePath = '/JSON/FacebrickColors.json';

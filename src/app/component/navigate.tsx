@@ -1,8 +1,12 @@
 'use client';
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 import "/public/css/navigate.css";
 import Link from "next/link";
+import { SplitPathname } from "../../../Utilities/SplitPathname";
+
+
 
 const linkData = {
     'Projects': [
@@ -25,7 +29,10 @@ const linkData = {
         {text:'Colors',link:'/Paver/Colors'},
         {text:'Sizes', link:'/Paver/Sizes'}
     ],
-    'Pathway Aggregate':[],
+    'Pathway Aggregate':[ 
+        
+    
+    ],
     'Resources':[
         {text:'Literature',link:'/Literature'},
         {text:'BIM',link:'/BIM'},
@@ -49,18 +56,30 @@ interface NavigateProps {
     pageSettings: PageSettings;
 }
 export default function Navigate({pageSettings}:NavigateProps){
+    const {Product}=SplitPathname();
+    const router = useRouter();
     const pageSetup = pageSettings;
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
     const [mainMenuShow,setMainMenuShow]=useState(false);
     const [subShown,setSubShown]=useState(false);
+    
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
-        setActiveKey(key);
-        if(!activeKey){
-            setSubShown(true); 
-        }else if(activeKey===key){
-            setSubShown(false);
-            setActiveKey(null)
+        if(key==='Pathway Aggregate'){
+            router.push('/PathwayAggregate');
+        }else{
+            setActiveKey(key);
+        
+            if(!activeKey){
+                setSubShown(true); 
+            }else if(activeKey===key){
+                setSubShown(false);
+                setActiveKey(null)
+            }
+
+
         }
+
+        
     }
     const displayMenu = ()=>{
         setMainMenuShow(!mainMenuShow);
@@ -79,7 +98,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                         </div>
                         <div className="row d-none d-md-flex text-center ">
                             <div className="col ">
-                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-6" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>Endicott Clay Products Company</span></Link>
+                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-5 logoLetterSpacing" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>{Product==='FaceBrick'?'Endicott Face Brick':(Product==='ThinBrick'?'Endicott Thin Brick':(Product==='PathwayAggregate'?'Endicott Pathway Aggregate':(Product==='Paver'?'Endicott Clay Pavers':'Endicott Clay Products')))}</span></Link>
                             </div>
                         </div>                
                     </div>

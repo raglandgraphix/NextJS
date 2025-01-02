@@ -85,6 +85,10 @@ const nextConfig = {
           source: '/apply', // Match the pattern with the color segment
           destination: '/Careers', // Redirect to the Colors page
         },
+        {
+          source: '/PathwayAggregate-:page', 
+          destination: '/PathwayAggregate', // Redirect to the Colors page
+        },
         
       ];
     },

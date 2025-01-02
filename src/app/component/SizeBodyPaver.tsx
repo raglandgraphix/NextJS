@@ -82,13 +82,12 @@ useEffect(()=>{
 }) 
     return(
 
-<div className="col-12 col-md-5 mt-3 mt-md-0  ps-2 ms-auto me-4 ">
-    <div className="row border d-flex justify-content-end h-100">
-        <div className="col-8">
-        
+<div className="col-12 col-md-3 border mt-3 mt-md-0  ps-2 ms-auto ">
+    <div className="row border d-flex justify-content-end ">
+        <div className="col-12">
             {
                 Data?.map((size,index)=>(
-                    size.Name===DisplaySize?<Image key={index} className="card-img-top img-fluid "  src={size.image} width={500} height={500} alt="size drawing"/> :''
+                    size.Name===DisplaySize?<Image key={index} className="card-img-top img-fluid" src={size.image} width={500} height={500} alt="size drawing"/> :''
                 ))
             }
         
@@ -98,20 +97,21 @@ useEffect(()=>{
                                 </div>
                               </div> */}
         </div>
-        <div className="col-4 pe-2">
+        <div className="col-12 pe-2">
+        <p className="museo-light  fs-4 fst-italic">{DisplaySize?.replace(/_/g,"\u00A0")}</p>
             
-            <p>{DisplaySize?.replace(/_/g,' ')} Pavers, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
+            <p>Endicott {DisplaySize?.replace(/_/g,' ')} Size Brick, Reimagines classic proportions with its elongated form to create striking horizontal lines and a modern aesthetic.</p>
             {
                 Data?.map((PDF,index)=>(
                   
-                    PDF.Name===DisplaySize?<div key={index}>{Product}<a  role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a></div>:''
+                    PDF.Name===DisplaySize?<a key={index} role="button" className="btn btn-dark" href={PDF.pdf} target='_blank'>Download PDF</a>:''
                 ))
             }
-             
             
         </div>
+        
         <div className="row">
-        <p className="museo-light  fs-3 fst-italic">{DisplaySize?.replace(/_/g,"\u00A0")}</p>
+        
         <div className=" col">
             <p>Not all products are available in all colors, sizes, and/or texures. Please contact Endicott for availability.</p>
         </div>
