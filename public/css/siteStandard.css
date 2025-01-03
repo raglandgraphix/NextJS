@@ -175,4 +175,7 @@ body{
 .logoLetterSpacing{
 	letter-spacing: 1px;
 }
+.VideoProjectCopy p{
+ margin-bottom: 0.1rem;
+}
 
