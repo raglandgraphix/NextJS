@@ -178,4 +178,7 @@ body{
 .VideoProjectCopy p{
  margin-bottom: 0.1rem;
 }
+.border-top-dashed{
+	border-top: thick dashed black;
+}
 

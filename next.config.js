@@ -82,7 +82,7 @@ const nextConfig = {
         
         
         {
-          source: '/apply', // Match the pattern with the color segment
+          source: '/Application', // Match the pattern with the color segment
           destination: '/Careers', // Redirect to the Colors page
         },
         {

@@ -15,7 +15,7 @@ export const SplitPathname = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    
+    if(pathname){
     const parts = pathname.split('/');
     
     if (parts.length > 1) {
@@ -66,11 +66,12 @@ export const SplitPathname = () => {
     }
     }
     }
-    
+  }
   }, [pathname,Product, RangeColors,Page,Project,Texture,Color]);
   // console.log(Product);
   //   console.log(RangeColors);
   //    console.log(Page);//example: colors or textures
   //    console.log(Project);
+
   return { Product, setProduct,Page,setPage, RangeColors, setRangeColors,Project, setProject,Color,setColor,Texture,setTexture, AggregatePage,setAggregatePage };
 };

@@ -46,9 +46,9 @@ const linkData = {
     ],
     'Careers':[
         {text:'Current Openings', link:'/Careers/CurrentOpenings'},
-        {text:'Application', link:'/Careers/Application'},
-        {text:'Solicitud', link:'/Careers/Solicitud'},
-        {text:'Apply Online',link:'/Apply'}] 
+        {text:'Application', link:'https://endicottfiles.com/applicationForEmployment.pdf'},
+        {text:'Solicitud', link:'https://endicottfiles.com/applicationForEmploymentSP.pdf'},
+        {text:'Apply Online',link:'/Application'}] 
 };
 type LinkDataKey = keyof typeof linkData;
 type PageSettings = 'light'|'dark'|'gradient';//this sets the only options that can be chosen.
@@ -85,7 +85,7 @@ export default function Navigate({pageSettings}:NavigateProps){
         setMainMenuShow(!mainMenuShow);
     }
     return(
-        <nav style={{zIndex:3}} role="navigation" className={` row   ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav  border`}>
+        <nav style={{zIndex:3}} role="navigation" className={` row   ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav  `}>
             <div className="col-12 p-0  ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
@@ -113,7 +113,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                                     <div className="col-10 col-md-5 col-xl-auto   ">
                                         <button aria-label={`Links to go to the page for the option of ${key}  selected`} role="button"  className=" p-2 pb-0 me-2  bg-stone w-button  " onClick={()=>openSub(key as LinkDataKey)} > {key}</button>
                                         {activeKey === key && linkData[key].map((link, index) => ( // Conditional rendering and correct access
-                                            <Link role="button" className="text-decoration-none d-flex justify-content-end " key={`${activeKey}-${index}`} href={link.link} >
+                                            <Link role="button" className="text-decoration-none d-flex justify-content-end " key={`${activeKey}-${index}`} href={link.link} target={link.link.includes("pdf")?"_blank":""} >
                                             <span className="p-2 pb-0 me-2 bg-black w-button d-block d-xl-none text-white text-center  " key={index}  >{link.text}</span>
                                             </Link>
                                         ))}
@@ -128,7 +128,7 @@ export default function Navigate({pageSettings}:NavigateProps){
                         {
                             activeKey &&(
                                 linkData[activeKey].map((link,index)=>(
-                                    <Link className="text-white" key={`${activeKey}-${index}`} href={link.link} >
+                                    <Link className="text-white" key={`${activeKey}-${index}`} href={link.link} target={link.link.includes("pdf")?"_blank":""} >
                                     <button role="button"  className={`m-0 pt-2 pb-1 me-4 `} aria-label="Links to go to the page for the option selected">{link.text}</button>
                                     </Link>
                                     
