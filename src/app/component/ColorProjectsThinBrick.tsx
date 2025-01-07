@@ -18,6 +18,9 @@ export default function ColorProjectsThinBrick(){
     const pathname = usePathname();
    
     useEffect(()=>{
+        if(pathname){
+
+       
         const parts = pathname.split('/');
         
        
@@ -31,7 +34,7 @@ export default function ColorProjectsThinBrick(){
         }
        
         
-
+    }
         
         
       },[pathname]);
