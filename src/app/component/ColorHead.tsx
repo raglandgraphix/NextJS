@@ -29,6 +29,7 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
     //const [Thickness,setThickness]=useState<string | null>(null);
 
     useEffect(()=>{
+      if(pathname){
       const parts = pathname.split('/');
       if(parts.length>1){
         const getTexture = parts[parts.length-1].split('-');
@@ -38,6 +39,7 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
         //setTexture(getTexture[getTexture.length-1]);
         setProduct(parts[1]);
       }
+    }
     },[pathname]);
     useEffect(() => {
       const getData = async () => {
