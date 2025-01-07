@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
 import ProductBox from "../component/ProductBox";
@@ -51,6 +51,7 @@ export default function Careers(){
           setStatus('Error submitting form.');
         }
       };
+      console.log(status);
 return(
 
 
