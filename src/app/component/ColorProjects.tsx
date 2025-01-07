@@ -18,6 +18,8 @@ export default function ColorProjects(){
     const pathname = usePathname();
    
     useEffect(()=>{
+
+        if(pathname){
         const parts = pathname.split('/');
         
        
@@ -32,7 +34,7 @@ export default function ColorProjects(){
        
         
 
-        
+    } 
         
       },[pathname]);
 
