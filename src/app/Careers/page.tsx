@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
@@ -53,7 +53,10 @@ export default function Careers(){
         }
       };
       console.log(status);
-      setLanguage('eng');
+      useEffect(()=>{
+        setLanguage('eng');
+      })
+      
 return(
 
 
