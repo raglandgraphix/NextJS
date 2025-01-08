@@ -53,6 +53,7 @@ export default function Careers(){
         }
       };
       console.log(status);
+      setLanguage('eng');
 return(
 
 
