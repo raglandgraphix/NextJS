@@ -159,8 +159,8 @@ const SizeClick=((newSize:string)=>{
                   <div className="col text-nowrap ">
                     {
                       Data?.map((item)=>(
-                        item.fullName===Color && item.thick.map((thick)=>(
-                          <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`${thick.size}`);}}>
+                        item.fullName===Color && item.thick.map((thick,index)=>(
+                          <Link key={index} className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`${thick.size}`);}}>
                             <span className={`d-block text-uppercase text-black fs-6  pt-2 pb-2 bg ${Thickness === thick.size?"bg bg-black text-white rounded-2" :''}`}>{thick.size}</span>
                           </Link>
                         ))
