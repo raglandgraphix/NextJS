@@ -157,8 +157,18 @@ const SizeClick=((newSize:string)=>{
                 </div>
                 <div className="row ">
                   <div className="col text-nowrap ">
+                    {
+                      Data?.map((item)=>(
+                        item.fullName===Color && item.thick.map((thick)=>(
+                          <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`${thick.size}`);}}>
+                            <span className={`d-block text-uppercase text-black fs-6  pt-2 pb-2 bg ${Thickness === thick.size?"bg bg-black text-white rounded-2" :''}`}>{thick.size}</span>
+                          </Link>
+                        ))
+                        
+                      ))
+                    }
                     {/* <span className="d-block text-uppercase  mt-2  pt-2 pb-2 text-rock ">ALL</span> */}
-                    <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`1/2\" Thick`);}}>
+                    {/* <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`1/2\" Thick`);}}>
                         <span className={`d-block text-uppercase text-black fs-6  pt-2 pb-2 bg ${Thickness === "1/2\" Thick"?"bg bg-black text-white rounded-2" :''}`}>1/2" Thick</span>
                     </Link>
                     <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`5/8\" Thick`);}}>
@@ -166,7 +176,7 @@ const SizeClick=((newSize:string)=>{
                     </Link>
                     <Link  className="text-decoration-none" href='/ThinBrick/Colors' onClick={(e) => {e.preventDefault(); ThicknessClick(`/${Product}/${Page}/${Color}`,`1\" Thick`);}}>
                     <span className={`d-block text-uppercase text-black fs-6  pt-2 pb-2 bg ${Thickness === "1\" Thick"?"bg bg-black text-white rounded-2" :''}`}>1" Thick</span>
-                    </Link>
+                    </Link> */}
                     
                   </div>
                 </div>

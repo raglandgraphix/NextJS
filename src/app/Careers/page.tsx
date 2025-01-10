@@ -4,6 +4,7 @@ import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
 import ProductBox from "../component/ProductBox";
+import Link from "next/link";
 export default function Careers(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -64,7 +65,9 @@ return(
 
 <Navigate pageSettings="light"/>
 <ProductBox setDescription={Language==='eng'?'Online Application':'Solicitud en línea'} productHeadLine={Language==='eng'?'Join the Endicott Team: Build Your Career with Us':'Únete al equipo de Endicott: construye tu carrera con nosotros'} ProductDescription={Language==='eng'?'Become a part of the Endicott legacy. We offer rewarding career opportunities in a variety of fields. Explore our open positions and discover how you can contribute to our mission of building legacies from the ground up.':'Conviértase en parte del legado de Endicott. Ofrecemos oportunidades profesionales gratificantes en una variedad de campos. Explore nuestros puestos vacantes y descubra cómo puede contribuir a nuestra misión de construir legados desde cero.'}/>
-    
+    <div className="row">
+    <p > Set form to Spanish</p>
+    </div>
     <form onSubmit={handleSubmit}>
     <div className="row p-2 ms-3 me-3 d-flex justify-content-center">
         <div className="col-8 border border-black rounded-2 p-3 ">
