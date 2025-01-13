@@ -2224,22 +2224,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49690?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Graphite-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Graphite-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49691?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -2250,30 +2250,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -2282,22 +2282,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Graphite-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49690?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Graphite-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Graphite/Graphite-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Graphite-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49691?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -2314,34 +2314,24 @@
         "fullName":"Orleans_Sands",
         "descriptionTitle":"Endicott Orleans Sands: Embrace the Warmth of the French Quarter",
         "description":"Endicott Orleans Sands brick captures the vibrant spirit of New Orleans with its warm blend of reds, oranges, and browns. This inviting color evokes a sense of history and charm, making it a perfect choice for creating a facade with Southern flair.",
-        "mainImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
         "mainImage-Fallback":"/assets/FaceBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Facebrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
-        "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "altTag":"Orleans Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
                 {
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Square-Edge-No-Texture",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                 
                         }
                     ]
                 },
@@ -2350,57 +2340,29 @@
                     "textures":[
                         
                         {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49692?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                         }
                     ]
                 },
                 {
                     "size":"1\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49692?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                         }
                         
-                        }
                     ]
                 }
 
@@ -2415,34 +2377,24 @@
         "fullName":"Gray_Sands",
         "descriptionTitle":"Endicott Gray Sands: Coastal Hues with a Touch of Warmth",
         "description":"Description: Endicott Gray Sands brick evokes the serene beauty of a coastal landscape with its soft blend of cool grays and a hint of warm tan. This calming color creates a sense of tranquility, making it an ideal choice for both traditional and modern designs.",
-        "mainImage":"https://endicottfiles.com/Gray-Sands-Heritage-Facebrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Gray_Sands/Gray-Sands-Heritage-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Gray_Sands/Gray-Sands-Heritage-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
-        "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "altTag":"Gray Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
                 {
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Square-Edge-No-Texture",
+                            "image":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
                             "artx":"",
                             "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
                  
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
                         }
                     ]
                 },
@@ -2451,57 +2403,31 @@
                     "textures":[
                         
                         {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                           
+                         }
                     ]
                 },
                 {
                     "size":"1\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                           
+                         }
                         
-                        }
                     ]
                 }
 
@@ -2516,34 +2442,24 @@
         "fullName":"Burgundy_Sands",
         "descriptionTitle":"Endicott Burgundy Sands: Where Rich Hues Meet Textured Elegance",
         "description":"Endicott Burgundy Sands brick captivates with its deep burgundy tones and a unique sand-textured finish. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
-        "mainImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
-        "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "altTag":"Burgundy Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
                 {
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Square-Edge-No-Texture",
+                            "image":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                 
                         }
                     ]
                 },
@@ -2552,57 +2468,28 @@
                     "textures":[
                         
                         {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                         }
                     ]
                 },
                 {
                     "size":"1\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49363?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
+                         }
                     ]
                 }
 
@@ -2617,34 +2504,24 @@
         "fullName":"Merlot_Sands",
         "descriptionTitle":"Endicott Merlot Sands: Deep Red Hues with a Touch of Texture",
         "description":"Endicott Merlot Sands brick offers a rich, deep red hue reminiscent of its namesake wine, complemented by a subtle sand texture. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
-        "mainImage":"https://endicottfiles.com/Merlot-Sands-Antique-Facebrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Merlot_Sands/Merlot-Sands-Antique-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
-        "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "altTag":"Merlot Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
                 {
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Square-Edge-No-Texture",
+                            "image":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                 
                         }
                     ]
                 },
@@ -2653,31 +2530,14 @@
                     "textures":[
                         
                         {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                 
                         }
                     ]
                 },
@@ -2685,24 +2545,14 @@
                     "size":"1\" Thick",
                     "textures":[
                         {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "texture":"Heritage",
+                            "image":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                 
                         }
                     ]
                 }
@@ -2718,96 +2568,57 @@
         "fullName":"Autumn_Sands",
         "descriptionTitle":"Endicott Autumn Sands: Embrace the Colors of Fall",
         "description":"Endicott Autumn Sands brick captures the warm, inviting hues of autumn with its blend of reds, oranges, and browns. This brick brings a touch of nature's beauty to any facade, creating a timeless and welcoming look.",
-        "mainImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
         "mainImage-Fallback":"/assets/FaceBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Facebrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
         "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Square-Edge-No-Texture",
+                        "image":"https://endicottfiles.com/NotAvailable.jpg",
+                        "fallbackImage":"",
+                        "fallbackLargeImage":"",
+                        "largeImage":"",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            },
+            {
+                "size":"5/8\" Thick",
+                "textures":[
+                    
+                    {
+                        "texture":"Heritage",
+                        "image":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "artx":"https://architextures.org/create/share/49692?appid=1125",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                     }
+                ]
+            },
+            {
+                "size":"1\" Thick",
+                "textures":[
+                    {
+                        "texture":"Heritage",
+                        "image":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+                        "artx":"https://architextures.org/create/share/49692?appid=1125",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                     }
+                    
+                ]
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],
@@ -2819,95 +2630,59 @@
         "fullName":"Sahara_Sands",
         "descriptionTitle":"Endicott Sahara Sands: Embrace the Warmth of the Desert",
         "description":"Endicott Sahara Sands brick evokes the sun-drenched beauty of the desert with its warm blend of tans and light browns. This inviting color creates a sense of spaciousness and tranquility, making it an ideal choice for both residential and commercial designs.",
-        "mainImage":"https://endicottfiles.com/Sahara-Sands-Heritage-Facebrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Sahara_Sands/Sahara-Sands-Heritage-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
-        "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
+        "altTag":"Sahara Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Square-Edge-No-Texture",
+                        "image":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            },
+            {
+                "size":"5/8\" Thick",
+                "textures":[
+                    
+                    {
+                        "texture":"Heritage",
+                        "image":"https://endicottfiles.com/NotAvailable.jpg",
+                        "fallbackImage":"",
+                        "fallbackLargeImage":"",
+                        "largeImage":"",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                       
+                     }
+                ]
+            },
+            {
+                "size":"1\" Thick",
+                "textures":[
+                    {
+                        "texture":"Heritage",
+                        "image":"https://endicottfiles.com/NotAvailable.jpg",
+                        "fallbackImage":"",
+                        "fallbackLargeImage":"",
+                        "largeImage":"",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                       
+                     }
+                    
+                ]
+            }
 
 
         ],
@@ -2917,12 +2692,12 @@
     },
     {
         "id":31,
-        "fullName":"Glazed-White-SN1",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "fullName":"Glazed_White_SN1",
+        "descriptionTitle":"SN1 White Glazed Brick: Pure Luminosity, Smooth Finish",
+        "description":"SN1 White Glazed Brick offers a pristine, reflective surface that radiates light and elegance. This sleek and modern brick, with its smooth glazed finish, adds a touch of sophistication to any design..",
+        "mainImage":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
+        "colorGroup":["White"],
+        "altTag":"SN-1 Glazed White colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
                 {
@@ -2930,12 +2705,12 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
                     ]
@@ -2949,97 +2724,29 @@
     },
     {
         "id":32,
-        "fullName":"Glazed_Gray-SN2",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN2",
+        "descriptionTitle":"SN2 Gray Glazed Brick: A Hint of Shadow, Smoothly Glazed",
+        "description":"SN2 Gray Glazed Brick introduces a whisper of gray, adding depth and dimension to the smooth, glazed surface. This versatile brick, with its sleek finish, complements a wide range of design aesthetics.",
+        "mainImage":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
 
         ],
@@ -3049,99 +2756,29 @@
     },
     {
         "id":33,
-        "fullName":"Glazed_Gray-SN3",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN3",
+        "descriptionTitle":"SN3 Gray Glazed Brick: Deepening Shades, Smooth and Sleek",
+        "description":"SN3 Gray Glazed Brick deepens the gray tones, creating a more dramatic and contemporary look. This brick, with its smooth glazed surface, offers a sophisticated backdrop for modern designs.",
+        "mainImage":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
-
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN3-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN3-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
         ],
         "projects":["bostonCollege","swfa","sanford"],
         "productLine":""
@@ -3149,97 +2786,29 @@
     },
     {
         "id":34,
-        "fullName":"Glazed_Gray-SN4",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN4",
+        "descriptionTitle":"SN4 Gray Glazed Brick: Light Meets Shadow, Smoothly Defined",
+        "description":"SN4 Gray Glazed Brick strikes a balance between light and shadow, offering a versatile gray hue that complements both classic and contemporary styles. Its smooth glazed finish adds a touch of refinement.",
+        "mainImage":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN4-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN4-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
 
         ],
@@ -3249,97 +2818,29 @@
     },
     {
         "id":35,
-        "fullName":"Glazed_Gray-SN5",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN5",
+        "descriptionTitle":"SN5 Gray Glazed Brick: Embrace the Midtones, Smooth and Chic",
+        "description":"SN5 Gray Glazed Brick offers a rich, mid-tone gray that adds depth and character to any design. This versatile brick, with its smooth glazed finish, is perfect for creating a sense of understated elegance.",
+        "mainImage":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN5-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN5-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
 
         ],
@@ -3349,97 +2850,29 @@
     },
     {
         "id":36,
-        "fullName":"Glazed_Gray-SN6",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN6",
+        "descriptionTitle":"SN6 Gray Glazed Brick: Dramatic Depth, Smoothly Rendered",
+        "description":"SN6 Gray Glazed Brick deepens the gray tones further, creating a more dramatic and sophisticated look. This brick, with its smooth glazed finish, adds a touch of modern elegance to any facade.",
+        "mainImage":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN6-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN6-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
 
         ],
@@ -3449,98 +2882,29 @@
     },
     {
         "id":37,
-        "fullName":"Glazed_Gray-SN7",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_SN7",
+        "descriptionTitle":"SN7 Gray Glazed Brick:  Approaching Midnight, Smooth and Sleek",
+        "description":"SN7 Gray Glazed Brick offers a deep, almost black, gray hue that adds a touch of mystery and sophistication. This brick, with its smooth glazed finish, is perfect for creating bold and dramatic designs.",
+        "mainImage":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN7-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN7-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],
@@ -3549,98 +2913,29 @@
     },
     {
         "id":38,
-        "fullName":"Glazed-Black-SN8",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Black_SN8",
+        "descriptionTitle":"SN8 Black Glazed Brick:  Midnight Hues, Smooth as Night",
+        "description":"SN8 Black Glazed Brick embodies sophistication and drama with its deep black color and smooth glazed finish. This brick creates a striking contrast with lighter elements, making it an ideal choice for modern designs.",
+        "mainImage":"https://endicottfiles.com/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Smooth",
+                        "image":"https://endicottfiles.com/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],
@@ -3649,99 +2944,29 @@
     },
     {
         "id":39,
-        "fullName":"Glazed-White-VC1",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_White_VC1",
+        "descriptionTitle":"VC1 White Glazed Brick:  Luminous White with a Velvety Touch",
+        "description":"VC1 White Glazed Brick offers a pristine white hue with a subtle velour texture, creating a soft and inviting surface. This brick adds a touch of elegance and warmth to any design.",
+        "mainImage":"https://endicottfiles.com/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
-
+            {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+             
+                    }
+                ]
+            }
         ],
         "projects":["bostonCollege","swfa","sanford"],
         "productLine":""
@@ -3749,97 +2974,24 @@
     },
     {
         "id":40,
-        "fullName":"Glazed_Gray-VC2",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC2",
+        "descriptionTitle":"VC2 Gray Glazed Brick:  A Hint of Gray, Velvety Soft",
+        "description":"VC2 Gray Glazed Brick introduces a whisper of gray to the velour texture, adding depth and dimension to the glazed surface. This brick offers a unique combination of visual and tactile appeal.",
+        "mainImage":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
 
         ],
@@ -3849,99 +3001,24 @@
     },
     {
         "id":41,
-        "fullName":"Glazed_Gray-VC3",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC3",
+        "descriptionTitle":"VC3 Gray Glazed Brick:  Deepening Shades, Velvety Hues",
+        "description":"VC3 Gray Glazed Brick deepens the gray tones, creating a more dramatic look with a soft, velvety feel. This brick adds a touch of understated elegance to any facade.",
+        "mainImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
-            
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
-
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
+                
         ],
         "projects":["bostonCollege","swfa","sanford"],
         "productLine":""
@@ -3949,98 +3026,24 @@
     },
     {
         "id":42,
-        "fullName":"Glazed_Gray-VC4",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC4",
+        "descriptionTitle":"VC4 Gray Glazed Brick:  Light and Shadow Dance on Velour",
+        "description":"VC4 Gray Glazed Brick strikes a balance between light and shadow with its mid-tone gray and subtle velour texture. This brick offers a unique blend of visual and tactile interest.",
+        "mainImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],
@@ -4049,97 +3052,24 @@
     },
     {
         "id":43,
-        "fullName":"Glazed_Gray-VC5",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC5",
+        "descriptionTitle":"VC5 Gray Glazed Brick:  Embrace Mid-Tone Gray with Velvety Texture",
+        "description":"VC5 Gray Glazed Brick offers a rich, mid-tone gray with a subtle velour texture, creating a surface that is both visually appealing and pleasing to the touch. This brick adds depth and character to any design.",
+        "mainImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
 
         ],
@@ -4149,97 +3079,24 @@
     },
     {
         "id":44,
-        "fullName":"Glazed_Gray-VC6",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC6",
+        "descriptionTitle":"VC6 Gray Glazed Brick:  Dramatic Depth, Velvety Hues",
+        "description":"VC6 Gray Glazed Brick deepens the gray tones, creating a more dramatic look with a soft, velvety feel. This brick adds a touch of modern elegance to any facade.",
+        "mainImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "altTag":"VC6 Gray Glazed colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
 
         ],
@@ -4249,98 +3106,24 @@
     },
     {
         "id":45,
-        "fullName":"Glazed_Gray-VC7",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Gray_VC7",
+        "descriptionTitle":"VC7 Gray Glazed Brick:  Near Black, Velvety and Chic",
+        "description":"VC7 Gray Glazed Brick offers a deep, almost black, gray hue with a subtle velour texture. This brick adds a touch of mystery and sophistication, creating a unique and inviting surface.",
+        "mainImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],
@@ -4349,98 +3132,24 @@
     },
     {
         "id":46,
-        "fullName":"Glazed-Black-VC8",
-        "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
-        "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "fullName":"Glazed_Black_VC8",
+        "descriptionTitle":"VC8 Black Glazed Brick:  Midnight Black with a Velvety Touch",
+        "description":"VC8 Black Glazed Brick embodies sophistication and drama with its deep black color and velvety velour texture. This brick creates a striking contrast with lighter elements, making it an ideal choice for modern designs.",
+        "mainImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
-                {
-                    "size":"1/2\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                },
-                {
-                    "size":"5/8\" Thick",
-                    "textures":[
-                        
-                        {
-                            "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                         {
-                            "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        },
-                        {
-                            "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                        }
-                    ]
-                },
-                {
-                    "size":"1\" Thick",
-                    "textures":[
-                        {
-                            "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
-                 
-                        },
-                        {
-                            "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
-                        }
-                    ]
-                }
-
+            {
+                "texture":"Velour",
+                "image":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                "artx":"",
+                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+     
+            }
 
         ],
         "projects":["bostonCollege","swfa","sanford"],

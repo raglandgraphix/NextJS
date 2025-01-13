@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  
     // images: {
     //   domains: ['endicottfiles.com'],
     // },
@@ -20,6 +21,7 @@ const nextConfig = {
         // ... more remote patterns
       ],
     },
+   
     
 
     async rewrites() {
@@ -92,6 +94,7 @@ const nextConfig = {
         
       ];
     },
+    
     async redirects() {
       return [
         {
