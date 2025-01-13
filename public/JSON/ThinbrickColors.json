@@ -412,16 +412,16 @@
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48633?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49701?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -469,15 +469,15 @@
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48633?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49701?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }

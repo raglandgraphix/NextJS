@@ -440,10 +440,10 @@
             },
             {
                 "texture":"Vertical~Score",
-                "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Scores-Facebrick-Large.jpg",
                 "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Scores-Facebrick-Large.jpg",
                 "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"],
                 "artx":"https://architextures.org/create/share/48660?appid=1125"
             },
