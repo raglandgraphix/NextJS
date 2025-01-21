@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { useState } from "react";
+//import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import Image from "next/image";
 import Navigate from "@/app/component/navigate";
