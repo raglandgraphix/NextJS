@@ -77,7 +77,7 @@ export default function Home() {
         <div style={{zIndex:3, marginTop:divHeight-125}} className={`row  p-0 ${isVideoLoaded ? '' : 'd-none'} `}  aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
           <div className=" col bg bg-dark z-3" >
             <div className="row mt-5 border-top border-white pt-5">
-              <div className="col-lg-3 col-md-6 ms-5 ">
+              <div className="col-lg-3 col-md-6 ms-lg-5 ">
                 <Link className="text-decoration-none" href='/Features/AceHotel'>
                   <div className="card border border-black rounded-lg shadow h-100 " aria-label="a card that is about the ACE HOTEL winning the Best in Class for the Brick in Architecture awards">
                     <Image style={{height:260}}  className="w-100" src='https://endicottfiles.com/AceHotel1.jpg' height={300} width={300} alt="Image of the Ace Hotel in Toronto, with Endicott brick on it."  />
