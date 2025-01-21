@@ -182,3 +182,17 @@ body{
 	border-top: thick dashed black;
 }
 
+.BoxHold{
+	
+	height: 100%;
+	width: auto;
+	
+}
+.CarouselImage{
+	width:auto;
+	height: 100%;
+}
+
+.HomePageDescription{
+	border:solid red thick;
+}

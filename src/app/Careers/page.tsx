@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
 import ProductBox from "../component/ProductBox";
-//import Link from "next/link";
+import Link from "next/link";
 export default function Careers(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
