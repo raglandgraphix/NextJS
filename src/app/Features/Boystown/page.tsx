@@ -10,8 +10,8 @@ import Link from "next/link";
 
 
 export default function Boystown(){
-    const ColorDescription = 'Endicott Medium Ironspot #46 brick captivates with its rich, burgundy hue, accented by subtle ironspots that add depth and character. This striking color creates a sense of timeless elegance, perfect for making a bold statement in both traditional and contemporary designs.';
-    const [ModalImage,setModalImage]=useState<string>('Sorry Image failed to load');
+   // const ColorDescription = 'Endicott Medium Ironspot #46 brick captivates with its rich, burgundy hue, accented by subtle ironspots that add depth and character. This striking color creates a sense of timeless elegance, perfect for making a bold statement in both traditional and contemporary designs.';
+    //const [ModalImage,setModalImage]=useState<string>('Sorry Image failed to load');
     // const [ModalDescription,setModualDescription]=useState<string | null>(null);
 //     const [Header,setHeader]=useState<string | null>(null);
 //     const [ModalAlt,setModalAlt]=useState<string>('Alt Text');
