@@ -39,10 +39,10 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Modular-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Modular-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48287?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
@@ -2324,7 +2324,7 @@
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Square-Edge-No-Texture",
+                            "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/NotAvailable.jpg",
                             "fallbackImage":"",
                             "fallbackLargeImage":"",
@@ -2387,7 +2387,7 @@
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Square-Edge-No-Texture",
+                            "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
                             "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
@@ -2452,7 +2452,7 @@
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Square-Edge-No-Texture",
+                            "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
@@ -2514,7 +2514,7 @@
                     "size":"1/2\" Thick",
                     "textures":[
                         {
-                            "texture":"Square-Edge-No-Texture",
+                            "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
@@ -2578,7 +2578,7 @@
                 "size":"1/2\" Thick",
                 "textures":[
                     {
-                        "texture":"Square-Edge-No-Texture",
+                        "texture":"Square~Edge~No~Texture",
                         "image":"https://endicottfiles.com/NotAvailable.jpg",
                         "fallbackImage":"",
                         "fallbackLargeImage":"",
@@ -2640,7 +2640,7 @@
                 "size":"1/2\" Thick",
                 "textures":[
                     {
-                        "texture":"Square-Edge-No-Texture",
+                        "texture":"Square~Edge~No~Texture",
                         "image":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                         "fallbackImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
