@@ -15,8 +15,8 @@
                         {
                             "texture":"Smooth",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -24,8 +24,8 @@
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -39,7 +39,7 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Modular-Large.jpg",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Thinbrick-Large.jpg",
@@ -48,10 +48,10 @@
                         },
                         {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Light-Verical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Verical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Verical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Verical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48288?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
@@ -72,8 +72,8 @@
                         {
                             "texture":"Smooth",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
@@ -81,8 +81,8 @@
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -103,7 +103,7 @@
         "fullName":"Desert_Ironspot_Dark",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
-        "mainImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Image of Endicott Desert Ironspot Dark Brick",
         "thick":[
@@ -113,20 +113,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49953?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49954?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -138,29 +138,29 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Matt-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49955?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Vertical-Score-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49956?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
                             "sizes":["Modular","Closure"]
                         }
                     ]
@@ -170,20 +170,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49953?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49954?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -192,7 +192,7 @@
 
 
         ],
-        "projects":[],
+        "projects":[{"photo":["bostonCollege","Hoboken","swfa","sanford","normandale"]},{"video":[]}],
         "productLine":""
        
     },
@@ -201,7 +201,7 @@
         "fullName":"Copper_Canyon",
         "descriptionTitle":"The Warm Hues of Copper Canyon Brick",
         "description":"Endicott Copper Canyon brick captures the beauty of the natural world with its earthy brown tones and subtle red undertones, adding warmth and character to any facade. ",
-        "mainImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Copper Canyon Ironspot colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -211,20 +211,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Copper-Canyone-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyone-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49959?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49960?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -268,20 +268,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Copper-Canyon-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Copper-Canyone-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49959?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Copper_Canyon/Copper-Canyon-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Copper-Canyon-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49960?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -290,7 +290,7 @@
 
 
         ],
-        "projects":["sdsu"],
+        "projects":[{"photo":["sdsu"]},{"video":[]}],
         "productLine":""
        
     },
@@ -299,7 +299,7 @@
         "fullName":"Coppertone",
         "descriptionTitle":"Endicott Coppertone Brick: Light Brown with Timeless Appeal",
         "description":"Endicott Coppertone brick offers a warm and inviting light brown hue, perfect for creating classic or contemporary facades. This versatile color blends seamlessly with a variety of architectural styles, adding a touch of understated elegance to any project.",
-        "mainImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Coppertone-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Coppertone Ironspot colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -309,20 +309,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49962?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49961?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
@@ -334,19 +334,19 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Matt-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Matt-Facebrick-Large.jpg",
-                            "artx":"",
+                            "image":"https://endicottfiles.com/Coppertone-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Matt-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49966?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Coppertone/Coppertone-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Vertical-Score-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Coppertone-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Vertical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48632?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
@@ -366,20 +366,20 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Smooth-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Coppertone-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49962?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Coppertone/Coppertone-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/49961?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -388,7 +388,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["bostonCollege","swfa","sanford"]},{"video":[]}],
         "productLine":""
        
     },
@@ -397,7 +397,7 @@
         "fullName":"Medium_Ironspot_77",
         "descriptionTitle":"Endicott Medium Ironspot #77: Deep Brown with Timeless Character",
         "description":"Endicott Medium Ironspot #77 brick offers a rich, deep brown hue with subtle ironspots that add depth and complexity. This classic color creates a sense of warmth and permanence, making it an ideal choice for traditional and contemporary designs.",
-        "mainImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Medium Ironspot #77 colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -407,10 +407,10 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48633?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         },
@@ -432,28 +432,28 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Matt-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48635?appid=1125",
                             "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
                         },
                         {
                             "texture":"Vertical~Score",
-                           "image":"https://endicottfiles.com/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Veertical-Score-Facebrick-Large.jpg",
+                           "image":"https://endicottfiles.com/Medium-Ironspot-77-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Veertical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48637?appid=1125",
                             "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Artisan-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Artisan-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48639?appid=1125",
                             "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
                         }
@@ -464,10 +464,10 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_77/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-77-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48633?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
@@ -486,7 +486,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["Hoboken","lucasOil","tcf","avera"]},{"video":[]}],
         "productLine":""
        
     },
@@ -495,7 +495,7 @@
         "fullName":"Medium_Ironspot_46",
         "descriptionTitle":"Endicott Medium Ironspot #46: A Timeless Hue with a Touch of Distinction",
         "description":"Endicott Medium Ironspot #46 brick captivates with its rich, burgundy hue, accented by subtle ironspots that add depth and character. This striking color creates a sense of timeless elegance, perfect for making a bold statement in both traditional and contemporary designs.",
-        "mainImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebook-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Medium Ironspot #46 colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -505,19 +505,19 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebook-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48647?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
@@ -530,30 +530,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Matt-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48649?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Vertical~Score",
-                          "image":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Facebrick-Large.jpg",
+                          "image":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Vertical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48651?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                           "image":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Facebrick-Large.jpg",
+                           "image":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Artisan-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Artisan-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Artisan-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48653?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -562,21 +562,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48647?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Modular.jpg",
                             "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         
                         }
                     ]
@@ -584,7 +584,8 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["aceHotel","augsburg","avera","normandale","suntrust","binneys"]},{"video":[]}],
+        
         "productLine":""
        
     },
@@ -593,7 +594,7 @@
         "fullName":"Dark_Ironspot",
         "descriptionTitle":"Endicott Dark Ironspot: Sophistication in Deep Plum Tones",
         "description":"Endicott Dark Ironspot brick exudes sophistication with its deep plum hues, adding a touch of elegance and refinement to any design. This unique color creates a striking contrast with lighter elements, making it an ideal choice for modern and traditional projects alike.",
-        "mainImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Dark Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
@@ -603,21 +604,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48658?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50041?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49992?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -628,21 +629,21 @@
                         
                         {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48660?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Artisan-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48662?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim Kings","Kingsize","Engineer Modular","Engineer Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Triple"]
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -651,19 +652,19 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Dark-Ironspot/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48658?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Modular.jpg",
+                            "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/48281?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
@@ -673,7 +674,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+       "projects":[{"photo":["augsburg","uncommon","normandale","suntrust","binney"]},{"video":[]}],
         "productLine":""
        
     },
@@ -682,7 +683,7 @@
         "fullName":"Manganese_Ironspot",
         "descriptionTitle":"Endicott Manganese Ironspot: Bold. Black. Beautiful.",
         "description":"Endicott Manganese Ironspot brick makes a striking statement with its deep black color and the distinctive ironspots that Endicott is known for. This bold and sophisticated brick adds a touch of drama and modern elegance to any facade.",
-        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
         "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
@@ -692,22 +693,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49993?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49994?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -718,30 +719,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Thinbrick-large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49996?appid=1125",
+                            "sizes":["Modular","Closure"]
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49997?appid=1125",
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49998?appid=1125",
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -750,21 +751,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                           "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49993?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/49994?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -773,7 +774,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["brickMachine","honor","augsburg","uncommon","nesbitt","duncan","swfa"]},{"video":[]}],
         "productLine":""
        
     },
@@ -782,9 +783,9 @@
         "fullName":"Sienna_Ironspot",
         "descriptionTitle":"Endicott Sienna Ironspot: Earthy Browns with a Signature Touch",
         "description":"Endicott Sienna Ironspot brick offers a warm and inviting blend of earthy browns, accented by the distinctive ironspots that Endicott is known for. This versatile brick adds a touch of natural beauty and timeless elegance to any architectural style.",
-        "mainImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "mainImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+        "colorGroup":["Black","Plum","Tan","Brown","Orange"],
+        "altTag":"Sienna Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
                 {
@@ -792,12 +793,12 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50010?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
@@ -806,8 +807,8 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "artx":"https://architextures.org/create/share/50011?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -818,30 +819,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Sienna-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Sienna-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Sienna-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Artisan-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -850,21 +851,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50010?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Sienna-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Facebrick-Modular.jpg",
+                            "image":"https://endicottfiles.com/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Modular.jpg",
                             "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50011?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -873,7 +874,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["heart","nesbitt","uncommon","nesbitt","tcf"]},{"video":[]}],
         "productLine":""
        
     },
@@ -882,7 +883,7 @@
         "fullName":"Executive_Ironspot",
         "descriptionTitle":"Endicott Executive Ironspot: The Brick of Distinction",
         "description":"Endicott Executive Ironspot brick lives up to its name, offering a sophisticated brown hue with subtle ironspots that convey a sense of prestige. This distinguished brick elevates any design, adding a touch of timeless elegance and authority to both residential and commercial projects.",
-        "mainImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Executive Ironspot colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -892,22 +893,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50012?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Executive-Velour-Thinbrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "artx":"https://architextures.org/create/share/50013?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -918,30 +919,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Executive-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Matt-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Executive-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Vertical-Score-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Executive-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Artisan-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -950,21 +951,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "artx":"",
+                            "image":"https://endicottfiles.com/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Executive-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50012?appid=1125",
                             "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Executive-Velour-Thinbrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Executive_Ironspot/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Executive-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50013?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -973,7 +974,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["swfa","normandale"]},{"video":[]}],
         "productLine":""
        
     },
@@ -982,7 +983,7 @@
         "fullName":"Rose_Blend",
         "descriptionTitle":"Endicott Rose Blend: A Touch of Romance in Brick",
         "description":"Endicott Rose Blend brick evokes a sense of romance and timeless beauty with its delicate blend of soft pinks. This elegant brick adds a touch of warmth and sophistication to any facade, creating a look that is both charming and inviting.",
-        "mainImage":"https://endicottfiles.com/Rose-Blend-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Rose Blend Colored Brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -992,21 +993,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -1018,30 +1019,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Rose-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Matt-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -1050,21 +1051,21 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -1073,7 +1074,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -1084,7 +1085,7 @@
         "description":"Endicott Buff Blend brick offers a sophisticated blend of warm, inviting hues, creating a timeless and versatile look for any facade. This elegant brick complements both traditional and contemporary architectural styles, adding a touch of understated beauty to any project.",
         "mainImage":"https://endicottfiles.com/Buff-Blend-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy","Gray", "White", "Cream", "Buff"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "altTag":" Buff Blend colored brick, in the colorGroup Red, Burgundy, Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
                 {
@@ -1173,7 +1174,7 @@
 
 
         ],
-        
+         
         "productLine":""
        
     },
@@ -1182,7 +1183,7 @@
         "fullName":"Red_Blend",
        "descriptionTitle":"Endicott Red Blend: Classic Red for Timeless Designs",
         "description":"Endicott Red Blend brick offers a versatile and enduring red hue, perfect for creating classic or contemporary facades. This brick blends seamlessly with a variety of architectural styles, adding a touch of warmth and sophistication to any project.",
-        "mainImage":"https://endicottfiles.com/Red-Blend-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Red Blend colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -1192,23 +1193,23 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                            "image":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
+                 
                         }
                     ]
                 },
@@ -1218,30 +1219,32 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
+                            "image":"https://endicottfiles.com/Red-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Matt-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                     
+                        },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                 
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]    
                         }
                     ]
                 },
@@ -1250,30 +1253,30 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-                        
+                 
                         }
                     ]
                 }
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["sdsu"]},{"video":[]}],
         "productLine":""
        
     },
@@ -1282,7 +1285,7 @@
         "fullName":"Burgundy_Blend",
         "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
         "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
-        "mainImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Burgundy Blend colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -1292,22 +1295,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -1318,30 +1321,30 @@
                         
                         {
                             "texture":"Matt",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Matt-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
+                            "image":"https://endicottfiles.com/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
+                        },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49365?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]  
                         },
                         {
                             "texture":"Artisan",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Velour-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Artisan-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49366?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]  
                         }
                     ]
                 },
@@ -1350,22 +1353,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Facebrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "artx":"",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
                     ]
@@ -1382,7 +1385,7 @@
         "fullName":"Ruby_Red_Blend",
         "descriptionTitle":"Endicott Ruby Red Brick: A Timeless Classic",
         "description":"Endicott Ruby Red brick embodies timeless elegance with its rich, vibrant hue. This classic color adds a touch of warmth and sophistication to any project, creating a facade that is both beautiful and enduring.",
-        "mainImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Ruby-Red-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Ruby Red Blend colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -1392,10 +1395,10 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Smooth-Thinbrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49547?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
@@ -1427,11 +1430,11 @@
                          },
                          {
                             "texture":"Vertical~Score",
-                            "image":"https://endicottfiles.com/NotAvailable.jpg",
-                            "fallbackImage":"",
-                            "fallbackLargeImage":"",
-                            "largeImage":"",
-                            "artx":"",
+                            "image":"https://endicottfiles.com/Ruby-Red-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Vertical-Score-Thinbrick-large.jpg",
+                            "largeImage":"https://endicottfiles.com/Ruby-Red-Vertical-Score-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50014?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
@@ -1450,10 +1453,10 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                            "image":"https://endicottfiles.com/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Ruby_Red/Ruby-Red-Smooth-Thinbrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Ruby-Red-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49547?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
@@ -1473,6 +1476,7 @@
 
 
         ],
+         
         
         "productLine":""
        
@@ -1573,7 +1577,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["sdsu"]},{"video":[]}],
         "productLine":""
        
     },
@@ -1582,7 +1586,7 @@
         "fullName":"Red_Ironspot",
        "descriptionTitle":"Endicott Red Ironspot: Classic Red with a Signature Touch",
         "description":"Endicott Red Ironspot brick embodies timeless appeal with its vibrant red hue, accented by distinctive black ironspots. This classic color combination adds depth and character to any facade, creating a look that is both familiar and unique.",
-        "mainImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Red Ironspot colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
         "thick":[
@@ -1595,7 +1599,7 @@
                             "image":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
@@ -1636,7 +1640,7 @@
                             "image":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
@@ -1666,8 +1670,8 @@
         "descriptionTitle":"Endicott Ivory Blend: Subtle Hues for Luminous Design",
         "description":"Endicott Ivory Blend brick offers a soft, luminous color that's perfect for creating bright and airy facades.  With its delicate blend of creams and whites, this elegant brick adds a touch of understated sophistication to any architectural style.",
         "mainImage":"https://endicottfiles.com/Ivory-Blend-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Ivory Blend colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
                 {
@@ -1698,7 +1702,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["BoysTown","joey"]},{"video":[]}],
         "productLine":""
        
     },
@@ -1707,8 +1711,8 @@
         "fullName":"Golden_Buff",
         "descriptionTitle":"Endicott Golden Buff: Embrace the Warmth of Sunlight",
         "description":"Endicott Golden Buff brick radiates warmth and elegance with its luminous, golden hues. This inviting color evokes the gentle glow of sunlight, creating a welcoming and sophisticated facade for any architectural style.",
-        "mainImage":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
-        "mainImage-Fallback":"../assets/FaceBrick/Colors/Golden-Buff/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
+        "mainImage":"https://endicottfiles.com/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"../assets/ThinBrick/Colors/Golden-Buff/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
         "colorGroup":["Gray","White","Cream","Buff"],
         "altTag":"Golden Buff colored brick, in the colorGroup Grey Brick, White Brick, Cream Brick, Buff Brick. The product is clay brick.",
         "thick":[
@@ -1718,18 +1722,18 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
+                            "image":"https://endicottfiles.com/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Golden-Buff-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49395?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Golden-Buff-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49630?appid=1125",
@@ -1744,30 +1748,30 @@
                         
                         {
                             "texture":"Matt",
-                           "image":"https://endicottfiles.com/Golden-Buff-Matt-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Matt-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Matt-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Golden-Buff-Matt-Facebrick-Large.jpg",
+                           "image":"https://endicottfiles.com/Golden-Buff-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Matt-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Golden-Buff-Matt-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49397?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
-                         },
-                        {
-                            "texture":"Velvetex",
-                            "image":"https://endicottfiles.com/Golden-Buff-Velvetex-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Velvetex-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Velvetex-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Golden-Buff-Velour-Facebrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49398?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
                          },
                         {
                             "texture":"Vertical~Score",
-                           "image":"https://endicottfiles.com/Golden-Buff-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Vertical-Score-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Vertical-Score-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Golden-Buff-Vertical-Score-Facebrick-Large.jpg",
+                           "image":"https://endicottfiles.com/Golden-Buff-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Vertical-Score-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Golden-Buff-Vertical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49399?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","Triple"]
+                            "sizes":["Modular","Closure"]
+                        },
+                        {
+                            "texture":"Artisan",
+                            "image":"https://endicottfiles.com/NotAvailable.jpg",
+                            "fallbackImage":"",
+                            "fallbackLargeImage":"",
+                            "largeImage":"",
+                            "artx":"",
+                            "sizes":["Modular","Closure"]
                         }
                     ]
                 },
@@ -1776,22 +1780,22 @@
                     "textures":[
                         {
                             "texture":"Smooth",
-                            "image":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Golden-Buff_Face-Brick_Smooth_Modular.jpg",
+                            "image":"https://endicottfiles.com/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Golden-Buff-Smooth-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49395?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Golden-Buff-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Golden_Buff/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Golden-Buff-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49630?appid=1125",
-                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                            "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         
                         }
                     ]
@@ -1809,7 +1813,7 @@
         "descriptionTitle":"Endicott Light Gray Blend Brick: Subtle Hues for Elegant Design",
         "description":"Endicott Light Gray Blend brick offers a subtle and sophisticated palette for creating timeless facades.  With its soft blend of light gray tones, this versatile brick complements both traditional and contemporary architectural styles.",
         "mainImage":"https://endicottfiles.com/Light-Gray-Blend-Smooth-Thinbrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Light_Gray_Blend/Light-Gray-Blend-Velour-Facebrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Light_Gray_Blend/Light-Gray-Blend-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff"],
         "altTag":"Light Gray Blend colored brick, in the colorGroup Grey Brick, White Brick, Cream Brick, Buff Brick. The product is clay brick.",
        "thick":[
@@ -1900,7 +1904,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -1909,8 +1913,8 @@
         "fullName":"Gray_Blend",
         "descriptionTitle":"Gray Blend Brick by Endicott: Discover the Beauty of Understated Elegance",
         "description":"Endicott Gray Blend brick offers a timeless and versatile palette for creating stunning facades. With its nuanced blend of gray tones, this brick complements both traditional and contemporary architectural styles, adding a touch of understated elegance to any project.",
-        "mainImage":"https://endicottfiles.com/Gray-Blend-Smooth-Facebrick-Large.jpg",
-        "mainImage-Fallback":"../assets/FaceBrick/Colors/Gray_Blend/Gray-Blend-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Gray-Blend-Smooth-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"../assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff"],
         "altTag":"Gray Blend colored brick, in the colorGroup Grey Brick, White Brick, Cream Brick, Buff Brick. The product is clay brick.",
         "thick":[
@@ -1946,10 +1950,10 @@
                     
                     {
                         "texture":"Matt",
-                        "image":"https://endicottfiles.com/Gray-Blend-Matt-Facebrick-Large.jpg",
-                        "fallbackImage":"/assets/FaceBrick/Colors/Gray_Blend/Gray-Blend-Matt-Facebrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/FaceBrick/Colors/Gray_Blend/Gray-Blend-Matt-Facebrick-Large.jpg",
-                        "largeImage":"https://endicottfiles.com/Gray-Blend-Matt-Facebrick-Large.jpg",
+                        "image":"https://endicottfiles.com/Gray-Blend-Matt-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Matt-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Matt-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/Gray-Blend-Matt-Thinbrick-Large.jpg",
                         "artx":"https://architextures.org/create/share/49404?appid=1125",
                         "sizes":["Modular","Closure"]
                      },
@@ -2001,7 +2005,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["stCloud"]},{"video":[]}],
         "productLine":""
        
     },
@@ -2011,7 +2015,7 @@
         "descriptionTitle":"Endicott Light Sandstone: Capture the Essence of Natural Stone",
         "description":"Endicott Light Sandstone brick evokes the warm, inviting hues of natural sandstone. With its subtle blend of tans and creams, this brick creates a timeless and elegant facade that complements a variety of architectural styles.",
         "mainImage":"https://endicottfiles.com/Light-Sandstone-Smooth-Thinbrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Light_Sandstone/Light-Sandstone-Smooth-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Light_Sandstone/Light-Sandstone-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Light Sandstone colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -2113,7 +2117,7 @@
        "descriptionTitle":"Endicott Dark Sandstone: Embrace the Richness of Earth Tones",
         "description":"Endicott Dark Sandstone brick evokes the deep, captivating hues of aged sandstone. With its rich blend of browns and tans, this brick creates a sense of warmth and history, adding a touch of natural beauty to any architectural design. ",
         "mainImage":"https://endicottfiles.com/Dark-Sandstone-Smooth-Thinbrick-Large.jpg",
-        "mainImage-Fallback":"/assets/ThinBrick/Colors/Dark_Sandstone/Dark-Sandstone-Smooth-Facebrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Dark_Sandstone/Dark-Sandstone-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Dark Sandstone colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -2204,7 +2208,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["nesbitt","dcwest"]},{"video":[]}],
         "productLine":""
        
     },
@@ -2213,8 +2217,8 @@
         "fullName":"Graphite",
         "descriptionTitle":"Graphite by Endicott: Discover the Harmony of Gray and Brown in Brick",
         "description":"Endicott Graphite brick offers a sophisticated blend of gray and brown, creating a versatile and contemporary color. This unique hue adds depth and dimension to any facade, complementing both modern and traditional architectural styles.",
-        "mainImage":"https://endicottfiles.com/Graphite-Smooth-Facebrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Graphite/Graphite-Smooth-Facebrick-Large.jpg",
+        "mainImage":"https://endicottfiles.com/Graphite-Smooth-Thinbrick-Large.jpg",
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Graphite/Graphite-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff"],
         "altTag":"Graphite colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
@@ -2305,7 +2309,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2315,8 +2319,8 @@
         "descriptionTitle":"Endicott Orleans Sands: Embrace the Warmth of the French Quarter",
         "description":"Endicott Orleans Sands brick captures the vibrant spirit of New Orleans with its warm blend of reds, oranges, and browns. This inviting color evokes a sense of history and charm, making it a perfect choice for creating a facade with Southern flair.",
         "mainImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Facebrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Thinbrick-Large.jpg",
+        "colorGroup":["Red","Burgundy","Gray","white","Cream","Buff"],
         "altTag":"Orleans Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
@@ -2368,7 +2372,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2389,9 +2393,9 @@
                         {
                             "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/FaceBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
-                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Facebrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "artx":"",
                             "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
                  
@@ -2433,7 +2437,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2444,7 +2448,7 @@
         "description":"Endicott Burgundy Sands brick captivates with its deep burgundy tones and a unique sand-textured finish. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
         "mainImage":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "mainImage-Fallback":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "colorGroup":["Red","Burgundy","Black","Plum"],
         "altTag":"Burgundy Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
@@ -2495,7 +2499,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["creighton","suntrust"]},{"video":[]}],
         "productLine":""
        
     },
@@ -2506,7 +2510,7 @@
         "description":"Endicott Merlot Sands brick offers a rich, deep red hue reminiscent of its namesake wine, complemented by a subtle sand texture. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
         "mainImage":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "mainImage-Fallback":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "colorGroup":["Red","Burgundy","Black","Plum"],
         "altTag":"Merlot Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
@@ -2559,7 +2563,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2569,8 +2573,8 @@
         "descriptionTitle":"Endicott Autumn Sands: Embrace the Colors of Fall",
         "description":"Endicott Autumn Sands brick captures the warm, inviting hues of autumn with its blend of reds, oranges, and browns. This brick brings a touch of nature's beauty to any facade, creating a timeless and welcoming look.",
         "mainImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
-        "mainImage-Fallback":"/assets/FaceBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Facebrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "mainImage-Fallback":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
+        "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
@@ -2621,7 +2625,7 @@
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        "projects":[{"photo":["villages","stCloud"]},{"video":[]}],
         "productLine":""
        
     },
@@ -2632,7 +2636,7 @@
         "description":"Endicott Sahara Sands brick evokes the sun-drenched beauty of the desert with its warm blend of tans and light browns. This inviting color creates a sense of spaciousness and tranquility, making it an ideal choice for both residential and commercial designs.",
         "mainImage":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
         "mainImage-Fallback":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "colorGroup":["Tan","Brown","Orange"],
         "altTag":"Sahara Sands colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "thick":[
             
@@ -2686,7 +2690,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2696,7 +2700,7 @@
         "descriptionTitle":"SN1 White Glazed Brick: Pure Luminosity, Smooth Finish",
         "description":"SN1 White Glazed Brick offers a pristine, reflective surface that radiates light and elegance. This sleek and modern brick, with its smooth glazed finish, adds a touch of sophistication to any design..",
         "mainImage":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["White"],
+        "colorGroup":["Gray","White","Cream","Buff"],
         "altTag":"SN-1 Glazed White colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
         "thick":[
             
@@ -2718,7 +2722,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2728,8 +2732,8 @@
         "descriptionTitle":"SN2 Gray Glazed Brick: A Hint of Shadow, Smoothly Glazed",
         "description":"SN2 Gray Glazed Brick introduces a whisper of gray, adding depth and dimension to the smooth, glazed surface. This versatile brick, with its sleek finish, complements a wide range of design aesthetics.",
         "mainImage":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed Gray SN2 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2750,7 +2754,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+        
         "productLine":""
        
     },
@@ -2760,8 +2764,8 @@
         "descriptionTitle":"SN3 Gray Glazed Brick: Deepening Shades, Smooth and Sleek",
         "description":"SN3 Gray Glazed Brick deepens the gray tones, creating a more dramatic and contemporary look. This brick, with its smooth glazed surface, offers a sophisticated backdrop for modern designs.",
         "mainImage":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_SN3 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2780,7 +2784,7 @@
                 ]
             }
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2790,8 +2794,8 @@
         "descriptionTitle":"SN4 Gray Glazed Brick: Light Meets Shadow, Smoothly Defined",
         "description":"SN4 Gray Glazed Brick strikes a balance between light and shadow, offering a versatile gray hue that complements both classic and contemporary styles. Its smooth glazed finish adds a touch of refinement.",
         "mainImage":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_SN4 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2812,7 +2816,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2822,8 +2826,8 @@
         "descriptionTitle":"SN5 Gray Glazed Brick: Embrace the Midtones, Smooth and Chic",
         "description":"SN5 Gray Glazed Brick offers a rich, mid-tone gray that adds depth and character to any design. This versatile brick, with its smooth glazed finish, is perfect for creating a sense of understated elegance.",
         "mainImage":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_SN5 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2844,7 +2848,7 @@
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2854,8 +2858,8 @@
         "descriptionTitle":"SN6 Gray Glazed Brick: Dramatic Depth, Smoothly Rendered",
         "description":"SN6 Gray Glazed Brick deepens the gray tones further, creating a more dramatic and sophisticated look. This brick, with its smooth glazed finish, adds a touch of modern elegance to any facade.",
         "mainImage":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_SN6 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2886,8 +2890,8 @@
         "descriptionTitle":"SN7 Gray Glazed Brick:  Approaching Midnight, Smooth and Sleek",
         "description":"SN7 Gray Glazed Brick offers a deep, almost black, gray hue that adds a touch of mystery and sophistication. This brick, with its smooth glazed finish, is perfect for creating bold and dramatic designs.",
         "mainImage":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_SN7 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2907,7 +2911,7 @@
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2918,7 +2922,7 @@
         "description":"SN8 Black Glazed Brick embodies sophistication and drama with its deep black color and smooth glazed finish. This brick creates a striking contrast with lighter elements, making it an ideal choice for modern designs.",
         "mainImage":"https://endicottfiles.com/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "altTag":"Glazed_Black_SN8 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2938,7 +2942,7 @@
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2948,8 +2952,8 @@
         "descriptionTitle":"VC1 White Glazed Brick:  Luminous White with a Velvety Touch",
         "description":"VC1 White Glazed Brick offers a pristine white hue with a subtle velour texture, creating a soft and inviting surface. This brick adds a touch of elegance and warmth to any design.",
         "mainImage":"https://endicottfiles.com/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_White_VC1 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
@@ -2968,7 +2972,7 @@
                 ]
             }
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -2978,11 +2982,14 @@
         "descriptionTitle":"VC2 Gray Glazed Brick:  A Hint of Gray, Velvety Soft",
         "description":"VC2 Gray Glazed Brick introduces a whisper of gray to the velour texture, adding depth and dimension to the glazed surface. This brick offers a unique combination of visual and tactile appeal.",
         "mainImage":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC2 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
                 "texture":"Velour",
                 "image":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                 "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
@@ -2990,12 +2997,13 @@
                 "largeImage":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                 "artx":"",
                 "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                    }    
+            ]
             }
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3005,22 +3013,26 @@
         "descriptionTitle":"VC3 Gray Glazed Brick:  Deepening Shades, Velvety Hues",
         "description":"VC3 Gray Glazed Brick deepens the gray tones, creating a more dramatic look with a soft, velvety feel. This brick adds a touch of understated elegance to any facade.",
         "mainImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC3 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
                 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3030,23 +3042,27 @@
         "descriptionTitle":"VC4 Gray Glazed Brick:  Light and Shadow Dance on Velour",
         "description":"VC4 Gray Glazed Brick strikes a balance between light and shadow with its mid-tone gray and subtle velour texture. This brick offers a unique blend of visual and tactile interest.",
         "mainImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC4 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                    "texture":"Velour",
+                    "image":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                    "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                    "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                    "largeImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                    "artx":"",
+                    "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3056,24 +3072,28 @@
         "descriptionTitle":"VC5 Gray Glazed Brick:  Embrace Mid-Tone Gray with Velvety Texture",
         "description":"VC5 Gray Glazed Brick offers a rich, mid-tone gray with a subtle velour texture, creating a surface that is both visually appealing and pleasing to the touch. This brick adds depth and character to any design.",
         "mainImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC5 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3083,24 +3103,28 @@
         "descriptionTitle":"VC6 Gray Glazed Brick:  Dramatic Depth, Velvety Hues",
         "description":"VC6 Gray Glazed Brick deepens the gray tones, creating a more dramatic look with a soft, velvety feel. This brick adds a touch of modern elegance to any facade.",
         "mainImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"VC6 Gray Glazed colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC6 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
 
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3110,23 +3134,27 @@
         "descriptionTitle":"VC7 Gray Glazed Brick:  Near Black, Velvety and Chic",
         "description":"VC7 Gray Glazed Brick offers a deep, almost black, gray hue with a subtle velour texture. This brick adds a touch of mystery and sophistication, creating a unique and inviting surface.",
         "mainImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-        "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "colorGroup":["Gray","White","Cream","Buff"],
+        "altTag":"Glazed_Gray_VC7 colored brick, in the colorGroup Gray, White, Cream, Buff. The product is clay brick.",
         "thick":[
             
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     },
@@ -3137,22 +3165,26 @@
         "description":"VC8 Black Glazed Brick embodies sophistication and drama with its deep black color and velvety velour texture. This brick creates a striking contrast with lighter elements, making it an ideal choice for modern designs.",
         "mainImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
         "colorGroup":["Black","Plum"],
-        "altTag":"Manganese Ironspot colored brick, in the colorGroup Black Brick, Plum Brick. The product is clay brick.",
+        "altTag":"Glazed_Gray_VC8 colored brick, in the colorGroup Black, Plum. The product is clay brick.",
         "thick":[
             
             {
-                "texture":"Velour",
-                "image":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
-                "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
-                "largeImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
-                "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
-     
+                "size":"1/2\" Thick",
+                "textures":[
+                    {
+                        "texture":"Velour",
+                        "image":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                        "largeImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
+                        "artx":"",
+                        "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
+                    }
+                ]
             }
 
         ],
-        "projects":["bostonCollege","swfa","sanford"],
+         
         "productLine":""
        
     }
