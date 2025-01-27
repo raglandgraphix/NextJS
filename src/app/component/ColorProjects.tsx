@@ -26,6 +26,7 @@ export default function ColorProjects(){
         if(parts.length>1){
           
           setProduct(parts[1]);
+          
           const getTexture = parts[parts.length-1].split('-');
           setColor( getTexture[0]);
         
@@ -110,8 +111,8 @@ export default function ColorProjects(){
                             ProjectData?.map((items,index2)=>(
                                 items.jobTitle===projects?
                                 <div key={index2} className="col-12 col-md-2">
-                                   <div className="card border ">
-                                <Link href={`/FaceBrick/${items.jobTitle}`}>       
+                                   <div className="card border h-100 ">
+                                <Link href={`/${Product}/${items.jobTitle}`}>       
                                 <Image src={items.jobThumb} alt={item.altTag} height={500} width={500}/>
                                 </Link>
                                 <div className="card-body">
