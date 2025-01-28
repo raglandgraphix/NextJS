@@ -27,7 +27,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/50081?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -84,7 +84,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Light-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/50081?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -123,8 +123,8 @@
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Dark/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Desert-Ironspot-Dark-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49954?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -518,7 +518,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Modular-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/50084?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -571,11 +571,11 @@
                         },
                         {
                             "texture":"Velour",
-                            "image":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Desert_Ironspot_Light/Desert-Ironspot-Light-Velour-Thinbrick-Modular.jpg",
-                            "largeImage":"https://endicottfiles.com/Coppertone-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "image":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Modular-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Medium_Ironspot_46/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
+                            "largeImage":"https://endicottfiles.com/Medium-Ironspot-46-Velour-Thinbrick-Large.jpg",
+                            "artx":"https://architextures.org/create/share/50084?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                         
                         }
@@ -608,16 +608,16 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Dark-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/50041?appid=1125",
+                            "artx":"https://architextures.org/create/share/48658?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49992?appid=1125",
+                            "artx":"https://architextures.org/create/share/50080?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
@@ -633,7 +633,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Dark-Ironspot-Vertical-Scores-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48660?appid=1125",
+                            "artx":"https://architextures.org/create/share/50077?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
@@ -642,7 +642,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Dark-Ironspot-Artisan-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48662?appid=1125",
+                            "artx":"https://architextures.org/create/share/50079?appid=1125",
                             "sizes":["Modular","Closure"]
                         }
                     ]
@@ -662,10 +662,10 @@
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Irosnpot-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Dark_Ironspot/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Dark-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/48281?appid=1125",
+                            "artx":"https://architextures.org/create/share/50080?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -729,8 +729,8 @@
                          {
                             "texture":"Vertical~Score",
                             "image":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Vertical-Score-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Vertical-Score-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/49997?appid=1125",
                             "sizes":["Modular","Closure"]
@@ -862,8 +862,8 @@
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Modular-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Modular.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Sienna_Ironspot/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Sienna-Ironspot-Velour-Thinbrick-Large.jpg",
                             "artx":"https://architextures.org/create/share/50011?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -997,7 +997,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Rose-Blend-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50089?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         },
@@ -1007,7 +1007,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50090?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -1023,7 +1023,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Matt-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Matt-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Rose-Blend-Matt-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50091?appid=1125",
                             "sizes":["Modular","Closure"]
                          },
                          {
@@ -1032,7 +1032,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Rose-Blend-Vertical-Score-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50092?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                         {
@@ -1065,7 +1065,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Rose_Blend/Rose-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Rose-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50090?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                         
                         }
@@ -1197,7 +1197,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50098?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
@@ -1207,7 +1207,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50101?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         }
@@ -1223,7 +1223,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Matt-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Matt-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Matt-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50102?appid=1125",
                             "sizes":["Modular","Closure"]
                      
                         },
@@ -1233,7 +1233,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Vertical-Score-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50104?appid=1125",
                             "sizes":["Modular","Closure"]
                  
                         },
@@ -1257,7 +1257,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50098?appid=1125",
                             "sizes":["Roman","Modular","Norman","Closure","Utility"]
                  
                         },
@@ -1267,7 +1267,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Blend/Red-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50101?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -1296,20 +1296,20 @@
                         {
                             "texture":"Smooth",
                             "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50123?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50124?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
@@ -1322,10 +1322,10 @@
                         {
                             "texture":"Matt",
                             "image":"https://endicottfiles.com/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Blend-Matt-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50125?appid=1125",
                             "sizes":["Modular","Closure"]
                         },
                          {
@@ -1354,20 +1354,20 @@
                         {
                             "texture":"Smooth",
                             "image":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50123?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
                         {
                             "texture":"Velour",
                             "image":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy-Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Blend/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Blend-Velour-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50124?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                         
                         }
@@ -1600,7 +1600,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50126?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
@@ -1641,7 +1641,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Red_Ironspot/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Red-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50126?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility","Triple"]
                  
                         },
@@ -1935,8 +1935,8 @@
                     {
                         "texture":"Velour",
                         "image":"https://endicottfiles.com/Gray-Blend-Velour-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Blend/Light-Gray-Blend-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/Gray-Blend-Velour-Thinbrick-Large.jpg",
                         "artx":"https://architextures.org/create/share/49634?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -1993,8 +1993,8 @@
                     {
                         "texture":"Velour",
                         "image":"https://endicottfiles.com/Light-Gray-Blend-Velour-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Velour-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Blend/Gray-Blend-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/Gray-Blend-Velour-Thinbrick-Large.jpg",
                         "artx":"https://architextures.org/create/share/49632?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
@@ -2393,11 +2393,11 @@
                         {
                             "texture":"Square~Edge~No~Texture",
                             "image":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Manganese_Ironspot/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Gray_Sands/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Gray_Sands/Gray-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Manganese-Ironspot-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
-                            "sizes":["Roman","Modular","Norman","Slim_Kings","Kingsize","Engineer_Modular","Engineer_Kingsize","Norwegian","Closure","3\"_Utility","Utility","2_1/4\"_Meridian","Meridian","Triple"]
+                            "artx":"https://architextures.org/create/share/50128?appid=1125",
+                            "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
                     ]
@@ -2461,7 +2461,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50130?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -2477,7 +2477,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
+                            "artx":"https://architextures.org/create/share/50129?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                          }
                     ]
@@ -2491,7 +2491,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Thinbrick-Large.jpg",
-                            "artx":"https://architextures.org/create/share/49363?appid=1125",
+                            "artx":"https://architextures.org/create/share/50129?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                          }
                     ]
@@ -2523,7 +2523,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Merlot-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50131?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -2539,7 +2539,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50132?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -2554,7 +2554,7 @@
                             "fallbackImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
                             "fallbackLargeImage":"/assets/ThinBrick/Colors/Merlot_Sands/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/Merlot-Sands-Heritage-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50132?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -2603,7 +2603,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
-                        "artx":"https://architextures.org/create/share/49692?appid=1125",
+                        "artx":"https://architextures.org/create/share/50133?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                      }
                 ]
@@ -2617,7 +2617,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Thinbrick-Large.jpg",
-                        "artx":"https://architextures.org/create/share/49692?appid=1125",
+                        "artx":"https://architextures.org/create/share/50133?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                      }
                     
@@ -2649,7 +2649,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50134?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2710,10 +2710,10 @@
                         {
                             "texture":"Smooth",
                             "image":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
-                            "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                            "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
+                            "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
                             "largeImage":"https://endicottfiles.com/SN1-White-Glazed-Smooth-Thinbrick-Large.jpg",
-                            "artx":"",
+                            "artx":"https://architextures.org/create/share/50135?appid=1125",
                             "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                  
                         }
@@ -2742,10 +2742,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN1-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN2-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50136?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2774,10 +2774,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN3-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN3-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN3-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50137?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2804,10 +2804,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN4-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN4-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN4-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50138?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2836,10 +2836,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN5-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN5-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN5-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50139?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2868,10 +2868,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN6-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN6-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN6-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50140?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2900,10 +2900,10 @@
                     {
                         "texture":"Smooth",
                         "image":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN7-Glazed-White-Smooth-Thinbrick-Large.jpg",
-                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN7-Glazed-White-Smooth-Thinbrick-Large.jpg",
+                        "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
+                        "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN7-Gray-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50141?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2934,7 +2934,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/SN8-Black-Glazed-Smooth-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50142?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2965,7 +2965,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC1-White-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50143?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
              
                     }
@@ -2995,7 +2995,7 @@
                 "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                 "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/VC2-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                "artx":"",
+                "artx":"https://architextures.org/create/share/50144?appid=1125",
                 "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }    
             ]
@@ -3025,7 +3025,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC3-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50145?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]
@@ -3055,7 +3055,7 @@
                     "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                     "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                     "largeImage":"https://endicottfiles.com/VC4-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                    "artx":"",
+                    "artx":"https://architextures.org/create/share/50146?appid=1125",
                     "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]
@@ -3085,7 +3085,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC5-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50151?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]
@@ -3116,7 +3116,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/V6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC6-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50148?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]
@@ -3147,7 +3147,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC7-Gray-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50149?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]
@@ -3177,7 +3177,7 @@
                         "fallbackImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
                         "fallbackLargeImage":"/assets/ThinBrick/Colors/Glazed/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
                         "largeImage":"https://endicottfiles.com/VC8-Black-Glazed-Velour-Thinbrick-Large.jpg",
-                        "artx":"",
+                        "artx":"https://architextures.org/create/share/50150?appid=1125",
                         "sizes":["Roman","Modular","Norman","Kingsize","Closure","Utility"]
                     }
                 ]

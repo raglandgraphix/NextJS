@@ -64,7 +64,7 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                     Texture?
                                                         texture.texture===Texture?                        
                                                     // <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                                            <div className="row mb-5 border-bottom border-danger mt-2 ">
+                                                            <div className="row mb-5 mt-2 ">
                                                                 <div className="col-3">
                                                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                                 </div>
@@ -83,7 +83,7 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                             //this is the else of Texture?
                                                         texture.texture===DefaultTexture?
                                                     //<a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                                            <div className="row mb-2 border-bottom border-danger ">
+                                                            <div className="row mb-2 border-bottom border-primary ">
                                                                 <div className="col-3">
                                                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                             </div>
@@ -118,7 +118,7 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                     Texture?
                                                     texture.texture===Texture?
                                                 //<a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                                    <div className="row mb-2 border-bottom border-danger">
+                                                    <div className="row mb-2 ">
                                                         <div className="col-3">
                                                             <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                         </div>
