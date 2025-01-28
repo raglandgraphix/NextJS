@@ -63,34 +63,44 @@ return(
                             item.fullName===Color?item.textures.map((texture)=>(
                                 texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                                 Texture?
-                                texture.texture===Texture ?                        
-                                    <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                        <div className="row mb-2 border-bottom ">
+                                texture.texture===Texture &&                        
+                                    //<a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                        <div className="row mb-2  ">
                                             <div className="col-3">
                                                 <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                             </div>
                                             <div className="col-9">
-                                                <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                                <p className="text-black">Create stunning renderings with this color's seamless image.</p>
+                                            </div>
+                                            <div className="row d-flex  justify-content-end mb-2">
+                                                <a className="text-end" href={texture.fallbackLargeImage} download>                                                        
+                                                    <button className="btn btn-dark  " role="button" key={texture.texture}>Seamless Image</button>
+                                                </a>
                                             </div>
                                         </div>
-                                    </a>
-                                :null
-                                :(
-                                    texture.texture===DefaultTexture ?                        
-                                    <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                        <div className="row mb-2 border-bottom ">
+                                   // </a>
+                                //:null
+                                :
+                                    texture.texture===DefaultTexture &&                        
+                                    //<a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                        <div className="row mb-2 ">
                                             <div className="col-3">
                                                 <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                             </div>
                                             <div className="col-9">
-                                                <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                                <p className="text-black">Create stunning renderings with this color's seamless image.</p>
+                                            </div>
+                                            <div className="row d-flex  justify-content-end mb-2">
+                                                <a className="text-end" href={texture.fallbackLargeImage} download>                                                        
+                                                    <button className="btn btn-dark  " role="button" key={texture.texture}>Seamless Image</button>
+                                                </a>
                                             </div>
                                         </div>
-                                    </a>
-                                :null
+                                    //</a>
+                                //:null
 
 
-                                )
+                                
                                 
                             )):''
                     ))
@@ -107,38 +117,50 @@ return(
                                     texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                                    Texture?
                                     texture.texture===Texture?
-                                        <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                            <div className="row border-bottom">
+                                        //<a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                            <div className="row ">
                                                 <div className="col-3">
                                                     <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
                                                 </div>
                                                 <div className="col-9">
-                                                    <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
-                                                </div>
+                                                        <p className="text-black">Design with ease: This color and texture are available in Architextures for seamless integration with Autodesk Revit.</p>
+                                                    </div>
+                                                    <div className="row d-flex justify-content-end mb-2">
+                                                        <a className="text-end" href={texture.artx} target="_blank">                                                        
+                                                            <button className="btn btn-dark  " role="button" key={texture.texture}>Architextures</button>
+                                                        </a>
+                                                    </div>
                                             </div>
-                                        </a>:null
-                                        :(
+                                        //</a>
+                                        :null
+                                        :
                                             texture.texture===DefaultTexture?
-                                            <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                                <div className="row border-bottom">
+                                            //<a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                                <div className="row ">
                                                     <div className="col-3">
                                                         <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
                                                     </div>
                                                     <div className="col-9">
-                                                        <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                                        <p className="text-black">Design with ease: This color and texture are available in Architextures for seamless integration with Autodesk Revit.</p>
+                                                    </div>
+                                                    <div className="row d-flex justify-content-end mb-2">
+                                                        <a className="text-end" href={texture.artx} target="_blank">                                                        
+                                                            <button className="btn btn-dark  " role="button" key={texture.texture}>Architextures</button>
+                                                        </a>
                                                     </div>
                                                 </div>
-                                            </a>:null
+                                           // </a>
+                                            :null
 
 
-                                        )
+                                        
                                         
                                 )):''
                         ))
                 }
             </div>
         </div>        
-        <div className="row border-bottom mt-2 pb-2">
+        <div className="row  mt-2 pb-2">
             <div className="col">
                 <a href="">
                     <Image src='/assets/MiscImages/CADdetails-Logo-horizontal.svg' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>

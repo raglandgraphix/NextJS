@@ -63,34 +63,36 @@ return(
                             item.fullName===Color?item.textures.map((texture)=>(
                                 texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                                 Texture?
-                                texture.texture===Texture ?                        
-                                    <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                        <div className="row mb-2 border-bottom ">
-                                            <div className="col-3">
-                                                <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
-                                            </div>
-                                            <div className="col-9">
-                                                <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
-                                            </div>
-                                        </div>
-                                    </a>
+                                texture.texture===Texture ? 
+                                <></>                       
+                                    // <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                    //     <div className="row mb-2 border-bottom ">
+                                    //         <div className="col-3">
+                                    //             <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
+                                    //         </div>
+                                    //         <div className="col-9">
+                                    //             <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                    //         </div>
+                                    //     </div>
+                                    // </a>
                                 :null
-                                :(
-                                    texture.texture===DefaultTexture ?                        
-                                    <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                        <div className="row mb-2 border-bottom ">
-                                            <div className="col-3">
-                                                <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
-                                            </div>
-                                            <div className="col-9">
-                                                <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
-                                            </div>
-                                        </div>
-                                    </a>
+                                :
+                                    texture.texture===DefaultTexture ?  
+                                    <></>                      
+                                    // <a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
+                                    //     <div className="row mb-2 border-bottom ">
+                                    //         <div className="col-3">
+                                    //             <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
+                                    //         </div>
+                                    //         <div className="col-9">
+                                    //             <p className="text-black">This Color is available in a seemless image for rendering. Click to download.</p>
+                                    //         </div>
+                                    //     </div>
+                                    // </a>
                                 :null
 
 
-                                )
+                                
                                 
                             )):''
                     ))
@@ -107,31 +109,36 @@ return(
                                     texture.image==='https://endicottfiles.com/NotAvailable.jpg'?'':
                                    Texture?
                                     texture.texture===Texture?
-                                        <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                            <div className="row border-bottom">
-                                                <div className="col-3">
-                                                    <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
-                                                </div>
-                                                <div className="col-9">
-                                                    <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
-                                                </div>
-                                            </div>
-                                        </a>:null
-                                        :(
+                                    <></>
+                                        // <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                        //     <div className="row border-bottom">
+                                        //         <div className="col-3">
+                                        //             <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                        //         </div>
+                                        //         <div className="col-9">
+                                        //             <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                        //         </div>
+                                        //     </div>
+                                        //</a>
+                                        :null
+                                        :
                                             texture.texture===DefaultTexture?
-                                            <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
-                                                <div className="row border-bottom">
-                                                    <div className="col-3">
-                                                        <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
-                                                    </div>
-                                                    <div className="col-9">
-                                                        <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
-                                                    </div>
-                                                </div>
-                                            </a>:null
+                                            <></>
+                                            // <a className="text-decoration-none" key={texture.texture} href={texture.artx} target="_blank">
+                                            //     <div className="row border-bottom">
+                                            //         <div className="col-3">
+                                            //             <Image className="" src='/assets/MiscImages/artx-logo.svg'  width={50} height={50} alt='image that works as a button. click to see renderable images of this color.'/>
+                                            //         </div>
+                                            //         <div className="col-9">
+                                            //             <p className="text-black">This color and texture is available in Architextures for direct use with Autodesk Revit.</p>
+                                            //         </div>
+                                            //     </div>
+                                            // </a>
+                                            
+                                            :null
 
 
-                                        )
+                                        
                                         
                                 )):''
                         ))

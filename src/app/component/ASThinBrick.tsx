@@ -69,7 +69,7 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                                 </div>
                                                                 <div className="col-9">
-                                                                    <p className="text-black">This Color is available in a seemless image for rendering.</p>
+                                                                    <p className="text-black">Create stunning renderings with this color's seamless image.</p>
                                                                 </div>
                                                                 <div className="row d-flex  justify-content-end mb-2">
                                                                     <a className="text-end" href={texture.fallbackLargeImage} download>                                                        
@@ -83,12 +83,12 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                             //this is the else of Texture?
                                                         texture.texture===DefaultTexture?
                                                     //<a key={texture.texture} className="text-decoration-none" href={texture.fallbackLargeImage} download>
-                                                            <div className="row mb-2 border-bottom border-primary ">
+                                                            <div className="row mb-2  ">
                                                                 <div className="col-3">
                                                                     <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                             </div>
                                                             <div className="col-9">
-                                                                <p className="text-black">This Color is available in a seemless image for rendering.</p>
+                                                                <p className="text-black">Create stunning renderings with this color's seamless image.</p>
                                                             </div>
                                                             <div className="row d-flex  justify-content-end mb-2">
                                                                 <a className="text-end" href={texture.fallbackLargeImage} download>                                                        
@@ -123,7 +123,7 @@ export default function ASThinBrick({ ASthickness }: ASThinBrickProps){
                                                             <Image  src='/assets/MiscImages/RenderableColors.png' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
                                                         </div>
                                                         <div className="col-9">
-                                                            <p className="text-black">This Color is available in a seemless image for rendering.</p>
+                                                            <p className="text-black">Create stunning renderings with this color's seamless image.</p>
                                                         </div>
                                                             <div className="row d-flex  justify-content-end mb-2">
                                                                 <a className="text-end" href={texture.fallbackLargeImage} download>                                                        

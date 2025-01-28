@@ -148,7 +148,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                                                 <div className="card-body">
                                                     <div className="card-title text-center">
                                                         
-                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture}</h2>
+                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture.replace(/~/g,' ')}</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -160,7 +160,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                                             <Image  className="card-img-top img-fluid" loader={() => (item.textures[0].image)} width={500} height={500} alt={item.altTag} src={item.textures[0].image}  />
                                             <div className="card-body">
                                                 <div className="card-title text-center">
-                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.textures[0].texture}</h2>
+                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{item.textures[0].texture.replace(/~/g,' ')}</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,7 +172,7 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                     
                     DataThin?.map((item)=>(
                         item.fullName===Color?
-                        <div key={item.id}>
+                        <div  key={item.id}>
                             {
                                 
                                 Texture?
@@ -187,8 +187,9 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                                                    
                                                     <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                                     <div className="card-body">
-                                                       
-                                                        <div className="card-title text-center"></div>
+                                                    <div className="card-title text-center">
+                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture.replace(/~/g,' ')}</h2>
+                                                    </div>
                                                     </div>
                                                 </div>
                                             ):null
@@ -211,7 +212,9 @@ export default function ColorDisplay({ DisplayThickness }: ColorDisplayProps){
                                                      <Image className="card-img-top img-fluid" loader={() => (texture.image)} width={500} height={500} alt={item.altTag} src={texture.image}  />
                                                     
                                                      <div className="card-body">
-                                                         <div className="card-title text-center"></div>
+                                                     <div className="card-title text-center">
+                                                    <h2 className="text-uppercase univers-45-light fs-5 mt-2">{texture.texture.replace(/~/g,' ')}</h2>
+                                                    </div>
                                                      </div>
                                                  </div>
                                              ):null

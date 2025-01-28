@@ -80,8 +80,8 @@ useEffect(()=>{
 }) 
     return(
 
-<div className="col-12 col-md-3 border mt-3 mt-md-0  ps-2 ms-auto ">
-    <div className="row border d-flex justify-content-end ">
+<div className="col-12 col-md-3  mt-3 mt-md-0  ps-2 ms-auto ">
+    <div className="row  d-flex justify-content-end ">
         <div className="col-12">
             {
                 Data?.map((size,index)=>(
