@@ -145,7 +145,7 @@ return(
                 }
             </div>
         </div>        
-        <div className="row border-bottom mt-2 pb-2">
+        <div className="row  mt-2 pb-2">
             <div className="col">
                 <a href="">
                     <Image src='/assets/MiscImages/CADdetails-Logo-horizontal.svg' width={100} height={100} alt='image that works as a button. click to see renderable images of this color.'/>
