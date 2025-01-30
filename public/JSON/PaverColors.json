@@ -22,7 +22,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["FortMeyers","UNFBio"]},{"video":[]}]    
+        "projects":[{"photo":["Citadel","SanClemente"]},{"video":[]}]    
         },
     {
         "id":2,
@@ -45,7 +45,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["FortMeyers","UNFBio"]},{"video":[]}]               
+        "projects":[{"photo":["Citadel","SanClemente","CastleRock","CherryCreek"]},{"video":[]}]               
     },
     {
         "id":3,
@@ -69,7 +69,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["EastPrairie","Zachary","Gotham","UNFBio","AuriaScience","Kennesaw","PleasantHill"]},{"video":[]}]  
+        "projects":[{"photo":["CreightonRoundAbout","Villanova","Citadel","SanClemente","CastleRock","CherryCreek","HarleyStreetscape"]},{"video":[]}]  
                       
     },
     {
@@ -94,7 +94,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["StGregory","Four51","Gotham","AurariaScience","KingCenter","Creekside","Bolling","Kennesaw","Beauregard","PleasantHill"]},{"video":[]}]               
+        "projects":[{"photo":["Villanova","Citadel","SanClemente","CastleRock","CherryCreek","HarleyStreetscape","DublinStreetscape"]},{"video":[]}]               
     },
     {
         "id":5,
@@ -116,7 +116,8 @@
                 "alt":"Image of Dark Ironspot in Wirecut texture"
             }
         ],
-        "productLine":"Paver"
+        "productLine":"Paver",
+        "projects":[{"photo":["Villanova","Citadel","SanClemente","CastleRock","CherryCreek","DublinStreetscape"]},{"video":[]}]
                                      
     },
     {
@@ -141,7 +142,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":[]},{"video":[]}]                
+        "projects":[{"photo":["CreightonRoundAbout","Villanova","CherryCreek","HarleyStreetscape","DublinStreetscape"]},{"video":[]}]                
     },
     {
         "id":7,
@@ -164,7 +165,8 @@
                  
             }
         ],
-        "productLine":"Paver"           
+        "productLine":"Paver",
+        "projects":[{"photo":["CreightonRoundAbout","SanClemente"]},{"video":[]}]           
     },
     {
         "id":8,
@@ -188,7 +190,7 @@
             }
         ],
         "productLine":"Paver" ,
-        "projects":[{"photo":["Hoch","Wharton"]},{"video":[]}]                
+        "projects":[{"photo":["CreightonRoundAbout","SanClemente"]},{"video":[]}]                
                   
     },
     {
@@ -213,7 +215,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["Princeton"]},{"video":[]}]                
+        "projects":[{"photo":["CreightonRoundAbout","SanClemente"]},{"video":[]}]                
                    
     },
     {
@@ -236,7 +238,7 @@
             }
         ],
         "productLine":"Paver",
-        "projects":[{"photo":["Princeton"]},{"video":[]}]                   
+        "projects":[{"photo":["CreightonRoundAbout","Citadel","SanClemente"]},{"video":[]}]                   
     }
 ]
 

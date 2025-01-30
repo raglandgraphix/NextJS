@@ -62,7 +62,7 @@ export default function Sizes(){
             {
                 Data?.map((item,index)=>(
                     item.Name===Size?
-<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique ">{item.Name} {Product}</Modal.Title>:''
+<Modal.Title key={index} className="text-uppercase text-center fs-2 univers-55-Oblique ">{item.Name.replace(/_/g,' ')} {Product}</Modal.Title>:''
                  ))
             } 
           
