@@ -58,6 +58,7 @@ body{
 .paverBox{
     background-color: #9e652e;
     min-height: 250px;
+	height:auto;
     
 }
 .PathwayAggregateBox{

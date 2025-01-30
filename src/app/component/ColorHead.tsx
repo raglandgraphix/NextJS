@@ -86,9 +86,13 @@ export default function ColorHead({ setSelectedSize,selectedThickness }: ColorHe
 
     
     return(
-      <div className="row d-flex justify-content-start  m-auto  w-100">
+      <div className="row d-flex justify-content-start  m-auto  w-100 ">
+        <div className="col-12 col-lg-6">
+
+        
           <ProductBox  setDescription={CleanColor} productHeadLine={ProdHL}ProductDescription={ProdDesc}/>
-          <div className="col     ">
+          </div>
+          <div className="col-12 col-lg-6">
           {
             Product==='FaceBrick'?<FBCSelections setSelectedSize={setSelectedSize} />:(Product==='ThinBrick'?<TBCSelections passThickness = {ChildThickness} setSelectedSize={setSelectedSize}/>:(Product==='Paver'?<PCSelections setSelectedSize={setSelectedSize}/>:'Error')) 
           }

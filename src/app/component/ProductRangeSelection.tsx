@@ -42,7 +42,7 @@ const handleLinkClick = (myPath:string) => {
         }
     },[Product]);
     return(
-        <div className="col-12 col-xl-5 pb-2 pt-2 ms-xl-3  ">
+        <div className="col-12  pb-2 pt-2 ms-xl-3 ">
             <div className="row univers-55-Roman text-rock h-100  w-100  d-flex justify-content-xl-end justify-content-center ">
                 <div className="col-4 col-md-5 col-xl-3 border-end  text-center   ">
                     <div className="row border-bottom ">

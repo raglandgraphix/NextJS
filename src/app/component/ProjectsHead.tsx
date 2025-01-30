@@ -48,8 +48,14 @@ export default function ProjectsHead(){
     },[RangeColors,Product]);
     return(
         <div className="row  d-flex justify-content-between ">
+            <div className="col-12 col-lg-6">
             <ProductBox setDescription={Color} productHeadLine={Header} ProductDescription={Description}/>
-            <ProductRangeSelection   />            
+            </div>
+            <div className="col-12 col-lg-6">
+            <ProductRangeSelection   />    
+            </div>
+            
+                    
         </div>
     )   
 }

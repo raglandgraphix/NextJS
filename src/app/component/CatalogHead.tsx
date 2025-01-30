@@ -69,10 +69,15 @@ export default function ColorCatalog(){
       }
     },[RangeColors]);
     return(
-<div className="row d-flex justify-content-between ">
-<ProductBox setDescription={rangeCallout} productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
- <ProductRangeSelection/>       
-          
+      <div className="row  ">
+         <div className="col-12 col-lg-6">
+
+        <ProductBox setDescription={rangeCallout} productHeadLine={ProductHL} ProductDescription={ProductDesc}/>
         </div>
+        <div className="col-12 col-lg-6">
+
+        <ProductRangeSelection/> 
+        </div>      
+      </div>
     )
 }
