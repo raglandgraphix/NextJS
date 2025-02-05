@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+ 
   
     // images: {
     //   domains: ['endicottfiles.com'],
@@ -26,6 +27,7 @@ const nextConfig = {
 
     async rewrites() {
       return [
+        
         
         {
           source: '/FaceBrick/Colors-:color', // Match the pattern with the color segment
@@ -92,17 +94,28 @@ const nextConfig = {
           destination: '/PathwayAggregate', // Redirect to the Colors page
         },
         
+        
+        
+        
       ];
     },
     
     
     async redirects() {
       return [
+        
         {
           source: '/testingRedirect.html',
           destination: '/FaceBrick/Textures',
           permanent: true, // Use permanent redirect for SEO
         },
+        {
+          source: '/colorPop.html', 
+          destination: '/redirects', // Redirect to the Colors page
+          permanent:true,
+        },
+        
+       
       ];
     },
     

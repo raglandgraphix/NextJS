@@ -4,12 +4,20 @@ import Image from "next/image";
 import Navigate from "../component/navigate";
 import ProductBox from "../component/ProductBox";
 import { AggregateColor } from "../../../Types/ProductTypesPathwayAggregate";
+import Link from "next/link";
 
 
 export default function PathwayAggregate(){
     const [Data,setData]=useState<AggregateColor[]|null>(null);
     const [Description,setDescription]=useState<string | null>('Colors');
-
+    const [Color,setColor]=useState<string>("Midnight");
+    const [UnitTypes,setUnitTypes]=useState<string>('Imperial');
+    const [MainImage,setMainImage]=useState<string>("https://endicottfiles.com/Midnight.jpg");
+    const [Length,setLength]=useState<number>(1);
+    const [Width,setWidth]=useState<number>(1);
+    const [Depth,setDepth]=useState<number>(4);
+    const [Volume,setVolume]=useState<number>(0);
+    const [Tons,setTons]=useState<number>(0);
     useEffect(()=>{
         const fetchData = async () => {
             const res = await fetch('/JSON/PathwayAggregate.json');
@@ -19,11 +27,23 @@ export default function PathwayAggregate(){
         };
         fetchData();
     },[]);
-const calculate = ()=>{
-
+const calculate = (event: React.ChangeEvent<HTMLInputElement>,Measurement:string)=>{
+    const translateString = parseInt(event.target.value, 10);
+    if(Measurement==='Length'){
+        setLength(isNaN(translateString)?0:translateString);
+    }else if(Measurement==='Width'){
+        setWidth(isNaN(translateString)?0:translateString);
+    }else if(Measurement==='Depth'){
+        setDepth(isNaN(translateString)?0:translateString);
+    }
+    calculations(UnitTypes);
+    
 }
 
-
+const handleClick = (value:string) => {
+    setColor(value);
+    
+  };
     // $(function(){
     //     $("#colorSwatch").empty();
     //    $.each(pathwayJson,function(key1,data1){
@@ -66,9 +86,19 @@ const calculate = ()=>{
     //     }
     //   });
     
-    // $(".onChange").on('change',()=>{calculations()});
-    
-    // const calculations = ()=>{
+     //$(".onChange").on('change',()=>{calculations()});
+    const radioChange = (value:string)=>{
+        
+        setUnitTypes(value);
+        calculations(value);
+    }
+     const calculations = (value:string)=>{
+       
+        const newVolume = (value==='Imperial'?Depth/12:Depth/100)*Length*Width;
+        const newTon = Math.ceil(value==='Imperial'?(newVolume/27)*1.1589:(newVolume*1.515783972)*.907185)
+        setVolume(newVolume);
+        setTons(newTon);
+
         
     //     const length = $("#MeasureLength").val();
     //     const width = $("#MeasureWidth").val();
@@ -92,7 +122,10 @@ const calculate = ()=>{
     // calculations();
        
     
-    // })
+     }
+     useEffect(()=>{
+        calculations(UnitTypes);
+     })
 
 
 return(
@@ -100,11 +133,12 @@ return(
             <Navigate pageSettings="light" />
             <div className="container-fluid" aria-live="polite">
                 
-                <div className="row   w-100 pt-5" >
+                <div className="row    " >
+                    <div className="col-12 col-lg-6  pe-3">
                     <ProductBox setDescription={Description} productHeadLine='Eco-Friendly, Permeable Alternative to Decomposed Granite.'  ProductDescription='Create stunning, sustainable pathways for parks, campuses, and more with our recycled brick aggregate and Organic-Lock™ binder.' />
-
+                    </div>
                     
-                    <div className="col  ">
+                    <div className="col-12 col-lg-6   ">
                         <div className="row border-bottom">
                             <div className="col">
                                 <h2 className="text-center text-uppercase univers-55-Roman text-rock fs-3 mt-3 mt-lg-0 ">Additional Information</h2>
@@ -155,21 +189,48 @@ return(
                       {
                         Data?.map((value)=>(
                             <div key={value.index} className=" col-4 col-lg-2 p-2 d-flex ">                      
-                            <button role="button" className="card colorCards flex-fill" >
-                            <Image src={value.image} alt={value.altTag} width={500} height={500}/>
-                        
-                        <div className="card-body w-100 p-0">
-                          <p id="color" className=" card-title univers-45-light text-rock ">{value.name}</p>
-                        </div>
-                      </button>               
-                    </div>   
+                                <button role="button" className="card colorCards flex-fill" onClick={() => handleClick(value.name)}  >
+                                    <Image src={value.image} alt={value.altTag} width={500} height={500}/>
+                                        <div className="card-body w-100 p-0">
+                                            <p id="color" className=" card-title univers-45-light text-rock ">{value.name}</p>
+                                        </div>
+                                </button>               
+                            </div>   
                         ))
                       }
                        
                              
                       </div>
                       <div className="row mt-5  ">
-                        <div className="col text-start ps-5 pe-5">
+                        {
+                            Data?.map((item)=>(
+                                item.name===Color? //start here
+                                <div className="col text-start ps-5 pe-5">
+                                    
+                                <div className="row">
+                                  <div className="col">
+                                    <h3 id="colorCallout" className="text-center text-uppercase univers-55-Roman text-rock">{item.name}</h3>
+                                    <h4 className="text-center museo-light  ">Bold Elegance from Recycled Brick</h4>
+                                  </div>
+                                </div>
+                                <div className="row">
+                                  <div className="col-0 col-lg-4" >
+                                     
+                                    <Image id="mainImage" className="Image width={500} height={500} -fluid " width={500} height={500} src={item.image} alt={item.altTag}/>
+                                  </div>
+                                  <div  className="col mt-lg-3">
+                                    <span id="colorDescription" className="text-start univers-55-Roman text-rock">{item.copy} </span>
+                                  </div>
+                                </div>
+                              </div>:""
+                              
+
+
+
+                            ))
+                        }
+                        {/* <div className="col text-start ps-5 pe-5">
+                           
                           <div className="row">
                             <div className="col">
                               <h3 id="colorCallout" className="text-center text-uppercase univers-55-Roman text-rock">Pathway Aggregate</h3>
@@ -179,13 +240,13 @@ return(
                           <div className="row">
                             <div className="col-0 col-lg-4" >
                                
-                              <Image id="mainImage" className="Image width={500} height={500} -fluid " width={500} height={500} src="https://endicottfiles.com/Midnight.jpg" alt='Endicott Midnight Pathway Aggregate - a dark gray to black aggregate that is mixed with Organic-lock, for architectural landscaping'/>
+                              <Image id="mainImage" className="Image width={500} height={500} -fluid " width={500} height={500} src={MainImage} alt='Endicott Midnight Pathway Aggregate - a dark gray to black aggregate that is mixed with Organic-lock, for architectural landscaping'/>
                             </div>
                             <div  className="col mt-lg-3">
                               <span id="colorDescription" className="text-start univers-55-Roman text-rock">Make a bold statement with the dramatic allure of Midnight aggregate. Crafted from recycled black brick, this deep charcoal material adds an urban edge to any landscape. It’s multi-faceted texture and dramatic obsidian hue create a stunning contrast against greenery, making it the perfect choice for modern designs, minimalist gardens, and any setting where you want a touch of sophistication. Sustainable and stylish, Midnight aggregate will add elegance to your outdoor spaces. </span>
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -366,45 +427,46 @@ return(
                             <div className="row d-flex justify-content-center mx-auto mt-3">                    
                                 <div className="col-12 col-md-5 border bg-stone-25 pt-5 pb-5 ps-5 pe-5 rounded-3">
                                     <div className="row text-end d-flex justify-content-center mb-3">
-                                        <div className="col-6">
-                                            <input  className="ms-2 onChange" type="radio" id="Imperial" name="MeasureGroup" value="Imperial" checked  />
+                                        <div className="col-6" >
+                                            <input  className="ms-2 "  type="radio" id="Imperial" name="MeasureGroup" value="Imperial"  checked={UnitTypes==='Imperial'} onChange={()=>{radioChange('Imperial')}} />
                                             <label htmlFor="Imperial">Imperial</label> 
                                         </div>
-                                        <div className="col-6 text-start">
-                                            <input  className="ms-2 onChange" type="radio" id="Metric" name="MeasureGroup" value="Metric"  />
+                                        <div className="col-6 text-start" >
+                                            <input  className="ms-2 " type="radio" id="Metric" name="MeasureGroup" value="Metric" checked={UnitTypes==='Metric'} onChange={()=>{radioChange('Metric')}} />
                                             <label htmlFor="Metric">Metric</label> 
                                         </div>
                                     </div>
                                     <div className="row mb-3">
                                         <div className="col d-flex justify-content-lg-end   ">
-                                            <label id="lengthLabel" htmlFor="MeasureLength">Project Length (Feet)</label>
+                                            <label id="lengthLabel" htmlFor="MeasureLength">Project Length ({UnitTypes==='Imperial'?'Feet':'Meters'})</label>
                                         </div>
                                         <div className="col d-flex justify-content-start">
-                                            <input type="number" className="onChange" id="MeasureLength" value={1} onChange={()=>calculate()} aria-label="Project Length in Feet/Meter" placeholder="Enter Length"/>
+                                            <input type="number" className="onChange" id="MeasureLength" value={Length} onChange={(event)=>(calculate(event,'Length'))} aria-label="Project Length in Feet or Meter" />
+                                            
                                         </div>
                                     </div>
                                     <div className="row  mb-3">
                                         <div className="col d-flex justify-content-lg-end   ">
-                                            <label id="widthLabel" htmlFor="MeasureWidth">Project Width (Feet)</label>
+                                            <label id="widthLabel" htmlFor="MeasureWidth">Project Width ({UnitTypes==='Imperial'?'Feet':'Meters'})</label>
                                         </div>
                                         <div className="col d-flex justify-content-start">
-                                            <input type="number" className="onChange" id="MeasureWidth" value={1} onChange={()=>calculate()} aria-label="Project Width in Feet/Meters" placeholder="Enter Length"/>
+                                            <input type="number" className="onChange" id="MeasureWidth" value={Width} onChange={(event)=>(calculate(event,'Width'))} aria-label="Project Width in Feet/Meters" placeholder="Enter Length"/>
                                         </div>
                                     </div>
                                     <div className="row mb-3">
                                         <div className="col d-flex justify-content-lg-end  ">
-                                            <label id="depthLabel" htmlFor="MeasureDepth">Project Depth (Inches) </label>
+                                            <label id="depthLabel" htmlFor="MeasureDepth">Project Depth ({UnitTypes==='Imperial'?'Inches':'Centimeters'}) </label>
                                         </div>
                                         <div className="col d-flex justify-content-start">
-                                            <input type="number" className="onChange" id="MeasureDepth" value={4} onChange={()=>calculate()} aria-label="Project Depth in Feet/Meters" placeholder="Enter Depth"/>
+                                            <input type="number" className="onChange" id="MeasureDepth" value={Depth} onChange={(event)=>(calculate(event,'Depth'))} aria-label="Project Depth in Feet/Meters" placeholder="Enter Depth"/>
                                         </div>
                                     </div>
                                     <div className="row mb-3">
                                         <div className="col d-flex justify-content-lg-end">
-                                            <label id="volumeLabel" htmlFor="volume">Volume (Cubic Feet)</label>
+                                            <label id="volumeLabel" htmlFor="volume">Volume ({UnitTypes==='Imperial'?'Cubic Feet':'Cubic Meter'})</label>
                                         </div>
                                         <div className="col d-flex justify-content-start">
-                                            <input type="number" id="volume" value={0} disabled/>
+                                            <input type="number" id="volume" value={Volume} disabled/>
                                         </div>
                                     </div>
                                     <div className="row mb-3">
@@ -412,7 +474,7 @@ return(
                                             <label htmlFor="Tons">Weight Needed(U.S. Ton)</label>
                                         </div>
                                         <div className="col d-flex justify-content-start">
-                                            <input type="number" id="Tons" value={0} disabled />
+                                            <input type="number" id="Tons" value={Tons} disabled />
                                         </div>
                                     </div>
                                 </div>
@@ -430,17 +492,19 @@ return(
                 </div>
 
 
-                <div className="row mt-5 " >
+                <div className="row mt-5  " >
                    
-                    <div className="col">
-                        <div className="row">
-                            <div className="col text-center">
+                    <div className="col ">
+                        <div className="row  ">
+                            <div className="col text-center ">
                                 <h2 className="fs-3 text-uppercase text-rock univers-55-Roman">Endicott Pathway Aggregate - Packaging and Shipping</h2>
                                 <h3 className="museo-light text-rock ">Endicott Stabilized Pathway Brick Aggregate - Efficient Packaging and Shipping</h3>
-                            </div>                   
-                            <div className="row mt-5">
-                                <div className="col-12 col-lg-5 text-start">
-                                    <h3 className="text-rock">Advantages of Super Sacks</h3>
+                            </div>
+                        </div>  
+                                  
+                        <div className="row mt-5 d-flex justify-content-center ">
+                            <div className="col-12 col-lg-5 text-start ">
+                                <h3 className="text-rock">Advantages of Super Sacks</h3>
                                     <ul className="listBullets ">
                                         <li className="text-rock">Lift loops for handling with forklifts or cranes for efficient transport and storage.</li>
                                         <li className="text-rock">Durable and resistant to tearing and moisture.</li>
@@ -451,10 +515,10 @@ return(
                                     <span className="museo-light fs-5 ">For an additional charge, the super sacks can be shipped on pallets.</span>
                                 </div>
                                 <div id="maintenanceLocation" className="col-12 col-lg-7">
-                                    <Image width={500} height={500}  className="Image width={500} height={500} -fluid" src="https://endicottfiles.com/Super-Sacks.jpg" alt="Truck delivering Endicott Pathway Aggregate in super sacks."/>
+                                    <Image width={1500} height={1500}  className="img-fluid" src="https://endicottfiles.com/Super-Sacks.jpg" alt="Truck delivering Endicott Pathway Aggregate in super sacks."/>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -462,7 +526,7 @@ return(
                 <div className="row mt-5"  >
                     
                 <div className="col">
-                    <div className="row">
+                    <div className="row ">
                         <div className="col text-center">
                             <h2 className="fs-3 text-rock univers-55-Roman text-uppercase ">Endicott Pathway Aggregate Maintenance</h2>
                             <h3 className="museo-light">Maintenance analysis program required – catch an issue before it develops.</h3>
@@ -515,12 +579,16 @@ return(
                     </div>
                     <div className="row d-flex justify-content-center">
                         <div className="col-4" role="button" >
+                            <Link href='https://endicottfiles.com/PathwayAggregate.pdf' target="_blank" >
                             <Image width={500} height={500} alt="image of literature"  src="https://endicottfiles.com/PathwayAggregateP1.jpg"/>
+                            </Link>
+                            
         
                         </div>
                         <div className="col-4" role="button" >
+                        <Link href='https://endicottfiles.com/PathwayAggregate.pdf' target="_blank" >
                             <Image width={500} height={500} alt="image of literature"   src="https://endicottfiles.com/PathwayAggregateP2.jpg"/>
-        
+                        </Link>
                         </div>
                     </div>
 
