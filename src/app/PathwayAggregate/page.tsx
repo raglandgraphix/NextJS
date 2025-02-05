@@ -12,7 +12,7 @@ export default function PathwayAggregate(){
     const [Description,setDescription]=useState<string | null>('Colors');
     const [Color,setColor]=useState<string>("Midnight");
     const [UnitTypes,setUnitTypes]=useState<string>('Imperial');
-    const [MainImage,setMainImage]=useState<string>("https://endicottfiles.com/Midnight.jpg");
+    
     const [Length,setLength]=useState<number>(1);
     const [Width,setWidth]=useState<number>(1);
     const [Depth,setDepth]=useState<number>(4);
@@ -203,7 +203,7 @@ return(
                       </div>
                       <div className="row mt-5  ">
                         {
-                            Data?.map((item)=>(
+                            Data?.map((item,index)=>(
                                 item.name===Color? //start here
                                 <div className="col text-start ps-5 pe-5">
                                     

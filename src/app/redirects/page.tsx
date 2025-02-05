@@ -2,13 +2,13 @@
 'use client';
 
 import { useEffect } from 'react';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation'; // Import useSearchParams
+import { useRouter, useSearchParams } from 'next/navigation'; // Import useSearchParams
 
 export default function ColorPop() {
   
   const router = useRouter();
   const searchParams = useSearchParams(); // Get the query parameters
-  const pathname = usePathname();
+  
 
   
 
