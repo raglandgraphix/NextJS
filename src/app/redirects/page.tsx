@@ -2,45 +2,38 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation'; // Import useSearchParams
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Suspense } from 'react'; // Import Suspense
 
-export default function ColorPop() {
-  
+function ColorPopContent() {  // Separate component for searchParams
   const router = useRouter();
-  const searchParams = useSearchParams(); // Get the query parameters
-  
-
-  
+  const searchParams = useSearchParams();
 
   useEffect(() => {
-   
+    const getFirstParamKey = () => {
+      const iterator = searchParams?.keys(); // Optional chaining here is good
+      const firstKey = iterator?.next().value;
+      return firstKey;
+    };
 
-   
-   const getFirstParamKey = () => {
-    // Get an iterator of the keys
-    const iterator = searchParams&& searchParams.keys()
+    const ProductValue = getFirstParamKey();
 
-    // Get the first key from the iterator (or undefined if no keys)
-    const firstKey = iterator?.next().value;
-
-    return firstKey;
-  };
-
-  const ProductValue = getFirstParamKey();
-    //const thinBrick = searchParams?.get('Thin Brick'); // Access 'Thin Brick'
-    
-    if (ProductValue==='Face Brick') {
+    if (ProductValue === 'Face Brick') {
       router.push('/FaceBrick/Colors');
-    } else if (ProductValue==='Thin Brick') {
+    } else if (ProductValue === 'Thin Brick') {
       router.push('/ThinBrick/Colors');
     } else {
-      
-      router.push('/FaceBrick/Colors');
+      router.push('/FaceBrick/Colors'); // Default case
     }
-  }, []);
-  
+  }, [searchParams, router]); // Add searchParams and router to the dependency array
 
+  return <p>Redirecting to the appropriate Endicott page</p>;
+}
+
+export default function ColorPop() { // Wrap with Suspense
   return (
-    <p>Redirecting to the appropriate Endicott page</p>
-  ) // Or a loading indicator
+    <Suspense fallback={<p>Loading...</p>}>
+      <ColorPopContent />
+    </Suspense>
+  );
 }
