@@ -205,7 +205,7 @@ return(
                         {
                             Data?.map((item,index)=>(
                                 item.name===Color? //start here
-                                <div className="col text-start ps-5 pe-5">
+                                <div key={index} className="col text-start ps-5 pe-5">
                                     
                                 <div className="row">
                                   <div className="col">
