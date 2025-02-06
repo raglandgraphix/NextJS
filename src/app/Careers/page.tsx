@@ -52,7 +52,7 @@ export default function Careers(){
         //     const formData = new FormData(e.target);
 
             try {
-                const response = await fetch('/api/send-emails', {
+                const response = await fetch('/api/send-email', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
