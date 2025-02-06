@@ -1,7 +1,7 @@
 // pages/api/send-email.ts
 'use client'
 import { NextApiRequest, NextApiResponse } from 'next';
-import sendgrid from '@sendgrid/mail';
+//import sendgrid from '@sendgrid/mail';
 
 // Initialize SendGrid with your API key.  **IMPORTANT:** Store this securely, ideally as an environment variable.
 //const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
@@ -19,29 +19,29 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
       
       // Construct the email message
-      const msg = {
-        to: 'jragland@endicott.com', // Replace with your recipient email
-        from: 'john@raglandgraphix.com', // Replace with your verified sender email in SendGrid
-        subject: 'New Empolyement Applicant',
-        html: `
-          <p>A new employment application form has been submitted:</p>
-          <div style="border:solid thin black">
-            <div style="background-color:#a24a13;">
-              <h3 style="color:white;">Applicant Personal Information</h3>
-            </div>
+      // const msg = {
+      //   to: 'jragland@endicott.com', // Replace with your recipient email
+      //   from: 'john@raglandgraphix.com', // Replace with your verified sender email in SendGrid
+      //   subject: 'New Empolyement Applicant',
+      //   html: `
+      //     <p>A new employment application form has been submitted:</p>
+      //     <div style="border:solid thin black">
+      //       <div style="background-color:#a24a13;">
+      //         <h3 style="color:white;">Applicant Personal Information</h3>
+      //       </div>
             
-            <ul>
-            <li>${firstName} ${middleName} ${lastName} </li>
-            <li style="list-style-type: none; padding-left: 0;">${StreetAddress}</li>
-            </ul>
-          </div>
-          <ul>
+      //       <ul>
+      //       <li>${firstName} ${middleName} ${lastName} </li>
+      //       <li style="list-style-type: none; padding-left: 0;">${StreetAddress}</li>
+      //       </ul>
+      //     </div>
+      //     <ul>
             
-            <li><strong>Position Applied for:</strong> ${position}</li>
+      //       <li><strong>Position Applied for:</strong> ${position}</li>
             
-          </ul>
-        `, // You can also use a plain text version: text: `Name: ${name}`
-      };
+      //     </ul>
+      //   `, // You can also use a plain text version: text: `Name: ${name}`
+      // };
 
       // Send the email
       //await sendgrid.send(msg);
