@@ -1,15 +1,31 @@
 'use client'
-import React, { useEffect } from "react";
+import React, { useEffect, ChangeEvent, FormEvent } from "react";
 import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
 import ProductBox from "../component/ProductBox";
 //import Link from "next/link";
 export default function Careers(){
-    const [name, setName] = useState('');
+    const [firstName, setFirstName] = useState<string>('');
+    const [middleName,setMiddleName]= useState<string>('');
+    const [lastName,setLastName]= useState<string>('');
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [status, setStatus] = useState('');
+    const [position,setPosition]=useState('');
+    const [startDate,setStartDate]=useState('');
+    const [StreetAddress,setStreetAddress]=useState<string>('');
+    const [City,setCity]=useState('');
+    const [State,setState]=useState('');
+    const [Zipcode,setZipcode]=useState('');
+    const [MainPhone,setMainPhone]=useState('');
+    const [OtherPhone,setOtherPhone]=useState('');
+    const [Fulltime,setFulltime]=useState<boolean>(false);
+    const [Parttime,setParttime]=useState<boolean>(false);
+    const [Temporary,setTemporary]=useState<boolean>(false);
+    const [FirstShift,setFirstShift]=useState<boolean>(false);
+    const [SecondShift,setSecondShift]=useState<boolean>(false);
+    const [ThirdShift,setThirdShift]=useState<boolean>(false);
+    //const [message, setMessage] = useState('');
+    //const [status, setStatus] = useState('');
     const [PEChecked, setPEChecked] = useState<boolean | null>(null);
     const [CBChecked, setCBChecked] = useState<boolean | null>(null);
     const [AgeChecked, setAgeChecked] = useState<boolean |  null>(null);
@@ -28,35 +44,80 @@ export default function Careers(){
       const CitizenCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
         setCitizenChecked(event.target.id === 'Yes'); 
       };
+      const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        //setStatus('Sending...');
 
-    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault(); 
-        setStatus('Sending...');
+        // if (e.target instanceof HTMLFormElement) { // Type guard
+        //     const formData = new FormData(e.target);
+
+            try {
+                const response = await fetch('/api/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                      },
+                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
+                });
+
+                const data = await response.json();
+                //setMessage(data.message);
+                if (response.ok) {
+                    //setStatus(data.message || 'Email sent!');
+                    setFirstName('') // Clear the form
+                    setMiddleName('');
+                    setLastName('');
+                    setStreetAddress('');
+                
+                    //setPosition('');
+                }
+                //  else {
+                //     setStatus(data.message || 'Error sending email.');
+                // }
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                //setStatus('Error submitting form.');
+            }
+        // } else {
+        //     console.error("Target is not an HTMLFormElement");
+        //     setStatus("Error: Invalid form submission.");
+        // }
+    };
+
+
+    // const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    //     e.preventDefault(); 
+    //     setStatus('Sending...');
     
-        try {
-          const response = await fetch('/api/send-email', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, message }),
-          });
+    //     try {
+    //       const response = await fetch('/api/send-email', {
+    //         method: 'POST',
+    //         headers: { 'Content-Type': 'application/json' },
+    //         body: JSON.stringify({ name, email, message }),
+    //       });
     
-          if (response.ok) {
-            setStatus('Email sent!');
-            setName('');
-            setEmail('');
-            setMessage('');
-          } else {
-            setStatus('Error sending email.');
-          }
-        } catch (error) {
-          console.error('Error submitting form:', error);
-          setStatus('Error submitting form.');
+    //       if (response.ok) {
+    //         setStatus('Email sent!');
+    //         setName('');
+    //         setEmail('');
+    //         setMessage('');
+    //       } else {
+    //         setStatus('Error sending email.');
+    //       }
+    //     } catch (error) {
+    //       console.error('Error submitting form:', error);
+    //       setStatus('Error submitting form.');
+    //     }
+    //   };
+
+      const changeLanguage = ()=>{
+        if(Language==='eng'){
+            setLanguage('esp');
+        }else{
+            setLanguage('eng');
         }
-      };
-      console.log(status);
-      useEffect(()=>{
-        setLanguage('eng');
-      })
+      }
+      
       
 return(
 
@@ -64,9 +125,21 @@ return(
     <div className="container-fluid">
 
 <Navigate pageSettings="light"/>
-<ProductBox setDescription={Language==='eng'?'Online Application':'Solicitud en línea'} productHeadLine={Language==='eng'?'Join the Endicott Team: Build Your Career with Us':'Únete al equipo de Endicott: construye tu carrera con nosotros'} ProductDescription={Language==='eng'?'Become a part of the Endicott legacy. We offer rewarding career opportunities in a variety of fields. Explore our open positions and discover how you can contribute to our mission of building legacies from the ground up.':'Conviértase en parte del legado de Endicott. Ofrecemos oportunidades profesionales gratificantes en una variedad de campos. Explore nuestros puestos vacantes y descubra cómo puede contribuir a nuestra misión de construir legados desde cero.'}/>
-    <div className="row">
-    <p > Set form to Spanish</p>
+<div className="row">
+    <div className="col-6">
+    <ProductBox setDescription={Language==='eng'?'Online Application':'Solicitud en línea'} productHeadLine={Language==='eng'?'Join the Endicott Team: Build Your Career with Us':'Únete al equipo de Endicott: construye tu carrera con nosotros'} ProductDescription={Language==='eng'?'Become a part of the Endicott legacy. We offer rewarding career opportunities in a variety of fields. Explore our open positions and discover how you can contribute to our mission of building legacies from the ground up.':'Conviértase en parte del legado de Endicott. Ofrecemos oportunidades profesionales gratificantes en una variedad de campos. Explore nuestros puestos vacantes y descubra cómo puede contribuir a nuestra misión de construir legados desde cero.'}/>
+    </div>
+
+</div>
+
+    <div className="row d-flex justify-content-center">
+        <div className="col-3 text-center">
+        <button type="button" className="btn btn-secondary" role="button" name="Language" onClick={(()=>(changeLanguage()))} >
+            {Language==='eng'?'Establecer en español':'Set to English'}
+        </button>
+        </div>
+        
+    
     </div>
     <form onSubmit={handleSubmit}>
     <div className="row p-2 ms-3 me-3 d-flex justify-content-center">
@@ -79,13 +152,13 @@ return(
                 <div className="col-6">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2 " htmlFor="position" >{Language==="eng"?'Position applied for':'Posicione solicitadas'}  </label>
-                        <select id="position" className="form-select rounded-2" aria-label={Language==="eng"?'Position applied for':'Posicione solicitadas'}>
+                        <select id="position" name='position' onChange={(e) => setPosition(e.target.value)}  className="form-select rounded-2" aria-label={Language==="eng"?'Position applied for':'Posicione solicitadas'}>
                             <option value='null' selected >{Language==="eng"?'Select One':'Seleccione uno'}</option>
                             <option value='Operator'>{Language==="eng"?'Operator':'Operador/Operadora'}</option>
                             <option value='General'>{Language==="eng"?'General Labor':'Trabajador General'}</option>
                             <option value='Maintenance'>{Language==="eng"?'Maintenance':'Maintenimiento'}</option>
                             <option value='Electrician'>{Language==="eng"?'Electrician':'Electricista'}</option>
-                            <option value='HeavyE'>{Language==="eng"?'Heavy Equipment Operator/Dozer Operator':'Operador de equipo pesado/Operador de bulldozer'}</option>
+                            <option value='Heavy Equipment'>{Language==="eng"?'Heavy Equipment Operator/Dozer Operator':'Operador de equipo pesado/Operador de bulldozer'}</option>
                         </select>
                     </div>
                 </div>
@@ -112,19 +185,19 @@ return(
                 <div className="col-4 ">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="firstName" >{Language==="eng"?'First':'Primero'}</label>
-                        <input className="form-control rounded-2" type="text" id="firstName" aria-label={Language==="eng"?'First Name':'nombre de pila'} />
+                        <input className="form-control rounded-2" value={firstName} onChange={(e) => setFirstName(e.target.value)} type="text" id="firstName" aria-label={Language==="eng"?'First Name':'nombre de pila'} />
                     </div>
                 </div>
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="middleName" >{Language==="eng"?'Middle':'Medio'}</label>
-                        <input className="form-control rounded-2" type="text" id="middleName" aria-label={Language==="eng"?'Middle Name':'segundo nombre'} />
+                        <input className="form-control rounded-2" value={middleName} onChange={(e) => setMiddleName(e.target.value)} type="text" id="middleName" aria-label={Language==="eng"?'Middle Name':'segundo nombre'} />
                     </div>
                 </div>
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="lastName" >{Language==="eng"?'Last':'Ultimo'}</label>
-                        <input className="form-control rounded-2" type="text" id="lastName" aria-label={Language==="eng"?'Last Name':'apellido'} />
+                        <input className="form-control rounded-2" value={lastName} onChange={(e) => setLastName(e.target.value)} type="text" id="lastName" aria-label={Language==="eng"?'Last Name':'apellido'} />
                     </div>
                 </div>
             </div>
@@ -137,7 +210,7 @@ return(
                 <div className="col-10 mb-2">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="StreetAddress" >{Language==="eng"?'Street Address':'dirección postal'}</label>
-                        <input className="form-control rounded-2" type="text" id="StreetAddress" aria-label={Language==="eng"?'Street Address':'dirección postal'} />
+                        <input className="form-control rounded-2" value={StreetAddress} onChange={(e) => setStreetAddress(e.target.value)} type="text" id="StreetAddress" aria-label={Language==="eng"?'Street Address':'dirección postal'} />
                     </div>
                 </div>
                 <div className="col-4">
@@ -383,7 +456,7 @@ return(
     </div>
     <div className="row d-flex justify-content-center mt-5">
         <div className=" col-8 d-flex justify-content-center ">
-        <button type="button" className="btn btn-secondary">{Language==="eng"?'Submit':'Enviar'}</button>
+        <button type="submit" className="btn btn-secondary">{Language==="eng"?'Submit':'Enviar'}</button>
         </div>
     </div>
     

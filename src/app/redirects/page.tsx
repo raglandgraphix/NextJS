@@ -32,7 +32,7 @@ function ColorPopContent() {  // Separate component for searchParams
 
 export default function ColorPop() { // Wrap with Suspense
   return (
-    <Suspense fallback={<p>Loading...</p>}>
+    <Suspense fallback={<p>Redirecting to the appropriate Endicott page</p>}>
       <ColorPopContent />
     </Suspense>
   );
