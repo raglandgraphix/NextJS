@@ -11,8 +11,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     sendgrid.setApiKey(sendgridApiKey);
 
     const msg = {
-      to: 'your_email@example.com', // Replace with your email
-      from: 'your_sendgrid_sender@example.com', // Replace with your verified SendGrid sender
+      to: 'jragland@endicott.com', // Replace with your email
+      from: 'john@raglandgraphix.com', // Replace with your verified SendGrid sender
       subject: 'Test Email',
       text: 'This is a test email from SendGrid.',
     };
