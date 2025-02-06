@@ -150,7 +150,7 @@ return(
                 <h2 className="fs-6 text-center text-uppercase ">{Language==='eng'?'Position':'Posición'}</h2>
             </div>
            
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-6">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2 " htmlFor="position" >{Language==="eng"?'Position applied for':'Posicione solicitadas'}  </label>
@@ -170,7 +170,7 @@ return(
                         <input className="form-control rounded-2" type="date" id="StartDate" aria-label={Language==="eng"?'Start Date' : 'Fecha de inicio'} />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     <div className="row p-2 ms-3 me-3 d-flex justify-content-center">
