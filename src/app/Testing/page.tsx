@@ -7,7 +7,7 @@ export default function Home() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('/api/send-email', {
+      const response = await fetch('/api/sendgrid', {
         method: 'POST',
         body: JSON.stringify({ email }), // Send email in the request body
       });
