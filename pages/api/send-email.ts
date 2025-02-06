@@ -18,7 +18,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
     try {
       const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
-      
+      console.log("SendGrid API Key:", process.env.SENDGRID_API_KEY);
       // Construct the email message
       const msg = {
         to: 'jragland@endicott.com', // Replace with your recipient email
