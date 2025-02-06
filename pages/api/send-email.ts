@@ -16,7 +16,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //   return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Return error early
     // }
     try {
-      const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
+      //const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
       
       // Construct the email message
       // const msg = {
