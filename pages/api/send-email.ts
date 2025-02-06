@@ -5,18 +5,15 @@ import sendgrid from '@sendgrid/mail';
 
 // Initialize SendGrid with your API key.  **IMPORTANT:** Store this securely, ideally as an environment variable.
 //const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY || '');
-
-if (!SENDGRID_API_KEY) {
-  throw new Error('SENDGRID_API_KEY is not defined in environment variables.');
+if (process.env.SENDGRID_API_KEY) {
+  sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 }
-sendgrid.setApiKey(SENDGRID_API_KEY);
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
-    if (!process.env.SENDGRID_API_KEY) {
+    if (!process.env.SENDGRID_API_KEY && process.env.NODE_ENV === 'production') {
       console.error('SENDGRID_API_KEY is not defined in environment variables.');
-      return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Return error early
+      return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Correct placement of return
     }
     try {
       const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
