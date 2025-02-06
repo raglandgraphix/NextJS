@@ -1,4 +1,4 @@
-'use client'
+
 import React from "react";
 import { useState } from "react";
 import Navigate from "../component/navigate";
@@ -46,6 +46,7 @@ export default function Careers(){
       };
       const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log('Form submitted!');
         //setStatus('Sending...');
 
         // if (e.target instanceof HTMLFormElement) { // Type guard

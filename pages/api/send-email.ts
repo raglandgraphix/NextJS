@@ -1,6 +1,7 @@
 // pages/api/send-email.ts
 'use client'
-//import { NextApiRequest, NextApiResponse } from 'next';
+// import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiResponse } from 'next';
 //import sendgrid from '@sendgrid/mail';
 
 // Initialize SendGrid with your API key.  **IMPORTANT:** Store this securely, ideally as an environment variable.
@@ -10,7 +11,10 @@
 // }
 
 // export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  export default async function handler() {  
+  export default async function handler(res: NextApiResponse) {  
+    console.log("Test log");
+  console.log("SendGrid API Key:", process.env.SENDGRID_API_KEY);
+  res.status(200).json({ message: 'API route working!' }); 
   //if (req.method === 'POST') {
    
     // if (!process.env.SENDGRID_API_KEY && process.env.NODE_ENV === 'production') {
