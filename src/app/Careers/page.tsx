@@ -10,7 +10,7 @@ export default function Careers(){
     const [middleName,setMiddleName]= useState<string>('');
     const [lastName,setLastName]= useState<string>('');
     //const [email, setEmail] = useState('');
-    //const [position,setPosition]=useState('');
+    const [position,setPosition]=useState('');
     //const [startDate,setStartDate]=useState('');
     const [StreetAddress,setStreetAddress]=useState<string>('');
     // const [City,setCity]=useState('');
@@ -46,40 +46,39 @@ export default function Careers(){
       };
       const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log('works');
         //setStatus('Sending...');
 
         // if (e.target instanceof HTMLFormElement) { // Type guard
         //     const formData = new FormData(e.target);
 
-            // try {
-            //     const response = await fetch('/api/send-email', {
-            //         method: 'POST',
-            //         headers: {
-            //             'Content-Type': 'application/json',
-            //           },
-            //         body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
-            //     });
+            try {
+                const response = await fetch('/api/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                      },
+                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
+                });
 
-            //     //const data = await response.json();
-            //     //setMessage(data.message);
-            //     if (response.ok) {
+                //const data = await response.json();
+                //setMessage(data.message);
+                if (response.ok) {
                     
-            //         //setStatus(data.message || 'Email sent!');
-            //         setFirstName('') // Clear the form
-            //         setMiddleName('');
-            //         setLastName('');
-            //         setStreetAddress('');
+                    //setStatus(data.message || 'Email sent!');
+                    setFirstName('') // Clear the form
+                    setMiddleName('');
+                    setLastName('');
+                    setStreetAddress('');
                 
-            //         //setPosition('');
-            //     }
-            //     //  else {
-            //     //     setStatus(data.message || 'Error sending email.');
-            //     // }
-            // } catch (error) {
-            //     console.error('Error submitting form:', error);
-            //     //setStatus('Error submitting form.');
-            // }
+                    //setPosition('');
+                }
+                //  else {
+                //     setStatus(data.message || 'Error sending email.');
+                // }
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                //setStatus('Error submitting form.');
+            }
         // } else {
         //     console.error("Target is not an HTMLFormElement");
         //     setStatus("Error: Invalid form submission.");
@@ -150,7 +149,7 @@ return(
                 <h2 className="fs-6 text-center text-uppercase ">{Language==='eng'?'Position':'Posición'}</h2>
             </div>
            
-            {/* <div className="row">
+            <div className="row">
                 <div className="col-6">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2 " htmlFor="position" >{Language==="eng"?'Position applied for':'Posicione solicitadas'}  </label>
@@ -170,7 +169,7 @@ return(
                         <input className="form-control rounded-2" type="date" id="StartDate" aria-label={Language==="eng"?'Start Date' : 'Fecha de inicio'} />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     </div>
     <div className="row p-2 ms-3 me-3 d-flex justify-content-center">
