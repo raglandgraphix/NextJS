@@ -1,7 +1,7 @@
 // pages/api/send-email.ts
 'use client'
-// import { NextApiRequest, NextApiResponse } from 'next';
-import { NextApiResponse } from 'next';
+ import { NextApiRequest, NextApiResponse } from 'next';
+//import { NextApiResponse } from 'next';
 //import sendgrid from '@sendgrid/mail';
 
 // Initialize SendGrid with your API key.  **IMPORTANT:** Store this securely, ideally as an environment variable.
@@ -10,12 +10,12 @@ import { NextApiResponse } from 'next';
 //   sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 // }
 
-// export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  export default async function handler(res: NextApiResponse) {  
+ export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  //export default async function handler(res: NextApiResponse) {  
     console.log("Test log");
   console.log("SendGrid API Key:", process.env.SENDGRID_API_KEY);
   res.status(200).json({ message: 'API route working!' }); 
-  //if (req.method === 'POST') {
+  if (req.method === 'POST') {
    
     // if (!process.env.SENDGRID_API_KEY && process.env.NODE_ENV === 'production') {
     //   console.error('SENDGRID_API_KEY is not defined in environment variables.');
@@ -24,6 +24,7 @@ import { NextApiResponse } from 'next';
     //try {
       //const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
       console.log("SendGrid API Key:");
+  }
       // Construct the email message
       // const msg = {
       //   to: 'jragland@endicott.com', // Replace with your recipient email
