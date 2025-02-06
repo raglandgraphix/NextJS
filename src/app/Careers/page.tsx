@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, ChangeEvent, FormEvent } from "react";
+import React from "react";
 import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
@@ -9,21 +9,21 @@ export default function Careers(){
     const [firstName, setFirstName] = useState<string>('');
     const [middleName,setMiddleName]= useState<string>('');
     const [lastName,setLastName]= useState<string>('');
-    const [email, setEmail] = useState('');
+    //const [email, setEmail] = useState('');
     const [position,setPosition]=useState('');
-    const [startDate,setStartDate]=useState('');
+    //const [startDate,setStartDate]=useState('');
     const [StreetAddress,setStreetAddress]=useState<string>('');
-    const [City,setCity]=useState('');
-    const [State,setState]=useState('');
-    const [Zipcode,setZipcode]=useState('');
-    const [MainPhone,setMainPhone]=useState('');
-    const [OtherPhone,setOtherPhone]=useState('');
-    const [Fulltime,setFulltime]=useState<boolean>(false);
-    const [Parttime,setParttime]=useState<boolean>(false);
-    const [Temporary,setTemporary]=useState<boolean>(false);
-    const [FirstShift,setFirstShift]=useState<boolean>(false);
-    const [SecondShift,setSecondShift]=useState<boolean>(false);
-    const [ThirdShift,setThirdShift]=useState<boolean>(false);
+    // const [City,setCity]=useState('');
+    // const [State,setState]=useState('');
+    // const [Zipcode,setZipcode]=useState('');
+    // const [MainPhone,setMainPhone]=useState('');
+    // const [OtherPhone,setOtherPhone]=useState('');
+    // const [Fulltime,setFulltime]=useState<boolean>(false);
+    // const [Parttime,setParttime]=useState<boolean>(false);
+    // const [Temporary,setTemporary]=useState<boolean>(false);
+    // const [FirstShift,setFirstShift]=useState<boolean>(false);
+    // const [SecondShift,setSecondShift]=useState<boolean>(false);
+    // const [ThirdShift,setThirdShift]=useState<boolean>(false);
     //const [message, setMessage] = useState('');
     //const [status, setStatus] = useState('');
     const [PEChecked, setPEChecked] = useState<boolean | null>(null);
@@ -60,7 +60,7 @@ export default function Careers(){
                     body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
                 });
 
-                const data = await response.json();
+                //const data = await response.json();
                 //setMessage(data.message);
                 if (response.ok) {
                     //setStatus(data.message || 'Email sent!');
