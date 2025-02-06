@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if (req.method === 'POST') {
     console.log(SENDGRID_API_KEY);
     if (process.env.SENDGRID_API_KEY) {
-      sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
+      sendgrid.setApiKey(process.env.SENDGRID_API_KEY); 
     }
     // if (!process.env.SENDGRID_API_KEY) {
     //   console.error('SENDGRID_API_KEY is not defined in environment variables.');
