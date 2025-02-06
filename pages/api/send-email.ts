@@ -48,9 +48,25 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           </ul>
         `, // You can also use a plain text version: text: `Name: ${name}`
       };
-console.log(msg);
+
       // Send the email
-      await sendgrid.send(msg);
+      try {
+        await sendgrid.send(msg);
+      } catch (error: any) {
+        console.error('SendGrid Error:', error);
+        if (error.response) {
+          // The request was made and the server responded with a status code
+          console.error(error.response.data);
+          console.error(error.response.status);
+          console.error(error.response.headers);
+        } else if (error.request) {
+          // The request was made but no response was received
+          console.error(error.request);
+        } else {
+          // Something happened in setting up the request that triggered an Error
+          console.error('Error', error.message);
+        }
+      }
 
       res.status(200).json({ message: 'Email sent successfully!' });
     } catch (error) {
