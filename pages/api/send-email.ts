@@ -10,7 +10,8 @@ import sendgrid from '@sendgrid/mail';
 // }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
+  //const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
+  const SENDGRID_API_KEY = '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';
   if (req.method === 'POST') {
     console.log(SENDGRID_API_KEY);
     if (process.env.SENDGRID_API_KEY) {
@@ -50,23 +51,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       };
 
       // Send the email
-      try {
-        await sendgrid.send(msg);
-      } catch (error: any) {
-        console.error('SendGrid Error:', error);
-        if (error.response) {
-          // The request was made and the server responded with a status code
-          console.error(error.response.data);
-          console.error(error.response.status);
-          console.error(error.response.headers);
-        } else if (error.request) {
-          // The request was made but no response was received
-          console.error(error.request);
-        } else {
-          // Something happened in setting up the request that triggered an Error
-          console.error('Error', error.message);
-        }
-      }
+      await sendgrid.send(msg);
 
       res.status(200).json({ message: 'Email sent successfully!' });
     } catch (error) {
