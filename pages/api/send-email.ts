@@ -10,7 +10,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 // }
 
 // export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  export default async function handler(req: NextApiRequest, res: NextApiResponse) {  
+  export default async function handler() {  
   //if (req.method === 'POST') {
    
     // if (!process.env.SENDGRID_API_KEY && process.env.NODE_ENV === 'production') {
