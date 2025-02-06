@@ -10,8 +10,8 @@ import sendgrid from '@sendgrid/mail';
 // }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  //const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
-  const SENDGRID_API_KEY = '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';
+  const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
+  //const SENDGRID_API_KEY = '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';
   if (req.method === 'POST') {
     console.log(SENDGRID_API_KEY);
     if (process.env.SENDGRID_API_KEY) {
