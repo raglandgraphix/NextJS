@@ -15,7 +15,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if (req.method === 'POST') {
     console.log(SENDGRID_API_KEY);
     if (process.env.SENDGRID_API_KEY) {
-      alert('boom');
       sendgrid.setApiKey(process.env.SENDGRID_API_KEY); 
     }
     // if (!process.env.SENDGRID_API_KEY) {
@@ -52,7 +51,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       };
 console.log(msg);
       // Send the email
-      //await sendgrid.send(msg);
+      await sendgrid.send(msg);
 
       res.status(200).json({ message: 'Email sent successfully!' });
     } catch (error) {
