@@ -10,7 +10,7 @@ export default function Careers(){
     const [middleName,setMiddleName]= useState<string>('');
     const [lastName,setLastName]= useState<string>('');
     //const [email, setEmail] = useState('');
-    const [position,setPosition]=useState('');
+    //const [position,setPosition]=useState('');
     //const [startDate,setStartDate]=useState('');
     const [StreetAddress,setStreetAddress]=useState<string>('');
     // const [City,setCity]=useState('');
