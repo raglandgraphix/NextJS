@@ -51,7 +51,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       };
 console.log(msg);
       // Send the email
-      await sendgrid.send(msg);
+      //await sendgrid.send(msg);
 
       res.status(200).json({ message: 'Email sent successfully!' });
     } catch (error) {
