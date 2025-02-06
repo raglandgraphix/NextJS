@@ -1,6 +1,6 @@
 // pages/api/send-email.ts
 'use client'
-import { NextApiRequest, NextApiResponse } from 'next';
+//import { NextApiRequest, NextApiResponse } from 'next';
 //import sendgrid from '@sendgrid/mail';
 
 // Initialize SendGrid with your API key.  **IMPORTANT:** Store this securely, ideally as an environment variable.
