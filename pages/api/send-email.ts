@@ -11,7 +11,7 @@ if (process.env.SENDGRID_API_KEY) {
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
-    
+   
     if (!process.env.SENDGRID_API_KEY && process.env.NODE_ENV === 'production') {
       console.error('SENDGRID_API_KEY is not defined in environment variables.');
       return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Correct placement of return
@@ -20,6 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
       console.log("SendGrid API Key:", process.env.SENDGRID_API_KEY);
       // Construct the email message
+      console.log("SendGrid API Key:", process.env.SENDGRID_API_KEY); 
       const msg = {
         to: 'jragland@endicott.com', // Replace with your recipient email
         from: 'john@raglandgraphix.com', // Replace with your verified sender email in SendGrid
