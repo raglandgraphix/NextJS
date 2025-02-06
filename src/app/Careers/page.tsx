@@ -63,6 +63,7 @@ export default function Careers(){
                 //const data = await response.json();
                 //setMessage(data.message);
                 if (response.ok) {
+                    alert('hello'),
                     //setStatus(data.message || 'Email sent!');
                     setFirstName('') // Clear the form
                     setMiddleName('');
