@@ -46,39 +46,40 @@ export default function Careers(){
       };
       const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log('works');
         //setStatus('Sending...');
 
         // if (e.target instanceof HTMLFormElement) { // Type guard
         //     const formData = new FormData(e.target);
 
-            try {
-                const response = await fetch('/api/send-email', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                      },
-                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
-                });
+            // try {
+            //     const response = await fetch('/api/send-email', {
+            //         method: 'POST',
+            //         headers: {
+            //             'Content-Type': 'application/json',
+            //           },
+            //         body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
+            //     });
 
-                //const data = await response.json();
-                //setMessage(data.message);
-                if (response.ok) {
+            //     //const data = await response.json();
+            //     //setMessage(data.message);
+            //     if (response.ok) {
                     
-                    //setStatus(data.message || 'Email sent!');
-                    setFirstName('') // Clear the form
-                    setMiddleName('');
-                    setLastName('');
-                    setStreetAddress('');
+            //         //setStatus(data.message || 'Email sent!');
+            //         setFirstName('') // Clear the form
+            //         setMiddleName('');
+            //         setLastName('');
+            //         setStreetAddress('');
                 
-                    //setPosition('');
-                }
-                //  else {
-                //     setStatus(data.message || 'Error sending email.');
-                // }
-            } catch (error) {
-                console.error('Error submitting form:', error);
-                //setStatus('Error submitting form.');
-            }
+            //         //setPosition('');
+            //     }
+            //     //  else {
+            //     //     setStatus(data.message || 'Error sending email.');
+            //     // }
+            // } catch (error) {
+            //     console.error('Error submitting form:', error);
+            //     //setStatus('Error submitting form.');
+            // }
         // } else {
         //     console.error("Target is not an HTMLFormElement");
         //     setStatus("Error: Invalid form submission.");
