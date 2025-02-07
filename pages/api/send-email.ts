@@ -21,13 +21,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //   return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Return error early
     // }
     try {
-      const { position,firstName, middleName,lastName,StreetAddress } = req.body; // Extract the 'name' from the form data
+      const { position,firstName, middleName,lastName,StreetAddress,City } = req.body; // Extract the 'name' from the form data
       
       
       // Construct the email message
       const msg = {
         to: 'jragland@endicott.com', // Replace with your recipient email
-        from: 'john@raglandgraphix.com', // Replace with your verified sender email in SendGrid
+        from: 'endicottforms@gmail.com', // Replace with your verified sender email in SendGrid
         subject: 'New Empolyement Applicant',
         html: `
           <p>A new employment application form has been submitted:</p>
@@ -39,6 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             <ul>
             <li>${firstName} ${middleName} ${lastName} </li>
             <li style="list-style-type: none; padding-left: 0;">${StreetAddress}</li>
+            <li style="list-style-type: none; padding-left: 0;">${City}</li>
             </ul>
           </div>
           <ul>

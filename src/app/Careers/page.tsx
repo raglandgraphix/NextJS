@@ -13,7 +13,7 @@ export default function Careers(){
     const [position,setPosition]=useState('');
     //const [startDate,setStartDate]=useState('');
     const [StreetAddress,setStreetAddress]=useState<string>('');
-    // const [City,setCity]=useState('');
+    const [City,setCity]=useState('');
     // const [State,setState]=useState('');
     // const [Zipcode,setZipcode]=useState('');
     // const [MainPhone,setMainPhone]=useState('');
@@ -57,7 +57,7 @@ export default function Careers(){
                     headers: {
                         'Content-Type': 'application/json',
                       },
-                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
+                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress,City}),
                 });
 
                 //const data = await response.json();
@@ -68,6 +68,7 @@ export default function Careers(){
                     setMiddleName('');
                     setLastName('');
                     setStreetAddress('');
+                    setCity('');
                 
                   
                 }
@@ -211,7 +212,7 @@ return(
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="City" >{Language==="eng"?'City':'Ciudad'}</label>
-                        <input className="form-control rounded-2" type="text" id="City" aria-label={Language==="eng"?'City':'Ciudad'} />
+                        <input className="form-control rounded-2" value={City} onChange={(e) => setCity(e.target.value)} type="text" id="City" aria-label={Language==="eng"?'City':'Ciudad'} />
                     </div>
                 </div>
                 <div className="col-4">
