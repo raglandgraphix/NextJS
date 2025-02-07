@@ -60,7 +60,7 @@ export default function Careers(){
                     body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress}),
                 });
 
-                const data = await response.json();
+                //const data = await response.json();
                 //setMessage(data.message);
                 if (response.ok) {
                     //setStatus(data.message || 'Email sent!');
