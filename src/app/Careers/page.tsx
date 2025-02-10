@@ -4,7 +4,8 @@ import { useState } from "react";
 import Navigate from "../component/navigate";
 import Footer from "../component/footer";
 import ProductBox from "../component/ProductBox";
-//import Link from "next/link";
+import Link from "next/link";
+
 export default function Careers(){
     const [firstName, setFirstName] = useState<string>('');
     const [middleName,setMiddleName]= useState<string>('');
@@ -41,6 +42,13 @@ export default function Careers(){
     const [Signature,setSignature]=useState<string>('')
     const [Agree,setAgree]=useState<boolean>(false);
     const [Language,setLanguage]=useState<string>('eng')//esp for spanish and eng for english
+
+    const [showModal, setShowModal] = useState(false); // State for modal visibility
+  const [modalMessage, setModalMessage] = useState(""); // State for modal message
+  const closeModal = () => {
+    setShowModal(false);
+    window.location.href = "/";
+  };
 
     // const PECheck = (event: React.ChangeEvent<HTMLInputElement>) => {
     //     setPEChecked(event.target.id === 'Yes'); 
@@ -115,6 +123,8 @@ export default function Careers(){
                 //const data = await response.json();
                 //setMessage(data.message);
                 if (response.ok) {
+                    setModalMessage("Application submitted successfully!"); // Set success message
+                    setShowModal(true); // Show the modal
                     //setStatus(data.message || 'Email sent!');
                     setFirstName('') // Clear the form
                     setMiddleName('');
@@ -540,6 +550,25 @@ return(
         </div>
     </div>
     
+
+    {showModal && (
+        <div className="modal fade show" style={{ display: 'block' }}> {/* Added 'show' and inline style */}
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title">Application Submission</h5>
+                <button type="button" className="btn-close" onClick={closeModal}>Close</button>
+              </div>
+              <div className="modal-body">
+                <p>Thank you for applying to Endicott Clay Products Company. Your application has been submitted. We will reach out to you soon.<br/> If you have any questions please contact us as 402-729-3315.</p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" onClick={closeModal}>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     
     
   </form>
