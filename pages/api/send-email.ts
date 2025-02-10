@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       // Construct the email message
       const msg = {
         to: 'jragland@endicott.com', // Replace with your recipient email
-        from: 'social@endicott.com', // Replace with your verified sender email in SendGrid
+        from: 'endicottforms@gmail.com', // Replace with your verified sender email in SendGrid
         subject: 'New Empolyement Applicant',
         html: `
           <p>A new employment application form has been submitted:</p>
