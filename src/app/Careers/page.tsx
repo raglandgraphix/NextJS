@@ -43,7 +43,7 @@ export default function Careers(){
     const [Language,setLanguage]=useState<string>('eng')//esp for spanish and eng for english
 
     const [showModal, setShowModal] = useState(false); // State for modal visibility
-  const [modalMessage, setModalMessage] = useState(""); // State for modal message
+  
   const closeModal = () => {
     setShowModal(false);
     window.location.href = "/";
@@ -122,7 +122,7 @@ export default function Careers(){
                 //const data = await response.json();
                 //setMessage(data.message);
                 if (response.ok) {
-                    setModalMessage("Application submitted successfully!"); // Set success message
+                   
                     setShowModal(true); // Show the modal
                     //setStatus(data.message || 'Email sent!');
                     setFirstName('') // Clear the form
