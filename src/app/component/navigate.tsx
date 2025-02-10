@@ -35,7 +35,7 @@ const linkData = {
     ],
     'Resources':[
         {text:'Literature',link:'/Literature'},
-        {text:'BIM',link:'/BIM'},
+        // {text:'BIM',link:'/BIM'},
         {text:'Specifications', link:'/Specifications'},
         {text:'Technical Notes', link:'/TechnicalNotes'},
         {text:'Brick Briefs',link:'/BrickBriefs'}
