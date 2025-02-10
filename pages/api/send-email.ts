@@ -26,7 +26,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       
       // Construct the email message
       const msg = {
-        to: 'jragland@endicott.com', // Replace with your recipient email
+        to: 'jragland@endicott.com', // Your own email or a placeholder.  SendGrid requires at least one entry in the 'to' field.
+  bcc: [
+    { email: 'social@endicott.com', name: 'Catch Bounce' }
+    // Add more recipients here
+  ],
         from: 'endicottforms@gmail.com', // Replace with your verified sender email in SendGrid
         subject: 'New Empolyement Applicant',
         html: `
