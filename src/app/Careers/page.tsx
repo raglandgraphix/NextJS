@@ -9,41 +9,93 @@ export default function Careers(){
     const [firstName, setFirstName] = useState<string>('');
     const [middleName,setMiddleName]= useState<string>('');
     const [lastName,setLastName]= useState<string>('');
-    //const [email, setEmail] = useState('');
-    const [position,setPosition]=useState('');
-    //const [startDate,setStartDate]=useState('');
+    const [email, setEmail] = useState<string>('');
+    const [position,setPosition]=useState<string>('');
+    const [startDate,setStartDate]=useState<string>('');
     const [StreetAddress,setStreetAddress]=useState<string>('');
-    const [City,setCity]=useState('');
-    // const [State,setState]=useState('');
-    // const [Zipcode,setZipcode]=useState('');
-    // const [MainPhone,setMainPhone]=useState('');
-    // const [OtherPhone,setOtherPhone]=useState('');
-    // const [Fulltime,setFulltime]=useState<boolean>(false);
-    // const [Parttime,setParttime]=useState<boolean>(false);
-    // const [Temporary,setTemporary]=useState<boolean>(false);
-    // const [FirstShift,setFirstShift]=useState<boolean>(false);
-    // const [SecondShift,setSecondShift]=useState<boolean>(false);
-    // const [ThirdShift,setThirdShift]=useState<boolean>(false);
-    //const [message, setMessage] = useState('');
-    //const [status, setStatus] = useState('');
-    const [PEChecked, setPEChecked] = useState<boolean | null>(null);
-    const [CBChecked, setCBChecked] = useState<boolean | null>(null);
-    const [AgeChecked, setAgeChecked] = useState<boolean |  null>(null);
-    const [CitizenChecked, setCitizenChecked] = useState<boolean |  null>(null);
+    const [City,setCity]=useState<string>('');
+    const [State,setState]=useState<string>('');
+    const [Zipcode,setZipcode]=useState<string>('');
+    const [MainPhone,setMainPhone]=useState<string>('');
+    const [OtherPhone,setOtherPhone]=useState<string>('');
+    const [Fulltime,setFulltime]=useState<boolean>(false);
+    const [Parttime,setParttime]=useState<boolean>(false);
+    const [Temporary,setTemporary]=useState<boolean>(false);
+    const [FirstShift,setFirstShift]=useState<boolean>(false);
+    const [SecondShift,setSecondShift]=useState<boolean>(false);
+    const [ThirdShift,setThirdShift]=useState<boolean>(false);
+    //const [message, setMessage] = useState<string>('');
+    //const [status, setStatus] = useState<string>('');
+    const [PEYes,setPEYes] = useState<boolean>(false);
+    const [PENo,setPENo] = useState<boolean>(false);
+    const [CBYes,setCBYes] = useState<boolean>(false);
+    const [CBNo,setCBNo] = useState<boolean>(false);
+    const [AgeYes,setAgeYes] = useState<boolean>(false);
+    const [AgeNo,setAgeNo] = useState<boolean>(false);
+    // const [PEChecked, setPEChecked] = useState<boolean | null>(null);
+    // const [CBChecked, setCBChecked] = useState<boolean | null>(null);
+    // const [AgeChecked, setAgeChecked] = useState<boolean |  null>(null);
+    const [CitizenYes, setCitizenYes] = useState<boolean>(false);
+    const [CitizenNo, setCitizenNo] = useState<boolean>(false);
+    //const [CitizenChecked, setCitizenChecked] = useState<boolean |  null>(null);
+    const [Signature,setSignature]=useState<string>('')
+    const [Agree,setAgree]=useState<boolean>(false);
     const [Language,setLanguage]=useState<string>('eng')//esp for spanish and eng for english
 
-    const PECheck = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setPEChecked(event.target.id === 'Yes'); 
+    // const PECheck = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     setPEChecked(event.target.id === 'Yes'); 
+    //   };
+    //   const CBCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     setCBChecked(event.target.id === 'Yes'); 
+    //   };
+    //   const AgeCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     setAgeChecked(event.target.id === 'Yes'); 
+    //   };
+    //   const CitizenCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     setCitizenChecked(event.target.id === 'Yes'); 
+    //   };
+      const CitizenYesCheck = () => {
+        setCitizenYes(true);
+        setCitizenNo(false); // Uncheck "No" when "Yes" is checked
       };
-      const CBCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setCBChecked(event.target.id === 'Yes'); 
+    
+      const CitizenNoCheck = () => {
+        setCitizenNo(true);
+        setCitizenYes(false); // Uncheck "Yes" when "No" is checked
       };
-      const AgeCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setAgeChecked(event.target.id === 'Yes'); 
+
+      const PEYesCheck = () => {
+        setPEYes(true);
+        setPENo(false); // Uncheck "No" when "Yes" is checked
       };
-      const CitizenCheck = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setCitizenChecked(event.target.id === 'Yes'); 
+    
+      const PENoCheck = () => {
+        setPENo(true);
+        setPEYes(false); // Uncheck "Yes" when "No" is checked
       };
+      const AgeYesCheck = () => {
+        setAgeYes(true);
+        setAgeNo(false); // Uncheck "No" when "Yes" is checked
+      };
+    
+      const AgeNoCheck = () => {
+        setAgeNo(true);
+        setAgeYes(false); // Uncheck "Yes" when "No" is checked
+      };
+
+      const CBYesCheck = () => {
+        setCBYes(true);
+        setCBNo(false); // Uncheck "No" when "Yes" is checked
+      };
+    
+      const CBNoCheck = () => {
+        setCBNo(true);
+        setCBYes(false); // Uncheck "Yes" when "No" is checked
+      };
+
+
+
+
       const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         //setStatus('Sending...');
@@ -57,7 +109,7 @@ export default function Careers(){
                     headers: {
                         'Content-Type': 'application/json',
                       },
-                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress,City}),
+                    body: JSON.stringify({ position,firstName,middleName,lastName, StreetAddress,City,State,Zipcode,MainPhone,OtherPhone,email,startDate,Fulltime,Parttime,Temporary,FirstShift,SecondShift,ThirdShift,PEYes,AgeYes,CBYes,CitizenYes}),
                 });
 
                 //const data = await response.json();
@@ -69,6 +121,38 @@ export default function Careers(){
                     setLastName('');
                     setStreetAddress('');
                     setCity('');
+                    setState('');
+                    setZipcode('');
+                    setMainPhone('');
+                    setOtherPhone('');
+                    setEmail('');
+                    setPosition('');
+                    setStartDate('');
+                    setFulltime(false);
+                    setParttime(false);
+                    setTemporary(false);
+                    setFirstShift(false)
+                    setSecondShift(false);
+                    setThirdShift(false);
+                    // setPEChecked(false);
+                    // setAgeChecked(false);
+                    // setCBChecked(false);
+                    // setCitizenChecked(false);
+                    setPEYes(false);
+                    setPENo(false);
+                    setAgeYes(false);
+                    setAgeNo(false);
+                    setCBYes(false);
+                    setCBNo(false);
+                    setCitizenYes(false);
+                    setCitizenNo(false);
+                    setSignature('');
+                    setAgree(false);
+
+                    
+
+
+
                 
                   
                 }
@@ -148,7 +232,7 @@ return(
                 <div className="col-6">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2 " htmlFor="position" >{Language==="eng"?'Position applied for':'Posicione solicitadas'}  </label>
-                        <select id="position" name='position' onChange={(e) => setPosition(e.target.value)}  className="form-select rounded-2" aria-label={Language==="eng"?'Position applied for':'Posicione solicitadas'}>
+                        <select id="position" value={position} name='position' onChange={(e) => setPosition(e.target.value)}  className="form-select rounded-2" aria-label={Language==="eng"?'Position applied for':'Posicione solicitadas'}>
                             <option value='null' selected >{Language==="eng"?'Select One':'Seleccione uno'}</option>
                             <option value='Operator'>{Language==="eng"?'Operator':'Operador/Operadora'}</option>
                             <option value='General'>{Language==="eng"?'General Labor':'Trabajador General'}</option>
@@ -161,7 +245,7 @@ return(
                 <div className="col-4">
                     <div className=" input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="StartDate" >{Language==="eng"?'Date you can start':'Fecha en que usted puede comenzar'}</label>
-                        <input className="form-control rounded-2" type="date" id="StartDate" aria-label={Language==="eng"?'Start Date' : 'Fecha de inicio'} />
+                        <input className="form-control rounded-2" type="date"value={startDate} onChange={(e) => setStartDate(e.target.value)}  id="StartDate" aria-label={Language==="eng"?'Start Date' : 'Fecha de inicio'} />
                     </div>
                 </div>
             </div>
@@ -181,7 +265,7 @@ return(
                 <div className="col-4 ">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="firstName" >{Language==="eng"?'First':'Primero'}</label>
-                        <input className="form-control rounded-2" value={firstName} onChange={(e) => setFirstName(e.target.value)} type="text" id="firstName" aria-label={Language==="eng"?'First Name':'nombre de pila'} />
+                        <input name='firstName' className="form-control rounded-2" value={firstName} onChange={(e) => setFirstName(e.target.value)} type="text" id="firstName" aria-label={Language==="eng"?'First Name':'nombre de pila'} />
                     </div>
                 </div>
                 <div className="col-4">
@@ -218,7 +302,7 @@ return(
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="State" >{Language==="eng"?'State':'Estado'}</label>
-                        <select id="State" className="form-select rounded-2" aria-label={Language==="eng"?'State':'Estado'}>
+                        <select id="State" value={State} name='State' onChange={(e) => setState(e.target.value)} className="form-select rounded-2" aria-label={Language==="eng"?'State':'Estado'}>
                             <option selected >{Language==="eng"?'Select State':'Seleccionar Estado'}</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -278,7 +362,7 @@ return(
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="ZipCode" >{Language==="eng"?'Zip Code':'Código Postal'}</label>
-                        <input className="form-control rounded-2" type="text" id="ZipCode" aria-label={Language==="eng"?'Zip Code':'Código Postal'} />                     
+                        <input className="form-control rounded-2" value={Zipcode} onChange={(e) => setZipcode(e.target.value)} type="text" id="ZipCode" aria-label={Language==="eng"?'Zip Code':'Código Postal'} />                     
                     </div>
                 </div>
             </div>
@@ -291,19 +375,19 @@ return(
                 <div className="col-4 mb-2">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="MainPhone" >{Language==="eng"?'Main Phone':'Teléfono Principal'}</label>
-                        <input className="form-control rounded-2" type="tel" id="MainPhone" />
+                        <input className="form-control rounded-2" value={MainPhone} onChange={(e) => setMainPhone(e.target.value)} type="tel" id="MainPhone" />
                     </div>
                 </div>
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="OtherPhone" >{Language==="eng"?'Other Phone':'Otro Teléfono'}</label>
-                        <input className="form-control rounded-2" type="tel" id="OtherPhone" aria-label={Language==="eng"?'Other Phone':'Otro Teléfono'} />
+                        <input className="form-control rounded-2" value={OtherPhone} onChange={(e) => setOtherPhone(e.target.value)} type="tel" id="OtherPhone" aria-label={Language==="eng"?'Other Phone':'Otro Teléfono'} />
                     </div>
                 </div>
                 <div className="col-4">
                     <div className="input-group d-flex align-items-baseline">
                         <label className="form-label me-2" htmlFor="Email" >{Language==="eng"?'email':'Correo Electrónico'}</label>
-                        <input className="form-control rounded-2" type="email" id="Email" aria-label={Language==="eng"?'email':'Correo Electrónico'}/>                      
+                        <input className="form-control rounded-2" value={email} onChange={(e) => setEmail(e.target.value)} type="email" id="Email" aria-label={Language==="eng"?'email':'Correo Electrónico'}/>                      
                     </div>
                 </div>
                 
@@ -325,9 +409,9 @@ return(
                     <label className="me-5">{Language==="eng"?'Employment Type':'Tipo De Empleo'} </label>
                 </div>
                 <div className="col-6">
-                    <input className="me-2" type="checkbox" id="Fulltime"/><label htmlFor="Fulltime" className="me-5">{Language==="eng"?'Full Time':'Tiempo-Completo'}</label>
-                    <input className="me-2" type="checkbox" id="Parttime"/><label htmlFor="Parttime" className="me-5">{Language==="eng"?'Part Time':'Medio-Tiempo'}</label>
-                    <input className="me-2" type="checkbox" id="Temporary"/><label htmlFor="Temporary">{Language==="eng"?'Temporary':'Temporal'}</label>
+                    <input className="me-2" type="checkbox" id="Fulltime" checked={Fulltime}  onChange={(e) => setFulltime(e.target.checked)}/><label htmlFor="Fulltime" className="me-5">{Language==="eng"?'Full Time':'Tiempo-Completo'}</label>
+                    <input className="me-2" type="checkbox" id="Parttime" checked={Parttime} onChange={(e) => setParttime(e.target.checked)}/><label htmlFor="Parttime" className="me-5">{Language==="eng"?'Part Time':'Medio-Tiempo'}</label>
+                    <input className="me-2" type="checkbox" id="Temporary" checked={Temporary} onChange={(e) => setTemporary(e.target.checked)}/><label htmlFor="Temporary">{Language==="eng"?'Temporary':'Temporal'}</label>
                 </div>
             </div>
             <div className="row mt-5 mb-2">
@@ -337,13 +421,13 @@ return(
                 
                 <div className="col-6">
                     <div>
-                        <input className="me-2" type="checkbox" id="Fulltime"/><label htmlFor="Fulltime" className="me-5 ">{Language==="eng"?(<>First  <span className="fs-7">(5:30AM to 3PM Monday - Friday)</span></>):(<>Primero   <span className="fs-7">(5:30AM to 3PM Lunes a Viernes)</span></>)}</label>
+                        <input className="me-2" type="checkbox" id="FirstShift" checked={FirstShift}  onChange={(e) => setFirstShift(e.target.checked)}/><label htmlFor="FirstShift" className="me-5 ">{Language==="eng"?(<>First  <span className="fs-7">(5:30AM to 3PM Monday - Friday)</span></>):(<>Primero   <span className="fs-7">(5:30AM to 3PM Lunes a Viernes)</span></>)}</label>
                     </div>
                     <div>
-                        <input className="me-2" type="checkbox" id="Parttime"/><label htmlFor="Parttime" className="me-5">{Language==="eng"?(<>Second  <span className="fs-7">(3PM to 12:30AM Monday - Friday)</span></>):(<>Segundo   <span className="fs-7">(3PM to 12:30AM Lunes a Viernes)</span></>)}</label>
+                        <input className="me-2" type="checkbox" id="SecondShift" checked={SecondShift} onChange={(e) => setSecondShift(e.target.checked)}/><label htmlFor="SecondShift" className="me-5">{Language==="eng"?(<>Second  <span className="fs-7">(3PM to 12:30AM Monday - Friday)</span></>):(<>Segundo   <span className="fs-7">(3PM to 12:30AM Lunes a Viernes)</span></>)}</label>
                     </div>
                     <div>
-                        <input className="me-2" type="checkbox" id="Temporary"/><label htmlFor="Temporary">{Language==="eng"?(<>Third  <span className="fs-7">(9PM to 6:30AM Monday - Friday)</span></>):(<>Tecero    <span className="fs-7">(9PM to 6:30AM Lunes a Viernes)</span></>)}</label>
+                        <input className="me-2" type="checkbox" id="ThirdShift" checked={ThirdShift} onChange={(e) => setThirdShift(e.target.checked)}/><label htmlFor="ThirdShift">{Language==="eng"?(<>Third  <span className="fs-7">(9PM to 6:30AM Monday - Friday)</span></>):(<>Tecero    <span className="fs-7">(9PM to 6:30AM Lunes a Viernes)</span></>)}</label>
                     </div>
                 </div>
             </div>
@@ -353,10 +437,10 @@ return(
                 </div>
                 <div className="col-4">
                     <div>
-                    <input className="me-2" type="checkbox" id="Yes" checked={PEChecked===true} onChange={PECheck}/><label htmlFor="Temporary">{Language==="eng"?'Yes':'Si'}</label>                    
+                    <input className="me-2" type="checkbox" id="PEYes" checked={PEYes} onChange={PEYesCheck}/><label htmlFor="PEYes">{Language==="eng"?'Yes':'Si'}</label>                    
                     </div>                    
                     <div>
-                    <input className="me-2" type="checkbox" id="No" checked={PEChecked===false} onChange={PECheck}/><label htmlFor="Temporary">{Language==="eng"?'No':'No'}</label>                    
+                    <input className="me-2" type="checkbox" id="PENo" checked={PENo} onChange={PENoCheck}/><label htmlFor="PENo">{Language==="eng"?'No':'No'}</label>                    
                     </div> 
                 </div>
                 
@@ -367,10 +451,10 @@ return(
                 </div>
                 <div className="col-4">
                     <div>
-                    <input className="me-2" type="checkbox" id="Yes" checked={AgeChecked===true} onChange={AgeCheck}/><label htmlFor="Temporary">{Language==="eng"?'Yes':'Si'}</label>                    
+                    <input className="me-2" type="checkbox" id="AgeYes" checked={AgeYes} onChange={AgeYesCheck}/><label htmlFor="AgeYes">{Language==="eng"?'Yes':'Si'}</label>                    
                     </div>                    
                     <div>
-                    <input className="me-2" type="checkbox" id="No" checked={AgeChecked===false} onChange={AgeCheck}/><label htmlFor="Temporary">{Language==="eng"?'No':'No'}</label>                    
+                    <input className="me-2" type="checkbox" id="AgeNo" checked={AgeNo} onChange={AgeNoCheck}/><label htmlFor="AgeNo">{Language==="eng"?'No':'No'}</label>                    
                     </div> 
                 </div>
                 
@@ -381,10 +465,10 @@ return(
                 </div>
                 <div className="col-4">
                     <div>
-                    <input className="me-2" type="checkbox" id="Yes" checked={CBChecked===true} onChange={CBCheck}/><label htmlFor="Temporary">{Language==="eng"?'Yes':'Si'}</label>                    
+                    <input className="me-2" type="checkbox" id="CBYes" checked={CBYes} onChange={CBYesCheck}/><label htmlFor="CBYes">{Language==="eng"?'Yes':'Si'}</label>                    
                     </div>                    
                     <div>
-                    <input className="me-2" type="checkbox" id="No" checked={CBChecked===false} onChange={CBCheck}/><label htmlFor="Temporary">{Language==="eng"?'No':'No'}</label>                    
+                    <input className="me-2" type="checkbox" id="CBNo" checked={CBNo} onChange={CBNoCheck}/><label htmlFor="CBNo">{Language==="eng"?'No':'No'}</label>                    
                     </div> 
                 </div>
                 
@@ -398,10 +482,10 @@ return(
                 </div>
                 <div className="col-4">
                     <div>
-                    <input className="me-2" type="checkbox" id="Yes" checked={CitizenChecked===true} onChange={CitizenCheck}/><label htmlFor="Temporary">{Language==="eng"?'Yes':'Si'}</label>                    
+                    <input className="me-2" type="checkbox" id="CitizenYes" checked={CitizenYes} onChange={CitizenYesCheck}/><label htmlFor="CitizenYes">{Language==="eng"?'Yes':'Si'}</label>                    
                     </div>                    
                     <div>
-                    <input className="me-2" type="checkbox" id="No" checked={CitizenChecked===false} onChange={CitizenCheck}/><label htmlFor="Temporary">{Language==="eng"?'No':'No'}</label>                    
+                    <input className="me-2" type="checkbox" id="CitizenNo" checked={CitizenNo} onChange={CitizenNoCheck}/><label htmlFor="CitizenNo">{Language==="eng"?'No':'No'}</label>                    
                     </div> 
                 </div>
                 
@@ -428,14 +512,14 @@ return(
             </div>
             <div className="row d-flex justify-content-center">
                 <div className="col-6">
-                    <input className="form-control"  type="text" required id="Signature"/>
+                    <input className="form-control" value={Signature} onChange={(e) => setSignature(e.target.value)}  type="text" required id="Signature"/>
                 </div>
 
             </div>
             <div className="row d-flex justify-content-center mt-5">
                 <div className="col-6">
                     <div className="input-group ">
-                        <label className="me-3 " >{Language==="eng"?'I agree to the terms listed above.':'Estoy de acuerdo con los términos anteriores'}</label><input type="checkbox" id="Agree"/>
+                        <label className="me-3 " >{Language==="eng"?'I agree to the terms listed above.':'Estoy de acuerdo con los términos anteriores'}</label><input type="checkbox" id="Agree" checked={Agree} onChange={(e) => setAgree(e.target.checked)}/>
                     </div>
                 </div>
                 

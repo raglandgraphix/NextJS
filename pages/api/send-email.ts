@@ -21,13 +21,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //   return res.status(500).json({ message: 'SendGrid API key is missing.' }); // Return error early
     // }
     try {
-      const { position,firstName, middleName,lastName,StreetAddress,City } = req.body; // Extract the 'name' from the form data
+      const { position,firstName,middleName,lastName, StreetAddress,City,State,Zipcode,MainPhone,OtherPhone,email,startDate,Fulltime,Parttime,Temporary,FirstShift,SecondShift,ThirdShift,PEYes,AgeYes,CBYes,CitizenYes, } = req.body; // Extract the 'name' from the form data
       
       
       // Construct the email message
       const msg = {
         to: 'jragland@endicott.com', // Replace with your recipient email
-        from: 'endicottforms@gmail.com', // Replace with your verified sender email in SendGrid
+        from: 'social@endicott.com', // Replace with your verified sender email in SendGrid
         subject: 'New Empolyement Applicant',
         html: `
           <p>A new employment application form has been submitted:</p>
@@ -39,14 +39,33 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             <ul>
             <li>${firstName} ${middleName} ${lastName} </li>
             <li style="list-style-type: none; padding-left: 0;">${StreetAddress}</li>
-            <li style="list-style-type: none; padding-left: 0;">${City}</li>
+            <li style="list-style-type: none; padding-left: 0;">${City} ${State}${Zipcode}</li>
+            <li><strong>Main Phone:</strong> ${MainPhone}</li>
+            <li><strong>Other Phone:</strong> ${OtherPhone}</li>
+            <li><strong>email:</strong> ${email}</li>
+
             </ul>
           </div>
-          <ul>
-            
-            <li><strong>Position Applied for:</strong> ${position}</li>
-            
-          </ul>
+            <div style="border:solid thin black">
+                <div style="background-color:#a24a13;">
+                     <h3 style="color:white;">Applicant Desired Information</h3>
+                </div>
+                <ul>
+                    <li><strong>Position Applied for:</strong> ${position}</li>
+                    <li><strong>Date Applicant can start: </stong>${startDate}</li>
+                    <li><strong>Full Time: </strong>${Fulltime}</li>
+                    <li><strong>Part Time: </strong>${Parttime}</li>
+                    <li><strong>Temporary: </strong>${Temporary}</li>
+                    <li><strong>First Shift: </strong>${FirstShift}</li>
+                    <li><strong>Second Shift: </strong>${SecondShift}</li>
+                    <li><strong>Third Shift: </strong>${ThirdShift}</li>
+                    <li><strong>Previously Employed at Endicott: </strong> ${PEYes}</li>
+                    <li><strong>At Least 18 Years Old: </strong> ${AgeYes}</li>
+                    <li><strong>Color Blind: </strong> ${CBYes}</li>
+                    <li><strong>U.S. Citizen: </strong> ${CitizenYes}</li>
+                </ul>
+          </div>
+          
         `, // You can also use a plain text version: text: `Name: ${name}`
       };
 
