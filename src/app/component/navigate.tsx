@@ -1,7 +1,7 @@
 'use client';
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "/public/css/navigate.css";
 import Link from "next/link";
 import { SplitPathname } from "../../../Utilities/SplitPathname";
@@ -62,7 +62,23 @@ export default function Navigate({pageSettings}:NavigateProps){
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
     const [mainMenuShow,setMainMenuShow]=useState(false);
     const [subShown,setSubShown]=useState(false);
-    
+    const navRef = useRef<HTMLElement>(null);
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (navRef.current && !navRef.current.contains(event.target as Node)) {
+                setMainMenuShow(false);
+                setSubShown(false); // Close submenus as well
+                setActiveKey(null); // Reset active key
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
+
     const openSub = (key:LinkDataKey)=>{ //the :string is need to tell it what type it is. This i believe is due to type script.
         if(key==='Pathway Aggregate'){
             router.push('/PathwayAggregate');
@@ -85,7 +101,7 @@ export default function Navigate({pageSettings}:NavigateProps){
         setMainMenuShow(!mainMenuShow);
     }
     return(
-        <nav style={{zIndex:3}} role="navigation" className={` row   ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav  `}>
+        <nav ref={navRef} style={{zIndex:3}} role="navigation" className={` row   ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))}  holdNav  `}>
             <div className="col-12 p-0  ">
                 <div className="row pt-2  d-flex justify-content-center justify-content-lg-start ">
                     <div className="col-7  col-md-5  col-xl-3 ">
