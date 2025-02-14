@@ -12,12 +12,16 @@ export default function Home() {
   const [divHeight, setDivHeight] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null); 
   const [isVideoLoaded,setIsVideoLoaded]=useState(false);
+
+  
+  
   const handleCarouselLoad = () => {
     if (divRef.current) {
       const height = divRef.current.clientHeight;
       setDivHeight(height);
     }
   };
+  
   useEffect(() => {
     const checkVideoLoad = () => {
       if (videoRef.current && videoRef.current.readyState === 4) {
@@ -46,7 +50,7 @@ export default function Home() {
             <Carousel className=" p-0  " variant="light" fade interval={null}   >
               <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
                 <div className="d-flex justify-content-center vidHold  " >
-                  <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
+                  <video id="video1" ref={videoRef}  className="object-fit-cover w-100" aria-label="video of East Prairie Elementary School" muted autoPlay loop playsInline  >
                     <source   src="https://endicottfiles.com/East_Prarie_2024_Montage_V1_Compressed.mp4" type="video/mp4" ></source>
                   </video>
                 </div> 
@@ -74,7 +78,7 @@ export default function Home() {
             </Carousel>
           </div>
         </div>
-        <div style={{zIndex:3, marginTop:divHeight-125}} className={`row  p-0 ${isVideoLoaded ? '' : 'd-none'} `}  aria-label="A portion of the page that is below the fold and will scroll up over the main view" >
+        <div id="newsArea" style={{zIndex:3, marginTop:divHeight-125}} className={`row  p-0 ${isVideoLoaded ? '' : 'd-none'} `}  aria-label="A portion of the page that is below the fold and will scroll up over the main view"  >
           <div className=" col bg bg-dark z-3" >
             <div className="row mt-5 border-top border-white pt-5">
               <div className="col-lg-3 col-md-6 ms-lg-5 ">

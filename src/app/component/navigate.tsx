@@ -56,7 +56,7 @@ interface NavigateProps {
     pageSettings: PageSettings;
 }
 export default function Navigate({pageSettings}:NavigateProps){
-    const {Product}=SplitPathname();
+    const {Product,Page}=SplitPathname();
     const router = useRouter();
     const pageSetup = pageSettings;
     const [activeKey,setActiveKey]=useState<LinkDataKey | null>(null);
@@ -97,6 +97,10 @@ export default function Navigate({pageSettings}:NavigateProps){
 
         
     }
+    
+    
+
+
     const displayMenu = ()=>{
         setMainMenuShow(!mainMenuShow);
     }
@@ -109,12 +113,12 @@ export default function Navigate({pageSettings}:NavigateProps){
                         </div>
                         <div className="row  ">
                             <div className="col-7 col-md-12 d-flex justify-content-center ms-3 ms-md-0  pt-2  ">
-                               <Link href='/'><Image role="button"  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logo. Click to go to home page'/></Link>
+                               {Page?<Link href='/'><Image role="button"  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logo. Click to go to home page'/></Link>:<Image role="button"  src={pageSetup==='gradient' || pageSetup==='dark' ?'/assets/logoWhite.png':'/assets/logoBlack.png'} width={200} height={75} alt='Endicott logo. Click to go to home page'/>}
                             </div>
                         </div>
                         <div className="row d-none d-md-flex text-center ">
                             <div className="col ">
-                                <Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-5 logoLetterSpacing" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>{Product==='FaceBrick'?'Endicott Face Brick':(Product==='ThinBrick'?'Endicott Thin Brick':(Product==='PathwayAggregate'?'Endicott Pathway Aggregate':(Product==='Paver'?'Endicott Clay Pavers':'Endicott Clay Products')))}</span></Link>
+                               {Page?<Link className={`text-decoration-none ${pageSetup==='gradient'? 'text-white':(pageSetup==='dark'?'text-white':(pageSetup==='light'?'text-black':''))} `} href='/'><span role="button" className="fs-5 logoLetterSpacing" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>{Product==='FaceBrick'?'Endicott Face Brick':(Product==='ThinBrick'?'Endicott Thin Brick':(Product==='PathwayAggregate'?'Endicott Pathway Aggregate':(Product==='Paver'?'Endicott Clay Pavers':'Endicott Clay Products')))}</span></Link>:<span role="button" className="fs-5 logoLetterSpacing" aria-label='Click to go to the "Endicott Clay Products Company" Home Page.'>{Product==='FaceBrick'?'Endicott Face Brick':(Product==='ThinBrick'?'Endicott Thin Brick':(Product==='PathwayAggregate'?'Endicott Pathway Aggregate':(Product==='Paver'?'Endicott Clay Pavers':'Endicott Clay Products')))}</span>}
                             </div>
                         </div>                
                     </div>

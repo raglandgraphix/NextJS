@@ -26,6 +26,11 @@ body{
 }
 .museo-light{
     font-family: 'Museo-Light';
+	
+}
+.museo-bold{
+    font-family: 'Museo-Light';
+	font-weight:bolder
 }
 .univers-45-light{
     font-family: 'Univers45Light';
@@ -199,4 +204,16 @@ body{
 
 .HomePageDescription{
 	border:solid red thick;
+}
+
+.Invisi-LugNav{
+ position: fixed;
+ padding-top:10px;
+ top: 0px;
+ width: 100%;
+}
+.news{
+	
+	margin-top: 100vh;
+	
 }
