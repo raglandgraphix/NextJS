@@ -1,10 +1,10 @@
 'use client';
-import { useEffect, useState, useRef,useCallback } from "react";
+import { useState, useRef } from "react";
 import { Carousel } from "react-bootstrap";
 //import { Metadata } from "next";
-interface CaroProps{
-    onInformationChange:(IsVideoLoaded:boolean, divHeight:number)=> void;
-}
+// interface CaroProps{
+//     onInformationChange:(IsVideoLoaded:boolean, divHeight:number)=> void;
+// }
 
 // export default function HomePageCarousel(){
 //     const divRef = useRef<HTMLDivElement>(null);
@@ -40,8 +40,8 @@ interface CaroProps{
 export default function HomePageCarousel(){
     const divRef = useRef<HTMLDivElement>(null);
     const videoRef = useRef<HTMLVideoElement>(null);
-    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-    const [localCarouselHeight, setLocalCarouselHeight] = useState(0);
+    // const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+    // const [localCarouselHeight, setLocalCarouselHeight] = useState(0);
     // const handleVideoLoad = useCallback(() => {
     //     calculateHeight(); // Call the height calculation function
     // }, []);
