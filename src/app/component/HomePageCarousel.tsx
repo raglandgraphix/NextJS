@@ -1,5 +1,5 @@
 'use client';
-import { useState, useRef } from "react";
+import {  useRef } from "react";
 import { Carousel } from "react-bootstrap";
 //import { Metadata } from "next";
 // interface CaroProps{
