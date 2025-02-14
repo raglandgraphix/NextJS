@@ -75,6 +75,34 @@ export default function Home() {
                   <p className="d-block">Location: <span> Boys Town, NE</span></p>
                 </Carousel.Caption>
               </Carousel.Item>
+                <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
+                  <div className="d-flex justify-content-center vidHold  " >
+                    <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of St. Gregory Catholic Church" muted autoPlay loop playsInline  >
+                      <source   src="https://endicottfiles.com/StGregoriesMontage.mp4" type="video/mp4" ></source>
+                    </video>
+                  </div> 
+                  
+                  <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
+                    <h2 className="museo-bold d-block">St. Gregory the Great Catholic Church</h2>
+                    <p className="d-block" >Color: <span> Medium Ironspot #46</span></p>
+                    <p className="d-block">Size: <span> Modular</span></p>
+                    <p className="d-block">Location: <span> Marysville, KS</span></p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
+                  <div className="d-flex justify-content-center vidHold  " >
+                    <video ref={videoRef}  className="object-fit-cover w-100" aria-label="video of Dublin Streetscape" muted autoPlay loop playsInline  >
+                      <source   src="https://endicottfiles.com/DublinMontage.mp4" type="video/mp4" ></source>
+                    </video>
+                  </div> 
+                  
+                  <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
+                    <h2 className="museo-bold d-block">Dublin Streetscape</h2>
+                    <p className="d-block" >Color: <span> Medium Ironspot #46, Manganese Ironspot, Dark Irosnpot</span></p>
+                    <p className="d-block">Size: <span> 4 X 8 Relieved Lugged, 4 X 8 Square Edge, 4 X 8 Permeable</span></p>
+                    <p className="d-block">Location: <span> Dublin, OH</span></p>
+                  </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
           </div>
         </div>
