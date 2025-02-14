@@ -55,7 +55,7 @@ export default function Home() {
                   </video>
                 </div> 
                 <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                  <h2 className="museo-light d-block">East Prairie Elementary School</h2>
+                  <h2 className="museo-bold d-block">East Prairie Elementary School</h2>
                   <p className="d-block" >Color: <span> Desert Ironspot Light, Medium Ironspot #77</span></p>
                   <p className="d-block">Size: <span> Utility</span></p>
                   <p className="d-block">Location: <span> Skokie,IL</span></p>
@@ -69,7 +69,7 @@ export default function Home() {
                 </div> 
                 
                 <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                  <h2 className="museo-light d-block">Boys Town Education Center</h2>
+                  <h2 className="museo-bold d-block">Boys Town Education Center</h2>
                   <p className="d-block" >Color: <span> Ivory Blend, Desert Ironspot, Desert Sands</span></p>
                   <p className="d-block">Size: <span> Modular, Norman, Closure, Utility</span></p>
                   <p className="d-block">Location: <span> Boys Town, NE</span></p>
