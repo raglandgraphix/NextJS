@@ -6,7 +6,7 @@ import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
+//import Head from "next/head";
 //import { Metadata } from "next";
 export default function Home() {
   const divRef = useRef<HTMLDivElement>(null);
