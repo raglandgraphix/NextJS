@@ -34,7 +34,10 @@ export default function Textures(){
         }else{
             setNumberofColumn(4);
         }
-    })
+    },[])
+
+    useEffect(()=>{
+
         for (let i = 0; i < NumberofRows; i++) {
             const row = [];
             for (let j = 0; j < NumberofColumns; j++) {
@@ -54,6 +57,10 @@ export default function Textures(){
             }
   tableRows.push(<tr   key={i}>{row}</tr>);
 }
+
+
+    },[])
+        
     
   const handleClose = () => setShowModal(false);
   const handleShow = (texture:string) => {
