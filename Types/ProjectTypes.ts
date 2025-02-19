@@ -21,6 +21,7 @@ export type Job = {
     stateShort: string;
     distributor: string;
     architect: string;
+    photographer: string;
     structuralEngineer: string;
     constructionManager: string;
     facadeEngineer: string;

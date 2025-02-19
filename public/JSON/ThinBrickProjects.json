@@ -319,7 +319,7 @@
 				}
             ],
 			"location":"401 S Pine St,",
-			"city":"Valley ",
+			"city":"Valley",
 			"stateLong":"Nebraska",
 			"stateShort":" NE",
 			"gMapsImage":"",
@@ -624,6 +624,15 @@
 			"qty":"",
 			"orderNum":""
 			}
+			,
+			{
+			"color":"Copper Canyon",
+			"colorSafe":"copperCanyon",
+			"size":"Triple",
+			"texture":"Smooth",
+			"qty":"",
+			"orderNum":""
+			}
         ],
 		"location":"1000 Main Street",
 		"city":"Charlottesville",
@@ -812,8 +821,8 @@
 		"productName":"Thin Brick",
 		"productType":"thinBrick",
 		"jobTitle":"dunkin",
-		"jobName":"Dunkin Donuts",
-		"altTag": "A Dunkin Donuts location in Boston, Massachusetts, featuring Endicott Manganese Ironspot thin brick with a smooth texture for a modern and inviting storefront.",
+		"jobName":"Dunkin' Donuts",
+		"altTag": "A Dunkin' Donuts location in Boston, Massachusetts, featuring Endicott Manganese Ironspot thin brick with a smooth texture for a modern and inviting storefront.",
 		"colorRange":["Black"], 
 "products":[
 			{
@@ -1307,7 +1316,7 @@
 			"orderNum":""
 			}
         ],
-		"location":"",
+		
 		"city":"",
 		"stateLong":"",
 		"stateShort":"",

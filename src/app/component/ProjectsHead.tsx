@@ -41,7 +41,7 @@ export default function ProjectsHead(){
             
             }else if(Product==='Paver'){
                 setHeader("Endicott Pavers: Inspiring Project Gallery");
-                setDescription("Endicott Paver projects showcase the versatility and beauty of our brick across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott brick brings enduring elegance and character to buildings across the country.");
+                setDescription("Endicott Paver projects showcase the versatility and beauty of our pavers across a diverse range of architectural styles, from modern museums to historic restorations and everything in between. Explore our project gallery to see how Endicott pavers bring enduring elegance and character to hardscapes across the country.");
         
             }
             }

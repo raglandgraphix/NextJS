@@ -10,7 +10,7 @@
         {
             "color":"Ravenswood Ironspot",
             "colorSafe":"ravenswood",
-            "size":"modular",
+            "size":"Modular",
             "texture":"velour",
             "qty":"",
             "orderNum":""
@@ -215,7 +215,7 @@
     "productName":"Face Brick",
     "productType":"faceBrick",
     "jobTitle":"NDEE",
-    "jobName":"Nebraska Department Environment & Energy.",
+    "jobName":"Nebraska Department of Environment & Energy",
     "description":"The Nebraska Department of Environment & Energy building in Lincoln, Nebraska, featuring a facade of Endicott Sienna Ironspot and Copper Canyon Face brick with a velour texture.",
     "altTag":"Image of Nebraska Department of Environment and Engergy in Lincoln Nebraska",
     "colorRange":["Black","Tan"],
@@ -260,7 +260,7 @@
     "productName":"Face Brick",
     "productType":"faceBrick",
     "jobTitle":"Peabody",
-    "jobName":"Peabody Walk lofts",
+    "jobName":"Peabody Walk Lofts",
     "description":"Peabody Walk lofts in BaltTagimore, Maryland, featuring a facade of Endicott Ravenswood Ironspot face brick with a velour texture.",
     "altTag":"Image of Peabody Lofts in BaltTagimore Maryland",
     "colorRange":["Black"],
@@ -298,8 +298,8 @@
     "completed":"",
     "index":1,
     "jobThumb":"https://endicottfiles.com/peabodyBox.jpg",
-    "mainPhoto":"https://endicottfiles.com/peabody1.jpg",
-    "photoAlbum":["https://endicottfiles.com/peabody1.jpg","https://endicottfiles.com/peabody2.jpg","https://endicottfiles.com/peabody3.jpg","https://endicottfiles.com/peabody4.jpg","https://endicottfiles.com/peabody5.jpg","https://endicottfiles.com/peabody6.jpg"]
+    "mainPhoto":"https://endicottfiles.com/peabody5.jpg",
+    "photoAlbum":["https://endicottfiles.com/peabody5.jpg","https://endicottfiles.com/peabody2.jpg","https://endicottfiles.com/peabody3.jpg","https://endicottfiles.com/peabody4.jpg","https://endicottfiles.com/peabody1.jpg","https://endicottfiles.com/peabody6.jpg"]
 },
 {
     "productName":"Face Brick",
@@ -659,22 +659,6 @@
 			"texture":"Heritage",
 			"qty":"",
 			"orderNum":"211121"
-			},
-			{
-			"color":"Red Blend",
-			"colorSafe":"redBlend",
-			"size":"Relieved Edge",
-			"texture":"Wirecut",
-			"qty":"",
-			"orderNum":"212773"
-			},
-			{
-			"color":"Manganese Ironspot",
-			"colorSafe":"manganese",
-			"size":"Relieved Edge",
-			"texture":"Wirecut",
-			"qty":"",
-			"orderNum":"212773"
 			}
         ],
 		"location":"N/A",
@@ -1153,9 +1137,9 @@
 		"productName":"Face Brick",
 		"productType":"faceBrick",
 		"jobTitle":"Yale",
-		"jobName":"Yale HealtTagh Center",
-		"description":"Yale HealtTagh Center in New Haven, Connecticut, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
-		"altTag":"Image of Yale HealtTagh Center in New Haven, Connecticut",
+		"jobName":"Yale Health Center",
+		"description":"Yale Health Center in New Haven, Connecticut, featuring Endicott Manganese Ironspot face brick with a smooth texture.",
+		"altTag":"Image of Yale Health Center in New Haven, Connecticut",
         "colorRange":["Black"],
         "products":[
 			{
@@ -1271,7 +1255,7 @@
 		"productName":"Face Brick",
 		"productType":"faceBrick",
 		"jobTitle":"Fordham",
-		"jobName":"Fordham Campbell, Salice & residence Halls",
+		"jobName":"Fordham Campbell, Salice & Residence Halls",
 		"description":"Fordham Campbell, Salice & Residence Halls in Bronx, New York, featuring Endicott Manganese Ironspot face brick in artisan and velour textures.",
 		"altTag":"Image of Fordham Campbell, Salice & Residence Halls in Bronx, New York",
         "colorRange":["Black"],

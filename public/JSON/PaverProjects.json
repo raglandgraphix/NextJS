@@ -11,7 +11,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":"223974"
@@ -19,7 +19,7 @@
 			{
 			"color":"Burgundy Blend",
 			"colorSafe":"burgundyBlend",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wirecut",
 			"qty":"",
 			"orderNum":"223974"
@@ -27,7 +27,7 @@
 			{
 			"color":"Rose Blend",
 			"colorSafe":"roseBlend",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":"223974"
@@ -35,7 +35,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":"223974"
@@ -43,7 +43,7 @@
 			{
 			"color":"Red Blend",
 			"colorSafe":"redBlend",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":"223974"
@@ -81,7 +81,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -89,7 +89,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"2-5/8\" X4 X 8 Rel/Lug",
+			"size":"2-5/8\" X 4\" X 8\" Relieved Lugged",
 			"texture":"Velour",
 			"qty":"",
 			"orderNum":""
@@ -97,7 +97,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"2-5/8\" X4 X 8 Permeable",
+			"size":"2-5/8\" X 4\" X 8\" Permeable",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -105,7 +105,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"2-5/8\" X4 X 8 Permeable",
+			"size":"2-5/8\" X 4\" X 8\" Permeable",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":"222577"
@@ -143,7 +143,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -151,7 +151,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -159,7 +159,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -167,7 +167,7 @@
 			{
 			"color":"Bordeaux Blend",
 			"colorSafe":"bordeauxBlend",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -175,7 +175,7 @@
 			{
 			"color":"Coppertone",
 			"colorSafe":"coppertone",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -183,7 +183,7 @@
 			{
 			"color":"Copper Canyon",
 			"colorSafe":"copperCanyon",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -223,7 +223,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -231,7 +231,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -239,7 +239,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -247,7 +247,7 @@
 			{
 			"color":"Bordeaux Blend",
 			"colorSafe":"bordeauxBlend",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -255,7 +255,7 @@
 			{
 			"color":"Rose Blend",
 			"colorSafe":"roseBlend",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -263,7 +263,7 @@
 			{
 			"color":"Red Blend",
 			"colorSafe":"redBlend",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -271,7 +271,7 @@
 			{
 			"color":"Coppertone",
 			"colorSafe":"coppertone",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -279,7 +279,7 @@
 			{
 			"color":"Copper Canyon",
 			"colorSafe":"copperCanyon",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -287,7 +287,7 @@
 			{
 			"color":"Burgundy Blend",
 			"colorSafe":"burgundyBlend",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -326,7 +326,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -334,7 +334,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -342,7 +342,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -350,7 +350,7 @@
 			{
 			"color":"Coppertone",
 			"colorSafe":"coppertone",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -387,7 +387,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8",
+			"size":"4\" X 8\"",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -395,7 +395,7 @@
 			{
 			"color":"Coppertone",
 			"colorSafe":"coppertone",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -403,7 +403,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -411,7 +411,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -419,7 +419,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -458,7 +458,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -466,7 +466,7 @@
 			{
 			"color":"Medium Ironspot #77",
 			"colorSafe":"mis77",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -474,7 +474,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"4 X 8 ADA",
+			"size":"4\" X 8\" ADA",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -513,7 +513,7 @@
 			{
 			"color":"Medium Ironspot #46",
 			"colorSafe":"medIS46",
-			"size":"4 X 8 Relieved Lugged",
+			"size":"4\" X 8\" Relieved Lugged",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -521,7 +521,7 @@
 			{
 			"color":"Manganese Ironspot",
 			"colorSafe":"manganese",
-			"size":"4 X 8 Square Edge",
+			"size":"4\" X 8\" Square Edge",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""
@@ -529,7 +529,7 @@
 			{
 			"color":"Dark Ironspot",
 			"colorSafe":"darkIronspot",
-			"size":"4 X 8 Permeable",
+			"size":"4\" X 8\" Permeable",
 			"texture":"Wire Cut",
 			"qty":"",
 			"orderNum":""

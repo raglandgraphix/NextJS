@@ -827,8 +827,8 @@
     {
         "id":16,
         "fullName":"Burgundy_Blend",
-        "descriptionTitle":"Endicott's Desert Ironspot Dark Brick: Bold Sophistication for Architectural Statements",
-        "description":"Make a statement with Endicott's Desert Ironspot Dark brick. Its rich, light brown tones offer a bold contrast, while the characteristic ironspots provide depth and texture. This striking brick from Endicott is ideal for architects seeking a sophisticated and enduring facade that commands attention. ",
+        "descriptionTitle":"Endicott Burgundy Blend: Classic Burgundy Hues for Enduring Beauty",
+        "description":"Endicott Burgundy Blend brick offers a rich and versatile burgundy hue, perfect for creating classic or contemporary facades. This brick blends seamlessly with a variety of architectural styles, adding a touch of warmth and sophistication to any project.",
         "mainImage":"https://endicottfiles.com/Burgundy-Blend-Smooth-Facebrick-Large.jpg",
         "colorGroup":["Red","Burgundy"],
         "altTag":"Burgundy Blend colored brick, in the colorGroup Red Brick, Burgundy Brick. The product is clay brick.",
@@ -1250,8 +1250,8 @@
     {
         "id":25,
         "fullName":"Graphite",
-        "descriptionTitle":"Graphite by Endicott: Discover the Harmony of Gray and Brown in Brick",
-        "description":"Endicott Graphite brick offers a sophisticated blend of gray and brown, creating a versatile and contemporary color. This unique hue adds depth and dimension to any facade, complementing both modern and traditional architectural styles.",
+        "descriptionTitle":"Graphite by Endicott: Discover the Harmony of an Earthy Gray Brick",
+        "description":"Endicott Graphite brick offers a sophisticated blend of earthy grays, creating a versatile and contemporary color. This unique hue adds depth and dimension to any facade, complementing both modern and traditional architectural styles.",
         "mainImage":"https://endicottfiles.com/Graphite-Smooth-Facebrick-Large.jpg",
         "mainImage-Fallback":"/assets/FaceBrick/Colors/Graphite/Graphite-Smooth-Facebrick-Large.jpg",
         "colorGroup":["Gray","White","Cream","Buff"],
@@ -1336,7 +1336,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Orleans_Sands/Orleans-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Orleans-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49413?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],
@@ -1359,7 +1359,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Gray_Sands/Gray-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Gray-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49446?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1369,7 +1369,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Gray_Sands/Gray-Sands-Antique-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Gray-Sands-Antique-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49447?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1379,7 +1379,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Gray_Sands/Gray-Sands-Square-Edge-No-Texture-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Gray-Sands-Square-Edge-No-Texture-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49448?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],
@@ -1402,7 +1402,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Adobe_Sands/Adobe-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Adobe-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49449?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],
@@ -1415,7 +1415,7 @@
         "description":"Endicott Burgundy Sands brick captivates with its deep burgundy tones and a unique sand-textured finish. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
         "mainImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
         "mainImage-Fallback":"/assets/FaceBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "colorGroup":["Red","Burgundy","Black","Plum"],
         "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "textures":[
             {
@@ -1425,7 +1425,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Burgundy_Sands/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Burgundy-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49450?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1448,7 +1448,7 @@
         "description":"Endicott Merlot Sands brick offers a rich, deep red hue reminiscent of its namesake wine, complemented by a subtle sand texture. This elegant brick adds warmth and sophistication to any facade, creating a look that is both timeless and inviting.",
         "mainImage":"https://endicottfiles.com/Merlot-Sands-Antique-Facebrick-Large.jpg",
         "mainImage-Fallback":"/assets/FaceBrick/Colors/Merlot_Sands/Merlot-Sands-Antique-Facebrick-Large.jpg",
-        "colorGroup":["Gray","White","Cream","Buff","Black","Plum"],
+        "colorGroup":["Red","Burgundy","Black","Plum"],
         "altTag":"Gray Heritage colored brick, in the colorGroup Tan Brick, Brown Brick, Orange Brick. The product is clay brick.",
         "textures":[
             {
@@ -1458,7 +1458,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Merlot_Sands/Merlot-Sands-Antique-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Merlot-Sands-Antique-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49452?appid=1125",
-                "sizes":["Modular","Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1491,7 +1491,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Copper_Sands/Copper-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Copper-Sands-Antique-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49454?appid=1125",
-                "sizes":["Modular","Kingsize","Engineer_Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],
@@ -1514,7 +1514,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Autumn_Sands/Autumn-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49455?appid=1125",
-                "sizes":["Modular","Kingsize","Engineer_Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1524,7 +1524,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Autumn_Sands/Autumn-Sands-Square-Edge-No-Texture-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Autumn-Sands-Square-Edge-No-Texture-Large.jpg",
                 "artx":"https://architextures.org/create/share/49456?appid=1125",
-                "sizes":["Modular","Kingsize","Engineer_Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],
@@ -1547,7 +1547,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Sahara_Sands/Sahara-Sands-Heritage-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Autumn-Sands-Heritage-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49458?appid=1125",
-                "sizes":["Modular","Kingsize","Engineer_Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             },
             {
@@ -1557,7 +1557,7 @@
                 "fallbackLargeImage":"/assets/FaceBrick/Colors/Sahara_Sands/Sahara-Sands-Square-Edge-No-Texture-Facebrick-Large.jpg",
                 "largeImage":"https://endicottfiles.com/Sahara-Sands-Square-Edge-No-Texture-Facebrick-Large.jpg",
                 "artx":"https://architextures.org/create/share/49457?appid=1125",
-                "sizes":["Modular","Kingsize","Engineer_Kingsize"]
+                "sizes":["Modular","Slim_Kings","Kingsize"]
                  
             }
         ],

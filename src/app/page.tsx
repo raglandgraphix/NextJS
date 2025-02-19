@@ -6,6 +6,7 @@ import Footer from "./component/footer";
 import { Carousel } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 //import { Metadata } from "next";
 export default function Home() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -42,6 +43,7 @@ export default function Home() {
     return () => window.removeEventListener('resize', updateHeight);
   }, []); // Empty dependency array
   return (
+    
     <div className="container-fluid">
       <Navigate pageSettings="gradient" /> 
       <main>     
@@ -55,10 +57,10 @@ export default function Home() {
                   </video>
                 </div> 
                 <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                  <h2 className="museo-bold d-block">East Prairie Elementary School</h2>
+                  <h2 className="museo-bold d-block fs-1">East Prairie Elementary School</h2>
                   <p className="d-block" >Color: <span> Desert Ironspot Light, Medium Ironspot #77</span></p>
                   <p className="d-block">Size: <span> Utility</span></p>
-                  <p className="d-block">Location: <span> Skokie,IL</span></p>
+                  <p className="d-block">Location: <span> Skokie, IL</span></p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className="   d-flex justify-content-center " style={{minHeight:'90vh'}} >
@@ -69,9 +71,9 @@ export default function Home() {
                 </div> 
                 
                 <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                  <h2 className="museo-bold d-block">Boys Town Education Center</h2>
-                  <p className="d-block" >Color: <span> Ivory Blend, Desert Ironspot, Desert Sands</span></p>
-                  <p className="d-block">Size: <span> Modular, Norman, Closure, Utility</span></p>
+                  <h2 className="museo-bold d-block fs-1">Boys Town Education Center</h2>
+                  <p className="d-block" >Color: <span> Ivory Blend, Desert Ironspot Light, Desert Sands</span></p>
+                  <p className="d-block">Size: <span> Modular, Norman, Closure, Utility, Triple</span></p>
                   <p className="d-block">Location: <span> Boys Town, NE</span></p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -83,7 +85,7 @@ export default function Home() {
                   </div> 
                   
                   <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                    <h2 className="museo-bold d-block">St. Gregory the Great Catholic Church</h2>
+                    <h2 className="museo-bold d-block fs-1">St. Gregory the Great Catholic Church</h2>
                     <p className="d-block" >Color: <span> Medium Ironspot #46</span></p>
                     <p className="d-block">Size: <span> Modular</span></p>
                     <p className="d-block">Location: <span> Marysville, KS</span></p>
@@ -97,7 +99,7 @@ export default function Home() {
                   </div> 
                   
                   <Carousel.Caption className="text-white mb-5 text-start  " style={{bottom:'150px'}}>
-                    <h2 className="museo-bold d-block">Dublin Streetscape</h2>
+                    <h2 className="museo-bold d-block fs-1">Dublin Streetscape</h2>
                     <p className="d-block" >Color: <span> Medium Ironspot #46, Manganese Ironspot, Dark Irosnpot</span></p>
                     <p className="d-block">Size: <span> 4 X 8 Relieved Lugged, 4 X 8 Square Edge, 4 X 8 Permeable</span></p>
                     <p className="d-block">Location: <span> Dublin, OH</span></p>
@@ -115,7 +117,7 @@ export default function Home() {
                     <Image style={{height:260}}  className="w-100" src='https://endicottfiles.com/AceHotel1.jpg' height={300} width={300} alt="Image of the Ace Hotel in Toronto, with Endicott brick on it."  />
                     <div className="card-body">
                       <h2 className="card-title text-start univers-45-light fs-3 ">Ace Hotel - Best in Class</h2>
-                      <p className="card-text text-start univers-45-light fs-6">The Ace Hotel - Toronto, won Best in Class - Commercial and Craftsmanship. Endicott thin brick and pavers were use through out the project. See the project here.</p>
+                      <p className="card-text text-start univers-45-light fs-6">The Ace Hotel - Toronto, won Best in Class - Commercial and Craftsmanship. Endicott thin brick was used through out the project. See the project here.</p>
                     </div>
                   </div>
                 </Link>
@@ -126,7 +128,7 @@ export default function Home() {
                     <Image style={{height:260}}  className="w-100 " src='https://endicottfiles.com/BoysTown1.jpg' width={300} height={300} alt="Image of Boys Town School using Endicott Thin Brick"/>
                     <div className="card-body">
                       <h2 className="card-title text-start univers-45-light fs-3 ">Boys Town - BIA Silver Winner</h2>
-                      <p className="card-text text-start univers-45-light fs-6">Boys Town, won silver in the BIA Brick in Architecture Awards. Endicott thin brick and pavers were use through out the project. See the project here.</p>
+                      <p className="card-text text-start univers-45-light fs-6">Boys Town, won silver in the BIA Brick in Architecture Awards. Endicott thin brick was used through out the project. See the project here.</p>
                     </div>
                   </div>
                 </Link>

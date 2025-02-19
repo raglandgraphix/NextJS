@@ -63,29 +63,39 @@ useEffect(() => {
             }}/>
             
                     <Carousel.Caption className=" text-black w-100 d-flex justify-content-start" style={{ position: 'absolute', left: 0,  }}>
-                    <div className="text-start ms-2 bg-white-75 shadow p-4 rounded-3" style = {{display:'inline-block'}}>
-                    <h3 className="">{item.jobName}</h3>
+                    <div className="text-start ms-2 bg-white-75 shadow p-2 rounded-3" style = {{display:'inline-block'}}>
+                    <h3 className="m-0">{item.jobName}</h3>
                     
-                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Color: </span>
+                    <p className="m-0 fs-7"><span className="univers-45-light fst-italic d-inline">Color: </span>
                     {
                         Array.from(new Set(item.products?.map(product => product.color))).map((color, index, arr) => (
-                        <span className="d-none d-md-inline" key={index}>
+                        <span className=" d-inline" key={index}>
                         {color}{index < arr.length - 1 ? ", " : ""}
                         </span>
                         ))
                     }
                     
                     </p>
-                    <p><span className="univers-45-light fst-italic d-none d-md-inline">Size: </span>
+                    <p className="m-0 fs-7"><span className="univers-45-light fst-italic d-inline">Size: </span>
                     {
                        Array.from(new Set(item.products.map(product => product.size))).map((size, index, arr) => (
-                        <span className="d-none d-md-inline" key={index}>
+                        <span className=" d-inline m-0" key={index}>
                           {size}{index < arr.length - 1 ? ", " : ""}
                         </span>
                       ))
                     }
                     </p>
-                    <p><span className="univers-45-light fst-italic ">Location: </span><span >{item.city}, {item.stateShort}</span></p>
+                    {
+                      item.location && <p className="m-0 fs-7"><span className="univers-45-light fst-italic ">Location: </span><span >{item.city}, {item.stateShort}</span></p>
+                    }
+                    
+                    {
+                      item.architect && item.architect==='Shim - Sutcliffe Architects' && <p className="m-0 fs-7"><span className="univers-45-light fst-italic ">Architect: </span><span >{item.architect}</span></p>
+                      
+                    }
+                    {
+                      item.photographer && item.photographer==='Scott Norsworthy' && <p className="m-0 fs-7"><span className="univers-45-light fst-italic ">Photographer: </span><span >{item.photographer}</span></p>
+                    }
                     
                     </div>    
                     </Carousel.Caption>

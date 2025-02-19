@@ -9,12 +9,12 @@ export default function footer({pageSetUp}:FooterProps){
         <div className="container-fluid">
             <div className="row mt-5">
     <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
-      <a href="#" className={`${pageSetUp==='light'? 'text-black':'text-white'} d-inline-block me-lg-5 ms-lg-5`}>Privacy and Legal Terms </a>
-      <a href="#" className={`${pageSetUp==='light'? 'text-black':'text-white'} d-inline-block  `}>Careers </a>
+      <a href="https://endicottfiles.com/Privacy_Policy.pdf" target="_blank" className={`${pageSetUp==='light'? 'text-black':'text-white'} d-inline-block me-lg-5 ms-lg-5`}>Privacy and Legal Terms </a>
+      {/* <a href="#" className={`${pageSetUp==='light'? 'text-black':'text-white'} d-inline-block  `}>Careers </a> */}
     </div>
     <div className="col d-flex justify-content-center justify-content-lg-end">
     {/* we need to write js that will set the year to the current year */}
-      <p className={`${pageSetUp==='light'? 'text-black':'text-white'} me-5 ms-5 mt-5 ms-lg-0 mt-lg-0`}>© Endicott-2024 • 402-729-3315 • endicott@endicott.com</p>
+      <p className={`${pageSetUp==='light'? 'text-black':'text-white'} me-5 ms-5 mt-5 ms-lg-0 mt-lg-0`}>© Endicott-2025 • 402-729-3315 • endicott@endicott.com</p>
     </div>
   </div>
   <div className="row">
@@ -39,15 +39,15 @@ export default function footer({pageSetUp}:FooterProps){
           <Image className="SocialIcon" src="/assets/SocialLogos/tiktok.svg" width={25} height={25} aria-label="An image of the TikTok logo" alt="TikTok Logo"/>
         </div>
       </a>
-      <a href="https://x.com/EndicottBrick" target="_blank" aria-label="An element that includes the icon for twitter also known as X, that when clicked will open a tab that goes to the Endicott Twitter or X page.">
+      {/* <a href="https://x.com/EndicottBrick" target="_blank" aria-label="An element that includes the icon for twitter also known as X, that when clicked will open a tab that goes to the Endicott Twitter or X page.">
         <div className={`social-circle ${pageSetUp==='light'?'imageInvert':''}  `}>
           <Image className="SocialIcon" src="/assets/SocialLogos/twitter-x.svg" width={25} height={25} aria-label="An image of the Twitter or X logo" alt="Twitter or X logo"/>
         </div>
-      </a>
+      </a> */}
     </div>
   </div>
   <div className="row">
-    <p>This site uses cookie to improve your experience, </p>
+    <p>This site uses cookies to improve your experience </p>
   </div>
 
         </div>
