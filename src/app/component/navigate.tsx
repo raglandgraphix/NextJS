@@ -56,6 +56,7 @@ interface NavigateProps {
     pageSettings: PageSettings;
 }
 export default function Navigate({pageSettings}:NavigateProps){
+    // make a change
     const {Product,Page}=SplitPathname();
     const router = useRouter();
     const pageSetup = pageSettings;
