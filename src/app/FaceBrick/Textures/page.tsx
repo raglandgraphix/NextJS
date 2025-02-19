@@ -23,21 +23,23 @@ export default function Textures(){
     const [LinkTexture,setLinkTexture]=useState<string | null>(null);
     const [showModal, setShowModal] = useState(false);
     const [ColorArray,setColorArray]=useState<string[] | null>(null);
-    const [NumberofColumns,setNumberofColumn]=useState<number>(2);
+    const [NumberofColumns,setNumberofColumn]=useState<number>(0);
     const NumberofRows = Math.ceil(ColorArray?ColorArray.length/NumberofColumns:0)
     const tableRows: JSX.Element[] = [];
    
-    useEffect(()=>{
-        const WidthWindow = window.innerWidth;
-        if(WidthWindow<=1200){
-            setNumberofColumn(2);
-        }else{
-            setNumberofColumn(4);
-        }
-    },[])
-
-    useEffect(()=>{
-
+    useEffect(() => {
+        const handleResize = () => {  // Create a function to handle resize
+          const WidthWindow = window.innerWidth;
+          setNumberofColumn(WidthWindow <= 1200 ? 2 : 4); // Cleaner conditional
+        };
+    
+        window.addEventListener('resize', handleResize); // Add the listener
+        handleResize(); // Initial calculation on mount
+    
+        return () => {
+          window.removeEventListener('resize', handleResize); // Clean up!
+        };
+      }, []); 
         for (let i = 0; i < NumberofRows; i++) {
             const row = [];
             for (let j = 0; j < NumberofColumns; j++) {
@@ -57,10 +59,6 @@ export default function Textures(){
             }
   tableRows.push(<tr   key={i}>{row}</tr>);
 }
-
-
-    },[])
-        
     
   const handleClose = () => setShowModal(false);
   const handleShow = (texture:string) => {
